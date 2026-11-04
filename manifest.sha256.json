@@ -1,6 +1,6 @@
 {
   "package": "Пакет_сдачи_портфолио_модули_4_5_на_проверку",
-  "file_count_excluding_manifest": 2002,
+  "file_count_excluding_manifest": 2023,
   "files": [
     {
       "path": "01_Отчёты/Отчёт_ООП_Модуль_4.docx",
@@ -1576,6 +1576,21 @@
       "path": "04_QA_доказательства/android-v118-private-storage/settings-private-storage-v118.png",
       "size_bytes": 228270,
       "sha256": "90f3694d9f8b5edbeb1eed7f209a244e8bf72ce73748522f8e12f9a52bb56576"
+    },
+    {
+      "path": "04_QA_доказательства/android-v120-smoke/README.md",
+      "size_bytes": 399,
+      "sha256": "b89fabfa8e860d1565ae3d4c9816ef38aa5ef190efaaec750a278edd8d388339"
+    },
+    {
+      "path": "04_QA_доказательства/android-v120-smoke/android-v120-project-catalog.png",
+      "size_bytes": 940711,
+      "sha256": "89bc3ef9684607e5d0f2a4de8eb01c831721498c45116695838df3ae5c7d2734"
+    },
+    {
+      "path": "04_QA_доказательства/android-v120-smoke/results.json",
+      "size_bytes": 857,
+      "sha256": "90b8c3a96958ca6ebae433f16f6544c41ff32711629f5c8b7c69434abefb6d30"
     },
     {
       "path": "04_QA_доказательства/android-v92-emulator-api36/README.md",
@@ -9141,6 +9156,96 @@
       "path": "04_QA_доказательства/web-update-v59-v60-notice-mobile-390x844.png",
       "size_bytes": 137033,
       "sha256": "3f19b62c0c825e3219a85f2aee5b87852bb19b4e008ae1dbdf270ef7eec2deb6"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/README.md",
+      "size_bytes": 724,
+      "sha256": "e0364078533009def8f7c06d681a8e6c85d3714a47ec7e63f3d6b674c0447af7"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-a11y-results-v120-local.json",
+      "size_bytes": 64396,
+      "sha256": "88f847fd9722a0cf6c34d6d977c5a0f8c9ef50126f19f9c9fc4a50a6df5651bb"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-dashboard-desktop-dark-1440.png",
+      "size_bytes": 1515063,
+      "sha256": "98b4a0c8d687c369159e364bbd9e6eaa811eb5c1b0c3f2c1a7d1583f1a509090"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-dashboard-mobile-light-390.png",
+      "size_bytes": 404134,
+      "sha256": "0989b78c2dbcee06f68da79681c59ee0c426ccbbc952d2005263ebb7bbf0269e"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-project-editor-step-1-mobile-320.png",
+      "size_bytes": 216286,
+      "sha256": "e42828e0cb2452b1da4ead1e438826fd116eaab6fb4f270f7f80fbdea986728c"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-project-editor-step-2-mobile-320.png",
+      "size_bytes": 235526,
+      "sha256": "725e49b0575906874517f24addcd6e3bdc85108ce9a739c94dc5baae5b12f3fb"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-project-editor-step-3-mobile-320.png",
+      "size_bytes": 252623,
+      "sha256": "adfcaf50d575ab36971dc0b88a64b3eb7a22462435fd9bb192f7fdc68f8708c4"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-projects-mobile-light-320.png",
+      "size_bytes": 286939,
+      "sha256": "ccecc48ae4b3d158296977c738fbb28c2aefa8f6ab533bda981782c098bdbe78"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-projects-mobile-light-390.png",
+      "size_bytes": 260854,
+      "sha256": "1ea8635b844aed0b750b892f4d97d32618fee917213b52e227b46ae1281c0cd5"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-settings-mobile-dark-390.png",
+      "size_bytes": 51757,
+      "sha256": "946fc6b5cd9543538c2151fbe42afa8d62bb66bd1742d4dfe0721e2e381cec4b"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/axe-v120-showcase-preview-mobile-390.png",
+      "size_bytes": 171859,
+      "sha256": "4c761018dc63710b276713ff354754def874fc39d19ac0d54483565c6939fea0"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/cover-contrast-results.json",
+      "size_bytes": 777,
+      "sha256": "ff94c11260871d20aecfaa9e6c36143315c3f0260c1cbc7e6216ccbcf4d99f5c"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/github-pages-live-v120-smoke.json",
+      "size_bytes": 607,
+      "sha256": "d92e6a062531fc96720b6c74969caaa3c1a4c88b2faf45dcfc937007932c9919"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/offline-results.json",
+      "size_bytes": 583,
+      "sha256": "3da8c37db72a38a9f9be8cc124bf809e6eaca8e1f8bd3f61f712fadd3f8b09e0"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/run_a11y_axe_v120.py",
+      "size_bytes": 8871,
+      "sha256": "b2869c191e904d7173268a853bdf8736d9d81935c48ac0775e75bddf7213c4c8"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-offline-reload.png",
+      "size_bytes": 609451,
+      "sha256": "3c34f3a6315fac9955c87d3a9cad4c492de6bae85f3d767b72485859d68b2fa1"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-projects-cards.png",
+      "size_bytes": 367733,
+      "sha256": "070a0d9fa17d6a5c3a6b9f0e807305c29e30e79eb1168155ba169987830cfa51"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-projects-list.png",
+      "size_bytes": 140129,
+      "sha256": "de0912f12afd465c47a072a4b077ae8a58e1b02a3d1f42d72d45b43fafd848c8"
     },
     {
       "path": "04_QA_доказательства/web-v60-case-art-offline-mobile-390x844.png",

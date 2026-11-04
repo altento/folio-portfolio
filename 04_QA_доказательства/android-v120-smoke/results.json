@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "apk": "mobile/folio-android-debug.apk",
+  "package": "ru.folio.portfolio",
+  "install": "adb install -r succeeded; previous app data preserved",
+  "launch_activity": "ru.folio.portfolio/.MainActivity",
+  "android_api": "36",
+  "display_size": "Physical size: 1080x2400",
+  "density": "Physical density: 420",
+  "apk_sha256": "726dd819822a0129c5f290be6fadb3df245edf85738dcbbfb8b615ca6b8f1c18",
+  "screenshot": "android-v120-project-catalog.png",
+  "screenshot_sha256": "89bc3ef9684607e5d0f2a4de8eb01c831721498c45116695838df3ae5c7d2734",
+  "network": "Emulator was not connected to external Wi-Fi/data during launch; cold offline mode not asserted for this run.",
+  "update_prompt_after_install": "Old Service Worker prompted for reload; after tapping Restart, banner disappeared and v120 local assets rendered."
+}

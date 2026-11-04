@@ -1,0 +1,2109 @@
+{
+  "timestamp_utc": "2026-11-04T23:12:50.326901+00:00",
+  "axe_core_version": "4.14.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "url": "http://127.0.0.1:8777/",
+  "service_worker_caches": [
+    "folio-shell-v120-cover-label-contrast"
+  ],
+  "result": "PASS",
+  "scan_count": 15,
+  "total_violations_across_scans": 0,
+  "scans": {
+    "dashboard_mobile_light_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-signature > b"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-signature > span"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-next > .insight-heading > div > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-next > .insight-heading > div > h2"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-intro"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-item-copy > b"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-item-copy > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-action"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".active[aria-current=\"page\"][data-view=\"dashboard\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"projects\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"showcase\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"settings\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 46
+    },
+    "projects_mobile_light_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"dashboard\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".active[data-view=\"projects\"][aria-current=\"page\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 42
+    },
+    "projects_mobile_light_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"showcase\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"settings\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 42
+    },
+    "detail_mobile_light_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-close"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content is too short to determine if it is actual text content"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-hero > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#detail-title"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-hero > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-body > div:nth-child(1) > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-body > div:nth-child(1) > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-story:nth-child(2) > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-story:nth-child(2) > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-story:nth-child(3) > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-story:nth-child(3) > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-story:nth-child(4) > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it is overlapped by another element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".detail-close"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 43
+    },
+    "project_editor_step_1_mobile_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-count"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-title"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-description"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-draft-status"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".field-half[data-mobile-step-active=\"true\"][data-mobile-step=\"0\"]:nth-child(1) > span"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because it's partially obscured by another element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form > .dialog-head > .dialog-close.icon-button[aria-label=\"Закрыть\"]"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 48
+    },
+    "project_editor_step_2_mobile_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-count"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-title"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-description"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form > .dialog-head > .dialog-close.icon-button[aria-label=\"Закрыть\"]"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 44
+    },
+    "project_editor_step_3_mobile_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-count"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-title"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form-step-description"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#cover-preview > span"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#project-form > .dialog-head > .dialog-close.icon-button[aria-label=\"Закрыть\"]"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 44
+    },
+    "settings_mobile_light_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 42
+    },
+    "settings_mobile_dark_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 42
+    },
+    "dashboard_mobile_dark_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-signature > b"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-signature > span"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined because element contains an image node"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-next > .insight-heading > div > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-next > .insight-heading > div > h2"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-intro"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-item-copy > b"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-item-copy > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-action"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".active[aria-current=\"page\"][data-view=\"dashboard\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"projects\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"showcase\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-nav-item[data-view=\"settings\"] > small"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".mobile-add"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 46
+    },
+    "dashboard_desktop_dark_1440": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".shield"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-kicker"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-title-line:nth-child(1)"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-title-line:nth-child(2) > em"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-title-line:nth-child(3)"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".dashboard-hero-copy > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".button-accent.button[data-action=\"new-project\"]"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-library-link"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-signature > b"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-signature > span"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-next > .insight-heading > div > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-next > .insight-heading > div > h2"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-intro"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-item-copy > b"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-item-copy > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-action"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 46
+    },
+    "dashboard_desktop_light_1440": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".shield"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-kicker"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-title-line:nth-child(1)"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-title-line:nth-child(2) > em"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-title-line:nth-child(3)"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".dashboard-hero-copy > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".button-accent.button[data-action=\"new-project\"]"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-library-link"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-signature > b"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".hero-signature > span"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a pseudo element"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-next > .insight-heading > div > .eyebrow"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-next > .insight-heading > div > h2"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-intro"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-item-copy > b"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-item-copy > p"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            },
+            {
+              "target": [
+                ".insight-action"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element's background color could not be determined due to a background gradient"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 46
+    },
+    "showcase_desktop_light_1440": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".shield"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 41
+    },
+    "showcase_preview_desktop_light_1440": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 4,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "frame-tested",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".shield"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "frame-tested",
+          "nodes": [
+            {
+              "target": [
+                "#showcase-preview-frame"
+              ],
+              "checks": [
+                {
+                  "id": "frame-tested",
+                  "message": "The iframe still has to be tested with axe-core"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#showcase-preview-close"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 46
+    },
+    "showcase_preview_mobile_light_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 4,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "frame-tested",
+        "label-content-name-mismatch"
+      ],
+      "incomplete_review_targets": [
+        {
+          "rule": "aria-allowed-role",
+          "nodes": [
+            {
+              "target": [
+                "#update-notice"
+              ],
+              "checks": [
+                {
+                  "id": "aria-allowed-role",
+                  "message": "ARIA role status must be removed when the element is made visible, as it is not allowed for the element"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "color-contrast",
+          "nodes": [
+            {
+              "target": [
+                ".shield"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "color-contrast",
+                  "message": "Element content contains only non-text characters"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "frame-tested",
+          "nodes": [
+            {
+              "target": [
+                "#showcase-preview-frame"
+              ],
+              "checks": [
+                {
+                  "id": "frame-tested",
+                  "message": "The iframe still has to be tested with axe-core"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rule": "label-content-name-mismatch",
+          "nodes": [
+            {
+              "target": [
+                "#theme-toggle"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            },
+            {
+              "target": [
+                "#showcase-preview-close"
+              ],
+              "checks": [
+                {
+                  "id": "label-content-name-mismatch",
+                  "message": "Unable to determine if the visible text is part of the accessible name"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "passes_count": 46
+    }
+  },
+  "page_and_console_errors": [],
+  "screenshots": [
+    "axe-v120-dashboard-mobile-light-390.png",
+    "axe-v120-projects-mobile-light-390.png",
+    "axe-v120-projects-mobile-light-320.png",
+    "axe-v120-project-editor-step-1-mobile-320.png",
+    "axe-v120-project-editor-step-2-mobile-320.png",
+    "axe-v120-project-editor-step-3-mobile-320.png",
+    "axe-v120-settings-mobile-dark-390.png",
+    "axe-v120-dashboard-desktop-dark-1440.png",
+    "axe-v120-showcase-preview-mobile-390.png"
+  ],
+  "limits": [
+    "axe-core detects a subset of accessibility issues and does not certify WCAG conformance.",
+    "No physical screen reader, switch control, direct browser zoom, or operating-system font scaling was tested.",
+    "The project editor was scanned in all three mobile wizard steps; the temporary draft was not saved."
+  ]
+}
