@@ -122,7 +122,7 @@ Web/PWA и Android debug APK используют v118 (`folio-shell-v118-privat
 
 
 
-Настольная версия реализована на Python/Tkinter; браузерная версия — адаптивный HTML/CSS/JavaScript без сторонних JavaScript-библиотек. Публичный хостинг, аккаунты и облачная синхронизация в этот комплект не входят.
+Настольная версия реализована на Python/Tkinter; браузерная версия — адаптивный HTML/CSS/JavaScript без сторонних JavaScript-библиотек. Публичная веб-демо размещается через GitHub Pages по адресу https://altento.github.io/folio-portfolio/. Портфолио хранится локально в браузере; веб-демо не передаёт карточки проектов на сервер. Настроено для проекта `02_Приложение/web`; настольная и Android-сборки остаются в репозитории.
 
 
 
@@ -242,3 +242,8 @@ Desktop v91; web/PWA cache `folio-shell-v92-mobile-toolbar-readability`; Android
 
 Web/PWA cache — `folio-shell-v99-compact-short-phone`; web tests 36/36, Python/SQLite 60/60. В CSV добавлена защита от формульных значений, подтверждённая настоящим UI-экспортом синтетических данных. axe v97 дал 0 автоматических нарушений в 12 состояниях; keyboard/name/label smoke прошёл в 8 состояниях. В responsive матрице проверены 7 ширин, три раздела, диалоги и прокрутка; на 320×568 строка массового выбора и счётчик видны над нижней навигацией. Android v99 холодно запущен офлайн на AVD API 36; SHA-256 APK `c177d0af7bd99476fb4e4d150133d08862224405f8cc5d9e505adaecf43b804e`. QA-отчёты и 47 responsive кадров находятся в `служебные_файлы/qa_02-11-2026/`.
 
+
+
+## Работа в GitHub Codespaces
+
+Откройте **Code → Codespaces → Create codespace on main**. Среда установит Python, Node.js и зависимости настольной части. Веб-превью запустится на порту 8765 и откроется в браузере Codespaces. Останавливайте Codespace после работы, чтобы беречь месячный лимит Codespaces.
