@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-02",
+  "build": "folio-shell-v91-indexeddb-resilience",
+  "origin": "http://127.0.0.1:8767",
+  "isolatedProfile": "folio-v91-offline-final",
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false,
+      "scrollWidth": 305
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "scrollWidth": 375
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "scrollWidth": 1425
+    }
+  ],
+  "offlineReload": {
+    "networkOffline": true,
+    "serviceWorkerController": true,
+    "title": "Портфолио — рабочее пространство",
+    "success": true,
+    "heading": "Ваши проекты, собранные в одном месте."
+  },
+  "pageErrors": []
+}

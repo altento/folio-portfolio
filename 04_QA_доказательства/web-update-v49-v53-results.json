@@ -1,0 +1,18 @@
+{
+  "migration": {
+    "controllerChanged": true,
+    "noticeVisible": true,
+    "savedViewsAvailable": true,
+    "cacheKeys": [
+      "folio-shell-v53-saved-filter-views"
+    ]
+  },
+  "record": {
+    "createdInOldVersion": true,
+    "retainedAfterUpgrade": true,
+    "savedViewAfterUpgrade": true,
+    "retainedOffline": true,
+    "savedViewRetainedOffline": true
+  },
+  "errors": []
+}

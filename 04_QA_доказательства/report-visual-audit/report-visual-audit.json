@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-01",
+  "result": "PASS",
+  "reports": [
+    {
+      "module": 4,
+      "docx": {
+        "file": "Отчёт_ООП_Модуль_4.docx",
+        "sha256": "218291a1ccdfa695e7d4d52e86c0d18452c05338792ecb4aa720044b895a425f",
+        "paragraph_text_chars": 7626
+      },
+      "pdf": {
+        "file": "Отчёт_ООП_Модуль_4.pdf",
+        "sha256": "dab8387d27f38f7ac05dea8799eb0ec21ad551a8dc155d77d511ea5a53d39744",
+        "pages": 10,
+        "extracted_text_chars": 7863
+      },
+      "normalized_text_similarity_docx_pdf": 0.99873,
+      "visual_review": "all PDF pages rendered and inspected in contact sheets; representative pages inspected full-size",
+      "references_section_present": true
+    },
+    {
+      "module": 5,
+      "docx": {
+        "file": "Отчёт_ООП_Модуль_5.docx",
+        "sha256": "8911fa60c9472ca8fbdc7e115ca7d8adcd8ebb9a4897c007bec7b15c339a446a",
+        "paragraph_text_chars": 11987
+      },
+      "pdf": {
+        "file": "Отчёт_ООП_Модуль_5.pdf",
+        "sha256": "de40abc5fd6d96a569c9b8457dc1ea7d2b2c0e2f23ae2d8a2673228280a3721d",
+        "pages": 11,
+        "extracted_text_chars": 12278
+      },
+      "normalized_text_similarity_docx_pdf": 0.9989,
+      "visual_review": "all PDF pages rendered and inspected in contact sheets; representative pages inspected full-size",
+      "references_section_present": true
+    }
+  ],
+  "visual_findings": {
+    "module4": "10 pages; figures, diagrams, code examples and sources visible; no obvious clipping or overlap",
+    "module5": "11 pages; figures, diagrams, code examples and sources visible; no obvious clipping or overlap"
+  },
+  "note": "Read-only audit. The skill renderer could not start because pdf2image is unavailable; final PDFs were rendered directly with Poppler. DOCX text was extracted from OOXML and matched against its PDF."
+}

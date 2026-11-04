@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-02",
+  "scope": "isolated Qt pilot using the existing SQLiteStore API and a synthetic Windows Temp database; not integrated into the product",
+  "runtime": "Python 3.13.7; PySide6-Essentials 6.12.0; Qt 6.12.0; existing sqlite_storage.py",
+  "storageRoundTrip": {
+    "seedProjects": 1,
+    "createdProjectId": 2,
+    "createdProjectTitle": "UIA — тестовый кейс",
+    "projectCountAfterReadBack": 2,
+    "nextIdAfterReadBack": 3,
+    "saveThenLoadConfirmed": true,
+    "database": "Windows Temp / synthetic-portfolio.sqlite3"
+  },
+  "uiAutomation": {
+    "mainWindowAccessibleName": true,
+    "searchFieldRole": "Edit",
+    "searchFieldName": "Поиск проектов",
+    "tableRole": "Table",
+    "tableName": "Список проектов из SQLite",
+    "createdRowVisibleAfterReadBack": true,
+    "addButtonName": "Добавить проект",
+    "dialogName": "Форма нового проекта",
+    "dialogFields": [
+      "Название проекта",
+      "Описание проекта",
+      "Статус проекта"
+    ],
+    "dialogActions": [
+      "Отменить создание проекта",
+      "Сохранить проект"
+    ],
+    "typedTitleAndDescriptionObservedInTree": true,
+    "emptySearchStateAccessibleName": "Пустое состояние поиска",
+    "emptySearchStateVisibleWhenNoRows": true,
+    "tabMovedVisibleCaretFromTitleToDescription": true,
+    "reportedFocusedElementLaggedBehindVisibleCaret": true
+  },
+  "evidenceFiles": [
+    "pyside_sqlite_pilot.py",
+    "qt-sqlite-pilot-main.png",
+    "qt-sqlite-pilot-search-empty.png"
+  ],
+  "limitations": [
+    "No NVDA or Narrator speech test was performed.",
+    "This pilot implements only project list, text search, empty state, and create; it is not the complete desktop app.",
+    "No user database was opened or modified.",
+    "The Window UIA focused_element report remained on the title field after Tab visibly moved the caret to the description; keyboard and screenreader acceptance remains open.",
+    "PySide6 is installed only in an isolated temporary site-packages folder; project requirements and launcher were not changed."
+  ]
+}

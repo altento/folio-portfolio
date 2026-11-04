@@ -1,0 +1,38 @@
+[
+  {
+    "viewport": "desktop",
+    "httpStatus": 200,
+    "uploaded": 8,
+    "eighthLabel": "Деталь 8 из 8",
+    "pickerDisabledAtLimit": true,
+    "serializedItems": 8,
+    "aggregateDataUriChars": 48716,
+    "serviceWorkerCacheKeys": [
+      "folio-shell-v44-gallery-capacity"
+    ],
+    "pageErrors": [],
+    "screenshot": "gallery-capacity-v44-desktop-1440x900.png",
+    "serviceWorkerControlledBeforeOffline": true,
+    "offlineReloadStatus": 200,
+    "offlineReloadVisibleHeading": "Ваши проекты,\nсобранные в одном месте.",
+    "offlinePageErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "httpStatus": 200,
+    "uploaded": 8,
+    "eighthLabel": "Деталь 8 из 8",
+    "pickerDisabledAtLimit": true,
+    "serializedItems": 8,
+    "aggregateDataUriChars": 48716,
+    "serviceWorkerCacheKeys": [
+      "folio-shell-v44-gallery-capacity"
+    ],
+    "pageErrors": [],
+    "screenshot": "gallery-capacity-v44-mobile-390x844.png",
+    "serviceWorkerControlledBeforeOffline": true,
+    "offlineReloadStatus": 200,
+    "offlineReloadVisibleHeading": "Ваши проекты,\nсобранные в одном месте.",
+    "offlinePageErrors": []
+  }
+]

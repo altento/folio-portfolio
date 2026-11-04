@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-30",
+  "version": "folio-shell-v48-compact-sort-labels",
+  "errors": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "layout": "list",
+      "document_width": 1440,
+      "cards": 3,
+      "controls": [
+        {
+          "name": "cards",
+          "width": 86,
+          "height": 44,
+          "pressed": "false"
+        },
+        {
+          "name": "list",
+          "width": 86,
+          "height": 44,
+          "pressed": "true"
+        }
+      ],
+      "sort_label": "Избранные",
+      "sort_accessible_name": "Сортировка проектов"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "layout": "list",
+      "document_width": 390,
+      "cards": 3,
+      "controls": [
+        {
+          "name": "cards",
+          "width": 80,
+          "height": 44,
+          "pressed": "false"
+        },
+        {
+          "name": "list",
+          "width": 80,
+          "height": 44,
+          "pressed": "true"
+        }
+      ],
+      "sort_label": "Избранные",
+      "sort_accessible_name": "Сортировка проектов"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "layout": "list",
+      "document_width": 320,
+      "cards": 3,
+      "controls": [
+        {
+          "name": "cards",
+          "width": 80,
+          "height": 44,
+          "pressed": "false"
+        },
+        {
+          "name": "list",
+          "width": 80,
+          "height": 44,
+          "pressed": "true"
+        }
+      ],
+      "sort_label": "Избранные",
+      "sort_accessible_name": "Сортировка проектов"
+    }
+  ],
+  "screenshots": [
+    "web-layout-v48-cards-1440x900.png",
+    "web-layout-v48-list-desktop-1440x900.png",
+    "web-layout-v48-list-390x844.png",
+    "web-layout-v48-cards-390x844.png",
+    "web-layout-v48-list-320x568.png",
+    "web-layout-v48-list-320-viewport.png",
+    "web-layout-v48-cards-320x568.png",
+    "web-layout-v48-cards-320-viewport.png"
+  ],
+  "indexeddb_unchanged": true,
+  "keyboard_activation_passed": true,
+  "preference_survives_reload": true
+}

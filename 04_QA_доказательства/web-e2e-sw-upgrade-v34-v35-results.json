@@ -1,0 +1,32 @@
+{
+  "before": {
+    "cache_keys": [
+      "folio-shell-v34-sticky-dialog-actions"
+    ],
+    "projects": 3,
+    "controller": "http://127.0.0.1:8784/sw.js",
+    "projects_after_local_save": 4
+  },
+  "after": {
+    "cache_keys": [
+      "folio-shell-v34-sticky-dialog-actions",
+      "folio-shell-v35-filter-target-size"
+    ],
+    "projects": 4,
+    "retained_record": 1,
+    "controller": "http://127.0.0.1:8784/sw.js",
+    "nav_sprite_cached": true
+  },
+  "offline": {
+    "projects": 4,
+    "retained": true,
+    "cacheKeys": [
+      "folio-shell-v35-filter-target-size"
+    ],
+    "icon": "url(\"http://127.0.0.1:8784/assets/icons/nav-sprite.webp\")",
+    "iconWidth": 1536,
+    "documentWidth": 1440,
+    "viewportWidth": 1440
+  },
+  "errors": []
+}

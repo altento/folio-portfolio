@@ -1,0 +1,44 @@
+{
+  "timestamp_utc": "2026-11-01T06:31:15.213682+00:00",
+  "result": "PASS",
+  "cache_names": [
+    "folio-shell-v87-responsive-preview"
+  ],
+  "desktop": {
+    "frameWidth": 1148,
+    "viewport": 1146,
+    "document": 1146,
+    "pressed": true
+  },
+  "mobile": {
+    "frameWidth": 390,
+    "viewport": 388,
+    "document": 388,
+    "pressed": true,
+    "status": "Предпросмотр для телефона · ширина до 390 px"
+  },
+  "offline": {
+    "viewport": 388,
+    "document": 388,
+    "pressed": true,
+    "cache": []
+  },
+  "controls": [
+    {
+      "name": "Компьютер\nширокий экран",
+      "pressed": "false",
+      "height": 44
+    },
+    {
+      "name": "Телефон\nмобильная ширина",
+      "pressed": "true",
+      "height": 44
+    }
+  ],
+  "preview_html_unchanged": true,
+  "browser_errors": [],
+  "screenshots": [
+    "showcase-preview-v87-desktop-1440.png",
+    "showcase-preview-v87-mobile-390.png"
+  ]
+}

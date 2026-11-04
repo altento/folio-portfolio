@@ -1,0 +1,133 @@
+{
+  "testedAt": "2026-11-02T12:33:13.983Z",
+  "url": "http://127.0.0.1:8766/",
+  "profile": "isolated temporary Chrome profile",
+  "results": [
+    {
+      "name": "portrait-320x568",
+      "width": 320,
+      "height": 568,
+      "measurement": {
+        "width": 320,
+        "height": 568,
+        "documentWidth": 320,
+        "documentHeight": 3237,
+        "horizontalOverflow": false,
+        "serviceWorker": null,
+        "title": "Портфолио — рабочее пространство",
+        "bodyStart": "Перейти к содержимому\nfolio®\n◐\nЛИЧНОЕ ПРОСТРАНСТВО\nВаши проекты, собранные в одном месте.\n\nИдеи, процесс и результат — в живой коллекции ваших работ.\n\n＋\nСоздать проект\nОткрыть коллекцию\n↗\nFOLIO  /  01\nИДЕЯ · РАЗРАБОТКА · РЕЗУЛЬТАТ\n✳\nДемонстрационные данные\nПри",
+        "styles": {
+          ".portfolio-insights .insight-intro": {
+            "fontSize": "11px",
+            "visible": true
+          },
+          ".portfolio-insights .insight-item-copy p": {
+            "fontSize": "11px",
+            "visible": true
+          },
+          ".portfolio-insights .insight-complete p": null,
+          ".portfolio-insights .status-row": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".stat-card>span": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".stat-card>small": {
+            "fontSize": "11px",
+            "visible": true
+          },
+          ".storage-reliability-heading span:not(.storage-reliability-indicator)": null,
+          ".storage-meter-caption": null,
+          ".storage-reliability-note": null
+        }
+      },
+      "screenshot": "portrait-320x568-v116.png"
+    },
+    {
+      "name": "portrait-390x844",
+      "width": 390,
+      "height": 844,
+      "measurement": {
+        "width": 390,
+        "height": 844,
+        "documentWidth": 390,
+        "documentHeight": 3285,
+        "horizontalOverflow": false,
+        "serviceWorker": null,
+        "title": "Портфолио — рабочее пространство",
+        "bodyStart": "Перейти к содержимому\nfolio®\n◐\nЛИЧНОЕ ПРОСТРАНСТВО\nВаши проекты, собранные в одном месте.\n\nИдеи, процесс и результат — в живой коллекции ваших работ.\n\n＋\nСоздать проект\nОткрыть коллекцию\n↗\nFOLIO  /  01\nИДЕЯ · РАЗРАБОТКА · РЕЗУЛЬТАТ\n✳\nДемонстрационные данные\nПри",
+        "styles": {
+          ".portfolio-insights .insight-intro": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".portfolio-insights .insight-item-copy p": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".portfolio-insights .insight-complete p": null,
+          ".portfolio-insights .status-row": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".stat-card>span": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".stat-card>small": {
+            "fontSize": "11px",
+            "visible": true
+          },
+          ".storage-reliability-heading span:not(.storage-reliability-indicator)": null,
+          ".storage-meter-caption": null,
+          ".storage-reliability-note": null
+        }
+      },
+      "screenshot": "portrait-390x844-v116.png"
+    },
+    {
+      "name": "landscape-844x390",
+      "width": 844,
+      "height": 390,
+      "measurement": {
+        "width": 844,
+        "height": 390,
+        "documentWidth": 844,
+        "documentHeight": 2279,
+        "horizontalOverflow": false,
+        "serviceWorker": null,
+        "title": "Портфолио — рабочее пространство",
+        "bodyStart": "Перейти к содержимому\nfolio®\nРАБОЧЕЕ ПРОСТРАНСТВО\nМЕНЮ\nОбзор\nМои проекты\n3\nВитрина\nДанные на устройстве\nСохранение включено\n⌑\nНастройки и данные\nД\nДаниил Головин\nВеб-разработчик\n···\nРабочее пространство\n/\nОбзор\nЛокально\n◐\n＋\nНовый проект\nЛИЧНОЕ ПРОСТРАНСТВО\nВаш",
+        "styles": {
+          ".portfolio-insights .insight-intro": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".portfolio-insights .insight-item-copy p": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".portfolio-insights .insight-complete p": null,
+          ".portfolio-insights .status-row": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".stat-card>span": {
+            "fontSize": "10px",
+            "visible": true
+          },
+          ".stat-card>small": {
+            "fontSize": "11px",
+            "visible": true
+          },
+          ".storage-reliability-heading span:not(.storage-reliability-indicator)": null,
+          ".storage-meter-caption": null,
+          ".storage-reliability-note": null
+        }
+      },
+      "screenshot": "landscape-844x390-v116.png"
+    }
+  ]
+}

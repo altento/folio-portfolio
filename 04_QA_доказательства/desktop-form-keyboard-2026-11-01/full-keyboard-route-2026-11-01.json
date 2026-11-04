@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-01",
+  "application_window": "Портфолио веб-разработчика (native Tkinter)",
+  "scope": "Пустая форма «Добавить проект»; ни одно поле не заполнялось, запись не сохранялась.",
+  "observations": {
+    "starting_focus": "Название",
+    "tab_forward": [
+      "Описание",
+      "Дата",
+      "Статус",
+      "Демо URL",
+      "Технологии",
+      "Теги",
+      "Моя роль",
+      "Результат / польза",
+      "Контекст задачи",
+      "Решение",
+      "Этапы процесса",
+      "Метрики результата",
+      "Количество страниц",
+      "Добавить в избранные проекты",
+      "Выбрать изображение",
+      "Убрать обложку",
+      "Галерея",
+      "Отмена",
+      "Сохранить"
+    ],
+    "sticky_actions_visible": true,
+    "focus_scroll_keeps_active_field_visible": true,
+    "tab_cycle_wrap_observed": true,
+    "reverse_shift_tab_reached_first_field": true,
+    "escape_closed_form_without_save": true
+  },
+  "screenshots": [
+    "live-form-first-field-2026-11-01.png",
+    "live-form-save-focused-2026-11-01.png"
+  ],
+  "limitations": [
+    "UI Automation tree exposes generic Tkinter panels rather than meaningful accessible names.",
+    "Physical keyboard, assistive technology/screen reader, image chooser, and gallery editor were not evaluated."
+  ]
+}

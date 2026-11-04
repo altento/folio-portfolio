@@ -1,0 +1,30 @@
+{
+  "module4": {
+    "document": "C:\\Users\\Windows-10\\Desktop\\Портфолио_веб-разработчика\\Отчет_ООП_Модуль_4.docx",
+    "sha256": "670dd195dee10a54289c7140c2fdb3a70477b5b57fc100c2ebdced9b173cccc4",
+    "figure_caption": "Рисунок 1 — Фрагмент главного окна: фильтры, проекты и карточка выбранного кейса",
+    "image": "C:\\Users\\Windows-10\\Desktop\\Портфолио_веб-разработчика\\служебные_файлы\\qa_02-11-2026\\report-v94-evidence\\module4-main-window-detail-v94.jpg",
+    "image_size_px": [
+      1080,
+      690
+    ],
+    "display_size_in": [
+      6.3,
+      4.025
+    ]
+  },
+  "module5": {
+    "document": "C:\\Users\\Windows-10\\Desktop\\Портфолио_веб-разработчика\\Отчет_ООП_Модуль_5.docx",
+    "sha256": "99670075cc2c54fdea511f74cf142905d386ac0b62c1c76bc573839853911c61",
+    "figure_caption": "Рисунок 1 — Главное окно приложения с раскрытым меню «Файл»",
+    "image": "C:\\Users\\Windows-10\\Desktop\\Портфолио_веб-разработчика\\служебные_файлы\\qa_02-11-2026\\report-v94-evidence\\module5-file-menu-v94.png",
+    "image_size_px": [
+      260,
+      240
+    ],
+    "display_size_in": [
+      4.3,
+      3.969
+    ]
+  }
+}

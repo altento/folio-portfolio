@@ -1,0 +1,50 @@
+{
+  "viewport": {
+    "width": 864,
+    "height": 420
+  },
+  "before": {
+    "viewport": {
+      "width": 864,
+      "height": 420
+    },
+    "documentWidth": 864,
+    "documentHeight": 2232,
+    "sidebar": {
+      "clientHeight": 420,
+      "scrollHeight": 507,
+      "scrollTop": 0,
+      "overflowY": "auto",
+      "items": [
+        "folio®\nРАБОЧЕЕ ПРОСТРАНСТВО",
+        "Обзор",
+        "Мои проекты\n3",
+        "Витрина",
+        "Настройки и данные"
+      ]
+    }
+  },
+  "after": {
+    "viewport": {
+      "width": 864,
+      "height": 420
+    },
+    "documentWidth": 864,
+    "documentHeight": 2232,
+    "sidebar": {
+      "clientHeight": 420,
+      "scrollHeight": 507,
+      "scrollTop": 87,
+      "overflowY": "auto",
+      "items": [
+        "folio®\nРАБОЧЕЕ ПРОСТРАНСТВО",
+        "Обзор",
+        "Мои проекты\n3",
+        "Витрина",
+        "Настройки и данные"
+      ]
+    }
+  },
+  "scrollWorked": true,
+  "settingsVisibleInDOM": true
+}

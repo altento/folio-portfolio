@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "result": "PASS",
+  "android_api": 36,
+  "emulator_resolution": "1080x2400",
+  "gradle": {
+    "task": "assembleDebug",
+    "result": "BUILD SUCCESSFUL",
+    "tasks_total": 93
+  },
+  "install_and_launch": "PASS",
+  "web_bundle": "PWA v85, updated from v84 and launched",
+  "apk_sha256": "c00210409b19572afda34c4293fd1e01e8c4d41332dae6b443726f89f53fa9bd",
+  "apk_signature_v2": "PASS",
+  "zipalign_4": "PASS",
+  "screenshot": "android-emulator-v85-1080x2400.png",
+  "limitations": [
+    "Debug signing only; not a store release.",
+    "Physical Android phone was not connected."
+  ]
+}

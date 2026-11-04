@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-02",
+  "scope": "Isolated proof of concept only; not integrated into folio",
+  "runtime": "Python 3.13.7 + PySide6-Essentials 6.12.0 / Qt 6.12.0",
+  "screens": {
+    "main": "qt-main-uia-tree.png",
+    "dialog": "qt-new-project-dialog.png"
+  },
+  "uiAutomation": {
+    "mainWindowAccessibleName": true,
+    "searchField": {
+      "role": "Edit",
+      "name": "Поиск проектов"
+    },
+    "searchButton": {
+      "role": "Button",
+      "name": "Найти проекты"
+    },
+    "projectTable": {
+      "role": "Table",
+      "name": "Список проектов",
+      "rows": [
+        "Портфолио веб-разработчика / Опубликован",
+        "CRM для клининговой компании / В разработке"
+      ]
+    },
+    "addButton": {
+      "role": "Button",
+      "name": "Добавить проект"
+    },
+    "dialog": {
+      "role": "Window",
+      "name": "Форма нового проекта",
+      "title": "Новый проект",
+      "separateAutomationElement": true
+    },
+    "dialogFields": [
+      {
+        "role": "Edit",
+        "name": "Название проекта",
+        "valuePatternValueObserved": true
+      },
+      {
+        "role": "Edit",
+        "name": "Описание проекта"
+      }
+    ],
+    "dialogButtons": [
+      "Отменить создание проекта",
+      "Сохранить проект"
+    ],
+    "tabFocusMovedFromTitleToDescription": true,
+    "typedValueReflectedInAutomationTree": true,
+    "escapeClosedDialogAndReturnedFocusToSearch": true
+  },
+  "limitations": [
+    "No NVDA or Narrator speech test was performed.",
+    "This validates a small Qt prototype, not the complete desktop application.",
+    "No portfolio data was loaded or saved."
+  ]
+}\n

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-01",
+  "environment": "Playwright Chromium, isolated context folio-v74-safe-replace, localhost 127.0.0.1:8766, synthetic demo JSON only",
+  "service_worker_cache": "folio-shell-v74-safe-import-replace",
+  "scenarios": [
+    {
+      "name": "backup creation failure prevents replacement",
+      "setup": "URL.createObjectURL throws DOMException(SecurityError, download denied)",
+      "before": {
+        "revision": 1,
+        "title": "Портфолио веб-разработчика",
+        "project_count": 3
+      },
+      "after": {
+        "revision": 1,
+        "title": "Портфолио веб-разработчика",
+        "project_count": 3
+      },
+      "unchanged": true,
+      "dialog_remains_open": true,
+      "user_message": "Замена отменена: резервную копию подготовить не удалось (download denied).",
+      "screenshot": "backup-failure-cancels-replace-with-notice.png"
+    },
+    {
+      "name": "successful replacement downloads backup before commit",
+      "download_name": "folio-before-import.json",
+      "after": {
+        "revision": 2,
+        "demo": false,
+        "project_count": 3
+      },
+      "user_message": "Импортировано проектов: 3. Резервная копия отправлена на скачивание до замены.",
+      "screenshot": "replacement-success-backup-before-commit.png"
+    }
+  ],
+  "result": "PASS; replacement is never committed when backup download setup throws, and the normal branch initiates the backup download before save completes."
+}

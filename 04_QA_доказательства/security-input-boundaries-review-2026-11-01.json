@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-01",
+  "review_type": "Static source review matched against existing regression tests; not a penetration test.",
+  "scope": [
+    "imported project/profile text and URLs",
+    "HTML export and live DOM construction",
+    "cover/gallery data URLs and cropping metadata",
+    "desktop external-link and local image paths"
+  ],
+  "checks": [
+    {
+      "surface": "Project demo/repository and author website links",
+      "control": "Only absolute HTTP(S) URLs with a hostname are accepted; username/password URL components are rejected.",
+      "evidence": [
+        "02_Приложение/web/core.js::normalizeUrl",
+        "02_Приложение/main.py::validate_project_input",
+        "02_Приложение/main.py::normalize_developer_data",
+        "02_Приложение/tests/test_portfolio.py::test_validation_accepts_valid_records_and_rejects_bad_inputs",
+        "02_Приложение/web/tests/core.test.js::rejects duplicate imported IDs, unsafe protocols, and credential-bearing URLs"
+      ]
+    },
+    {
+      "surface": "Untrusted text in generated HTML/CSV",
+      "control": "HTML output paths use escapeHtml; links opened in a new tab include noopener/noreferrer; CSV fields are quoted.",
+      "evidence": [
+        "02_Приложение/web/core.js::escapeHtml",
+        "02_Приложение/web/core.js::staticShowcaseExport",
+        "02_Приложение/web/tests/core.test.js::escapes untrusted text and quotes CSV cells",
+        "02_Приложение/web/tests/core.test.js::exports a self-contained responsive showcase with featured cases only and escaped content"
+      ]
+    },
+    {
+      "surface": "Covers and gallery uploads/imports",
+      "control": "Allowlisted PNG/JPEG/WebP data only, per-file and total size limits, Pillow decodes local uploads, pixel caps, required alt text, validated focal point.",
+      "evidence": [
+        "02_Приложение/main.py::is_valid_cover_image",
+        "02_Приложение/main.py::encode_cover_image",
+        "02_Приложение/main.py::encode_gallery_image",
+        "02_Приложение/main.py::normalize_gallery_images",
+        "02_Приложение/web/core.js::normalizeProject",
+        "02_Приложение/tests/test_portfolio.py::test_cover_art_survives_json_round_trip_and_rejects_remote_assets",
+        "02_Приложение/web/tests/core.test.js::stores accessible gallery images with a safe focal crop in portable backups and exports"
+      ]
+    },
+    {
+      "surface": "Desktop external navigation and bundled cover paths",
+      "control": "External navigation uses a selected model link; imported project validation runs before apply. Local bundled cover paths are constrained by an allowlist.",
+      "evidence": [
+        "02_Приложение/main.py::PortfolioApp.open_link",
+        "02_Приложение/main.py::PortfolioApp._read_data",
+        "02_Приложение/main.py::is_valid_cover_image",
+        "02_Приложение/tests/test_portfolio.py::test_cover_art_survives_json_round_trip_and_rejects_remote_assets"
+      ]
+    }
+  ],
+  "result": "No unsafe protocol or raw user-text HTML sink was identified in the reviewed paths. Existing tests cover the listed guards.",
+  "limits": [
+    "Static walkthrough only; not a full security assessment or penetration test.",
+    "The actual desktop dialogs were not visually exercised in this turn.",
+    "A manually supplied HTTP(S) link can still take the user to an untrusted external website when explicitly opened."
+  ]
+}

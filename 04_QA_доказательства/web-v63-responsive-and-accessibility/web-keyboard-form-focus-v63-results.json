@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-01",
+  "version": "folio-shell-v63",
+  "results": [
+    {
+      "width": 1440,
+      "height": 900,
+      "skip": {
+        "tag": "A",
+        "className": "skip-link",
+        "text": "Перейти к содержимому",
+        "visible": true
+      },
+      "first": {
+        "id": "",
+        "name": "title",
+        "tag": "INPUT",
+        "dialog": true
+      },
+      "tabStops": 26,
+      "cycled": true,
+      "allStopsInModal": true,
+      "allStopsVisible": true,
+      "returned": {
+        "isOpener": true,
+        "tag": "BUTTON",
+        "name": "＋\nНовый проект"
+      },
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "skip": {
+        "tag": "A",
+        "className": "skip-link",
+        "text": "Перейти к содержимому",
+        "visible": true
+      },
+      "first": {
+        "id": "",
+        "name": "title",
+        "tag": "INPUT",
+        "dialog": true
+      },
+      "tabStops": 26,
+      "cycled": true,
+      "allStopsInModal": true,
+      "allStopsVisible": true,
+      "returned": {
+        "isOpener": true,
+        "tag": "BUTTON",
+        "name": "＋\nСоздать проект"
+      },
+      "errors": []
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "skip": {
+        "tag": "A",
+        "className": "skip-link",
+        "text": "Перейти к содержимому",
+        "visible": true
+      },
+      "first": {
+        "id": "",
+        "name": "title",
+        "tag": "INPUT",
+        "dialog": true
+      },
+      "tabStops": 26,
+      "cycled": true,
+      "allStopsInModal": true,
+      "allStopsVisible": true,
+      "returned": {
+        "isOpener": true,
+        "tag": "BUTTON",
+        "name": "＋\nСоздать проект"
+      },
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-01",
+  "target_window": "Портфолио веб-разработчика — изолированная копия desktop-style-v89",
+  "source_main_sha256": "8BF67D78224B3468A240DE3B262E91F82BCCC30D2389FE04913ECA26D8B69161",
+  "test_scope": "empty project form; no data entered or saved",
+  "viewport_px": {
+    "width": 1282,
+    "height": 892
+  },
+  "checks": {
+    "tab_from_title_to_description": "pass",
+    "tab_through_standard_fields": "pass",
+    "tab_from_multiline_result_to_context": "pass",
+    "tab_through_case_story_fields": "pass",
+    "lower_fields_revealed_by_focus_scroll": "pass",
+    "cover_and_gallery_controls_reachable_by_tab": "pass",
+    "cancel_and_save_remain_visible": "pass",
+    "escape_closes_without_save": "pass"
+  },
+  "not_checked": [
+    "physical keyboard",
+    "screen reader",
+    "cover image picker",
+    "gallery editor",
+    "target device acceptance"
+  ],
+  "screenshots": [
+    "form-top.jpg",
+    "form-media-and-sticky-actions.jpg"
+  ]
+}

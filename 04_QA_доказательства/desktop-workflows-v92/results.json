@@ -1,0 +1,46 @@
+{
+  "run_date": "2026-11-02",
+  "scope": "Isolated synthetic copy of the desktop application and SQLite database; the user database was not opened.",
+  "result": "PASS for the observed UI flows",
+  "checks": [
+    {
+      "name": "Create project",
+      "result": "PASS",
+      "evidence": "A fourth synthetic project was added through the desktop form; visible in the list."
+    },
+    {
+      "name": "Search project",
+      "result": "PASS",
+      "evidence": "Exact-title search returned one matching card."
+    },
+    {
+      "name": "Edit project",
+      "result": "PASS",
+      "evidence": "Title changed and the edited value remained visible after save."
+    },
+    {
+      "name": "JSON export",
+      "result": "PASS",
+      "evidence": "Export confirmation reported portfolio-export.json in the temporary smoke directory."
+    },
+    {
+      "name": "JSON import preview and merge",
+      "result": "PASS",
+      "evidence": "Preview showed 4 projects, 0 new IDs, 4 matching IDs; merge kept local entries and reported 0 added, 0 copies, 4 kept."
+    },
+    {
+      "name": "Persistence consistency",
+      "result": "PASS",
+      "evidence": "Direct read-only inspection found 4 SQLite projects, next_id 5, and an exported JSON with 4 projects and next_id 5."
+    }
+  ],
+  "limits": [
+    "Delete was not exercised in this v92 pass; previous isolated deletion evidence remains linked from the existing QA report.",
+    "Manual screen-reader testing and inner-control UI Automation are still open."
+  ],
+  "screenshots": [
+    "01-search-edit.png",
+    "02-json-import-merge.png",
+    "03-search-result.png"
+  ]
+}

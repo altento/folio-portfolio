@@ -1,0 +1,80 @@
+{
+  "build": "v102-mobile-catalog-disclosure",
+  "status": "PASS",
+  "sizes": [
+    {
+      "width": 320,
+      "height": 568,
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "card": {
+        "top": 367,
+        "bottom": 766,
+        "height": 399
+      },
+      "dock": {
+        "top": 504,
+        "bottom": 568,
+        "height": 64
+      },
+      "cardVisibleAboveDock": true,
+      "filterOpen": false,
+      "savedViewsOpen": false,
+      "filterControlsPresent": 4,
+      "selectionTargetHeight": 44,
+      "layoutButtonHeights": [
+        44,
+        44
+      ],
+      "selectionLabelSize": 11
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "card": {
+        "top": 517,
+        "bottom": 927,
+        "height": 409
+      },
+      "dock": {
+        "top": 780,
+        "bottom": 844,
+        "height": 64
+      },
+      "cardVisibleAboveDock": true,
+      "filterOpen": false,
+      "savedViewsOpen": false,
+      "filterControlsPresent": 4,
+      "selectionTargetHeight": 44,
+      "layoutButtonHeights": [
+        44,
+        44
+      ],
+      "selectionLabelSize": 12
+    }
+  ],
+  "filter_interaction": {
+    "open": true,
+    "focusedId": "filter-type",
+    "selectedType": "Веб-приложение",
+    "activeBadge": "1 активно",
+    "resultCount": "2 проекта"
+  },
+  "saved_view_round_trip": {
+    "type": "Веб-приложение",
+    "savedDisclosureOpen": true,
+    "savedSummary": "Выбрана: QA каталог v102"
+  },
+  "desktop_resize": {
+    "filters": true,
+    "savedViews": true,
+    "summaries": [
+      "none",
+      "none"
+    ]
+  },
+  "page_errors": [],
+  "http_status": 200
+}

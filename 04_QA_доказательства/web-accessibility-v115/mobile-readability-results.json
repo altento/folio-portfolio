@@ -1,0 +1,74 @@
+{
+  "viewport": "320x568",
+  "page_errors": [],
+  "dashboard": {
+    "stats_label": {
+      "found": true,
+      "fontSize": "10px",
+      "min": 9,
+      "pass": true
+    },
+    "stats_support": {
+      "found": true,
+      "fontSize": "11px",
+      "min": 10,
+      "pass": true
+    },
+    "insight_intro": {
+      "found": true,
+      "fontSize": "11px",
+      "min": 11,
+      "pass": true
+    },
+    "insight_body": {
+      "found": true,
+      "fontSize": "11px",
+      "min": 11,
+      "pass": true
+    },
+    "status_row": {
+      "found": true,
+      "fontSize": "10px",
+      "min": 10,
+      "pass": true
+    },
+    "no_horizontal_overflow": true
+  },
+  "projects": {
+    "project_meta": {
+      "found": true,
+      "fontSize": "11px",
+      "min": 9,
+      "pass": true
+    },
+    "card_description": {
+      "found": true,
+      "fontSize": "13px",
+      "min": 11,
+      "pass": true
+    },
+    "no_horizontal_overflow": true
+  },
+  "settings": {
+    "storage_title": {
+      "found": true,
+      "fontSize": "11px",
+      "min": 11,
+      "pass": true
+    },
+    "storage_note": {
+      "found": true,
+      "fontSize": "11px",
+      "min": 11,
+      "pass": true
+    },
+    "storage_meter": {
+      "found": true,
+      "fontSize": "10px",
+      "min": 10,
+      "pass": true
+    },
+    "no_horizontal_overflow": true
+  },
+  "result": "PASS"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "viewport": "desktop",
+    "dialog_opened": true,
+    "visible_form_controls": 18,
+    "escape_closed_dialog": true,
+    "theme_before": null,
+    "theme_after": "dark",
+    "aria_pressed": "true",
+    "errors": [],
+    "screenshot": "folio-desktop-new-project-dialog.png"
+  },
+  {
+    "viewport": "mobile",
+    "dialog_opened": true,
+    "visible_form_controls": 18,
+    "escape_closed_dialog": true,
+    "theme_before": null,
+    "theme_after": "dark",
+    "aria_pressed": "true",
+    "errors": [],
+    "screenshot": "folio-mobile-new-project-dialog.png"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "version": "v58-dashboard-insights-plus-generated-hero",
+  "checks": {
+    "insightsUseExistingCaseStoryChecklist": true,
+    "noQualityScoreOrRanking": true,
+    "statusDistributionReflectsThreeDemoCases": true,
+    "topTechnologiesShowProjectFrequency": true,
+    "suggestionExplainsOptionality": true,
+    "suggestionRussianCopyIsNatural": true,
+    "insightLightThemeContrastAA": true,
+    "insightDarkThemeContrastAA": true,
+    "insightOpensTheRelevantCase": true,
+    "dashboardAndEditorChecklistStayInSync": true,
+    "editingAFieldUpdatesSharedChecklist": true,
+    "closingSuggestionEditorKeepsDashboardStable": true,
+    "temporaryUnsavedDraftClearedOnlyInQAPage": true,
+    "mobile390NoHorizontalOverflow": true,
+    "insightsFit390": true,
+    "mobile320NoHorizontalOverflow": true,
+    "insightsFit320": true,
+    "emptyLibraryOffersFirstStep": true,
+    "emptyLibraryStatusChartIsHonest": true,
+    "emptyStateActionOpensNewCase": true,
+    "serviceWorkerUsesV58": true
+  },
+  "errors": [],
+  "diagnostics": {
+    "lightContrast": {
+      "bodyText": 5.7612531040965,
+      "countPill": 5.136486464211255,
+      "stepNumber": 5.725534443222272
+    },
+    "darkContrast": {
+      "bodyText": 8.801095904916341,
+      "countPill": 7.9192965558583905,
+      "stepNumber": 8.695459097971614
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-01",
+  "build": {
+    "desktop": "v91",
+    "web_pwa_shell": "v80"
+  },
+  "context": "isolated Playwright context folio-mobile-qa",
+  "result": "PASS",
+  "screens": [
+    {
+      "view": "Проекты",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "viewportWidth": 390,
+      "horizontalOverflow": false,
+      "visibleProjectCards": 3,
+      "brokenVisibleImages": 0
+    },
+    {
+      "view": "Витрина",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "viewportWidth": 390,
+      "visibleProjectCards": 1,
+      "brokenVisibleImages": 0,
+      "screenshot": "web-showcase-390x844-audit-2026-11-01.jpg"
+    },
+    {
+      "view": "Настройки и данные",
+      "viewport": "390x844",
+      "documentWidth": 375,
+      "viewportWidth": 390,
+      "horizontalOverflow": false,
+      "brokenVisibleImages": 0,
+      "screenshot": "web-settings-390x844-audit-2026-11-01.jpg"
+    }
+  ],
+  "keyboard_dialog": {
+    "project_dialog_title": "Новый проект",
+    "first_field": "Название",
+    "initial_focus": true,
+    "escape_closes": true,
+    "focus_returns_to": "mobile add-project navigation button"
+  },
+  "accessibility_observations": {
+    "visible_project_controls_had_names_or_labels": true,
+    "form_fields_associated_with_labels_or_aria": true,
+    "visible_focus_styles_present": true,
+    "prefers_reduced_motion_supported": true
+  },
+  "limits": [
+    "This is a browser-emulated viewport, not a physical phone.",
+    "No real screen reader or home-screen PWA installation was tested.",
+    "This dynamic browser review supplements the 21 web-core tests; it is not a full WCAG conformance audit."
+  ]
+}

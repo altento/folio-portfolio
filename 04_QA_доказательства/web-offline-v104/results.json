@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "scope": "http://127.0.0.1:8769/folio/",
+  "service_worker": "folio-shell-v104-favorite-sort-clarity",
+  "checks": {
+    "offline_navigation_with_query": "pass",
+    "favorite_sort_label": "Сначала избранные",
+    "favorite_only_filter_label": "Только избранное",
+    "catalog_viewport_css_px": "390x844",
+    "catalog_document_scroll_width_css_px": 375,
+    "unknown_nested_path_fallback": "pass",
+    "fallback_return_to_registered_scope_offline": "pass",
+    "fallback_document_scroll_width_css_px": 390,
+    "web_node_test_total": 41,
+    "web_node_test_passed": 41
+  },
+  "screenshots": [
+    {"file": "mobile-offline-projects.jpg", "sha256": "3A970A2543B82A286A1D18885D24DBB1C440531523B98D0C16CB0CA80C3D8150"},
+    {"file": "mobile-offline-fallback.jpg", "sha256": "8EF94CA81FEC5227DB14F747E816FDBA3B252D6C9C837AF4A69374967A1882AB"}
+  ],
+  "limitations": ["Chromium network emulation only", "No physical phone or Safari/iOS", "No actual screenreader", "No OS zoom/font scaling"]
+}

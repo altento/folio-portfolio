@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-01",
+  "release": "Web/PWA v79",
+  "service_worker_cache": "folio-shell-v79-mobile-demo-action-readability",
+  "change": [
+    "Mobile demo-data action uses a readable 11px label and a 44px touch target while keeping a full accessible name",
+    "Shortened demo notice copy to reduce wrapping on narrow phones",
+    "Desktop retains the full clear-demo label; mobile avoids duplicate decorative close glyph"
+  ],
+  "browser": "Isolated Chromium",
+  "runtime": {
+    "service_worker_controlled": true,
+    "only_cache_after_upgrade": [
+      "folio-shell-v79-mobile-demo-action-readability"
+    ],
+    "demo_project_cards": 3,
+    "browser_console_errors": 0,
+    "broken_images_with_nonempty_src": 0,
+    "heading_text": "Ваши проекты, собранные в одном месте.",
+    "demo_action_accessible_name": "Очистить демонстрационные данные"
+  },
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "layout_client_width": 305,
+      "document_scroll_width": 305,
+      "horizontal_overflow": false,
+      "demo_note_height": 73,
+      "clear_button_height": 44,
+      "clear_button_font": "11px",
+      "featured_grid_y": 792,
+      "mobile_nav_visible": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "layout_client_width": 375,
+      "document_scroll_width": 375,
+      "horizontal_overflow": false,
+      "demo_note_height": 73,
+      "clear_button_height": 44,
+      "clear_button_font": "11px",
+      "featured_grid_y": 716,
+      "mobile_nav_visible": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "layout_client_width": 1425,
+      "document_scroll_width": 1425,
+      "horizontal_overflow": false,
+      "demo_note_height": 68,
+      "clear_button_height": 44,
+      "clear_button_font": "12px",
+      "featured_grid_y": 933,
+      "mobile_nav_visible": false
+    }
+  ],
+  "regression": {
+    "python_sqlite": "55/55 passed (unchanged Python sources)",
+    "web_core": "21/21 passed"
+  },
+  "screenshots": {
+    "mobile_320": {
+      "file": "web-v79-mobile-dashboard-320x568.jpg",
+      "bytes": 35486,
+      "sha256": "6f3f8e2ec1e0e32ce8e0d3f2ed9fa186f4f25b955e998f41b2a30e3518b021ca"
+    },
+    "mobile_390": {
+      "file": "web-v79-mobile-dashboard-390x844.jpg",
+      "bytes": 63177,
+      "sha256": "454b2bc1c67fd495e71e8fa5ede19b7acc47e8ff4e317b88c2982c3e055b4781"
+    },
+    "desktop": {
+      "file": "web-v79-dashboard-desktop-1440x900.jpg",
+      "bytes": 162388,
+      "sha256": "1e9b4ae62f860d0643833099e480a202d20e4901d582fa91645ef6e9711a5805"
+    }
+  },
+  "report_control_slice": "desktop v87 / web-PWA v74; included report figures show v73"
+}

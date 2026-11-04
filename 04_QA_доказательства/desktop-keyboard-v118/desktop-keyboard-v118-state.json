@@ -1,0 +1,316 @@
+{
+  "profile": "C:\\Users\\WINDOW~1\\AppData\\Local\\Temp\\folio-kbd-v118-a0y_ab20",
+  "db": "C:\\Users\\WINDOW~1\\AppData\\Local\\Temp\\folio-kbd-v118-a0y_ab20\\Folio\\portfolio_data.sqlite3",
+  "initial_project_count": 3,
+  "project_count": 3,
+  "project_titles": [
+    "Портфолио веб-разработчика",
+    "CRM для клининговой компании",
+    "Карта городских дворов"
+  ],
+  "focus_history": [
+    {
+      "path": ".!toplevel",
+      "class": "Toplevel",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2",
+      "class": "TFrame",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas",
+      "class": "Canvas",
+      "grid_row": 0,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame",
+      "class": "TFrame",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry",
+      "class": "TEntry",
+      "grid_row": 2,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel",
+      "class": "Toplevel",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2",
+      "class": "TFrame",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas",
+      "class": "Canvas",
+      "grid_row": 0,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame",
+      "class": "TFrame",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry",
+      "class": "TEntry",
+      "grid_row": 2,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel",
+      "class": "Toplevel",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2",
+      "class": "TFrame",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas",
+      "class": "Canvas",
+      "grid_row": 0,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame",
+      "class": "TFrame",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry",
+      "class": "TEntry",
+      "grid_row": 2,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel",
+      "class": "Toplevel",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2",
+      "class": "TFrame",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas",
+      "class": "Canvas",
+      "grid_row": 0,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame",
+      "class": "TFrame",
+      "grid_row": -1,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry",
+      "class": "TEntry",
+      "grid_row": 2,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text",
+      "class": "Text",
+      "grid_row": 3,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry2",
+      "class": "TEntry",
+      "grid_row": 4,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!combobox2",
+      "class": "TCombobox",
+      "grid_row": 5,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry3",
+      "class": "TEntry",
+      "grid_row": 6,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry4",
+      "class": "TEntry",
+      "grid_row": 7,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry5",
+      "class": "TEntry",
+      "grid_row": 8,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry6",
+      "class": "TEntry",
+      "grid_row": 9,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text2",
+      "class": "Text",
+      "grid_row": 10,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text3",
+      "class": "Text",
+      "grid_row": 11,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text4",
+      "class": "Text",
+      "grid_row": 12,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text5",
+      "class": "Text",
+      "grid_row": 13,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text6",
+      "class": "Text",
+      "grid_row": 14,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry7",
+      "class": "TEntry",
+      "grid_row": 15,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!checkbutton",
+      "class": "TCheckbutton",
+      "grid_row": 18,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry7",
+      "class": "TEntry",
+      "grid_row": 15,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text6",
+      "class": "Text",
+      "grid_row": 14,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text5",
+      "class": "Text",
+      "grid_row": 13,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text4",
+      "class": "Text",
+      "grid_row": 12,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text3",
+      "class": "Text",
+      "grid_row": 11,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text2",
+      "class": "Text",
+      "grid_row": 10,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry6",
+      "class": "TEntry",
+      "grid_row": 9,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry5",
+      "class": "TEntry",
+      "grid_row": 8,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry4",
+      "class": "TEntry",
+      "grid_row": 7,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry3",
+      "class": "TEntry",
+      "grid_row": 6,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!combobox2",
+      "class": "TCombobox",
+      "grid_row": 5,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry2",
+      "class": "TEntry",
+      "grid_row": 4,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!text",
+      "class": "Text",
+      "grid_row": 3,
+      "mapped": true
+    },
+    {
+      "path": ".!toplevel.!frame2.!canvas.!frame.!entry",
+      "class": "TEntry",
+      "grid_row": 2,
+      "mapped": true
+    }
+  ],
+  "form_exists": true,
+  "form_geometry": "720x480+30+30",
+  "form_client_size": [
+    720,
+    480
+  ],
+  "focus": ".!toplevel.!frame2.!canvas.!frame.!entry",
+  "focus_class": "TEntry",
+  "focus_grid_row": 2,
+  "focus_mapped": true,
+  "canvas_yview": [
+    0.18903891977760126,
+    0.5234312946783162
+  ],
+  "description_newlines": 0
+}

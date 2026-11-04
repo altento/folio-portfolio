@@ -1,0 +1,35 @@
+{
+  "build": "v101-mobile-filter-target",
+  "viewport": "390x844",
+  "status": "PASS",
+  "http_status": 200,
+  "filters": [
+    {
+      "label": "Тип",
+      "height": 44,
+      "minHeight": "44px"
+    },
+    {
+      "label": "Статус",
+      "height": 44,
+      "minHeight": "44px"
+    },
+    {
+      "label": "Тег",
+      "height": 44,
+      "minHeight": "44px"
+    },
+    {
+      "label": "Сортировка проектов",
+      "height": 44,
+      "minHeight": "44px"
+    }
+  ],
+  "layout": {
+    "viewport": 390,
+    "document": 390,
+    "cards": 3
+  },
+  "page_errors": [],
+  "screenshot": "mobile-filter-target-390x844.png"
+}

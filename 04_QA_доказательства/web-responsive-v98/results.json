@@ -1,0 +1,3632 @@
+{
+  "source": "http://127.0.0.1:8767/",
+  "httpStatus": 200,
+  "startupMainText": "ЛИЧНОЕ ПРОСТРАНСТВО\nВаши проекты,\nсобранные\nв одном месте.\n\nИдеи, процесс и результат — в живой коллекции ваших работ.\n\n＋\nСоздать проект\nОткрыть коллекцию\n↗\nFOLIO  /  01\nИДЕЯ · РАЗРАБОТКА · РЕЗУЛЬТАТ\n✳\nДемонстрационные данные\nПримеры. Замените их своими или удалите.\nОчистить примеры\nВСЕ ПРОЕКТЫ\n03\nв",
+  "viewportMatrix": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      900
+    ],
+    [
+      820,
+      900
+    ],
+    [
+      821,
+      900
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "sections": [
+    "dashboard",
+    "projects",
+    "settings"
+  ],
+  "results": [
+    {
+      "width": 320,
+      "height": 568,
+      "section": "dashboard",
+      "state": "page",
+      "documentClientWidth": 320,
+      "documentScrollWidth": 320,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 320,
+        "height": 3082,
+        "right": 320,
+        "bottom": 3140
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 58,
+        "right": 320,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 504,
+        "width": 320,
+        "height": 64,
+        "right": 320,
+        "bottom": 568
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 13,
+        "y": 1410,
+        "width": 294,
+        "height": 530,
+        "right": 307,
+        "bottom": 1940
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "section": "dashboard",
+      "state": "page-bottom",
+      "documentClientWidth": 320,
+      "documentScrollWidth": 320,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -2580,
+        "width": 320,
+        "height": 3082,
+        "right": 320,
+        "bottom": 502
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 58,
+        "right": 320,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 504,
+        "width": 320,
+        "height": 64,
+        "right": 320,
+        "bottom": 568
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 13,
+        "y": -1228,
+        "width": 294,
+        "height": 530,
+        "right": 307,
+        "bottom": -698
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "section": "dashboard",
+      "state": "new-project-dialog",
+      "documentClientWidth": 320,
+      "documentScrollWidth": 320,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 320,
+        "height": 3082,
+        "right": 320,
+        "bottom": 3140
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 58,
+        "right": 320,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 504,
+        "width": 320,
+        "height": 64,
+        "right": 320,
+        "bottom": 568
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": {
+        "x": 8,
+        "y": 33,
+        "width": 304,
+        "height": 523,
+        "right": 312,
+        "bottom": 556
+      },
+      "dialogScroll": {
+        "clientWidth": 304,
+        "scrollWidth": 304,
+        "clientHeight": 523,
+        "scrollHeight": 2535,
+        "scrollTop": 310,
+        "form": {
+          "rect": {
+            "x": 8,
+            "y": -277,
+            "width": 304,
+            "height": 2535,
+            "right": 312,
+            "bottom": 2258
+          },
+          "clientHeight": 2535,
+          "scrollHeight": 2535,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 24,
+          "y": 2142,
+          "width": 272,
+          "height": 61,
+          "right": 296,
+          "bottom": 2203
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 13,
+        "y": 1410,
+        "width": 294,
+        "height": 530,
+        "right": 307,
+        "bottom": 1940
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": [],
+      "closedByEscape": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "section": "dashboard",
+      "state": "new-project-dialog-bottom",
+      "documentClientWidth": 320,
+      "documentScrollWidth": 320,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 320,
+        "height": 3082,
+        "right": 320,
+        "bottom": 3140
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 58,
+        "right": 320,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 504,
+        "width": 320,
+        "height": 64,
+        "right": 320,
+        "bottom": 568
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": {
+        "x": 8,
+        "y": 33,
+        "width": 304,
+        "height": 523,
+        "right": 312,
+        "bottom": 556
+      },
+      "dialogScroll": {
+        "clientWidth": 304,
+        "scrollWidth": 304,
+        "clientHeight": 523,
+        "scrollHeight": 2535,
+        "scrollTop": 2012,
+        "form": {
+          "rect": {
+            "x": 8,
+            "y": -1979,
+            "width": 304,
+            "height": 2535,
+            "right": 312,
+            "bottom": 556
+          },
+          "clientHeight": 2535,
+          "scrollHeight": 2535,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 24,
+          "y": 440,
+          "width": 272,
+          "height": 61,
+          "right": 296,
+          "bottom": 501
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 13,
+        "y": 1410,
+        "width": 294,
+        "height": 530,
+        "right": 307,
+        "bottom": 1940
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": [],
+      "actionsVisible": true,
+      "actionsWithinViewport": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "section": "projects",
+      "state": "page",
+      "documentClientWidth": 320,
+      "documentScrollWidth": 320,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 320,
+        "height": 1831,
+        "right": 320,
+        "bottom": 1889
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 58,
+        "right": 320,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 504,
+        "width": 320,
+        "height": 64,
+        "right": 320,
+        "bottom": 568
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 65,
+        "y": 446,
+        "width": 240,
+        "height": 44,
+        "right": 305,
+        "bottom": 490
+      },
+      "selectVisibleFullyAboveBottomNav": true,
+      "lastContent": {
+        "x": 13,
+        "y": 553,
+        "width": 292,
+        "height": 1220,
+        "right": 305,
+        "bottom": 1773
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "section": "projects",
+      "state": "page-bottom",
+      "documentClientWidth": 320,
+      "documentScrollWidth": 320,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -1329,
+        "width": 320,
+        "height": 1831,
+        "right": 320,
+        "bottom": 502
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 58,
+        "right": 320,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 504,
+        "width": 320,
+        "height": 64,
+        "right": 320,
+        "bottom": 568
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 65,
+        "y": -941,
+        "width": 240,
+        "height": 44,
+        "right": 305,
+        "bottom": -897
+      },
+      "selectVisibleFullyAboveBottomNav": true,
+      "lastContent": {
+        "x": 13,
+        "y": -834,
+        "width": 292,
+        "height": 1220,
+        "right": 305,
+        "bottom": 386
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "section": "settings",
+      "state": "page",
+      "documentClientWidth": 320,
+      "documentScrollWidth": 320,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 320,
+        "height": 2481,
+        "right": 320,
+        "bottom": 2539
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 58,
+        "right": 320,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 504,
+        "width": 320,
+        "height": 64,
+        "right": 320,
+        "bottom": 568
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 13,
+        "y": 262,
+        "width": 294,
+        "height": 2161,
+        "right": 307,
+        "bottom": 2423
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "section": "settings",
+      "state": "page-bottom",
+      "documentClientWidth": 320,
+      "documentScrollWidth": 320,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -1979,
+        "width": 320,
+        "height": 2481,
+        "right": 320,
+        "bottom": 502
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 320,
+        "height": 58,
+        "right": 320,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 504,
+        "width": 320,
+        "height": 64,
+        "right": 320,
+        "bottom": 568
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 13,
+        "y": -1775,
+        "width": 294,
+        "height": 2161,
+        "right": 307,
+        "bottom": 386
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "section": "dashboard",
+      "state": "page",
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 390,
+        "height": 3161,
+        "right": 390,
+        "bottom": 3219
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 58,
+        "right": 390,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "right": 390,
+        "bottom": 844
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1480,
+        "width": 356,
+        "height": 530,
+        "right": 373,
+        "bottom": 2010
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "section": "dashboard",
+      "state": "page-bottom",
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -2383,
+        "width": 390,
+        "height": 3161,
+        "right": 390,
+        "bottom": 778
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 58,
+        "right": 390,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "right": 390,
+        "bottom": 844
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": -961,
+        "width": 356,
+        "height": 530,
+        "right": 373,
+        "bottom": -431
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "section": "dashboard",
+      "state": "new-project-dialog",
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 390,
+        "height": 3161,
+        "right": 390,
+        "bottom": 3219
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 58,
+        "right": 390,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "right": 390,
+        "bottom": 844
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": {
+        "x": 8,
+        "y": 56,
+        "width": 374,
+        "height": 776,
+        "right": 382,
+        "bottom": 832
+      },
+      "dialogScroll": {
+        "clientWidth": 374,
+        "scrollWidth": 374,
+        "clientHeight": 776,
+        "scrollHeight": 2543,
+        "scrollTop": 169,
+        "form": {
+          "rect": {
+            "x": 8,
+            "y": -113,
+            "width": 374,
+            "height": 2543,
+            "right": 382,
+            "bottom": 2430
+          },
+          "clientHeight": 2543,
+          "scrollHeight": 2543,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 24,
+          "y": 772,
+          "width": 342,
+          "height": 61,
+          "right": 366,
+          "bottom": 833
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1480,
+        "width": 356,
+        "height": 530,
+        "right": 373,
+        "bottom": 2010
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": [],
+      "closedByEscape": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "section": "dashboard",
+      "state": "new-project-dialog-bottom",
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 390,
+        "height": 3161,
+        "right": 390,
+        "bottom": 3219
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 58,
+        "right": 390,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "right": 390,
+        "bottom": 844
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": {
+        "x": 8,
+        "y": 56,
+        "width": 374,
+        "height": 776,
+        "right": 382,
+        "bottom": 832
+      },
+      "dialogScroll": {
+        "clientWidth": 374,
+        "scrollWidth": 374,
+        "clientHeight": 776,
+        "scrollHeight": 2543,
+        "scrollTop": 1767,
+        "form": {
+          "rect": {
+            "x": 8,
+            "y": -1711,
+            "width": 374,
+            "height": 2543,
+            "right": 382,
+            "bottom": 832
+          },
+          "clientHeight": 2543,
+          "scrollHeight": 2543,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 24,
+          "y": 716,
+          "width": 342,
+          "height": 61,
+          "right": 366,
+          "bottom": 777
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1480,
+        "width": 356,
+        "height": 530,
+        "right": 373,
+        "bottom": 2010
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": [],
+      "actionsVisible": true,
+      "actionsWithinViewport": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "section": "projects",
+      "state": "page",
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 390,
+        "height": 2014,
+        "right": 390,
+        "bottom": 2072
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 58,
+        "right": 390,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "right": 390,
+        "bottom": 844
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 17,
+        "y": 597,
+        "width": 356,
+        "height": 44,
+        "right": 373,
+        "bottom": 641
+      },
+      "selectVisibleFullyAboveBottomNav": true,
+      "lastContent": {
+        "x": 17,
+        "y": 707,
+        "width": 356,
+        "height": 1249,
+        "right": 373,
+        "bottom": 1956
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "section": "projects",
+      "state": "page-bottom",
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -1236,
+        "width": 390,
+        "height": 2014,
+        "right": 390,
+        "bottom": 778
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 58,
+        "right": 390,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "right": 390,
+        "bottom": 844
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 17,
+        "y": -697,
+        "width": 356,
+        "height": 44,
+        "right": 373,
+        "bottom": -653
+      },
+      "selectVisibleFullyAboveBottomNav": true,
+      "lastContent": {
+        "x": 17,
+        "y": -587,
+        "width": 356,
+        "height": 1249,
+        "right": 373,
+        "bottom": 662
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "section": "settings",
+      "state": "page",
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 390,
+        "height": 2376,
+        "right": 390,
+        "bottom": 2434
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 58,
+        "right": 390,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "right": 390,
+        "bottom": 844
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 244,
+        "width": 356,
+        "height": 2075,
+        "right": 373,
+        "bottom": 2318
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "section": "settings",
+      "state": "page-bottom",
+      "documentClientWidth": 390,
+      "documentScrollWidth": 390,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -1598,
+        "width": 390,
+        "height": 2376,
+        "right": 390,
+        "bottom": 778
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 58,
+        "right": 390,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "right": 390,
+        "bottom": 844
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": -1412,
+        "width": 356,
+        "height": 2075,
+        "right": 373,
+        "bottom": 662
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "section": "dashboard",
+      "state": "page",
+      "documentClientWidth": 768,
+      "documentScrollWidth": 768,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 768,
+        "height": 3137,
+        "right": 768,
+        "bottom": 3195
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 58,
+        "right": 768,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 768,
+        "height": 64,
+        "right": 768,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1631,
+        "width": 734,
+        "height": 281,
+        "right": 751,
+        "bottom": 1912
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "section": "dashboard",
+      "state": "page-bottom",
+      "documentClientWidth": 768,
+      "documentScrollWidth": 768,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -2303,
+        "width": 768,
+        "height": 3137,
+        "right": 768,
+        "bottom": 834
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 58,
+        "right": 768,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 768,
+        "height": 64,
+        "right": 768,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": -730,
+        "width": 734,
+        "height": 281,
+        "right": 751,
+        "bottom": -449
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "section": "dashboard",
+      "state": "new-project-dialog",
+      "documentClientWidth": 768,
+      "documentScrollWidth": 768,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 768,
+        "height": 3137,
+        "right": 768,
+        "bottom": 3195
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 58,
+        "right": 768,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 768,
+        "height": 64,
+        "right": 768,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": {
+        "x": 17,
+        "y": 60,
+        "width": 734,
+        "height": 828,
+        "right": 751,
+        "bottom": 888
+      },
+      "dialogScroll": {
+        "clientWidth": 734,
+        "scrollWidth": 734,
+        "clientHeight": 828,
+        "scrollHeight": 2634,
+        "scrollTop": 98,
+        "form": {
+          "rect": {
+            "x": 17,
+            "y": -38,
+            "width": 734,
+            "height": 2634,
+            "right": 751,
+            "bottom": 2596
+          },
+          "clientHeight": 2634,
+          "scrollHeight": 2634,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 33,
+          "y": 828,
+          "width": 702,
+          "height": 61,
+          "right": 735,
+          "bottom": 889
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1631,
+        "width": 734,
+        "height": 281,
+        "right": 751,
+        "bottom": 1912
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": [],
+      "closedByEscape": true
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "section": "dashboard",
+      "state": "new-project-dialog-bottom",
+      "documentClientWidth": 768,
+      "documentScrollWidth": 768,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 768,
+        "height": 3137,
+        "right": 768,
+        "bottom": 3195
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 58,
+        "right": 768,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 768,
+        "height": 64,
+        "right": 768,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": {
+        "x": 17,
+        "y": 60,
+        "width": 734,
+        "height": 828,
+        "right": 751,
+        "bottom": 888
+      },
+      "dialogScroll": {
+        "clientWidth": 734,
+        "scrollWidth": 734,
+        "clientHeight": 828,
+        "scrollHeight": 2634,
+        "scrollTop": 1806,
+        "form": {
+          "rect": {
+            "x": 17,
+            "y": -1746,
+            "width": 734,
+            "height": 2634,
+            "right": 751,
+            "bottom": 888
+          },
+          "clientHeight": 2634,
+          "scrollHeight": 2634,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 33,
+          "y": 772,
+          "width": 702,
+          "height": 61,
+          "right": 735,
+          "bottom": 833
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1631,
+        "width": 734,
+        "height": 281,
+        "right": 751,
+        "bottom": 1912
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": [],
+      "actionsVisible": true,
+      "actionsWithinViewport": true
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "section": "projects",
+      "state": "page",
+      "documentClientWidth": 768,
+      "documentScrollWidth": 768,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 768,
+        "height": 2155,
+        "right": 768,
+        "bottom": 2213
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 58,
+        "right": 768,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 768,
+        "height": 64,
+        "right": 768,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 355,
+        "y": 680,
+        "width": 128,
+        "height": 44,
+        "right": 483,
+        "bottom": 724
+      },
+      "selectVisibleFullyAboveBottomNav": true,
+      "lastContent": {
+        "x": 17,
+        "y": 740,
+        "width": 734,
+        "height": 1357,
+        "right": 751,
+        "bottom": 2097
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "section": "projects",
+      "state": "page-bottom",
+      "documentClientWidth": 768,
+      "documentScrollWidth": 768,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -1321,
+        "width": 768,
+        "height": 2155,
+        "right": 768,
+        "bottom": 834
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 58,
+        "right": 768,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 768,
+        "height": 64,
+        "right": 768,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 355,
+        "y": -699,
+        "width": 128,
+        "height": 44,
+        "right": 483,
+        "bottom": -655
+      },
+      "selectVisibleFullyAboveBottomNav": true,
+      "lastContent": {
+        "x": 17,
+        "y": -639,
+        "width": 734,
+        "height": 1357,
+        "right": 751,
+        "bottom": 718
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "section": "settings",
+      "state": "page",
+      "documentClientWidth": 768,
+      "documentScrollWidth": 768,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 768,
+        "height": 2222,
+        "right": 768,
+        "bottom": 2280
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 58,
+        "right": 768,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 768,
+        "height": 64,
+        "right": 768,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 244,
+        "width": 734,
+        "height": 1920,
+        "right": 751,
+        "bottom": 2164
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "section": "settings",
+      "state": "page-bottom",
+      "documentClientWidth": 768,
+      "documentScrollWidth": 768,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -1388,
+        "width": 768,
+        "height": 2222,
+        "right": 768,
+        "bottom": 834
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 768,
+        "height": 58,
+        "right": 768,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 768,
+        "height": 64,
+        "right": 768,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": -1202,
+        "width": 734,
+        "height": 1920,
+        "right": 751,
+        "bottom": 718
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "section": "dashboard",
+      "state": "page",
+      "documentClientWidth": 820,
+      "documentScrollWidth": 820,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 820,
+        "height": 3137,
+        "right": 820,
+        "bottom": 3195
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 820,
+        "height": 58,
+        "right": 820,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 820,
+        "height": 64,
+        "right": 820,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1631,
+        "width": 786,
+        "height": 281,
+        "right": 803,
+        "bottom": 1912
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "section": "dashboard",
+      "state": "page-bottom",
+      "documentClientWidth": 820,
+      "documentScrollWidth": 820,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -2303,
+        "width": 820,
+        "height": 3137,
+        "right": 820,
+        "bottom": 834
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 820,
+        "height": 58,
+        "right": 820,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 820,
+        "height": 64,
+        "right": 820,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": -730,
+        "width": 786,
+        "height": 281,
+        "right": 803,
+        "bottom": -449
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "section": "dashboard",
+      "state": "new-project-dialog",
+      "documentClientWidth": 820,
+      "documentScrollWidth": 820,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 820,
+        "height": 3137,
+        "right": 820,
+        "bottom": 3195
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 820,
+        "height": 58,
+        "right": 820,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 820,
+        "height": 64,
+        "right": 820,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": {
+        "x": 17,
+        "y": 60,
+        "width": 786,
+        "height": 828,
+        "right": 803,
+        "bottom": 888
+      },
+      "dialogScroll": {
+        "clientWidth": 786,
+        "scrollWidth": 786,
+        "clientHeight": 828,
+        "scrollHeight": 2664,
+        "scrollTop": 98,
+        "form": {
+          "rect": {
+            "x": 17,
+            "y": -38,
+            "width": 786,
+            "height": 2664,
+            "right": 803,
+            "bottom": 2626
+          },
+          "clientHeight": 2664,
+          "scrollHeight": 2664,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 33,
+          "y": 828,
+          "width": 754,
+          "height": 61,
+          "right": 787,
+          "bottom": 889
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1631,
+        "width": 786,
+        "height": 281,
+        "right": 803,
+        "bottom": 1912
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": [],
+      "closedByEscape": true
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "section": "dashboard",
+      "state": "new-project-dialog-bottom",
+      "documentClientWidth": 820,
+      "documentScrollWidth": 820,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 820,
+        "height": 3137,
+        "right": 820,
+        "bottom": 3195
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 820,
+        "height": 58,
+        "right": 820,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 820,
+        "height": 64,
+        "right": 820,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": {
+        "x": 17,
+        "y": 60,
+        "width": 786,
+        "height": 828,
+        "right": 803,
+        "bottom": 888
+      },
+      "dialogScroll": {
+        "clientWidth": 786,
+        "scrollWidth": 786,
+        "clientHeight": 828,
+        "scrollHeight": 2664,
+        "scrollTop": 1836,
+        "form": {
+          "rect": {
+            "x": 17,
+            "y": -1776,
+            "width": 786,
+            "height": 2664,
+            "right": 803,
+            "bottom": 888
+          },
+          "clientHeight": 2664,
+          "scrollHeight": 2664,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 33,
+          "y": 772,
+          "width": 754,
+          "height": 61,
+          "right": 787,
+          "bottom": 833
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 1631,
+        "width": 786,
+        "height": 281,
+        "right": 803,
+        "bottom": 1912
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": [],
+      "actionsVisible": true,
+      "actionsWithinViewport": true
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "section": "projects",
+      "state": "page",
+      "documentClientWidth": 820,
+      "documentScrollWidth": 820,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 820,
+        "height": 2155,
+        "right": 820,
+        "bottom": 2213
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 820,
+        "height": 58,
+        "right": 820,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 820,
+        "height": 64,
+        "right": 820,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 407,
+        "y": 680,
+        "width": 128,
+        "height": 44,
+        "right": 535,
+        "bottom": 724
+      },
+      "selectVisibleFullyAboveBottomNav": true,
+      "lastContent": {
+        "x": 17,
+        "y": 740,
+        "width": 786,
+        "height": 1357,
+        "right": 803,
+        "bottom": 2097
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "section": "projects",
+      "state": "page-bottom",
+      "documentClientWidth": 820,
+      "documentScrollWidth": 820,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -1321,
+        "width": 820,
+        "height": 2155,
+        "right": 820,
+        "bottom": 834
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 820,
+        "height": 58,
+        "right": 820,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 820,
+        "height": 64,
+        "right": 820,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 407,
+        "y": -699,
+        "width": 128,
+        "height": 44,
+        "right": 535,
+        "bottom": -655
+      },
+      "selectVisibleFullyAboveBottomNav": true,
+      "lastContent": {
+        "x": 17,
+        "y": -639,
+        "width": 786,
+        "height": 1357,
+        "right": 803,
+        "bottom": 718
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "section": "settings",
+      "state": "page",
+      "documentClientWidth": 820,
+      "documentScrollWidth": 820,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": 58,
+        "width": 820,
+        "height": 2200,
+        "right": 820,
+        "bottom": 2258
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 820,
+        "height": 58,
+        "right": 820,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 820,
+        "height": 64,
+        "right": 820,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": 244,
+        "width": 786,
+        "height": 1898,
+        "right": 803,
+        "bottom": 2142
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": true,
+      "bottomContentCoveredByNav": true,
+      "offenders": []
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "section": "settings",
+      "state": "page-bottom",
+      "documentClientWidth": 820,
+      "documentScrollWidth": 820,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 0,
+        "y": -1366,
+        "width": 820,
+        "height": 2200,
+        "right": 820,
+        "bottom": 834
+      },
+      "topbar": {
+        "x": 0,
+        "y": 0,
+        "width": 820,
+        "height": 58,
+        "right": 820,
+        "bottom": 58
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 836,
+        "width": 820,
+        "height": 64,
+        "right": 820,
+        "bottom": 900
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 17,
+        "y": -1180,
+        "width": 786,
+        "height": 1898,
+        "right": 803,
+        "bottom": 718
+      },
+      "navVisible": true,
+      "sidebarVisible": false,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "66px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 821,
+      "height": 900,
+      "section": "dashboard",
+      "state": "page",
+      "documentClientWidth": 821,
+      "documentScrollWidth": 821,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 603,
+        "height": 2239,
+        "right": 821,
+        "bottom": 2305
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 603,
+        "height": 66,
+        "right": 821,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 900,
+        "right": 218,
+        "bottom": 900
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 1920,
+        "width": 547,
+        "height": 313,
+        "right": 793,
+        "bottom": 2233
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 821,
+      "height": 900,
+      "section": "dashboard",
+      "state": "new-project-dialog",
+      "documentClientWidth": 821,
+      "documentScrollWidth": 821,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 603,
+        "height": 2239,
+        "right": 821,
+        "bottom": 2305
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 603,
+        "height": 66,
+        "right": 821,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 900,
+        "right": 218,
+        "bottom": 900
+      },
+      "dialog": {
+        "x": 66,
+        "y": 45,
+        "width": 690,
+        "height": 810,
+        "right": 756,
+        "bottom": 855
+      },
+      "dialogScroll": {
+        "clientWidth": 690,
+        "scrollWidth": 690,
+        "clientHeight": 810,
+        "scrollHeight": 2172,
+        "scrollTop": 48,
+        "form": {
+          "rect": {
+            "x": 66,
+            "y": -3,
+            "width": 690,
+            "height": 2172,
+            "right": 756,
+            "bottom": 2169
+          },
+          "clientHeight": 2172,
+          "scrollHeight": 2172,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 90,
+          "y": 795,
+          "width": 642,
+          "height": 61,
+          "right": 732,
+          "bottom": 856
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 1920,
+        "width": 547,
+        "height": 313,
+        "right": 793,
+        "bottom": 2233
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": [],
+      "closedByEscape": true
+    },
+    {
+      "width": 821,
+      "height": 900,
+      "section": "dashboard",
+      "state": "new-project-dialog-bottom",
+      "documentClientWidth": 821,
+      "documentScrollWidth": 821,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 603,
+        "height": 2239,
+        "right": 821,
+        "bottom": 2305
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 603,
+        "height": 66,
+        "right": 821,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 900,
+        "right": 218,
+        "bottom": 900
+      },
+      "dialog": {
+        "x": 66,
+        "y": 45,
+        "width": 690,
+        "height": 810,
+        "right": 756,
+        "bottom": 855
+      },
+      "dialogScroll": {
+        "clientWidth": 690,
+        "scrollWidth": 690,
+        "clientHeight": 810,
+        "scrollHeight": 2172,
+        "scrollTop": 1362,
+        "form": {
+          "rect": {
+            "x": 66,
+            "y": -1317,
+            "width": 690,
+            "height": 2172,
+            "right": 756,
+            "bottom": 855
+          },
+          "clientHeight": 2172,
+          "scrollHeight": 2172,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 90,
+          "y": 734,
+          "width": 642,
+          "height": 61,
+          "right": 732,
+          "bottom": 795
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 1920,
+        "width": 547,
+        "height": 313,
+        "right": 793,
+        "bottom": 2233
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": [],
+      "actionsVisible": true,
+      "actionsWithinViewport": true
+    },
+    {
+      "width": 821,
+      "height": 900,
+      "section": "projects",
+      "state": "page",
+      "documentClientWidth": 821,
+      "documentScrollWidth": 821,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 603,
+        "height": 1473,
+        "right": 821,
+        "bottom": 1539
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 603,
+        "height": 66,
+        "right": 821,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 900,
+        "right": 218,
+        "bottom": 900
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 403,
+        "y": 596,
+        "width": 128,
+        "height": 44,
+        "right": 531,
+        "bottom": 640
+      },
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 708,
+        "width": 547,
+        "height": 771,
+        "right": 793,
+        "bottom": 1479
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 821,
+      "height": 900,
+      "section": "settings",
+      "state": "page",
+      "documentClientWidth": 821,
+      "documentScrollWidth": 821,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 603,
+        "height": 1554,
+        "right": 821,
+        "bottom": 1620
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 603,
+        "height": 66,
+        "right": 821,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 900,
+        "right": 218,
+        "bottom": 900
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 216,
+        "width": 547,
+        "height": 1344,
+        "right": 793,
+        "bottom": 1560
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "section": "dashboard",
+      "state": "page",
+      "documentClientWidth": 1024,
+      "documentScrollWidth": 1024,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 806,
+        "height": 2105,
+        "right": 1024,
+        "bottom": 2171
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 806,
+        "height": 66,
+        "right": 1024,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 768,
+        "right": 218,
+        "bottom": 768
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 1812,
+        "width": 750,
+        "height": 287,
+        "right": 996,
+        "bottom": 2099
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "section": "dashboard",
+      "state": "new-project-dialog",
+      "documentClientWidth": 1024,
+      "documentScrollWidth": 1024,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 806,
+        "height": 2105,
+        "right": 1024,
+        "bottom": 2171
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 806,
+        "height": 66,
+        "right": 1024,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 768,
+        "right": 218,
+        "bottom": 768
+      },
+      "dialog": {
+        "x": 167,
+        "y": 38,
+        "width": 690,
+        "height": 691,
+        "right": 857,
+        "bottom": 730
+      },
+      "dialogScroll": {
+        "clientWidth": 690,
+        "scrollWidth": 690,
+        "clientHeight": 691,
+        "scrollHeight": 2172,
+        "scrollTop": 107,
+        "form": {
+          "rect": {
+            "x": 167,
+            "y": -69,
+            "width": 690,
+            "height": 2172,
+            "right": 857,
+            "bottom": 2104
+          },
+          "clientHeight": 2172,
+          "scrollHeight": 2172,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 191,
+          "y": 670,
+          "width": 642,
+          "height": 61,
+          "right": 833,
+          "bottom": 731
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 1812,
+        "width": 750,
+        "height": 287,
+        "right": 996,
+        "bottom": 2099
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": [],
+      "closedByEscape": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "section": "dashboard",
+      "state": "new-project-dialog-bottom",
+      "documentClientWidth": 1024,
+      "documentScrollWidth": 1024,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 806,
+        "height": 2105,
+        "right": 1024,
+        "bottom": 2171
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 806,
+        "height": 66,
+        "right": 1024,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 768,
+        "right": 218,
+        "bottom": 768
+      },
+      "dialog": {
+        "x": 167,
+        "y": 38,
+        "width": 690,
+        "height": 691,
+        "right": 857,
+        "bottom": 730
+      },
+      "dialogScroll": {
+        "clientWidth": 690,
+        "scrollWidth": 690,
+        "clientHeight": 691,
+        "scrollHeight": 2172,
+        "scrollTop": 1481,
+        "form": {
+          "rect": {
+            "x": 167,
+            "y": -1443,
+            "width": 690,
+            "height": 2172,
+            "right": 857,
+            "bottom": 730
+          },
+          "clientHeight": 2172,
+          "scrollHeight": 2172,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 191,
+          "y": 609,
+          "width": 642,
+          "height": 61,
+          "right": 833,
+          "bottom": 670
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 1812,
+        "width": 750,
+        "height": 287,
+        "right": 996,
+        "bottom": 2099
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": [],
+      "actionsVisible": true,
+      "actionsWithinViewport": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "section": "projects",
+      "state": "page",
+      "documentClientWidth": 1024,
+      "documentScrollWidth": 1024,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 806,
+        "height": 1372,
+        "right": 1024,
+        "bottom": 1438
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 806,
+        "height": 66,
+        "right": 1024,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 768,
+        "right": 218,
+        "bottom": 768
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 546,
+        "y": 548,
+        "width": 128,
+        "height": 44,
+        "right": 674,
+        "bottom": 592
+      },
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 608,
+        "width": 750,
+        "height": 770,
+        "right": 996,
+        "bottom": 1378
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "section": "settings",
+      "state": "page",
+      "documentClientWidth": 1024,
+      "documentScrollWidth": 1024,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 218,
+        "y": 66,
+        "width": 806,
+        "height": 1440,
+        "right": 1024,
+        "bottom": 1506
+      },
+      "topbar": {
+        "x": 218,
+        "y": 0,
+        "width": 806,
+        "height": 66,
+        "right": 1024,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 218,
+        "height": 768,
+        "right": 218,
+        "bottom": 768
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 246,
+        "y": 221,
+        "width": 750,
+        "height": 1225,
+        "right": 996,
+        "bottom": 1446
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "section": "dashboard",
+      "state": "page",
+      "documentClientWidth": 1440,
+      "documentScrollWidth": 1440,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 246,
+        "y": 66,
+        "width": 1194,
+        "height": 2248,
+        "right": 1440,
+        "bottom": 2314
+      },
+      "topbar": {
+        "x": 246,
+        "y": 0,
+        "width": 1194,
+        "height": 66,
+        "right": 1440,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 246,
+        "height": 900,
+        "right": 246,
+        "bottom": 900
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 288,
+        "y": 1945,
+        "width": 1110,
+        "height": 287,
+        "right": 1398,
+        "bottom": 2232
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "section": "dashboard",
+      "state": "new-project-dialog",
+      "documentClientWidth": 1440,
+      "documentScrollWidth": 1440,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 246,
+        "y": 66,
+        "width": 1194,
+        "height": 2248,
+        "right": 1440,
+        "bottom": 2314
+      },
+      "topbar": {
+        "x": 246,
+        "y": 0,
+        "width": 1194,
+        "height": 66,
+        "right": 1440,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 246,
+        "height": 900,
+        "right": 246,
+        "bottom": 900
+      },
+      "dialog": {
+        "x": 375,
+        "y": 45,
+        "width": 690,
+        "height": 810,
+        "right": 1065,
+        "bottom": 855
+      },
+      "dialogScroll": {
+        "clientWidth": 690,
+        "scrollWidth": 690,
+        "clientHeight": 810,
+        "scrollHeight": 2172,
+        "scrollTop": 48,
+        "form": {
+          "rect": {
+            "x": 375,
+            "y": -3,
+            "width": 690,
+            "height": 2172,
+            "right": 1065,
+            "bottom": 2169
+          },
+          "clientHeight": 2172,
+          "scrollHeight": 2172,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 399,
+          "y": 795,
+          "width": 642,
+          "height": 61,
+          "right": 1041,
+          "bottom": 856
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 288,
+        "y": 1945,
+        "width": 1110,
+        "height": 287,
+        "right": 1398,
+        "bottom": 2232
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": [],
+      "closedByEscape": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "section": "dashboard",
+      "state": "new-project-dialog-bottom",
+      "documentClientWidth": 1440,
+      "documentScrollWidth": 1440,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 246,
+        "y": 66,
+        "width": 1194,
+        "height": 2248,
+        "right": 1440,
+        "bottom": 2314
+      },
+      "topbar": {
+        "x": 246,
+        "y": 0,
+        "width": 1194,
+        "height": 66,
+        "right": 1440,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 246,
+        "height": 900,
+        "right": 246,
+        "bottom": 900
+      },
+      "dialog": {
+        "x": 375,
+        "y": 45,
+        "width": 690,
+        "height": 810,
+        "right": 1065,
+        "bottom": 855
+      },
+      "dialogScroll": {
+        "clientWidth": 690,
+        "scrollWidth": 690,
+        "clientHeight": 810,
+        "scrollHeight": 2172,
+        "scrollTop": 1362,
+        "form": {
+          "rect": {
+            "x": 375,
+            "y": -1317,
+            "width": 690,
+            "height": 2172,
+            "right": 1065,
+            "bottom": 855
+          },
+          "clientHeight": 2172,
+          "scrollHeight": 2172,
+          "scrollTop": 0
+        },
+        "actions": {
+          "x": 399,
+          "y": 734,
+          "width": 642,
+          "height": 61,
+          "right": 1041,
+          "bottom": 795
+        }
+      },
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 288,
+        "y": 1945,
+        "width": 1110,
+        "height": 287,
+        "right": 1398,
+        "bottom": 2232
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "dashboard",
+        "dashboard"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": [],
+      "actionsVisible": true,
+      "actionsWithinViewport": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "section": "projects",
+      "state": "page",
+      "documentClientWidth": 1440,
+      "documentScrollWidth": 1440,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 246,
+        "y": 66,
+        "width": 1194,
+        "height": 834,
+        "right": 1440,
+        "bottom": 900
+      },
+      "topbar": {
+        "x": 246,
+        "y": 0,
+        "width": 1194,
+        "height": 66,
+        "right": 1440,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 246,
+        "height": 900,
+        "right": 246,
+        "bottom": 900
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": {
+        "x": 948,
+        "y": 392,
+        "width": 128,
+        "height": 44,
+        "right": 1076,
+        "bottom": 436
+      },
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 288,
+        "y": 452,
+        "width": 1110,
+        "height": 378,
+        "right": 1398,
+        "bottom": 830
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "projects",
+        "projects"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "section": "settings",
+      "state": "page",
+      "documentClientWidth": 1440,
+      "documentScrollWidth": 1440,
+      "horizontalOverflow": false,
+      "main": {
+        "x": 246,
+        "y": 66,
+        "width": 1194,
+        "height": 1416,
+        "right": 1440,
+        "bottom": 1482
+      },
+      "topbar": {
+        "x": 246,
+        "y": 0,
+        "width": 1194,
+        "height": 66,
+        "right": 1440,
+        "bottom": 66
+      },
+      "mobileNav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0,
+        "bottom": 0
+      },
+      "sidebar": {
+        "x": 0,
+        "y": 0,
+        "width": 246,
+        "height": 900,
+        "right": 246,
+        "bottom": 900
+      },
+      "dialog": null,
+      "dialogScroll": null,
+      "selectVisible": null,
+      "selectVisibleFullyAboveBottomNav": false,
+      "lastContent": {
+        "x": 288,
+        "y": 230,
+        "width": 1110,
+        "height": 1182,
+        "right": 1398,
+        "bottom": 1412
+      },
+      "navVisible": false,
+      "sidebarVisible": true,
+      "activeNav": [
+        "settings",
+        "settings"
+      ],
+      "mainBusy": "false",
+      "bodyBottomPadding": "0px",
+      "mainMayOverlapBottomNav": false,
+      "bottomContentCoveredByNav": false,
+      "offenders": []
+    }
+  ],
+  "browserErrors": [],
+  "summary": {
+    "pageCount": 21,
+    "dialogCount": 7,
+    "horizontalOverflowPages": [],
+    "openDialogWidthHeightIssues": [],
+    "runtimeErrors": []
+  }
+}

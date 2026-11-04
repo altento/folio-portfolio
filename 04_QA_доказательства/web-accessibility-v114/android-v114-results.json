@@ -1,0 +1,19 @@
+{
+  "build": "Android debug APK containing web/PWA v114",
+  "device": "emulator-5554",
+  "api_level": "36",
+  "install": "Performing Streamed Install\nSuccess",
+  "launch": "bash arg: -p\n  bash arg: ru.folio.portfolio\n  bash arg: 1\nEvents injected: 1\n## Network stats: elapsed time=38ms (0ms mobile, 0ms wifi, 38ms not connected)",
+  "package_installed": true,
+  "foreground_contains_package": true,
+  "airplane_mode_setting": "1",
+  "airplane_mode_broadcast": "Broadcasting: Intent { act=android.intent.action.AIRPLANE_MODE flg=0x400000 (has extras) }",
+  "network_active": false,
+  "version_name": "versionName=0.1.0",
+  "apk_sha256": "14d524bf81defaaf50d40584431fdf95fbe890c0935aefd767223de8fdfdf5b9",
+  "screenshot": "android-v114-cold-offline-home.png",
+  "screenshot_bytes": 694438,
+  "screenshot_sha256": "986ba2766594d6be6760b50f06b8a7c5328c2df0e794418323ac7a0c7a6eb269",
+  "screenshot_png_signature_valid": true,
+  "status": "PASS"
+}

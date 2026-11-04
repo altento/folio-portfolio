@@ -1,0 +1,39 @@
+{
+  "focused": {
+    "tag": "INPUT",
+    "name": "title",
+    "id": "",
+    "viewport": {
+      "width": 320,
+      "height": 330
+    },
+    "focusRect": {
+      "x": 24,
+      "y": 272,
+      "height": 46,
+      "bottom": 318
+    },
+    "focusVisible": true,
+    "dialogClass": "dialog project-dialog",
+    "dialogDisplay": "block",
+    "dialogScrollTop": 239,
+    "dialogClientHeight": 304,
+    "dialogScrollHeight": 1313,
+    "actionsRect": {
+      "x": 24,
+      "y": 970,
+      "height": 63,
+      "bottom": 1033
+    },
+    "actionsPosition": "static",
+    "documentWidth": 320
+  },
+  "afterEscape": {
+    "dialogVisible": true,
+    "dialogClass": "dialog project-dialog",
+    "projectCards": 3,
+    "docWidth": 320,
+    "width": 320
+  },
+  "screenshot": "form-keyboard-focus-320x330-v116.png"
+}

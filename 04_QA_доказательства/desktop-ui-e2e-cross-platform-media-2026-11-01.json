@@ -1,0 +1,51 @@
+{
+  "test": "desktop-ui-cross-platform-json-roundtrip",
+  "date": "2026-11-01",
+  "environment": {
+    "application": "Портфолио веб-разработчика",
+    "window": "native Windows desktop UI",
+    "resolution": "1920x1080",
+    "profile": "isolated temporary application copy",
+    "sourceJson": "folio-desktop-roundtrip.json",
+    "userDatabaseOpened": false
+  },
+  "steps": [
+    {
+      "action": "Open JSON using desktop File > Open database/JSON",
+      "result": "Preview showed 4 incoming projects, 3 matching IDs and 1 new project."
+    },
+    {
+      "action": "Choose full replacement",
+      "result": "Pre-import folio-before-import.json backup saved in the isolated temp app copy before replacement."
+    },
+    {
+      "action": "Complete import and search the synthetic case",
+      "result": "Desktop app reported 4 projects; exact search returned one matching case."
+    },
+    {
+      "action": "Inspect image gallery",
+      "result": "Synthetic WebP cover rendered; gallery image rendered with its Russian alt text; pager showed 2 / 2."
+    }
+  ],
+  "assertions": {
+    "projectTitle": "QA Cross Platform Media Transfer",
+    "projectCount": 4,
+    "searchMatches": 1,
+    "galleryPager": "2 / 2",
+    "galleryAlt": "Синтетическая иллюстрация, проверяющая перенос обложки и галереи.",
+    "preImportBackupCreated": true,
+    "userDatabaseChanged": false
+  },
+  "evidence": [
+    "desktop-cross-platform-media-1920x1080-2026-11-01.jpg",
+    "web-cross-platform-media-desktop-1440x900-2026-11-01.jpg",
+    "web-cross-platform-media-mobile-390x844-2026-11-01.jpg",
+    "web-e2e-cross-platform-media-2026-11-01.json"
+  ],
+  "notes": [
+    "Native UI acceptance complements the JSON parser and SQLite storage verification.",
+    "The source dataset is synthetic and the native app ran from a temporary copy; no user database was opened or changed.",
+    "An unrelated floating desktop mascot/overlay is visible in the upper-right area of the desktop screenshot; it does not obscure the tested project details or gallery preview.",
+    "Physical mobile hardware and screen-reader acceptance remain untested."
+  ]
+}

@@ -1,0 +1,27 @@
+✔ strictly rejects impossible calendar dates (2.5055ms)
+✔ accepts valid project and normalizes URL (0.4035ms)
+✔ round trips desktop JSON shape and retains project fields (0.6698ms)
+✔ keeps legacy author profiles compatible and safely exports opted-in contact details (1.8795ms)
+✔ search and filters are locale-insensitive and support empty query (0.249ms)
+✔ normalizes tags, searches and filters by them, and includes them in exports (1.0625ms)
+✔ rejects malformed or oversized user tags and loads legacy projects without tags (1.1363ms)
+✔ preserves custom case order, sorts by it, and assigns legacy records a stable order (0.5149ms)
+✔ moves a case within its featured group and respects group boundaries (0.3518ms)
+✔ duplicates a case with a fresh identity and date, cleared external links, and independent fields (0.7937ms)
+✔ normalizes, searches, serializes and exports a structured case narrative (0.4915ms)
+✔ escapes untrusted text and quotes CSV cells (0.1568ms)
+✔ rejects duplicate imported IDs and invalid URLs (0.2113ms)
+✔ preserves only safe local cover asset references across desktop JSON backups (0.5032ms)
+✔ keeps bounded local image data in portable backups and rejects unsafe or oversized data (0.9353ms)
+✔ stores accessible gallery images with a safe focal crop in portable backups and exports (0.9181ms)
+✔ exports a self-contained responsive showcase with featured cases only and escaped content (0.6748ms)
+✔ previews JSON import conflicts before mutation and supports safe merge strategies (1.8196ms)
+✔ uses correct Russian case-count forms for a standalone portfolio (0.1421ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 23.7166

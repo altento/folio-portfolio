@@ -1,0 +1,21 @@
+{
+  "review_date": "2026-11-01",
+  "source_archive": "C:/Users/Windows-10/Downloads/OneDrive_1_24.10.2026.zip",
+  "archive_sha256": "A44BC380DE67E0FCAC3E73D90AADC9783BE7585D8968ED4D8A96D23FE7DCADBA",
+  "review_method": "Read-only ZIP inventory and PDF text extraction with pypdf; archive member filenames use legacy encoding, so identity was established by document contents rather than displayed names.",
+  "contents": [
+    {
+      "document": "МОДУЛЬ 4",
+      "pages": 1,
+      "content": "Assignment brief: Tkinter GUI, OOP classes, inheritance/polymorphism, menu and CRUD, plus report requirements."
+    },
+    {
+      "document": "МОДУЛЬ 5",
+      "pages": 2,
+      "content": "Assignment brief: persistence, search, filtering, validation, and report requirements."
+    }
+  ],
+  "finding": "The archive contains only the two assignment briefs. Their extracted text contains no student's group code, roster, personal record, approved title-page template, or other authoritative evidence to resolve the differing group codes in prior reports.",
+  "decision": "Keep the existing report title-page codes unchanged. Treat the discrepancy as unresolved until checked against a current official roster or approved personal template.",
+  "privacy": "The archive was inspected locally and read-only; no files were uploaded or modified."
+}

@@ -1,0 +1,19 @@
+{
+  "source": "local demo app; isolated temporary Chromium contexts",
+  "flows": [
+    "create_case_with_story_cover_crop_tag_favorite",
+    "detail_and_edit_persisted_after_reload",
+    "tag_filter_returns_only_matching_case",
+    "json_export_downloads_four_case_backup",
+    "json_import_replaces_demo_with_backup_and_preserves_crop"
+  ],
+  "mobile_after_reload": {
+    "viewport": 390,
+    "document": 390,
+    "cards": 4
+  },
+  "crop_after_import": "35% 65%",
+  "import_preview": "В файле 4 проекта, в портфолио сейчас 3. Совпадающих ID: 3. Новых: 1.\nПолная замена удалит текущие 3 проекта.",
+  "backup_downloaded_before_replace": true,
+  "console_errors": []
+}

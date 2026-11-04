@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "scope": "http://127.0.0.1:8769/folio/",
+  "service_worker": "folio-shell-v103-offline-navigation",
+  "checks": {
+    "offline_query_navigation": "pass",
+    "unknown_nested_path_fallback": "pass",
+    "fallback_link_uses_registered_scope": "pass",
+    "fallback_link_returns_to_app_offline": "pass",
+    "phone_viewport_width_css_px": 390,
+    "fallback_document_scroll_width_css_px": 390,
+    "web_node_test_total": 40,
+    "web_node_test_passed": 40
+  },
+  "screenshots": [
+    {"file": "desktop-app-shell.jpg", "sha256": "820C32BB8D5CE94788665B28493FBC2574D20CD88ED9B981BC505803C92062AF"},
+    {"file": "desktop-cold-offline-query.jpg", "sha256": "0A90FBE3BDD6F0FB27EF8C906DC1B1974ACC3D778FA4AC30D898D84A472E0866"},
+    {"file": "mobile-cold-offline-query.jpg", "sha256": "028F6EE0F4BE7FE0C4D2AB718312E3131157659045E3B1B712ECC05957DD6CBF"},
+    {"file": "mobile-offline-fallback-subpath.jpg", "sha256": "8EF94CA81FEC5227DB14F747E816FDBA3B252D6C9C837AF4A69374967A1882AB"}
+  ],
+  "limitations": ["Chromium network emulation, not a physical phone", "No iOS/Safari", "No actual screenreader", "No OS-level zoom/scale review"]
+}

@@ -1,0 +1,59 @@
+{
+  "errors": [],
+  "before": {
+    "httpStatus": 200,
+    "cacheKeys": [
+      "folio-shell-v48-compact-sort-labels"
+    ],
+    "recordSaved": true
+  },
+  "legacyV48ToV49": {
+    "controllerChange": true,
+    "legacyNoticeUnavailableUntilReload": true,
+    "recordStillVisible": true
+  },
+  "update": {
+    "controllerChange": true,
+    "noticeVisible": true,
+    "noticeText": "Доступно обновление приложения. Сохраните текущую работу и перезапустите страницу, чтобы применить новую версию.\n\nПерезапустить\n×",
+    "pageStayedOpen": true,
+    "recordStillVisible": true,
+    "requestedWorker": true,
+    "darkTheme": {
+      "theme": "dark",
+      "text": "rgb(234, 244, 210)",
+      "background": "rgb(43, 53, 32)",
+      "contrast": 11.25
+    },
+    "mobile": {
+      "visible": true,
+      "scrollWidth": 390,
+      "viewportWidth": 390,
+      "reloadButtonWidth": 86
+    },
+    "mobile320": {
+      "visible": true,
+      "scrollWidth": 320,
+      "viewportWidth": 320
+    }
+  },
+  "afterReload": {
+    "noticeHidden": true,
+    "recordRetained": true,
+    "draftRetained": true,
+    "cacheKeys": [
+      "folio-shell-v50-manual-update-notice"
+    ]
+  },
+  "offline": {
+    "title": "Портфолио — рабочее пространство",
+    "recordVisible": true,
+    "cacheKeys": [
+      "folio-shell-v50-manual-update-notice"
+    ],
+    "viewportWidth": 1440,
+    "documentWidth": 1440,
+    "mobileDocumentWidth": 390,
+    "mobileViewportWidth": 390
+  }
+}

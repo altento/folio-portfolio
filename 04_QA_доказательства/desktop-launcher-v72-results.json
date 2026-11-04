@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-30",
+  "test": "Packaged desktop launcher BAT smoke",
+  "source": "Fresh isolated copy of the submitted 02_Приложение directory",
+  "precondition": "No portfolio_data.sqlite3 or portfolio_data.json present before launch.",
+  "action": "Launched the packaged Запустить приложение.bat. It started Python and opened the Tkinter window.",
+  "observed": "Main portfolio window opened with three starter projects, project details and the portfolio-studio cover. A new SQLite database was created beside main.py.",
+  "database_read_only_check": {
+    "integrity_check": "ok",
+    "project_count": 3,
+    "schema_version": 1
+  },
+  "shutdown": "Closed the app window; the Python launcher process exited.",
+  "visual_evidence": "Clean first-run desktop screenshots v71 show the same packaged interface; this BAT invocation had a desktop overlay, so no obscured screenshot was added.",
+  "safety": "Only the isolated copy was used. User databases were not opened or modified."
+}

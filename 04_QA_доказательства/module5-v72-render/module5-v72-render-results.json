@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-01",
+  "report": "ООП, модуль 5",
+  "desktop_version": "v86",
+  "web_pwa_version": "v72",
+  "pdf_pages": 11,
+  "pdf_pages_with_text": 11,
+  "all_pages_rendered_and_visually_inspected": true,
+  "render_dpi": 110,
+  "docx_pdf_normalized_text_similarity": 0.9985801386452853,
+  "docx_sha256": "883e9854c8846a42e4e16880f6e82711caa4a30374aa46a2b08a63681592ad96",
+  "pdf_sha256": "f60bed9707bf70ea60f0459f9c3699b1b46bc640121f4de481c726ab6dad5c12",
+  "rendered_pages": [
+    "final-page-01.png",
+    "final-page-02.png",
+    "final-page-03.png",
+    "final-page-04.png",
+    "final-page-05.png",
+    "final-page-06.png",
+    "final-page-07.png",
+    "final-page-08.png",
+    "final-page-09.png",
+    "final-page-10.png",
+    "final-page-11.png"
+  ],
+  "contact_sheet": "module5-v72-contact-sheet.jpg",
+  "notes": [
+    "Документ и PDF согласованы; 11 страниц, текст не обрезан.",
+    "В отчёте различены прежние проверки PWA v66 и адаптивный срез v72.",
+    "v72 проверена в Chromium на 390x568, 420x612, 390x844, 1440x900; физический телефон, screen reader и системный install dialog не проверялись."
+  ]
+}

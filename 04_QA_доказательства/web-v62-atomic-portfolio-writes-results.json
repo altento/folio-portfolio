@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-01",
+  "product": {
+    "desktop": "v83",
+    "web": "v62"
+  },
+  "unit_tests": {
+    "python_sqlite": {
+      "passed": 49,
+      "failed": 0
+    },
+    "web_core": {
+      "passed": 21,
+      "failed": 0
+    },
+    "js_syntax": "passed"
+  },
+  "browser": {
+    "engine": "Chromium via Playwright",
+    "views": [
+      {
+        "width": 1440,
+        "height": 1200
+      },
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 568
+      }
+    ],
+    "project_cards": 3,
+    "loaded_project_images": 3,
+    "search": "passed",
+    "empty_state": "passed",
+    "create_and_reload": "passed",
+    "offline_reload": "passed",
+    "placeholder_links": 0,
+    "horizontal_overflow": false,
+    "console_errors": [],
+    "indexeddb_failure_rollback": {
+      "create": "passed",
+      "duplicate": "passed",
+      "import_replace": "passed",
+      "import_merge": "passed"
+    },
+    "offline_count": 3
+  },
+  "screenshots": [
+    "скрин_web_компьютер.png",
+    "скрин_web_форма.png",
+    "скрин_web_телефон.png",
+    "скрин_web_телефон_кейс.png",
+    "qa_проект_сохранён.png",
+    "qa_телефон_каталог.png",
+    "qa_web_320x568.png",
+    "qa_web_cards_320x568.png"
+  ],
+  "limitations": [
+    "physical phone not checked",
+    "screen reader not checked"
+  ]
+}

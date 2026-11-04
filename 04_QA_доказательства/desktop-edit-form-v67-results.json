@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-30",
+  "test": "Tkinter edit form complete keyboard focus route",
+  "build": "isolated QA copy v66",
+  "screenshot": "desktop-edit-form-v67.png (prefilled form; focus route observed live)",
+  "forward_route": ["Type", "Title", "Description", "Date", "Status", "Demo URL", "Technologies", "Tags", "Role", "Result", "Context", "Solution", "Process", "Metrics", "Page count", "Favorite checkbox", "Choose cover", "Remove cover", "Gallery", "Cancel", "Save"],
+  "reverse_route": "Shift+Tab from Save returned to Cancel",
+  "result": "Pass: all reachable controls in the edit dialog were traversed with Tab in the order listed; reverse traversal from Save returned to Cancel. Escape closed the dialog; Save was not activated and no data was modified. This does not establish screen-reader or accessibility-tree support.",
+  "safety": "Isolated copy only; main user SQLite database unchanged."
+}

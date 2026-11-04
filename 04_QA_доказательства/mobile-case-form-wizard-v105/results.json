@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-02",
+  "release": "web/PWA and Android v109",
+  "status": "PASS",
+  "browser": {
+    "tool": "Playwright with bundled Chromium/installed Chrome",
+    "wizardE2E": "PASS",
+    "wizardViewportWidths": [
+      320,
+      390,
+      1440
+    ],
+    "dashboardViewportWidths": [
+      390,
+      1440
+    ],
+    "horizontalOverflow": false,
+    "uncaughtPageErrors": 0,
+    "createPersistsAfterReload": true,
+    "editPersistsAfterReload": true,
+    "hiddenWizardValuesPreserved": true,
+    "allDashboardImagesDecoded": true,
+    "dashboardImageCount": 4,
+    "stickyNextActionInsideDialogAt320": true,
+    "keyboardFocusV108": "PASS",
+    "stepHeadingVisibleFocus": "2px solid #829d29",
+    "tabRemainsInsideDialog": true,
+    "desktopResizeFocusPreserved": true,
+    "mobileResizeMovesHiddenFocusToStepHeading": true,
+    "galleryCaptionSingleAnnouncement": true
+  },
+  "accessibility": {
+    "engine": "axe-core",
+    "version": "4.14.0",
+    "scans": 5,
+    "violations": 0,
+    "incompleteRulesPerScan": 3,
+    "manualAssistiveTechnologyTested": false,
+    "visibleTagLabel": true,
+    "emptyTagListHasListItem": true,
+    "wizardGroupHasUniqueLandmarkSemantics": true,
+    "progressAnnouncesStepState": true,
+    "galleryCaptionSingleAnnouncement": true
+  },
+  "tests": {
+    "web": {
+      "passed": 44,
+      "failed": 0
+    },
+    "pythonSqlite": {
+      "passed": 62,
+      "failed": 0
+    },
+    "javascriptSyntax": "PASS"
+  },
+  "android": {
+    "release": "v109",
+    "build": "debug",
+    "emulator": "API 36",
+    "networkState": "Wi-Fi disabled; Android network stats report no connected network",
+    "coldOfflineLaunch": "PASS",
+    "formScreenshot": "PASS",
+    "signatureScheme": "v2 PASS",
+    "zipalign": "PASS",
+    "physicalDeviceTested": false,
+    "apkSha256": "c0e5cf78e58d0bd9112236e215dbce48157ee9d90500cbc4d3e8f558ad7bbce9",
+    "phoneZipBytes": 18103512,
+    "phoneZipIntegrity": "PASS",
+    "offlineScreenshot": "PASS"
+  },
+  "reports": {
+    "module4Pages": 10,
+    "module5Pages": 11,
+    "pdfEngine": "Microsoft Word 2021 via COM on read-only temp copies",
+    "visualReview": "All 21 pages inspected",
+    "pageSize": "Letter",
+    "module4ExitTextPresent": true,
+    "module5MetadataDescriptionPresent": true
+  },
+  "screenshots": [
+    {
+      "file": "android-v106-form.png",
+      "bytes": 294734,
+      "sha256": "aa7607973d7d6c7386cbd2dd5fce8fdc98a26a800ee5be003f16f4c4ac288ece"
+    },
+    {
+      "file": "android-v106-offline.png",
+      "bytes": 980785,
+      "sha256": "ff11194e5b4e8923afc5af06b517ea5f67e6c63983a165253aa2c308b08db07e"
+    },
+    {
+      "file": "dashboard-desktop-v106.png",
+      "bytes": 658912,
+      "sha256": "7412355403b6b61ae824bd68ff69b3174b94c38ac5f66196708a28ce629b8d0f"
+    },
+    {
+      "file": "dashboard-mobile-v106.png",
+      "bytes": 158970,
+      "sha256": "a7f4c12db45ca7bd877e4c653fcd0c44f9273b260b265c2a530f3f8f6c7580d2"
+    },
+    {
+      "file": "desktop-form.png",
+      "bytes": 224945,
+      "sha256": "da3b6dd3ab987eca0d2239ba4b39e58b594e88e80349adfc532952d18edd1324"
+    },
+    {
+      "file": "mobile-320-basics-actions.png",
+      "bytes": 17053,
+      "sha256": "0e079ce16f2ee65e148b0de202f87e9017251d2b593937811449f05b2d5e8e89"
+    },
+    {
+      "file": "mobile-320-basics.png",
+      "bytes": 30528,
+      "sha256": "8f2099fe253013e10616dd8291d0ebf75aa948ba2e28f85d76617dda1a6f0bbd"
+    },
+    {
+      "file": "step-1-basics.png",
+      "bytes": 40318,
+      "sha256": "e3591b782005975fd46d20faddaf0ba6349819f9a5d257faf55438d63b99af1e"
+    },
+    {
+      "file": "step-2-story.png",
+      "bytes": 43790,
+      "sha256": "443506c9d47b72f5fb826f3ef234f778b947d55fe9f8ac806c14e19d3c98a9bc"
+    },
+    {
+      "file": "step-3-media.png",
+      "bytes": 71542,
+      "sha256": "9d6320b56592a1119cd694c10f5ff34a8e256db5254e12d5c3faccd1710ebb50"
+    },
+    {
+      "file": "android-v108-form.png",
+      "bytes": 297131,
+      "sha256": "7dceeb5e3260063f5c52a76508c7756ee3abd18579cd1b997b0234265bdd8f2d"
+    },
+    {
+      "file": "android-v108-offline.png",
+      "bytes": 981342,
+      "sha256": "30e1869b6606ff7c83984fbd77477a0c19f741fbc89d8a9e6971652129f80638"
+    },
+    {
+      "file": "keyboard-step-2-focus-v108.png",
+      "bytes": 44282,
+      "sha256": "71cb92320ea24a768f8a6ff52975bf3f67317c6fe8cb872a938f3c755a1b9583"
+    },
+    {
+      "file": "android-v109-form.png",
+      "bytes": 297071,
+      "sha256": "525ed64f33b52cba1295c3c6e9d5c6402da599f5306de4ae88b5fe9d6b3a0a9d"
+    },
+    {
+      "file": "android-v109-offline.png",
+      "bytes": 981283,
+      "sha256": "a68ddad2dd5c0ca727505ab367ab4da6323a5a5da29923bd6602a0c408e00061"
+    },
+    {
+      "file": "keyboard-step-2-focus-v109.png",
+      "bytes": 44312,
+      "sha256": "23251c010d751404a9af0ac5c444d4ac7bbe883fa61de01a60a46c79e2dc73ea"
+    }
+  ],
+  "submissionPackage": {
+    "status": "PASS",
+    "release": "v109",
+    "files": 1792,
+    "pythonSqliteTests": {
+      "passed": 62,
+      "failed": 0
+    },
+    "webTests": {
+      "passed": 44,
+      "failed": 0
+    },
+    "manifestHashes": "PASS",
+    "zipCrc": "PASS",
+    "sourceArtifactsMatchPackage": true,
+    "personalDatabaseExcluded": true,
+    "zipSha256RecordedInSidecar": true,
+    "zipEntries": 1793
+  },
+  "securityImportLimits": {
+    "schemaVersion": "positive safe integer <= supported",
+    "nextId": "positive safe integer",
+    "titleMaxChars": 120,
+    "maxProjects": 130000,
+    "maxImages": 250,
+    "maxImageDataChars": 24000000,
+    "maxDecodedImagePixels": 120000000
+  },
+  "qaScripts": {
+    "a11yAudit": "a11y-audit-v109.mjs",
+    "a11yResults": "a11y-results-v109.json",
+    "keyboardFocus": "keyboard-focus-v109.mjs"
+  }
+}

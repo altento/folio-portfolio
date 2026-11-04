@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-01",
+  "artifact": "Отчёт_ООП_Модуль_5",
+  "version": "desktop v86 / web-PWA v64",
+  "docx_paragraphs": 69,
+  "pdf_pages": 11,
+  "normalized_docx_characters": 12129,
+  "normalized_pdf_characters": 12165,
+  "normalized_text_similarity": 0.998518,
+  "visual_review": {
+    "rendered_pages": 11,
+    "pages_reviewed": 11,
+    "clipping_or_overlap_found": false,
+    "contact_sheet": "module5-v64-pdf-render-contact-sheet.jpg"
+  },
+  "content_checks": {
+    "indexeddb_revision_check": true,
+    "stale_write_rejected": true,
+    "two_tab_race_documented": true,
+    "web_v64_and_desktop_v86_present": true
+  },
+  "sources": {
+    "docx": "01_Отчёты/Отчёт_ООП_Модуль_5.docx",
+    "pdf": "01_Отчёты/Отчёт_ООП_Модуль_5.pdf",
+    "page_renders": "служебные_файлы/qa_01-11-2026/module5-v64-final-pdf-render"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "before": {
+    "cache_keys": [
+      "folio-shell-v38-showcase-themes"
+    ],
+    "projects": 3,
+    "controller": "http://127.0.0.1:60832/sw.js",
+    "projects_after_form_save": 4
+  },
+  "after": {
+    "cache_keys": [
+      "folio-shell-v38-showcase-themes",
+      "folio-shell-v39-strict-page-count"
+    ],
+    "projects": 4,
+    "new_case_visible": 1,
+    "controller": "http://127.0.0.1:60832/sw.js",
+    "registration_state": {
+      "activeState": "activating",
+      "waitingState": null,
+      "installingState": null,
+      "controller": "http://127.0.0.1:60832/sw.js"
+    },
+    "controller_change_observed": true
+  },
+  "offline": {
+    "projects": 4,
+    "retained": true,
+    "documentWidth": 1440,
+    "viewportWidth": 1440,
+    "cache_keys": [
+      "folio-shell-v39-strict-page-count"
+    ]
+  },
+  "errors": [],
+  "offline_mobile": {
+    "projects": 4,
+    "retained": true,
+    "documentWidth": 390,
+    "viewportWidth": 390
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-01",
+  "url": "http://127.0.0.1:8766/",
+  "profile": "isolated clean Playwright context",
+  "http_status": 200,
+  "viewport_css_px": [
+    390,
+    844
+  ],
+  "service_worker": "http://127.0.0.1:8766/sw.js",
+  "dashboard": {
+    "lang": "ru",
+    "viewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "bodyWidth": 390,
+    "overflowX": false,
+    "visibleControls": 19,
+    "unnamedControls": [],
+    "unlabeledFields": [],
+    "visibleImages": 4,
+    "imagesWithoutAlt": [],
+    "landmarks": [
+      [
+        "HEADER",
+        ""
+      ],
+      [
+        "MAIN",
+        ""
+      ],
+      [
+        "NAV",
+        "Нижняя навигация"
+      ]
+    ]
+  },
+  "new_project_dialog": {
+    "open": true,
+    "labelledby": "project-dialog-title",
+    "titleId": "project-dialog-title",
+    "title": "Новый проект",
+    "focusName": "Название *"
+  },
+  "escape_returns_focus": {
+    "open": false,
+    "activeLabel": "Добавить проект"
+  },
+  "page_or_console_errors": [],
+  "screenshot": "dashboard-390x844.png",
+  "limitations": [
+    "not a full WCAG audit",
+    "no screen reader/hardware keyboard tested",
+    "does not cover every dialog or high-contrast mode"
+  ]
+}

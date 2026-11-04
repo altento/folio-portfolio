@@ -1,0 +1,63 @@
+{
+  "errors": [],
+  "upgrade": {
+    "controllerChanged": true,
+    "pageStayedOpen": true,
+    "noticeVisible": true,
+    "requestedWorker": true
+  },
+  "guide": {
+    "initial": "0",
+    "optionalNotBlocking": true,
+    "milestones": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "finalRows": [
+      {
+        "key": "context",
+        "complete": "true"
+      },
+      {
+        "key": "role",
+        "complete": "true"
+      },
+      {
+        "key": "solution",
+        "complete": "true"
+      },
+      {
+        "key": "process",
+        "complete": "true"
+      },
+      {
+        "key": "outcome",
+        "complete": "true"
+      },
+      {
+        "key": "visuals",
+        "complete": "true"
+      }
+    ],
+    "summaryTargetHeight": 44,
+    "desktopWidth": 1440,
+    "mobile390Width": 390,
+    "mobile320Width": 320
+  },
+  "save": {
+    "savedCardVisible": true
+  },
+  "offline": {
+    "recordRetained": true,
+    "cacheKeys": [
+      "folio-shell-v50-case-story-guide"
+    ],
+    "documentWidth": 320,
+    "viewportWidth": 320
+  }
+}

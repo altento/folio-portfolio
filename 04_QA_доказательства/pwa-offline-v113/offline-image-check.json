@@ -1,0 +1,35 @@
+{
+  "images": [
+    {
+      "src": "http://127.0.0.1:8767/assets/illustrations/folio-dashboard-hero-v1.webp",
+      "complete": true,
+      "width": 1553,
+      "height": 1013,
+      "loading": "auto"
+    },
+    {
+      "src": "http://127.0.0.1:8767/assets/covers/portfolio-studio.webp",
+      "complete": true,
+      "width": 1536,
+      "height": 1024,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:8767/assets/covers/city-courtyards-case-v2.webp",
+      "complete": true,
+      "width": 1536,
+      "height": 1024,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:8767/assets/covers/cleaning-crm-case-v2.webp",
+      "complete": true,
+      "width": 1536,
+      "height": 1024,
+      "loading": "lazy"
+    }
+  ],
+  "all_cards": 3,
+  "overflow": false,
+  "errors": []
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-01",
+  "scope": "isolated fresh browser context; mobile PWA v80 smoke / accessibility and navigation review",
+  "viewport_css_px": [
+    390,
+    844
+  ],
+  "document_client_width_px": 375,
+  "document_scroll_width_px": 375,
+  "document_scroll_height_px": 3371,
+  "mobile_bottom_navigation": {
+    "x": 0,
+    "y": 780,
+    "width": 390,
+    "height": 64,
+    "visible": true
+  },
+  "hero_image_loaded": true,
+  "project_images_loaded": 3,
+  "broken_images": 0,
+  "visible_controls_without_accessible_name": 0,
+  "flow": [
+    "Overview",
+    "Projects",
+    "Showcase",
+    "Open new project dialog",
+    "Escape closes without saving"
+  ],
+  "dialog_initial_focus": "Название *",
+  "focus_returned_to": "Добавить проект",
+  "dialog_closed": true,
+  "data_mutation": false,
+  "screenshot": "web-live-mobile-390x844-accessibility-2026-11-01.jpg",
+  "scope_limit": "browser-emulated viewport; not physical phone, PWA installation, or real screen-reader acceptance"
+}

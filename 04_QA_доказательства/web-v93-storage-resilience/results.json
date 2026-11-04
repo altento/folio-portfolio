@@ -1,0 +1,14 @@
+{
+  "test": "localStorage getter throws SecurityError at document start",
+  "title": "Портфолио — рабочее пространство",
+  "heading": "Ваши проекты, собранные в одном месте.",
+  "fatal": false,
+  "cards": 3,
+  "serviceWorkerController": false,
+  "preferencesFallback": "undefined",
+  "passed": true,
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  }
+}

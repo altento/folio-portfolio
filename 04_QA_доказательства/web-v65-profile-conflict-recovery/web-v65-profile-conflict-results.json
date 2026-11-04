@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-01",
+  "version": "folio-shell-v65-profile-conflict-recovery",
+  "errors": [],
+  "responsive_320x568": {
+    "viewport": 320,
+    "document": 320,
+    "conflictButtons": [
+      {
+        "width": 210,
+        "height": 44
+      },
+      {
+        "width": 210,
+        "height": 44
+      }
+    ]
+  },
+  "conflict_review": {
+    "draft_preserved": "draft-a@example.test",
+    "saved_version_shown": true,
+    "per_field_acceptance": true,
+    "rebased_profile_saved": {
+      "revision": 3,
+      "name": "Актуальный профиль Б",
+      "email": "draft-a@example.test",
+      "projectCount": 3
+    }
+  },
+  "page_errors": []
+}

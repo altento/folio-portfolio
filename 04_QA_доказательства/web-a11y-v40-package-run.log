@@ -1,0 +1,89 @@
+{
+  "views": 8,
+  "details": [
+    {
+      "width": 1440,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "width": 390,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 390,
+      "viewportWidth": 390
+    }
+  ],
+  "forms": [
+    {
+      "width": 1440,
+      "dialogOpen": true,
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 75,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 152,
+          "h": 44,
+          "visible": true
+        }
+      ],
+      "unlabeled": []
+    },
+    {
+      "width": 390,
+      "dialogOpen": true,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 168,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 166,
+          "h": 44,
+          "visible": true
+        }
+      ],
+      "unlabeled": []
+    }
+  ],
+  "errors": [],
+  "reduced_motion": true,
+  "theme": [
+    "dark",
+    "light"
+  ],
+  "screens": [
+    "web-a11y-v40-dashboard-desktop.png",
+    "web-a11y-v40-projects-desktop.png",
+    "web-a11y-v40-showcase-desktop.png",
+    "web-a11y-v40-settings-desktop.png",
+    "web-a11y-v40-detail-desktop.png",
+    "web-a11y-v40-form-desktop.png",
+    "web-a11y-v40-dashboard-mobile.png",
+    "web-a11y-v40-projects-mobile.png",
+    "web-a11y-v40-showcase-mobile.png",
+    "web-a11y-v40-settings-mobile.png",
+    "web-a11y-v40-detail-mobile.png",
+    "web-a11y-v40-form-mobile.png"
+  ]
+}

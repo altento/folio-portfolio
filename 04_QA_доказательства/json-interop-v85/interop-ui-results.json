@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-11-01T06:11:56.075263+00:00",
+  "result": "PASS",
+  "route": "PWA UI import -> edit unchanged technologies -> UI JSON export",
+  "synthetic_fixture_only": true,
+  "checks": {
+    "replace_import_completed": true,
+    "project_edit_form_loaded": true,
+    "project_saved": true,
+    "technology_categories_and_versions_preserved": true,
+    "gallery_alt_and_crop_preserved": true,
+    "page_and_console_errors": []
+  },
+  "export": "interop-ui-export-v85.json",
+  "screenshot": "interop-ui-edit-v85-mobile.png",
+  "isolated_context": true
+}

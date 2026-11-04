@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-01",
+  "environment": "Playwright, new isolated browser context folio-privacy-audit-20261101",
+  "page_origin": "http://127.0.0.1:8766",
+  "observed_network": {
+    "same_origin_requests": 12,
+    "same_origin_status": 200,
+    "external_resources": [
+      {
+        "host": "gc.kis.v2.scr.kaspersky-labs.com",
+        "path": "/…/main.js",
+        "status": 200,
+        "content_length": 0,
+        "present_as_document_script": true,
+        "attribution": "Matches the Kaspersky-injected script previously observed in this browser environment; no matching host or URL exists in application source."
+      }
+    ]
+  },
+  "source_review": {
+    "third_party_fetch_or_xhr": "not found in app.js, core.js, index.html, styles.css, sw.js, or manifest.webmanifest",
+    "service_worker_network_scope": "GET requests only; non-GET and cross-origin requests are not intercepted; cached responses are stored only when same-origin",
+    "user_supplied_links": "HTTP(S) project links are validated and opened only through explicit user-facing anchors"
+  },
+  "interpretation": "The observed external script request is environmental browser security software injection, not an application source request. The runtime trace does contain this third-party resource, so privacy claims are limited to the inspected application code and this isolated run; the browser environment is not network-silent."
+}

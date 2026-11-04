@@ -1,0 +1,20 @@
+{
+  "artifact": "Отчёт_ООП_Модуль_5.pdf",
+  "date": "2026-11-01",
+  "app_snapshot": "desktop v86; web/PWA v63",
+  "exporter": "Microsoft Word with Adobe PDFMaker",
+  "page_count": 11,
+  "rendered_pages": 11,
+  "visual_review": [
+    "all pages appear present and legible in contact sheet",
+    "page 5 current desktop v86/mobile PWA v63 snapshot readable with no clipping",
+    "historical 2026-10-30 QA paragraph retained"
+  ],
+  "render_tool": "Poppler pdftoppm bundled runtime",
+  "libreoffice_renderer": "unavailable: bundled soffice.exe not found",
+  "contact_sheet": "module5-v86-pdf-render-contact-sheet.jpg",
+  "regression": {
+    "web_core": "21/21",
+    "python_sqlite": "52/52"
+  }
+}

@@ -1,0 +1,179 @@
+[
+  {
+    "width": 320,
+    "layout": {
+      "viewport": 320,
+      "document": 320,
+      "nav": {
+        "x": 0,
+        "y": 780,
+        "width": 320,
+        "height": 64,
+        "top": 780,
+        "right": 320,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    "labels": [
+      {
+        "text": "Обзор",
+        "fontSize": "11px",
+        "rect": {
+          "x": 20.890625,
+          "y": 818.25,
+          "width": 35,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Проекты",
+        "fontSize": "11px",
+        "rect": {
+          "x": 75.6875,
+          "y": 818.25,
+          "width": 47,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Витрина",
+        "fontSize": "11px",
+        "rect": {
+          "x": 197.78125,
+          "y": 818.25,
+          "width": 46,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Данные",
+        "fontSize": "11px",
+        "rect": {
+          "x": 260.578125,
+          "y": 818.25,
+          "width": 42,
+          "height": 16.5
+        }
+      }
+    ]
+  },
+  {
+    "width": 360,
+    "layout": {
+      "viewport": 360,
+      "document": 360,
+      "nav": {
+        "x": 0,
+        "y": 780,
+        "width": 360,
+        "height": 64,
+        "top": 780,
+        "right": 360,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    "labels": [
+      {
+        "text": "Обзор",
+        "fontSize": "11px",
+        "rect": {
+          "x": 24.890625,
+          "y": 818.25,
+          "width": 35,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Проекты",
+        "fontSize": "11px",
+        "rect": {
+          "x": 87.6875,
+          "y": 818.25,
+          "width": 47,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Витрина",
+        "fontSize": "11px",
+        "rect": {
+          "x": 225.78125,
+          "y": 818.25,
+          "width": 46,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Данные",
+        "fontSize": "11px",
+        "rect": {
+          "x": 296.59375,
+          "y": 818.25,
+          "width": 42,
+          "height": 16.5
+        }
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "layout": {
+      "viewport": 390,
+      "document": 390,
+      "nav": {
+        "x": 0,
+        "y": 780,
+        "width": 390,
+        "height": 64,
+        "top": 780,
+        "right": 390,
+        "bottom": 844,
+        "left": 0
+      }
+    },
+    "labels": [
+      {
+        "text": "Обзор",
+        "fontSize": "11px",
+        "rect": {
+          "x": 27.890625,
+          "y": 818.25,
+          "width": 35,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Проекты",
+        "fontSize": "11px",
+        "rect": {
+          "x": 96.6875,
+          "y": 818.25,
+          "width": 47,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Витрина",
+        "fontSize": "11px",
+        "rect": {
+          "x": 246.78125,
+          "y": 818.25,
+          "width": 46,
+          "height": 16.5
+        }
+      },
+      {
+        "text": "Данные",
+        "fontSize": "11px",
+        "rect": {
+          "x": 323.59375,
+          "y": 818.25,
+          "width": 42,
+          "height": 16.5
+        }
+      }
+    ]
+  }
+]

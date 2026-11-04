@@ -1,0 +1,67 @@
+{
+  "build": "folio-shell-v92-mobile-toolbar-readability",
+  "checks": [
+    {
+      "ready": true,
+      "title": "Портфолио — рабочее пространство",
+      "width": 320,
+      "visualWidth": 320,
+      "visualScale": 1,
+      "scrollWidth": 320,
+      "selectFont": "12px",
+      "viewFont": "11px",
+      "resetFont": "12px",
+      "selectRect": {
+        "x": 13,
+        "y": 648,
+        "width": 292,
+        "height": 44
+      },
+      "viewRect": {
+        "x": 13,
+        "y": 698,
+        "width": 150,
+        "height": 52
+      },
+      "resetRect": {
+        "x": 169,
+        "y": 698,
+        "width": 136,
+        "height": 52
+      },
+      "serviceWorker": true,
+      "screenshot": "web-v92-catalog-320x900.png"
+    },
+    {
+      "ready": true,
+      "title": "Портфолио — рабочее пространство",
+      "width": 390,
+      "visualWidth": 390,
+      "visualScale": 1,
+      "scrollWidth": 390,
+      "selectFont": "12px",
+      "viewFont": "11px",
+      "resetFont": "12px",
+      "selectRect": {
+        "x": 17,
+        "y": 597,
+        "width": 356,
+        "height": 44
+      },
+      "viewRect": {
+        "x": 17,
+        "y": 647,
+        "width": 214,
+        "height": 52
+      },
+      "resetRect": {
+        "x": 237,
+        "y": 647,
+        "width": 136,
+        "height": 52
+      },
+      "serviceWorker": true,
+      "screenshot": "web-v92-catalog-390x900.png"
+    }
+  ]
+}

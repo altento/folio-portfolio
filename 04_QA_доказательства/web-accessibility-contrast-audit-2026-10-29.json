@@ -1,0 +1,355 @@
+[
+  {
+    "viewport": 1440,
+    "route": "dashboard",
+    "failures": [
+      {
+        "text": "✳",
+        "color": "rgb(114, 140, 42)",
+        "bg": "rgb(240,245,220)",
+        "ratio": 3.42,
+        "size": 19,
+        "weight": "400",
+        "large": false
+      },
+      {
+        "text": "★ ИЗБРАННЫЙ КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 10,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "01",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 10,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "03",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 10,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "02",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      }
+    ]
+  },
+  {
+    "viewport": 1440,
+    "route": "projects",
+    "failures": [
+      {
+        "text": "★ ИЗБРАННЫЙ КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 10,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "01",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 10,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "02",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 10,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "03",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      }
+    ]
+  },
+  {
+    "viewport": 1440,
+    "route": "showcase",
+    "failures": [
+      {
+        "text": "★ ИЗБРАННЫЙ КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 10,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "01",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      }
+    ]
+  },
+  {
+    "viewport": 1440,
+    "route": "settings",
+    "failures": []
+  },
+  {
+    "viewport": 390,
+    "route": "dashboard",
+    "failures": [
+      {
+        "text": "®",
+        "color": "rgb(215, 250, 88)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1.19,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "✳",
+        "color": "rgb(114, 140, 42)",
+        "bg": "rgb(240,245,220)",
+        "ratio": 3.42,
+        "size": 19,
+        "weight": "400",
+        "large": false
+      },
+      {
+        "text": "★ ИЗБРАННЫЙ КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "01",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "03",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "02",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      }
+    ]
+  },
+  {
+    "viewport": 390,
+    "route": "projects",
+    "failures": [
+      {
+        "text": "®",
+        "color": "rgb(215, 250, 88)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1.19,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "★ ИЗБРАННЫЙ КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "01",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "02",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "03",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      }
+    ]
+  },
+  {
+    "viewport": 390,
+    "route": "showcase",
+    "failures": [
+      {
+        "text": "®",
+        "color": "rgb(215, 250, 88)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1.19,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "★ ИЗБРАННЫЙ КЕЙС",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      },
+      {
+        "text": "01",
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      }
+    ]
+  },
+  {
+    "viewport": 390,
+    "route": "settings",
+    "failures": [
+      {
+        "text": "®",
+        "color": "rgb(215, 250, 88)",
+        "bg": "rgb(255,255,255)",
+        "ratio": 1.19,
+        "size": 11,
+        "weight": "700",
+        "large": false
+      }
+    ]
+  }
+]

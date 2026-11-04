@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "src": "/assets/covers/portfolio-studio.webp",
+      "loaded": true,
+      "width": 1536,
+      "position": "50% 46%"
+    },
+    {
+      "src": "/assets/covers/city-courtyards-case-v2.webp",
+      "loaded": true,
+      "width": 1536,
+      "position": "35% 65%"
+    },
+    {
+      "src": "/assets/covers/cleaning-crm-case-v2.webp",
+      "loaded": true,
+      "width": 1536,
+      "position": "50% 46%"
+    },
+    {
+      "src": "/assets/covers/city-courtyards-case-v2.webp",
+      "loaded": true,
+      "width": 1536,
+      "position": "50% 46%"
+    }
+  ],
+  "viewport": 390,
+  "document_width": 390
+}

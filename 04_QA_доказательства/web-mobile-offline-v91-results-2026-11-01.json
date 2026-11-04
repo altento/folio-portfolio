@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-01",
+  "build": "local web PWA v80 shell; QA label v91 progress",
+  "context": "Isolated Playwright context folio-mobile-qa",
+  "result": "PASS",
+  "viewports": [
+    {
+      "size": "390x844",
+      "mobileDockY": 780,
+      "documentWidth": 375,
+      "horizontalOverflow": false,
+      "featuredCardY": 716
+    },
+    {
+      "size": "320x568",
+      "mobileDockY": 504,
+      "documentWidth": 305,
+      "horizontalOverflow": false,
+      "featuredCardY": 653
+    },
+    {
+      "size": "390x844 projects",
+      "mobileDockY": 780,
+      "documentWidth": 375,
+      "horizontalOverflow": false,
+      "projectCardCount": 3
+    }
+  ],
+  "offline": {
+    "setOffline": true,
+    "reload": true,
+    "serviceWorker": "http://127.0.0.1:8766/sw.js",
+    "heading": "Ваши проекты, собранные в одном месте.",
+    "title": "Портфолио — рабочее пространство",
+    "onlineRestored": true
+  },
+  "privacy": {
+    "userBrowserStorageUsed": false,
+    "externalOrigins": [],
+    "cache": "folio-shell-v80-compact-narrow-dashboard"
+  },
+  "screenshots": [
+    "web-mobile-390x844-v91-2026-11-01.jpg",
+    "web-mobile-320x568-v91-2026-11-01.jpg",
+    "web-projects-390x844-v91-2026-11-01.jpg"
+  ],
+  "limitations": [
+    "A physical phone and home-screen installation were not available in this pass.",
+    "At 320x568 the featured project begins below the first viewport and is reached by scrolling.",
+    "Automated page screenshot API could not write directly to its configured folder; captured pixels were saved through the desktop QA runtime."
+  ]
+}

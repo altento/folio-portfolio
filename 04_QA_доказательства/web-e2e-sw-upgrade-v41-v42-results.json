@@ -1,0 +1,61 @@
+{
+  "before": {
+    "cache_keys": [
+      "folio-shell-v41-export-review"
+    ],
+    "projects": 3,
+    "controller": "http://127.0.0.1:54961/sw.js",
+    "projects_after_form_save": 4
+  },
+  "after": {
+    "cache_keys": [
+      "folio-shell-v42-touch-targets"
+    ],
+    "projects": 4,
+    "new_case_visible": 1,
+    "controller": "http://127.0.0.1:54961/sw.js",
+    "registration_state": {
+      "activeState": "activated",
+      "waitingState": null,
+      "installingState": null,
+      "controller": "http://127.0.0.1:54961/sw.js"
+    },
+    "controller_change_observed": true,
+    "service_worker_requests": [
+      "/sw.js",
+      "/?__folio=folio-shell-v42-touch-targets",
+      "/index.html?__folio=folio-shell-v42-touch-targets",
+      "/styles.css?__folio=folio-shell-v42-touch-targets",
+      "/app.js?__folio=folio-shell-v42-touch-targets",
+      "/core.js?__folio=folio-shell-v42-touch-targets",
+      "/demo.json?__folio=folio-shell-v42-touch-targets",
+      "/manifest.webmanifest?__folio=folio-shell-v42-touch-targets",
+      "/icons/icon.svg?__folio=folio-shell-v42-touch-targets",
+      "/icons/icon-192.png?__folio=folio-shell-v42-touch-targets",
+      "/icons/icon-512.png?__folio=folio-shell-v42-touch-targets",
+      "/offline.html?__folio=folio-shell-v42-touch-targets",
+      "/assets/icons/nav-sprite.webp?__folio=folio-shell-v42-touch-targets",
+      "/assets/icons/feature-sprite.webp?__folio=folio-shell-v42-touch-targets",
+      "/assets/illustrations/featured-empty-folio.webp?__folio=folio-shell-v42-touch-targets",
+      "/assets/covers/portfolio-studio.webp?__folio=folio-shell-v42-touch-targets",
+      "/assets/covers/cleaning-crm.webp?__folio=folio-shell-v42-touch-targets",
+      "/assets/covers/city-courtyards.webp?__folio=folio-shell-v42-touch-targets"
+    ]
+  },
+  "offline": {
+    "projects": 4,
+    "retained": true,
+    "documentWidth": 1440,
+    "viewportWidth": 1440,
+    "cache_keys": [
+      "folio-shell-v42-touch-targets"
+    ]
+  },
+  "errors": [],
+  "offline_mobile": {
+    "projects": 4,
+    "retained": true,
+    "documentWidth": 390,
+    "viewportWidth": 390
+  }
+}

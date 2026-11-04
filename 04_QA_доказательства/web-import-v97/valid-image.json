@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "title": "Folio v97 import QA",
+  "next_id": 50,
+  "developer": {
+    "full_name": "QA fixture",
+    "specialization": "Проверка импорта"
+  },
+  "projects": [
+    {
+      "id": 49,
+      "type": "Веб-приложение",
+      "title": "QA: валидация изображений импорта",
+      "description": "Синтетическая запись. Импорт не подтверждать.",
+      "created_at": "2026-11-02",
+      "status": "Завершён",
+      "technologies": [],
+      "demo_url": "",
+      "role": "QA",
+      "outcome": "Проверка чтения резервной копии.",
+      "context": "",
+      "solution": "",
+      "process": "",
+      "metrics": "",
+      "tags": [
+        "qa"
+      ],
+      "featured": false,
+      "sort_order": 1,
+      "cover_image_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMwD7L6DwADSgHDu7KCZQAAAABJRU5ErkJggg==",
+      "gallery_images": [
+        {
+          "image_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mMwD7L6DwADSgHDu7KCZQAAAABJRU5ErkJggg==",
+          "alt": "QA изображение",
+          "position": "50% 50%"
+        }
+      ],
+      "repository_url": "",
+      "backend_stack": ""
+    }
+  ]
+}

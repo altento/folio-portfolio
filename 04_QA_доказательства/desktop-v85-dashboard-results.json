@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "product": "folio",
+  "desktopVersion": "v85",
+  "webVersion": "v63",
+  "environment": "Isolated QA preview copy with its own portfolio_data.sqlite3",
+  "window": "1920x1080",
+  "projectsVisible": 3,
+  "checks": [
+    "Sans-serif hero heading and local illustration visible",
+    "Search and type/status/tag filters visible",
+    "Three demo projects visible with alternating row surfaces",
+    "Selected row and project actions visible",
+    "Selected project details and local cover visible"
+  ],
+  "method": "Windows PrintWindow capture of target app window",
+  "userDatabaseUsed": false,
+  "limitations": [
+    "No narrow desktop viewport in this smoke pass",
+    "No physical phone or screen reader used"
+  ]
+}

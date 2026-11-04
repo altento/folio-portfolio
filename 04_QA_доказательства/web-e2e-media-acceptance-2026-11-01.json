@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-01",
+  "title": "Web/PWA cover and gallery media acceptance",
+  "environment": {
+    "browser": "Chromium via Playwright",
+    "origin": "http://127.0.0.1:8766",
+    "context": "folio-media-acceptance-2026-11-01 (isolated; disposable)",
+    "initialDemoProjects": 3
+  },
+  "sourceImage": {
+    "path": "web/assets/covers/portfolio-studio.webp",
+    "originalBytes": 248754
+  },
+  "actions": [
+    "Created synthetic case QA Media Pipeline through project form",
+    "Uploaded local WebP cover; application prepared a 331695-character data URL",
+    "Uploaded gallery image; application prepared a 308495-character data URL",
+    "Entered descriptive Russian alternative text and saved the project",
+    "Opened saved case and checked decoded cover and gallery images"
+  ],
+  "persistence": {
+    "offline": true,
+    "onlineState": "navigator.onLine=false",
+    "serviceWorker": "http://127.0.0.1:8766/sw.js",
+    "caseOpenedAfterOfflineReload": true,
+    "coverDecoded": true,
+    "galleryDecoded": true,
+    "galleryAlt": "Пример рабочего места для проекта портфолио веб-разработчика."
+  },
+  "responsive": {
+    "desktop": {
+      "viewport": "1440x900",
+      "screenshot": "web-e2e-media-detail-desktop-1440x900-2026-11-01.jpg"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "screenshot": "web-e2e-media-detail-mobile-390x844-2026-11-01.jpg",
+      "horizontalOverflow": false
+    }
+  },
+  "dataSafety": {
+    "isolatedBrowserContext": true,
+    "syntheticRecordOnly": true,
+    "userDataAccessed": false,
+    "packageUserDataChanged": false
+  },
+  "limitations": [
+    "Browser-emulated viewport only; no physical phone or home-screen install tested",
+    "No screen-reader test"
+  ],
+  "notes": [
+    "The case date shown by the app is 2026-11-01 because the isolated profile seed clock differs from the test host date.",
+    "Offline coverage validated app-shell reload and opening the stored media case after reload.",
+    "Encoded lengths are data URL character counts, not exact binary output sizes."
+  ]
+}

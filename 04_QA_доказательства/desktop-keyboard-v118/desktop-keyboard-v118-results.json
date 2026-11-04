@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-02",
+  "build": "source v118; focus-scroll margin patch",
+  "method": "Native Tkinter app, launched against an isolated temporary SQLite database; user database untouched.",
+  "window_client_px": [
+    720,
+    480
+  ],
+  "form_geometry": "720x480+30+30",
+  "initial_demo_projects": 3,
+  "final_test_projects_in_saved_snapshot": 3,
+  "focus_grid_rows_observed": [
+    0,
+    2,
+    0,
+    2,
+    0,
+    2,
+    0,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2
+  ],
+  "focus_visible": true,
+  "last_observed_focus_class": "TEntry",
+  "last_observed_focus_grid_row": 2,
+  "description_newlines_in_last_snapshot": 0,
+  "checks": [
+    {
+      "name": "Tab traversal",
+      "result": "PASS",
+      "detail": "Focus traversed visible fields through page count and featured checkbox; hidden repository/server fields were skipped for the selected project type."
+    },
+    {
+      "name": "Shift+Tab traversal",
+      "result": "PASS",
+      "detail": "Reverse traversal returned through visible fields to title; screenshots and focus history retained."
+    },
+    {
+      "name": "Multiline Enter",
+      "result": "PASS",
+      "detail": "Enter inserted a new line in the description field; screenshot retained."
+    },
+    {
+      "name": "Ctrl+Enter save",
+      "result": "PASS",
+      "detail": "Isolated test saved one synthetic project; temporary SQLite database showed project count 4 from initial 3. The production user database was not used."
+    },
+    {
+      "name": "Small-window focus visibility",
+      "result": "PASS",
+      "detail": "At 720x480 the checkbox is fully visible after focus-triggered scroll with a 12-pixel breathing margin."
+    }
+  ],
+  "regression_tests": "Python/SQLite 81/81 passed after the margin fix.",
+  "screenshots": [
+    "desktop-form-tab-auto-scroll.jpg",
+    "desktop-form-focus-boundary.jpg",
+    "desktop-form-focus-visible-after-fix.jpg",
+    "desktop-form-enter-newline.jpg",
+    "desktop-ctrl-enter-saved.jpg"
+  ],
+  "screenshots_sha256": {
+    "desktop-ctrl-enter-saved.jpg": "a619ff19001263bae38f68eef6850ab5b1f86d9059ff84829a7fc43ce0428918",
+    "desktop-form-enter-newline.jpg": "dbfed5bedcc036ddc334b7e9b602e7845cde90554bc8a4ec6c4d0bedda967c90",
+    "desktop-form-focus-boundary.jpg": "bcd5775760004b8ba60977ec303b99dcf37fe14de864535bf0a0c710cb8fa0ef",
+    "desktop-form-focus-visible-after-fix.jpg": "da4d920173dc26b70a28eb36ac7ce08ca34044c4f05036426ff0fedbe0b7b45f",
+    "desktop-form-tab-auto-scroll.jpg": "bcd5775760004b8ba60977ec303b99dcf37fe14de864535bf0a0c710cb8fa0ef"
+  }
+}

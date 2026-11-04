@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-11-02T00:53:01.970715+00:00",
+  "apk_sha256": "c177d0af7bd99476fb4e4d150133d08862224405f8cc5d9e505adaecf43b804e",
+  "after_install_launch": "PASS",
+  "wifi_mobile_data": "disabled",
+  "user_database": "existing emulator test data only",
+  "cold_offline_launch": "PASS",
+  "screenshot": "android-v99-cold-offline-home.png",
+  "screenshot_bytes": 981280,
+  "screenshot_sha256": "eca5a3784a72576df613cf30f8e4b9c7f8ea5f28d9528fc61fe8e0d2ada92fe0",
+  "service_worker_cache": "folio-shell-v99-compact-short-phone",
+  "network_stats": "NetworkProviders for:"
+}

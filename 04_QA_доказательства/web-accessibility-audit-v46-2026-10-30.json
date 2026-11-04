@@ -1,0 +1,312 @@
+{
+  "date": "2026-10-30",
+  "version": "folio-shell-v46-sidebar-secondary-text",
+  "errors": [],
+  "screens": [
+    "web-a11y-v46-dashboard-desktop.png",
+    "web-a11y-v46-projects-desktop.png",
+    "web-a11y-v46-showcase-desktop.png",
+    "web-a11y-v46-settings-desktop.png",
+    "web-a11y-v46-detail-desktop.png",
+    "web-a11y-v46-form-desktop.png",
+    "web-a11y-v46-dashboard-mobile.png",
+    "web-a11y-v46-projects-mobile.png",
+    "web-a11y-v46-showcase-mobile.png",
+    "web-a11y-v46-settings-mobile.png",
+    "web-a11y-v46-detail-mobile.png",
+    "web-a11y-v46-form-mobile.png"
+  ],
+  "views": [
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "dashboard",
+      "controlCount": 15,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 1419
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "projects",
+      "controlCount": 19,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 900
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "showcase",
+      "controlCount": 13,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 1023
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 1
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "settings",
+      "controlCount": 22,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 1509
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "dashboard",
+      "controlCount": 15,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 2242
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "projects",
+      "controlCount": 19,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1979
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "showcase",
+      "controlCount": 13,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1323
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "settings",
+      "controlCount": 22,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 2306
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 0
+    }
+  ],
+  "dialog_focus_handlers": {
+    "project-dialog": 1,
+    "showcase-preview-dialog": 1,
+    "detail-dialog": 1,
+    "import-dialog": 1
+  },
+  "details": [
+    {
+      "width": 1440,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "width": 390,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 390,
+      "viewportWidth": 390
+    }
+  ],
+  "forms": [
+    {
+      "width": 1440,
+      "dialogOpen": true,
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 75,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 152,
+          "h": 44,
+          "visible": true
+        }
+      ],
+      "unlabeled": []
+    },
+    {
+      "width": 390,
+      "dialogOpen": true,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 168,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 166,
+          "h": 44,
+          "visible": true
+        }
+      ],
+      "unlabeled": []
+    }
+  ],
+  "reduced_motion": true,
+  "dark_theme": "dark",
+  "light_theme_restored": "light"
+}

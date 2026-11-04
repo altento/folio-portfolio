@@ -1,0 +1,31 @@
+{
+  "audit_date": "2026-11-01",
+  "report": "ООП, модуль 4",
+  "pdf_pages": 10,
+  "pages_with_text": 10,
+  "docx_paragraphs": 58,
+  "docx_pdf_normalized_similarity": 0.9990058983365365,
+  "all_pages_rendered_and_visually_inspected": true,
+  "render_dpi": 110,
+  "docx_sha256": "218291a1ccdfa695e7d4d52e86c0d18452c05338792ecb4aa720044b895a425f",
+  "pdf_sha256": "dab8387d27f38f7ac05dea8799eb0ec21ad551a8dc155d77d511ea5a53d39744",
+  "rendered_pages": [
+    "module4-page-01.png",
+    "module4-page-02.png",
+    "module4-page-03.png",
+    "module4-page-04.png",
+    "module4-page-05.png",
+    "module4-page-06.png",
+    "module4-page-07.png",
+    "module4-page-08.png",
+    "module4-page-09.png",
+    "module4-page-10.png"
+  ],
+  "contact_sheet": "module4-v72-contact-sheet.jpg",
+  "findings": [
+    "Отчёт последовательно описывает модуль 4 как ранний настольный этап: JSON был основным форматом сохранения; SQLite и PWA названы поздним развитием.",
+    "Описанные шесть предметных классов, наследование Project, два подкласса и полиморфный get_main_link соответствуют модели в main.py.",
+    "Все 10 страниц читаемы; UML, алгоритмы и UI-скриншоты размещены без перекрытий и обрезки.",
+    "Официальный код учебной группы остаётся открытым: документы модулей 4–5 и модуль 1 используют разные записи, ведомость не предоставлена."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "question": "Which exact 2024 cohort code should appear on the module 4 and 5 covers?",
+  "local_candidates": {
+    "module_1": "ИСУ-24-1-1",
+    "modules_3_to_5": "ИСУ(kz-us)-24-1"
+  },
+  "official_public_evidence": [
+    {
+      "url": "https://ku.edu.kz/news/view?id=13171",
+      "published": "2026-03-19",
+      "observation": "A university news article identifies a participant as studying in ИСУ (KZ-US)-24-2. This supports the university group-code style but concerns the 24-2 cohort."
+    },
+    {
+      "url": "https://ku.edu.kz/files/students/grant/2024-2025/prikaz_prisuzhdeniya_granta_DO-473_16.10.25_leto.pdf",
+      "published": "2025-10-16",
+      "observation": "An official grant order lists students in ИСУ(KZ-US)-23-2. This supports the parenthesized KZ-US style, but concerns the 23-2 cohort."
+    },
+    {
+      "url": "https://ku.edu.kz/educationalProgram/passport?id=988&lang=ru",
+      "observation": "Official educational-program passport confirms the Information Systems program under the Faculty of Engineering and Digital Technologies, but contains no student cohort roster."
+    }
+  ],
+  "finding": "Public official sources support the style ИСУ(KZ-US)-year-cohort but do not establish whether this student belongs to 24-1, 24-1-1, or another section.",
+  "decision": "Unresolved; do not alter report covers without a current official roster, enrollment record, or approved cover template.",
+  "confidence": "high for naming pattern; insufficient for exact individual cohort"
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "artifact": "folio-android-debug.apk",
+  "artifact_kind": "full Gradle assembleDebug build",
+  "android_package": "ru.folio.portfolio",
+  "version_name": "0.1.0",
+  "sdk_min": 24,
+  "sdk_target": 36,
+  "web_assets": "v84 / folio-shell-v84-gallery-depth",
+  "toolchain": {"gradle": "8.14.3", "jdk": "Temurin 21.0.13", "android_sdk": 36, "build_tools": "36.1.0"},
+  "build_tasks": "93 actionable tasks; BUILD SUCCESSFUL",
+  "apk_size_bytes": 19048297,
+  "apk_sha256": "b2deb844ef19eb88e52122dcdf702828e42fec048b3882359a488f920fee2827",
+  "signature_v2": "verified",
+  "zipalign": "verified",
+  "emulator": {"api": 36, "resolution_px": "1080x2400"},
+  "adb_install": "passed",
+  "activity_launch": "passed",
+  "dashboard_render": "passed",
+  "physical_phone": "not tested",
+  "release_signing": "not configured; debug APK only"
+}

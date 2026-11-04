@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-02",
+  "method": "Android AVD API 36; TalkBack 16.0.0 temporarily enabled. UIAutomator collected virtual WebView accessibility nodes on dashboard and projects routes. After this capture the service will be disabled and its settings restored.",
+  "screen_results": {
+    "talkback-dashboard.xml": {
+      "nodes": 119,
+      "actions": 18,
+      "unlabeled_after_hint": 0,
+      "unnamed_action_details": [],
+      "labels": [
+        "Перейти к содержимому",
+        "folio РАБОЧЕЕ ПРОСТРАНСТВО",
+        "Обзор",
+        "Мои проекты 3",
+        "Витрина",
+        "Настройки и данные",
+        "Переключить тему",
+        "Новый проект",
+        "Создать проект",
+        "Открыть коллекцию",
+        "Очистить примеры демонстрационных данных",
+        "Открыть витрину ↗",
+        "★ ИЗБРАННЫЙ КЕЙС 01 Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗",
+        "Все проекты ↗",
+        "КЕЙС 03 Веб-приложение Завершён Карта городских дворов Демо-запись интерактивного проекта с картой. JavaScript Leaflet.js карта городская среда 2026-09-25 Открыть кейс ↗",
+        "Выбрать проект CRM для клининговой компании",
+        "КЕЙС 02 Веб-приложение В разработке CRM для клининговой компании Демо-запись для проверки карточек, поиска и статусов. Python Flask SQLite CRM автоматизация 2026-09-22 Открыть кейс ↗",
+        "Открыть кейс ↗"
+      ]
+    },
+    "talkback-projects.xml": {
+      "nodes": 78,
+      "actions": 27,
+      "unlabeled_after_hint": 0,
+      "unnamed_action_details": [],
+      "labels": [
+        "Перейти к содержимому",
+        "folio РАБОЧЕЕ ПРОСТРАНСТВО",
+        "Обзор",
+        "Мои проекты 3",
+        "Витрина",
+        "Настройки и данные",
+        "Переключить тему",
+        "Новый проект",
+        "＋ Новый проект",
+        "Поиск проектов",
+        "Все типы",
+        "Все статусы",
+        "Все теги",
+        "Сначала избранные",
+        "Только избранное",
+        "Выбрать представление…",
+        "Сохранить вид",
+        "Удалить выбранное представление",
+        "Выбрать показанные проекты",
+        "Карточки",
+        "Список",
+        "Выбрать проект Портфолио веб-разработчика",
+        "★ ИЗБРАННЫЙ КЕЙС 01 Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗",
+        "Выбрать проект CRM для клининговой компании",
+        "КЕЙС 02 Веб-приложение В разработке CRM для клининговой компании Демо-запись для проверки карточек, поиска и статусов. Python Flask SQLite CRM автоматизация 2026-09-22 Открыть кейс ↗",
+        "Выбрать проект Карта городских дворов",
+        "КЕЙС 03 Веб-приложение Завершён Карта городских дворов Демо-запись интерактивного проекта с картой. JavaScript Leaflet.js карта городская среда 2026-09-25 Открыть кейс ↗"
+      ]
+    }
+  },
+  "settings_at_capture": {
+    "accessibility_enabled": "1",
+    "enabled_accessibility_services": "com.google.android.marvin.talkback/.TalkBackService"
+  },
+  "showcase_observations": [
+    "Tab focus visibly advanced through Markdown export, HTML preview, download and theme selector; the viewport scrolled to keep later focused content visible.",
+    "The searchable showcase card was exposed as a named action."
+  ],
+  "limitations": [
+    "This verifies the Android accessibility tree and focus behavior, not spoken TTS output.",
+    "The full swipe gesture route and physical phone remain unverified."
+  ],
+  "evidence_sha256": {
+    "talkback-dashboard.xml": "58e6dbfeea3d94e0c9edf6aedbb0fea460c07c8e5797d2c5b661bc0c66432b2f",
+    "talkback-projects-screen.png": "c7b5fb98f0e798d81655659ad45a9dc68a5f67a56e0a575eccf1d2576ece4410",
+    "talkback-projects.xml": "0f48ee8e25c898b4dc56669ee9b39a3e72c16362c3d69491c1b054842d131cb0",
+    "talkback-restored-showcase.png": "c0b7cf06231f18ef660d74084b5d254ab2a72cc491ea1fc0d1dc460954d0cb60"
+  },
+  "settings_after_test": {
+    "accessibility_enabled": "0",
+    "enabled_accessibility_services": "null"
+  },
+  "talkback_post_notifications_after_test": "android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]",
+  "unnamed_projects_actions_with_accessibility_hint": [
+    {
+      "class": "android.widget.EditText",
+      "resource_id": "search-input",
+      "hint": "Поиск проектов"
+    }
+  ]
+}

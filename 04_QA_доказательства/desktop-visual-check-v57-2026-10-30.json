@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "app": "Tkinter desktop QA clone, isolated from user database",
+  "window_title": "Folio QA v57 — desktop visual check",
+  "main_window": "1362x912",
+  "form_dialog": "1182x812",
+  "sample_records": 3,
+  "observations": [
+    "Main window and project list rendered in isolated copy.",
+    "Add-project dialog rendered with case-study checklist, required and optional fields, and visible close action.",
+    "Tab focus progressed date → status → demo URL → technologies → tags → role → result; green focus outline was visible.",
+    "Escape closed the form without saving; no data was entered."
+  ],
+  "limitations": [
+    "The form bottom and submit controls were not visually inspected in this run.",
+    "Keyboard sequence was confirmed only through Result / benefit field; full Tab traversal and accessibility tooling remain open.",
+    "No physical phone or screen reader was used."
+  ]
+}

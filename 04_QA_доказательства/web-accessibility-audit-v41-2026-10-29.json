@@ -1,0 +1,583 @@
+{
+  "date": "2026-10-29",
+  "version": "folio-shell-v41-export-review",
+  "errors": [],
+  "screens": [
+    "web-a11y-v41-dashboard-desktop.png",
+    "web-a11y-v41-projects-desktop.png",
+    "web-a11y-v41-showcase-desktop.png",
+    "web-a11y-v41-settings-desktop.png",
+    "web-a11y-v41-detail-desktop.png",
+    "web-a11y-v41-form-desktop.png",
+    "web-a11y-v41-dashboard-mobile.png",
+    "web-a11y-v41-projects-mobile.png",
+    "web-a11y-v41-showcase-mobile.png",
+    "web-a11y-v41-settings-mobile.png",
+    "web-a11y-v41-detail-mobile.png",
+    "web-a11y-v41-form-mobile.png"
+  ],
+  "views": [
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "dashboard",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 1415
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [
+        {
+          "name": "Обзор",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Мои проекты\n3",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Витрина",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Настройки и данные",
+          "w": 176,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Переключить тему",
+          "w": 38,
+          "h": 38,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Очистить примеры",
+          "w": 125,
+          "h": 36,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Вся витрина ↗",
+          "w": 98,
+          "h": 36,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Все проекты ↗",
+          "w": 99,
+          "h": 36,
+          "tag": "BUTTON",
+          "inline": false
+        }
+      ],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "projects",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 900
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [
+        {
+          "name": "Обзор",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Мои проекты\n3",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Витрина",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Настройки и данные",
+          "w": 176,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Переключить тему",
+          "w": 38,
+          "h": 38,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Поиск проектов",
+          "w": 286,
+          "h": 38,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "Тип",
+          "w": 139,
+          "h": 40,
+          "tag": "SELECT",
+          "inline": false
+        },
+        {
+          "name": "Статус",
+          "w": 119,
+          "h": 40,
+          "tag": "SELECT",
+          "inline": false
+        },
+        {
+          "name": "Тег",
+          "w": 139,
+          "h": 40,
+          "tag": "SELECT",
+          "inline": false
+        },
+        {
+          "name": "Сортировка",
+          "w": 155,
+          "h": 40,
+          "tag": "SELECT",
+          "inline": false
+        },
+        {
+          "name": "Избранное",
+          "w": 96,
+          "h": 24,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "Сбросить фильтры",
+          "w": 123,
+          "h": 36,
+          "tag": "BUTTON",
+          "inline": false
+        }
+      ],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "showcase",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 1019
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [
+        {
+          "name": "Обзор",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Мои проекты\n3",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Витрина",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Настройки и данные",
+          "w": 176,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Переключить тему",
+          "w": 38,
+          "h": 38,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Стиль HTML-страницы\nРедакционный\nНочной\nГалерея\nМеняет только файл вит",
+          "w": 163,
+          "h": 40,
+          "tag": "SELECT",
+          "inline": false
+        }
+      ],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 1
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "settings",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 1487
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [
+        {
+          "name": "Обзор",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Мои проекты\n3",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Витрина",
+          "w": 214,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Настройки и данные",
+          "w": 176,
+          "h": 43,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Переключить тему",
+          "w": 38,
+          "h": 38,
+          "tag": "BUTTON",
+          "inline": false
+        },
+        {
+          "name": "Имя",
+          "w": 506,
+          "h": 42,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "Специализация",
+          "w": 506,
+          "h": 42,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "Email",
+          "w": 506,
+          "h": 42,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "Показывать email в портфолио",
+          "w": 506,
+          "h": 40,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "Личный сайт",
+          "w": 506,
+          "h": 42,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "Показывать личный сайт в портфолио",
+          "w": 506,
+          "h": 40,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "GitHub",
+          "w": 506,
+          "h": 42,
+          "tag": "INPUT",
+          "inline": false
+        },
+        {
+          "name": "Показывать GitHub в портфолио",
+          "w": 506,
+          "h": 40,
+          "tag": "INPUT",
+          "inline": false
+        }
+      ],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "dashboard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 2242
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "projects",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1979
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [
+        {
+          "name": "Поиск проектов",
+          "w": 222,
+          "h": 42,
+          "tag": "INPUT",
+          "inline": false
+        }
+      ],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "showcase",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1319
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [
+        {
+          "name": "Стиль HTML-страницы\nРедакционный\nНочной\nГалерея\nМеняет только файл вит",
+          "w": 190,
+          "h": 40,
+          "tag": "SELECT",
+          "inline": false
+        }
+      ],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "settings",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 2306
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 0
+    }
+  ],
+  "details": [
+    {
+      "width": 1440,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "width": 390,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 390,
+      "viewportWidth": 390
+    }
+  ],
+  "forms": [
+    {
+      "width": 1440,
+      "dialogOpen": true,
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 75,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 152,
+          "h": 44,
+          "visible": true
+        }
+      ],
+      "unlabeled": []
+    },
+    {
+      "width": 390,
+      "dialogOpen": true,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 168,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 166,
+          "h": 44,
+          "visible": true
+        }
+      ],
+      "unlabeled": []
+    }
+  ],
+  "reduced_motion": true,
+  "dark_theme": "dark",
+  "light_theme_restored": "light"
+}

@@ -1,0 +1,10 @@
+{
+  "apk_filename": "app-debug.apk",
+  "apk_bytes": 19005508,
+  "apk_sha256": "00c7a4592bd965f77f7d1bd347376e941a0a1686ddf7a53d41ca29839c9951b8",
+  "screenshot_bytes": 262687,
+  "private_mode_notice_in_packaged_app": true,
+  "cache_id_in_packaged_sw": true,
+  "android_backup_disabled": "confirmed with aapt dump xmltree: android:allowBackup=0x0; dataExtractionRules resource present",
+  "installed": "ru.folio.portfolio updated with adb install -r; existing app data retained"
+}

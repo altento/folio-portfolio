@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-01",
+  "release": "Web/PWA v80",
+  "service_worker_cache": "folio-shell-v80-compact-narrow-dashboard",
+  "change": [
+    "On viewports up to 380px the dashboard hero is vertically compact while preserving its original local illustration",
+    "Primary action labels remain at least 11px and buttons retain 44px touch height",
+    "Featured work appears sooner in the short first screen"
+  ],
+  "browser": "Isolated Chromium",
+  "runtime": {
+    "upgrade_from": "folio-shell-v79-mobile-demo-action-readability",
+    "only_cache_after_upgrade": [
+      "folio-shell-v80-compact-narrow-dashboard"
+    ],
+    "service_worker_controlled": true,
+    "old_cache_removed": true,
+    "demo_project_cards_retained": 3,
+    "offline_reload": "passed; dashboard loaded with 3 projects",
+    "primary_views_checked": [
+      "dashboard",
+      "projects",
+      "showcase",
+      "settings"
+    ],
+    "image_count_after_eager_load": 4,
+    "broken_images_with_nonempty_src": 0,
+    "console_errors": 0
+  },
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "layout_client_width": 305,
+      "document_scroll_width": 305,
+      "horizontal_overflow": false,
+      "hero_height": 315,
+      "demo_note_height": 73,
+      "clear_button_height": 44,
+      "clear_button_font": "11px",
+      "featured_grid_y": 653,
+      "mobile_nav_visible": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "layout_client_width": 375,
+      "document_scroll_width": 375,
+      "horizontal_overflow": false,
+      "demo_note_height": 73,
+      "clear_button_height": 44,
+      "featured_grid_y": 716,
+      "mobile_nav_visible": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "layout_client_width": 1425,
+      "document_scroll_width": 1425,
+      "horizontal_overflow": false,
+      "demo_note_height": 68,
+      "featured_grid_y": 933,
+      "mobile_nav_visible": false
+    }
+  ],
+  "all_primary_views_no_overflow": true,
+  "regression": {
+    "python_sqlite": "55/55 passed by package verifier",
+    "web_core": "21/21 passed"
+  },
+  "screenshots": {
+    "mobile_320": {
+      "file": "web-v80-mobile-dashboard-320x568.jpg",
+      "bytes": 38146,
+      "sha256": "29dd1fcaeafefbccf3e07402a8a1aae3223bddcbb3ac984d913e2eae19cd11fe",
+      "captured_for": "v80"
+    },
+    "mobile_390": {
+      "file": "web-v79-mobile-dashboard-390x844.jpg",
+      "bytes": 63177,
+      "sha256": "454b2bc1c67fd495e71e8fa5ede19b7acc47e8ff4e317b88c2982c3e055b4781",
+      "captured_for": "v79; layout unchanged in v80"
+    },
+    "desktop": {
+      "file": "web-v79-dashboard-desktop-1440x900.jpg",
+      "bytes": 162388,
+      "sha256": "1e9b4ae62f860d0643833099e480a202d20e4901d582fa91645ef6e9711a5805",
+      "captured_for": "v79; layout unchanged in v80"
+    }
+  },
+  "report_control_slice": "desktop v87 / web-PWA v74; included report figures show v73"
+}

@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-02T00:54:06.577379+00:00",
+  "result": "PASS",
+  "source": "http://127.0.0.1:8766/",
+  "browser_context": "Fresh isolated Chromium context; service workers blocked; only ephemeral IndexedDB was written.",
+  "scenario": "Create a synthetic case with ASCII and full-width spreadsheet formula starters, export CSV through Settings, parse the downloaded file.",
+  "expected_neutralized_cells": {
+    "title": "'=1+1",
+    "description": "'+SUM(1,2)",
+    "role": "'@SUM(1,2)",
+    "solution": "'＝1+1"
+  },
+  "ordinary_values_preserved": true,
+  "browser_errors": [],
+  "synthetic_export": "formula-neutralized-synthetic.csv",
+  "screenshot": "csv-export-v99-settings.png",
+  "user_data_touched": false
+}

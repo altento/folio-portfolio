@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "title": "Портфолио веб-разработчика",
+  "next_id": 4,
+  "developer": {
+    "full_name": "Даниил Головин",
+    "specialization": "Веб-разработчик"
+  },
+  "projects": [
+    {
+      "id": 1,
+      "type": "Сайт / лендинг",
+      "title": "Портфолио веб-разработчика",
+      "description": "Учебный пример: персональный сайт с проектами и контактами.",
+      "created_at": "2026-09-20",
+      "status": "Опубликован",
+      "technologies": [
+        {
+          "name": "HTML",
+          "category": "Инструмент",
+          "version": "5"
+        },
+        {
+          "name": "CSS",
+          "category": "Инструмент",
+          "version": "3"
+        },
+        {
+          "name": "JavaScript",
+          "category": "Инструмент",
+          "version": ""
+        }
+      ],
+      "demo_url": "https://example.com",
+      "project_id": 1,
+      "role": "Индивидуальный учебный проект",
+      "outcome": "Собраны карточки проектов, стек технологий и контактная информация.",
+      "featured": true,
+      "page_count": 4,
+      "cover_image": "./assets/covers/portfolio-studio.webp",
+      "tags": [
+        "портфолио",
+        "учебный проект"
+      ],
+      "context": "Нужно было показать учебные проекты и упростить просмотр работ.",
+      "solution": "Создать адаптивную витрину с карточками, стеком и подробностями кейса.",
+      "process": "Сбор требований, поостроение структуры страниц, разработка интерфейса и ручная проверка."
+    },
+    {
+      "id": 2,
+      "type": "Веб-приложение",
+      "title": "CRM для клининговой компании",
+      "description": "Демо-запись для проверки карточек, поиска и статусов.",
+      "created_at": "2026-09-22",
+      "status": "В разработке",
+      "technologies": [
+        {
+          "name": "Python",
+          "category": "Инструмент",
+          "version": ""
+        },
+        {
+          "name": "Flask",
+          "category": "Инструмент",
+          "version": ""
+        },
+        {
+          "name": "SQLite",
+          "category": "СУБД",
+          "version": ""
+        }
+      ],
+      "demo_url": "",
+      "project_id": 2,
+      "role": "Учебный пример",
+      "outcome": "Показаны связи между клиентами, заказами и сотрудниками.",
+      "featured": false,
+      "repository_url": "https://github.com/example/cleaning-crm",
+      "backend_stack": "Flask, SQLite",
+      "cover_image": "./assets/covers/cleaning-crm.webp",
+      "tags": [
+        "CRM",
+        "автоматизация"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Веб-приложение",
+      "title": "Карта городских дворов",
+      "description": "Демо-запись интерактивного проекта с картой.",
+      "created_at": "2026-09-25",
+      "status": "Завершён",
+      "technologies": [
+        {
+          "name": "JavaScript",
+          "category": "Инструмент",
+          "version": ""
+        },
+        {
+          "name": "Leaflet.js",
+          "category": "Инструмент",
+          "version": ""
+        }
+      ],
+      "demo_url": "https://example.com/map",
+      "project_id": 3,
+      "role": "Учебный пример",
+      "outcome": "Инфраструктурные объекты представлены на интерактивной карте.",
+      "featured": false,
+      "repository_url": "https://github.com/example/courtyards",
+      "backend_stack": "REST API",
+      "cover_image": "./assets/covers/city-courtyards.webp",
+      "tags": [
+        "карта",
+        "городская среда"
+      ]
+    }
+  ]
+}

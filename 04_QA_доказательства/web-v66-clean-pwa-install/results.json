@@ -1,0 +1,158 @@
+{
+  "date": "2026-11-01",
+  "purpose": "fresh mobile context; PWA metadata, dashboard safe-area layout, offline relaunch",
+  "url": "http://127.0.0.1:63707/",
+  "fresh_context": true,
+  "errors": [],
+  "mobile_320_metrics": {
+    "documentWidth": 320,
+    "viewportWidth": 320,
+    "navTop": 504,
+    "cardCount": 4,
+    "cards": [
+      {
+        "top": 78.515625,
+        "bottom": 167.203125
+      },
+      {
+        "top": 78.515625,
+        "bottom": 167.203125
+      },
+      {
+        "top": 173.203125,
+        "bottom": 260.890625
+      },
+      {
+        "top": 173.203125,
+        "bottom": 260.890625
+      }
+    ],
+    "allCardsAboveNav": true
+  },
+  "online_first_launch": {
+    "secure": true,
+    "serviceWorkerState": "activated",
+    "controlled": true,
+    "cacheNames": [
+      "folio-shell-v66-mobile-dashboard-safe-area"
+    ],
+    "precacheCount": 20,
+    "manifest": {
+      "name": "folio — портфолио веб-разработчика",
+      "short_name": "folio",
+      "display": "standalone",
+      "start_url": "./",
+      "scope": "./",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any maskable"
+        },
+        {
+          "src": "./icons/icon-512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any maskable"
+        },
+        {
+          "src": "./icons/icon.svg",
+          "sizes": "any",
+          "type": "image/svg+xml",
+          "purpose": "any"
+        }
+      ]
+    },
+    "icons": [
+      {
+        "src": "./icons/icon-192.png",
+        "status": 200,
+        "type": "image/png",
+        "sizes": "192x192",
+        "dims": [
+          192,
+          192
+        ]
+      },
+      {
+        "src": "./icons/icon-512.png",
+        "status": 200,
+        "type": "image/png",
+        "sizes": "512x512",
+        "dims": [
+          512,
+          512
+        ]
+      },
+      {
+        "src": "./icons/icon.svg",
+        "status": 200,
+        "type": "image/svg+xml",
+        "sizes": "any",
+        "dims": null
+      }
+    ],
+    "heading": "Ваши проекты,\nсобранные\nв одном месте.",
+    "demoVisible": true,
+    "documentWidth": 390,
+    "viewportWidth": 390,
+    "bodyText": "Перейти к содержимому\nfolio®\n◐\nЛИЧНОЕ ПРОСТРАНСТВО\nВаши проекты,\nсобранные\nв одном месте.\n\nИдеи, процесс и результат — в живой коллекции ваших работ.\n\n＋\nСоздать проект\nОткрыть коллекцию\n↗\nFOLIO  /  01\nИДЕЯ · РАЗРАБОТКА · РЕЗУЛЬТАТ\n✳\nДемонстрационные данные\nЭто примеры. Отредактируйте их или удалите ",
+    "dashboard_layout": {
+      "nav": {
+        "top": 780,
+        "bottom": 844
+      },
+      "stats": {
+        "top": 585.515625,
+        "bottom": 783.890625
+      },
+      "statCards": [
+        {
+          "top": 592.515625,
+          "bottom": 681.203125
+        },
+        {
+          "top": 592.515625,
+          "bottom": 681.203125
+        },
+        {
+          "top": 687.203125,
+          "bottom": 774.890625
+        },
+        {
+          "top": 687.203125,
+          "bottom": 774.890625
+        }
+      ],
+      "hero": {
+        "top": 78,
+        "bottom": 571.515625
+      },
+      "demo": {
+        "top": 803.890625,
+        "bottom": 911.953125
+      },
+      "statsNavOverlap": false,
+      "statsBeforeDemo": true
+    }
+  },
+  "offline_relaunch": {
+    "online": false,
+    "controller": true,
+    "heading": "Ваши проекты,\nсобранные\nв одном месте.",
+    "demoVisible": true,
+    "projectCards": 3,
+    "documentWidth": 390,
+    "viewportWidth": 390,
+    "fatal": false,
+    "bodyText": "Перейти к содержимому\nfolio®\n◐\nЛИЧНОЕ ПРОСТРАНСТВО\nВаши проекты,\nсобранные\nв одном месте.\n\nИдеи, процесс и результат — в живой коллекции ваших работ.\n\n＋\nСоздать проект\nОткрыть коллекцию\n↗\nFOLIO  /  01\nИДЕЯ · РАЗРАБОТКА · РЕЗУЛЬТАТ\n✳\nДемонстрационные данные\nЭто примеры. Отредактируйте их или удалите "
+  },
+  "confirmed": true,
+  "screenshots": [
+    "pwa-fresh-first-screen-390x844.png",
+    "pwa-fresh-first-launch-390x844.png",
+    "pwa-metrics-320x568.png",
+    "pwa-fresh-offline-relaunch-390x844.png"
+  ]
+}

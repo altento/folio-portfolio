@@ -1,0 +1,3 @@
+node --check app.js : PASS
+node --check core.js : PASS
+node --check sw.js : PASS

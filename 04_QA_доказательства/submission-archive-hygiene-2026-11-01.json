@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-01",
+  "task": "submission archive hygiene",
+  "changes": {
+    "excludedFromZip": [
+      "01_Отчёты/~$чёт_ООП_Модуль_5.docx",
+      "01_Отчёты/Отчет_ООП_Модуль_5.docx",
+      "01_Отчёты/Отчет_ООП_Модуль_5.pdf"
+    ],
+    "reason": [
+      "~$ file is a Word lock file for an actively open report and remains untouched in the working folder.",
+      "Two unaccented Module 5 copies are byte-identical to the canonical accented filenames linked from README.",
+      "Only the distributable ZIP and manifest exclude these files; original project report files outside the handoff package were not changed."
+    ],
+    "canonicalFiles": [
+      "01_Отчёты/Отчёт_ООП_Модуль_5.docx",
+      "01_Отчёты/Отчёт_ООП_Модуль_5.pdf"
+    ],
+    "duplicateSha256": {
+      "docx": "8911fa60c9472ca8fbdc7e115ca7d8adcd8ebb9a4897c007bec7b15c339a446a",
+      "pdf": "de40abc5fd6d96a569c9b8457dc1ea7d2b2c0e2f23ae2d8a2673228280a3721d"
+    }
+  },
+  "expected": "rebuild manifest and zip without temp lock or duplicate report copies",
+  "verification": "PASS: 1114 package files plus manifest; hashes, ZIP member set and CRC; Python/SQLite 57/57; web core 21/21; no Word lock file or unaccented duplicate report copies in ZIP; personal databases excluded.",
+  "sourceFilesUnchanged": true
+}

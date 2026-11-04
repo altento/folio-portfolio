@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-01",
+  "scope": "module 5 DOCX/PDF update to desktop v86 and web/PWA v66; verified from clean Word-open source after detecting stale cached-document export",
+  "docx": {
+    "path": "01_Отчёты/Отчёт_ООП_Модуль_5.docx",
+    "sha256": "19e899fca33fae5a8ee88aab05eb9258cab95064f607bf34448beffdc0dbe78a",
+    "paragraphs": 69,
+    "images": 7,
+    "control_cut": "desktop v86 / web-PWA v66",
+    "word_source": "Microsoft Word opened the latest DOCX from its exact QA folder; Save As confirmed module5-v66-render folder"
+  },
+  "pdf": {
+    "path": "01_Отчёты/Отчёт_ООП_Модуль_5.pdf",
+    "sha256": "e85502325b84948f326d7ed5690965ba16c0ad7f17fb491a6e87f6743efe45b4",
+    "pages": 11,
+    "nonempty_text_pages": 11,
+    "normalized_docx_pdf_text_similarity": 0.99854,
+    "rendered_images": [
+      "04_QA_доказательства/module5-v66-render/final-page-01.png",
+      "04_QA_доказательства/module5-v66-render/final-page-02.png",
+      "04_QA_доказательства/module5-v66-render/final-page-03.png",
+      "04_QA_доказательства/module5-v66-render/final-page-04.png",
+      "04_QA_доказательства/module5-v66-render/final-page-05.png",
+      "04_QA_доказательства/module5-v66-render/final-page-06.png",
+      "04_QA_доказательства/module5-v66-render/final-page-07.png",
+      "04_QA_доказательства/module5-v66-render/final-page-08.png",
+      "04_QA_доказательства/module5-v66-render/final-page-09.png",
+      "04_QA_доказательства/module5-v66-render/final-page-10.png",
+      "04_QA_доказательства/module5-v66-render/final-page-11.png"
+    ],
+    "contact_sheet": "04_QA_доказательства/module5-v66-render/final-contact-sheet.jpg"
+  },
+  "visual_review": {
+    "all_11_page_contact_sheet_reviewed": true,
+    "pages_4_and_5_zoom_reviewed": true,
+    "conclusion_and_current_cut_stay_together": true,
+    "clipped_or_overlapping_text_found": false,
+    "observation": "Page 4 ends after the code excerpt; page 5 starts with the Conclusion heading and contains the full v66 control paragraph. All other pages retain the prior reviewed layout."
+  },
+  "verification": {
+    "pdf_text_extract_all_pages": true,
+    "v66_content_checks_all_passed": true,
+    "root_and_package_report_copies_match": true,
+    "python_sqlite_tests": "52/52",
+    "web_core_tests": "21/21"
+  },
+  "limitations": [
+    "Physical phone and real screen reader were not tested.",
+    "The official student group code remains unverified against the current official register."
+  ]
+}

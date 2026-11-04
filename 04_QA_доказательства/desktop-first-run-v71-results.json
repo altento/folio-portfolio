@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-30",
+  "test": "Packaged desktop first launch with visual covers",
+  "source": "Isolated copy of the current submission package's 02_Приложение folder",
+  "precondition": "No portfolio_data.sqlite3 or portfolio_data.json was present before launching main.py.",
+  "launch": "Python 3.13 pythonw.exe main.py, packaged app files, isolated QA directory",
+  "observed": [
+    "Main window opened with three starter projects.",
+    "Each selected project showed its corresponding bundled original cover in the details preview.",
+    "The cover files were resolved safely from the bundled web/assets/covers directory using the shared ./assets/covers/... reference."
+  ],
+  "database_read_only_check": {
+    "integrity_check": "ok",
+    "schema_version": 1,
+    "project_count": 3,
+    "covers": [
+      "./assets/covers/portfolio-studio.webp",
+      "./assets/covers/cleaning-crm.webp",
+      "./assets/covers/city-courtyards.webp"
+    ]
+  },
+  "screenshots": [
+    "desktop-first-run-v71-portfolio-1362x912.jpg",
+    "desktop-first-run-v71-cleaning-crm-1362x912.jpg",
+    "desktop-first-run-v71-city-map-1362x912.jpg"
+  ],
+  "shutdown": "QA window closed; its test process exited.",
+  "safety": "The fresh-launch copy was isolated. The user's active databases were not opened or changed."
+}

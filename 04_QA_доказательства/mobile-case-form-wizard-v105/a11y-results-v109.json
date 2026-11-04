@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "axeCore": "4.14.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "scans": {
+    "dashboard_mobile": {
+      "version": "4.14.0",
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes": 46
+    },
+    "form_step_1_mobile": {
+      "version": "4.14.0",
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes": 50
+    },
+    "form_step_2_mobile": {
+      "version": "4.14.0",
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes": 49
+    },
+    "form_step_3_mobile": {
+      "version": "4.14.0",
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes": 48
+    },
+    "form_desktop": {
+      "version": "4.14.0",
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes": 46
+    }
+  },
+  "totalViolations": 0,
+  "pageErrors": [],
+  "manualLimit": "No physical screen reader, TalkBack, switch control, or direct OS text scaling was tested.",
+  "formStructure": {
+    "step1": {
+      "wizardLabel": "project-form-step-title",
+      "progress": "<div id=\"project-form-step-progress\" class=\"project-form-step-progress\" role=\"progressbar\" aria-label=\"Шаг заполнения проекта\" aria-valuemin=\"1\" aria-valuemax=\"3\" aria-valuenow=\"1\" aria-valuetext=\"Шаг 1 из 3\"><span style=\"width: 33.3333%;\"></span></div>",
+      "stepTitle": "Основа проекта",
+      "hiddenStory": true,
+      "visibleControls": [
+        {
+          "id": "form-type",
+          "name": "type",
+          "labels": 1,
+          "required": false
+        },
+        {
+          "id": "form-status",
+          "name": "status",
+          "labels": 1,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "title",
+          "labels": 1,
+          "required": true
+        },
+        {
+          "id": "",
+          "name": "description",
+          "labels": 1,
+          "required": true
+        },
+        {
+          "id": "",
+          "name": "created_at",
+          "labels": 1,
+          "required": true
+        },
+        {
+          "id": "",
+          "name": "demo_url",
+          "labels": 1,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "technologies",
+          "labels": 1,
+          "required": false
+        },
+        {
+          "id": "case-tag-entry",
+          "name": "tag_draft",
+          "labels": 1,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "featured",
+          "labels": 1,
+          "required": false
+        }
+      ]
+    },
+    "step3": {
+      "stepHeading": "Изображения и ссылки",
+      "activeElement": "<h3 id=\"project-form-step-title\" tabindex=\"-1\">Изображения и ссылки</h3>",
+      "progressNow": "3",
+      "progressText": "Шаг 3 из 3",
+      "visibleControls": [
+        {
+          "id": "cover-file",
+          "name": "",
+          "labels": 1,
+          "required": false
+        },
+        {
+          "id": "gallery-files",
+          "name": "",
+          "labels": 1,
+          "required": false
+        },
+        {
+          "id": "",
+          "name": "page_count",
+          "labels": 1,
+          "required": true
+        }
+      ]
+    }
+  }
+}

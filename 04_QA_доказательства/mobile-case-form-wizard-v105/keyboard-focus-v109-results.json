@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "transition": "Enter on Next",
+  "focusedStepHeading": {
+    "step": "1",
+    "activeId": "project-form-step-title",
+    "activeText": "История кейса",
+    "outlineStyle": "solid",
+    "outlineWidth": "2px",
+    "outlineColor": "rgb(130, 157, 41)",
+    "rect": {
+      "x": 40,
+      "y": 207.53125,
+      "width": 310,
+      "height": 25.5,
+      "top": 207.53125,
+      "right": 350,
+      "bottom": 233.03125,
+      "left": 40
+    }
+  },
+  "tabTargetAfterHeading": {
+    "id": "",
+    "name": null,
+    "text": "Посмотреть структуру кейса",
+    "insideDialog": true,
+    "visible": true
+  },
+  "resizeDesktop": {
+    "insideDialog": true,
+    "visible": true
+  },
+  "resizeMobile": {
+    "id": "project-form-step-title",
+    "insideDialog": true,
+    "visible": true
+  },
+  "noDataMutation": true
+}

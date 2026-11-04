@@ -1,0 +1,1 @@
+import{a as i}from"./chunk-COP62JR2.js";var e=i("FolioFileExport");async function l(t,o,r){let n=String(r||"application/octet-stream").split(";",1)[0],{fileId:p}=await e.prepareExport({name:t,content:String(o)});return e.save({name:t,fileId:p,mimeType:n})}export{l as saveNativeFile};

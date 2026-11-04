@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-30",
+  "app_version": "folio-shell-v48-compact-sort-labels",
+  "test": "Playwright smoke browser_qa.mjs",
+  "source": "isolated headless Chrome context served from the current web/ source",
+  "desktop": {
+    "viewport": "1440x1200",
+    "demo_cards": 3,
+    "featured_card_width": 1110,
+    "featured_grid_width": 1110,
+    "recent_cards": 2,
+    "recent_columns": 2,
+    "search": "passed",
+    "empty_state": "passed",
+    "create": "passed",
+    "persistence_after_reload": "passed",
+    "console_errors": []
+  },
+  "mobile": {
+    "viewport": "390x844",
+    "document_width": 390,
+    "horizontal_overflow": false,
+    "bottom_navigation": "visible",
+    "demo_cards": 3,
+    "offline_reload_cards": 3,
+    "placeholder_demo_links": 0
+  },
+  "screenshots": [
+    "скрин_web_компьютер.png",
+    "скрин_web_форма.png",
+    "скрин_web_телефон.png",
+    "скрин_web_телефон_кейс.png",
+    "служебные_файлы/qa_проект_сохранён.png",
+    "служебные_файлы/qa_телефон_каталог.png"
+  ]
+}

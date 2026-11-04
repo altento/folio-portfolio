@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "build": "desktop-cards-v91-short-height",
+  "result": "PASS",
+  "client_geometry": "1000x680",
+  "captured_window": "1002x732 including native title/menu decoration",
+  "checks": [
+    "Tight density is active in the short-height window.",
+    "Fixed bottom toolbar with eight actions is mapped and visible; diagnostic Tk widget tree reports nonzero button dimensions.",
+    "Details pane is hidden at tight density to reserve more vertical area.",
+    "Project gallery remains scrollable in the space above the fixed toolbar.",
+    "Search, filters, view toggle, and project content fit the window without horizontal clipping."
+  ],
+  "screenshot": "desktop-gallery-1000x680-actions-visible-2026-11-01.jpg",
+  "data_scope": "Isolated QA copy with demo data only; user database untouched.",
+  "limitations": [
+    "Screen reader and a physical touch screen were not tested in this pass."
+  ]
+}

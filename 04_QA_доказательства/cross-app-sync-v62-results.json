@@ -1,0 +1,13 @@
+{
+  "run": "desktop-web portable JSON interoperability v62",
+  "input_fixture": "web/demo.json",
+  "input_is_demo_data": true,
+  "web_json_to_desktop_import": "pass",
+  "desktop_project_types": ["LandingProject", "WebAppProject", "WebAppProject"],
+  "projects_imported": 3,
+  "local_cover_references_retained": 3,
+  "desktop_json_to_web_parse_and_serialize": "pass",
+  "web_projects_after_round_trip": 3,
+  "tags_retained": 6,
+  "user_data_touched": false
+}

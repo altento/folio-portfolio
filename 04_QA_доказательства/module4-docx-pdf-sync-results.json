@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-01",
+  "docx": "01_Отчёты/Отчёт_ООП_Модуль_4.docx",
+  "pdf": "01_Отчёты/Отчёт_ООП_Модуль_4.pdf",
+  "docx_paragraphs": 58,
+  "docx_inline_images": 7,
+  "pdf_pages": 10,
+  "all_pdf_pages_have_extractable_text": true,
+  "normalized_text_similarity": 0.999586,
+  "normalized_character_counts": {
+    "docx": 6041,
+    "pdf": 6046
+  },
+  "contact_sheet": "module4-pdf-render-contact-sheet.jpg",
+  "visual_reviewed": true,
+  "verified_content": [
+    "title",
+    "class descriptions",
+    "UML",
+    "flowcharts",
+    "application screenshots",
+    "code excerpts",
+    "references"
+  ]
+}

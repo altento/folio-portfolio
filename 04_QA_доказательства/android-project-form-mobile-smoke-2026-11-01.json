@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-01",
+  "test": "Android project form and keyboard smoke",
+  "build": "Web/PWA v83 debug APK",
+  "device": "Android API 36 emulator (emulator-5554)",
+  "data": "Bundled demo portfolio only. Cleared only the synthetic QA project-draft key; portfolio data and saved view were preserved.",
+  "observations": {
+    "cleanDraftBeforeTest": true,
+    "titleValue": "",
+    "descriptionValue": "",
+    "emptyFormValidity": false,
+    "firstInvalidControls": [
+      "title",
+      "description"
+    ],
+    "activeElementAfterEmptySubmit": "title",
+    "dialogRemainsOpenAfterEmptySubmit": true,
+    "projectCountUnchanged": true,
+    "keyboardVisibleOnFormAndValidation": true,
+    "allPrimaryFormFieldsAndActionRowVisibleAfterKeyboardDismiss": true,
+    "formClosedWithoutSaving": true,
+    "savedViewAndSingleResultPreserved": true,
+    "earlierObservationCorrection": "A previous QA draft contained whitespace-only title and description, so required attributes treated those fields as non-empty and focus progressed. That run was not a clean empty-form test and is superseded by this protocol.",
+    "crossCheck": "Direct Android WebView DOM check confirmed empty title/description, invalid controls title then description, and focus on title after submitting. Isolated mobile Chromium likewise retained focus on title."
+  },
+  "screenshots": [
+    "mobile-project-form-clean-empty-validation.png",
+    "mobile-project-form-clean-keyboard-dismissed.png",
+    "mobile-project-form-clean-closed.png"
+  ],
+  "limitations": [
+    "Emulator only; no physical phone.",
+    "No screen reader pass.",
+    "Does not test successful create/edit/save."
+  ]
+}

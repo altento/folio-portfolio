@@ -1,0 +1,27 @@
+{
+  "version": "v53-saved-filter-views",
+  "checks": {
+    "serviceWorkerUsesV53Cache": true,
+    "saveKeepsSearchAndSort": true,
+    "savedViewSelectedAndCounted": true,
+    "duplicateNamesAreCaseInsensitive": true,
+    "secondViewSaved": true,
+    "manualChangesClearActiveSelection": true,
+    "applyRestoresAllCriteria": true,
+    "activeViewCanBeRemoved": true,
+    "savedViewPersistsAcrossReload": true,
+    "savedViewCanBeReappliedAfterReload": true,
+    "mobileNoHorizontalOverflow": true,
+    "mobileToolbarFits": true,
+    "smallMobileNoHorizontalOverflow": true,
+    "smallSortLabelIsCompact": true,
+    "smallMobileToolbarFits": true,
+    "deleteRemovesSelectedView": true,
+    "deletedViewCanBeRestored": true,
+    "deleteClearsDeviceOnlyPreference": true,
+    "removedTagRemainsVisibleInSavedView": true,
+    "limitIsTwelveAndEnforced": true,
+    "malformedPreferenceFailsClosed": true
+  },
+  "errors": []
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "product": "folio desktop",
+  "area": "Project card gallery",
+  "build": "desktop-cards-v90",
+  "result": "PASS",
+  "checks": [
+    "Gallery is the active default view in the isolated demo copy.",
+    "Two visual project cards render with cover art, status, date, summary, technology stack, and direct actions.",
+    "Wheel scrolling over a nested card label moved the gallery viewport.",
+    "Switching between card and table modes and opening a case detail had already been manually confirmed in this isolated copy."
+  ],
+  "screenshot": "desktop-cards-v90-wheel-scroll-2026-11-01.jpg",
+  "screenshot_size_px": "1362x912",
+  "data_scope": "Isolated QA copy with demo data only; user database untouched.",
+  "limitations": [
+    "Compact 1000x680 Tk window resizing was not confirmed in this pass.",
+    "No screenshot of card/table toggle or case detail was captured in this pass.",
+    "Physical touch-device and screen-reader acceptance remain open."
+  ]
+}

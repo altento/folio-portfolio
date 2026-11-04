@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-02",
+  "source_main_py_last_modified": "2026-11-02T18:20:44",
+  "build_tool": "PyInstaller 6.22.3, Python 3.13.7",
+  "exe_path": "folio.exe at project root; desktop launcher checks this path before dist/folio.exe",
+  "exe_size_bytes": 46111814,
+  "exe_sha256": "7db06b56690905d1bba8716368c626f956d20d3ce894b56f0011a4e2d8de98b1",
+  "isolated_launch": "PASS: fresh one-file EXE opened the Tkinter main window and displayed three demo projects.",
+  "database_profile": "A temporary LOCALAPPDATA path was set for the test process; read-only inspection found 3 rows in projects. The user profile/database was not opened.",
+  "build_script": "build-desktop.ps1 now copies the build result from dist/folio.exe to the project-root folio.exe so the launcher and downloadable file stay aligned.",
+  "open_running_instances": "Four older dist/folio.exe processes were already open. They were left running; the existing dist file was not replaced while in use. New launches through the project launcher select the current root EXE.",
+  "screenshot": "folio-exe-launch-v121.png",
+  "screenshot_sha256": "1abd8ada965fad5e4f670a53481edbbce43125cf432b7632e04f139131917f96"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "viewport": "desktop-1920x1080",
+    "http_status": 200,
+    "viewportWidth": 1920,
+    "documentWidth": 1920,
+    "horizontalOverflow": false,
+    "heroHeight": 478,
+    "heroImageLoaded": true,
+    "heroImageNaturalWidth": 1553,
+    "topNewDisplay": "flex",
+    "projectCards": 3,
+    "dashboardTitle": "Ваши проекты,\nсобранные\nв одном месте.",
+    "page_errors": []
+  },
+  {
+    "viewport": "mobile-390x844",
+    "http_status": 200,
+    "viewportWidth": 390,
+    "documentWidth": 390,
+    "horizontalOverflow": false,
+    "heroHeight": 494,
+    "heroImageLoaded": true,
+    "heroImageNaturalWidth": 1553,
+    "topNewDisplay": "none",
+    "projectCards": 3,
+    "dashboardTitle": "Ваши проекты,\nсобранные\nв одном месте.",
+    "page_errors": []
+  },
+  {
+    "viewport": "mobile-320x568",
+    "http_status": 200,
+    "viewportWidth": 320,
+    "documentWidth": 320,
+    "horizontalOverflow": false,
+    "heroHeight": 550,
+    "heroImageLoaded": true,
+    "heroImageNaturalWidth": 1553,
+    "topNewDisplay": "none",
+    "projectCards": 3,
+    "dashboardTitle": "Ваши проекты,\nсобранные\nв одном месте.",
+    "page_errors": []
+  }
+]

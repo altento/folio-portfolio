@@ -1,0 +1,56 @@
+[
+  {
+    "viewport": "desktop",
+    "httpStatus": 200,
+    "title": "Портфолио — рабочее пространство",
+    "route": "#dashboard",
+    "overflow": false,
+    "pageErrors": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/assets/covers/portfolio-studio.webp",
+        "loaded": true,
+        "naturalWidth": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8765/assets/covers/city-courtyards.webp",
+        "loaded": true,
+        "naturalWidth": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8765/assets/covers/cleaning-crm.webp",
+        "loaded": true,
+        "naturalWidth": 1536
+      }
+    ],
+    "imageFailures": [],
+    "screenshot": "portfolio-live-final-desktop-1440x900.png"
+  },
+  {
+    "viewport": "mobile",
+    "httpStatus": 200,
+    "title": "Портфолио — рабочее пространство",
+    "route": "#dashboard",
+    "overflow": false,
+    "pageErrors": [],
+    "images": [
+      {
+        "src": "http://127.0.0.1:8765/assets/covers/portfolio-studio.webp",
+        "loaded": true,
+        "naturalWidth": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8765/assets/covers/city-courtyards.webp",
+        "loaded": true,
+        "naturalWidth": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8765/assets/covers/cleaning-crm.webp",
+        "loaded": true,
+        "naturalWidth": 1536
+      }
+    ],
+    "imageFailures": [],
+    "screenshot": "portfolio-live-final-mobile-390x844.png"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "viewport": "desktop",
+    "view": "projects",
+    "http": 200,
+    "breadcrumb": "Мои проекты",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "mainTitle": "Все проекты",
+    "active": [
+      "projects",
+      "projects"
+    ],
+    "screenshot": "folio-desktop-projects.png",
+    "errors": []
+  },
+  {
+    "viewport": "desktop",
+    "view": "showcase",
+    "http": 200,
+    "breadcrumb": "Витрина",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "mainTitle": "Работы, которыми\nхочется поделиться.",
+    "active": [
+      "showcase",
+      "showcase"
+    ],
+    "screenshot": "folio-desktop-showcase.png",
+    "errors": []
+  },
+  {
+    "viewport": "desktop",
+    "view": "settings",
+    "http": 200,
+    "breadcrumb": "Настройки и данные",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflow": false,
+    "mainTitle": "Настройки и данные",
+    "active": [
+      "settings",
+      "settings"
+    ],
+    "screenshot": "folio-desktop-settings.png",
+    "errors": []
+  },
+  {
+    "viewport": "mobile",
+    "view": "projects",
+    "http": 200,
+    "breadcrumb": "Мои проекты",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "mainTitle": "Все проекты",
+    "active": [
+      "projects",
+      "projects"
+    ],
+    "screenshot": "folio-mobile-projects.png",
+    "errors": []
+  },
+  {
+    "viewport": "mobile",
+    "view": "showcase",
+    "http": 200,
+    "breadcrumb": "Витрина",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "mainTitle": "Работы, которыми\nхочется поделиться.",
+    "active": [
+      "showcase",
+      "showcase"
+    ],
+    "screenshot": "folio-mobile-showcase.png",
+    "errors": []
+  },
+  {
+    "viewport": "mobile",
+    "view": "settings",
+    "http": 200,
+    "breadcrumb": "Настройки и данные",
+    "width": 390,
+    "scrollWidth": 390,
+    "overflow": false,
+    "mainTitle": "Настройки и данные",
+    "active": [
+      "settings",
+      "settings"
+    ],
+    "screenshot": "folio-mobile-settings.png",
+    "errors": []
+  }
+]

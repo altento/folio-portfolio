@@ -1,0 +1,27 @@
+{
+  "run": "web-v62 integration regression",
+  "base": "http://127.0.0.1:8766/",
+  "checks": {
+    "desktop_cards": 3,
+    "featured_card_fills_section": true,
+    "recent_cards_two_columns": true,
+    "search_by_technology": "pass",
+    "empty_search_state": "pass",
+    "create_project": "pass",
+    "indexeddb_persistence_after_reload": "pass",
+    "offline_reload_projects": 3,
+    "placeholder_external_links": 0,
+    "viewports": {
+      "390x844": {"document_width": 390, "scroll_width": 390, "mobile_navigation": "visible"},
+      "320x568": {"document_width": 320, "scroll_width": 320, "mobile_navigation": "visible"}
+    },
+    "project_images_loaded_at_320px": 3,
+    "browser_console_errors": []
+  },
+  "screenshots": [
+    "web-v62-dashboard-desktop.png",
+    "web-v62-dashboard-mobile-390x844.png",
+    "web-v62-dashboard-mobile-320x568.png",
+    "web-v62-cards-mobile-320x568.png"
+  ]
+}

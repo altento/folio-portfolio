@@ -1,0 +1,16 @@
+{
+  "errors": [],
+  "initial": 3,
+  "after_save": 4,
+  "export": {
+    "path": "C:\\Users\\Windows-10\\Desktop\\Портфолио_веб-разработчика\\служебные_файлы\\qa_30-10-2026\\exports\\pwa-to-desktop-v34.json",
+    "project_count": 4,
+    "qa_matches": [
+      {
+        "id": 4,
+        "title": "QA transfer PWA to desktop v34",
+        "page_count": 7
+      }
+    ]
+  }
+}

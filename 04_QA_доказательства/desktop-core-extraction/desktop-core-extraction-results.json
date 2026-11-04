@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-02",
+  "scope": "isolated Tk startup smoke after extracting portfolio domain models; no user database opened",
+  "runtime": "Python 3.13.7; Tcl/Tk 8.6.15",
+  "isolatedCopy": "Windows Temp / folio-desktop-core-v92-smoke-20261102",
+  "startup": {
+    "windowVisible": true,
+    "projectsVisible": 3,
+    "sqliteCreatedInIsolatedCopy": true,
+    "sqliteReadBackProjectCount": 3,
+    "nextId": 4
+  },
+  "moduleBoundary": {
+    "portfolio_coreImportsTkOrQt": false,
+    "mainReexportsExistingModelNames": true,
+    "sqliteStorageRemainsSeparate": true
+  },
+  "uiAutomation": {
+    "mainWindowAndMenuVisible": true,
+    "innerTkControlsExposed": false,
+    "limitation": "The existing Tk runtime exposes only panel containers to Windows UI Automation."
+  },
+  "verification": {
+    "pyCompileMainAndCore": "passed",
+    "pythonSqliteSuite": "58/58"
+  },
+  "screenshot": "desktop-core-extraction-startup.png",
+  "limitations": [
+    "Only isolated startup was exercised; create/edit/delete/import/export workflows were not repeated after this refactor.",
+    "No NVDA or Narrator speech test was performed.",
+    "Database contained only three generated demo projects and was stored under Windows Temp."
+  ]
+}

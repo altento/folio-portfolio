@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "product": "folio desktop",
+  "build": "desktop-cards-v91-responsive",
+  "result": "PASS",
+  "window": "1002x1080",
+  "layout": "One-column project gallery",
+  "checks": [
+    "Live isolated desktop window snapped to 1002 px width.",
+    "Card gallery switched from two columns to one column and cover imagery resized to 780x335 px.",
+    "Search, filter controls, view toggle, action bar, detail pane remain within the window.",
+    "Responsive layout signature is recomputed after the debounced root Configure event.",
+    "Unit test verifies width thresholds at 800, 1000, 1119, 1120, and 1360 px."
+  ],
+  "screenshot": "desktop-gallery-1002px-one-column-2026-11-01.jpg",
+  "data_scope": "Isolated QA copy with demo data only; user database untouched.",
+  "limitations": [
+    "Height was not reduced to 680 px in this pass.",
+    "Physical touch-device and screen-reader acceptance remain open."
+  ]
+}

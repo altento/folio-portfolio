@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "context": "folio-next-product-audit, isolated local PWA context; no user data",
+  "viewport_css_px": [
+    390,
+    844
+  ],
+  "dialog": "#project-dialog",
+  "initial_focus": "Название *",
+  "tab_cycles": 40,
+  "focus_leaves_dialog": false,
+  "dialog_stays_open_during_tab_cycle": true,
+  "escape_closes_without_save": true,
+  "focus_returns_to": "mobile add-project button",
+  "data_mutation": false,
+  "screenshots": [
+    "web-live-mobile-390x844-accessibility-2026-11-01.jpg",
+    "web-live-mobile-new-project-dialog-390x844-2026-11-01.jpg"
+  ],
+  "limit": "emulated mobile browser viewport; no physical device or actual screen reader used"
+}

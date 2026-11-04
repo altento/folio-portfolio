@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-10-29",
+  "method": "Opened every bibliography URL directly; titles and relevant subject descriptions verified",
+  "total": 10,
+  "all_pages_opened": true,
+  "sources": [
+    {
+      "url": "https://docs.python.org/3/library/tkinter.html",
+      "name": "Python tkinter"
+    },
+    {
+      "url": "https://docs.python.org/3/library/csv.html",
+      "name": "Python csv"
+    },
+    {
+      "url": "https://docs.python.org/3/library/json.html",
+      "name": "Python json"
+    },
+    {
+      "url": "https://docs.python.org/3/library/abc.html",
+      "name": "Python abc"
+    },
+    {
+      "url": "https://docs.python.org/3/library/dataclasses.html",
+      "name": "Python dataclasses"
+    },
+    {
+      "url": "https://docs.python.org/3/library/sqlite3.html",
+      "name": "Python sqlite3"
+    },
+    {
+      "url": "https://www.figma.com/resource-library/portfolio-website-examples/",
+      "name": "Figma portfolio website examples"
+    },
+    {
+      "url": "https://docs.github.com/en/account-and-profile/concepts/personal-profile",
+      "name": "GitHub About your profile"
+    },
+    {
+      "url": "https://web.dev/learn/pwa/",
+      "name": "web.dev Learn PWA"
+    },
+    {
+      "url": "https://pillow.readthedocs.io/en/stable/reference/Image.html",
+      "name": "Pillow Image module"
+    }
+  ]
+}

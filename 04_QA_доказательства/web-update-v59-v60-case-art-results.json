@@ -1,0 +1,35 @@
+{
+  "from": "folio-shell-v59-editorial-portfolio-dashboard",
+  "to": "folio-shell-v60-editorial-case-art",
+  "checks": {
+    "legacyShellAndIndexedDBReady": true,
+    "newAssetsCachedBeforeConfirmation": true,
+    "indexedDbRecordsSurviveUpdate": true,
+    "oldCacheRemovedAndV60Active": true,
+    "legacyCrmCoverMapsToNewArt": true,
+    "legacyCourtyardCoverMapsToNewArt": true,
+    "allThreeCoversLoadOnline": true,
+    "allThreeCoversLoadOffline": true,
+    "offlineAppAndCaseArt": true,
+    "noApplicationErrors": true
+  },
+  "errors": [],
+  "cacheKeysAfterUpdate": [
+    "folio-shell-v60-editorial-case-art"
+  ],
+  "cover_sources": [
+    "./assets/covers/portfolio-studio.webp",
+    "./assets/covers/cleaning-crm-case-v2.webp",
+    "./assets/covers/city-courtyards-case-v2.webp"
+  ],
+  "offline_cover_sources": [
+    "./assets/covers/portfolio-studio.webp",
+    "./assets/covers/cleaning-crm-case-v2.webp",
+    "./assets/covers/city-courtyards-case-v2.webp"
+  ],
+  "document_width": 390,
+  "screens": [
+    "web-update-v59-v60-notice-mobile-390x844.png",
+    "web-v60-case-art-offline-mobile-390x844.png"
+  ]
+}

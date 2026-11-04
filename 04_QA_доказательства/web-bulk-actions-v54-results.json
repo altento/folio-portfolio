@@ -1,0 +1,57 @@
+{
+  "version": "v54-bulk-project-actions",
+  "checks": {
+    "freshPortfolioHasThreeDemoProjects": true,
+    "selectionToolbarHiddenInitially": true,
+    "selectVisibleChoosesAll": true,
+    "bulkFeaturePersistsToRenderedCards": true,
+    "keyboardFocusMovesToNextAvailableBulkAction": true,
+    "bulkFeaturedStatePersistsAfterReload": true,
+    "bulkUnfeatureWorks": true,
+    "selectionSurvivesFilteringAndCountsHidden": true,
+    "unselectVisibleKeepsHiddenSelection": true,
+    "clearSelectionRemovesToolbar": true,
+    "individualSelectionAndMixedVisibleState": true,
+    "cancelDeleteLeavesProjectsAndSelectionUntouched": true,
+    "deleteConfirmsAndRemovesOnlySelected": true,
+    "undoRestoresProjectsAndOriginalSelection": true,
+    "selectionWorksInListLayout": true,
+    "mobile390NoHorizontalOverflow": true,
+    "mobile390SelectionLabelVisible": true,
+    "mobile390ToolbarFits": true,
+    "mobile320NoHorizontalOverflow": true,
+    "mobile320SelectionLabelVisible": true,
+    "mobile320ToolbarFits": true,
+    "serviceWorkerUsesV54": true
+  },
+  "errors": [],
+  "diagnostics": {
+    "mobile390SelectionLabel": {
+      "text": "Выбрать показанные",
+      "rect": {
+        "width": 86,
+        "height": 13.5
+      },
+      "display": "block"
+    },
+    "mobile320SelectionLabel": {
+      "text": "Выбрать показанные",
+      "width": 86,
+      "height": 13.5,
+      "display": "block"
+    },
+    "mobile390Toolbar": {
+      "left": 17,
+      "right": 373,
+      "width": 356,
+      "scroll": 354,
+      "client": 354
+    },
+    "mobile320Toolbar": {
+      "left": 13,
+      "right": 307,
+      "scroll": 292,
+      "client": 292
+    }
+  }
+}

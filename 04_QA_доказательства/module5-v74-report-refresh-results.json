@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "document": "Отчет_ООП_Модуль_5.pdf",
+  "pages": 11,
+  "pdf_bytes": 948960,
+  "renderer": "Microsoft Word PDF export; Poppler pdftoppm 110 dpi",
+  "visual_review": "all 11 rendered pages inspected; heading pagination fixed with keep_with_next",
+  "evidence_dir": "04_QA_доказательства/module5-v74-report-refresh-final/",
+  "contact_sheet": "contact-sheet.png",
+  "report_control_slice": {
+    "desktop": "v87",
+    "web_pwa": "v74",
+    "python_sqlite": "55/55",
+    "web_core": "21/21"
+  },
+  "embedded_ui_screenshots": "v73 visual snapshot; v74 reliability changes did not change displayed UI",
+  "similarity_score": null,
+  "limitations": [
+    "Physical phone not tested",
+    "Screen reader not tested",
+    "System PWA install dialog not tested"
+  ]
+}

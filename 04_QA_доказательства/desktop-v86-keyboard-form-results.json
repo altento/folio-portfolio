@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-01",
+  "application": "Windows Tkinter portfolio, existing user session; no project data changed",
+  "window": "1362x912",
+  "project_type": "Сайт / лендинг",
+  "method": "manual Windows keyboard traversal using Computer Use; each Tab captured and inspected",
+  "observed_route": [
+    "Название",
+    "Описание",
+    "Дата",
+    "Статус",
+    "Демо URL",
+    "Технологии",
+    "Теги",
+    "Моя роль",
+    "Результат / польза",
+    "Контекст задачи",
+    "Решение",
+    "Этапы процесса",
+    "Метрики результата",
+    "Количество страниц",
+    "Избранное",
+    "Обложка: выбрать",
+    "Обложка: убрать",
+    "Галерея",
+    "Отмена"
+  ],
+  "results": {
+    "focus_visible": true,
+    "auto_scroll_kept_focused_fields_visible": true,
+    "bottom_cancel_reachable": true,
+    "blank_form_cancelled": true,
+    "project_count_after_cancel": 3,
+    "saved_changes": false
+  },
+  "limits": [
+    "Только размер окна 1362x912 и тип «Сайт / лендинг» проверены вручную.",
+    "Shift+Tab, остальные варианты типа проекта, физическая клавиатура и экранный диктор не проверялись.",
+    "Кнопка «Отмена» была активна/видима в Tab-порядке и нажата мышью; подтверждённое клавиатурное срабатывание Enter на этой кнопке отсутствует."
+  ],
+  "screenshot": "desktop-v86-keyboard-form-return-1362x912.jpg"
+}

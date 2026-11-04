@@ -1,0 +1,504 @@
+{
+  "date": "2026-11-01",
+  "version": "folio-shell-v63-tablet-saved-filter-layout",
+  "errors": [],
+  "externalRequests": [
+    "http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=z-a0_OKrDVi5w9ZR7LJVchLNoLX2NcRBd9s6Vtlwspau4bCLLKOJBh1QniWKai98"
+  ],
+  "views": [
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "dashboard",
+      "controlCount": 18,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 2314
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 4
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "projects",
+      "controlCount": 28,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 900
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "showcase",
+      "controlCount": 13,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 1015
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 1
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "route": "settings",
+      "controlCount": 22,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "document": {
+        "width": 1440,
+        "height": 1501
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "dashboard",
+      "controlCount": 18,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 3449
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 4
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "projects",
+      "controlCount": 28,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 2246
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "showcase",
+      "controlCount": 13,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 1304
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "settings",
+      "controlCount": 22,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document": {
+        "width": 390,
+        "height": 2301
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 0
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "dashboard",
+      "controlCount": 18,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "document": {
+        "width": 320,
+        "height": 3517
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 4
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "projects",
+      "controlCount": 28,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "document": {
+        "width": 320,
+        "height": 2235
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 3
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "showcase",
+      "controlCount": 13,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "document": {
+        "width": 320,
+        "height": 1330
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 1
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "settings",
+      "controlCount": 22,
+      "smallestTarget": 44,
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "document": {
+        "width": 320,
+        "height": 2391
+      },
+      "h1": 1,
+      "landmarks": {
+        "main": 1,
+        "nav": 2
+      },
+      "unnamed": [],
+      "unlabeled": [],
+      "smallTargets": [],
+      "targetsUnder44": [],
+      "imagesMissingAlt": [],
+      "imagesNotLoaded": [],
+      "imageCount": 0
+    }
+  ],
+  "screens": [
+    "web-a11y-v63-dashboard-1440x900.png",
+    "web-a11y-v63-projects-1440x900.png",
+    "web-a11y-v63-showcase-1440x900.png",
+    "web-a11y-v63-settings-1440x900.png",
+    "web-a11y-v63-detail-1440x900.png",
+    "web-a11y-v63-form-1440x900.png",
+    "web-a11y-v63-dashboard-390x844.png",
+    "web-a11y-v63-projects-390x844.png",
+    "web-a11y-v63-showcase-390x844.png",
+    "web-a11y-v63-settings-390x844.png",
+    "web-a11y-v63-detail-390x844.png",
+    "web-a11y-v63-form-390x844.png",
+    "web-a11y-v63-dashboard-320x568.png",
+    "web-a11y-v63-projects-320x568.png",
+    "web-a11y-v63-showcase-320x568.png",
+    "web-a11y-v63-settings-320x568.png",
+    "web-a11y-v63-detail-320x568.png",
+    "web-a11y-v63-form-start-320x568.png",
+    "web-a11y-v63-form-320x568.png"
+  ],
+  "scriptHosts": [
+    "gc.kis.v2.scr.kaspersky-labs.com",
+    "127.0.0.1"
+  ],
+  "details": [
+    {
+      "width": 1440,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 1440,
+      "viewportWidth": 1440
+    },
+    {
+      "width": 390,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 390,
+      "viewportWidth": 390
+    },
+    {
+      "width": 320,
+      "dialogOpen": true,
+      "ariaLabelledby": "detail-title",
+      "titleId": true,
+      "closeName": "Закрыть",
+      "documentWidth": 320,
+      "viewportWidth": 320
+    }
+  ],
+  "forms": [
+    {
+      "width": 1440,
+      "dialogOpen": true,
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 75,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 152,
+          "h": 44,
+          "visible": true
+        }
+      ],
+      "unlabeled": [],
+      "headingVisibleAtOpen": true,
+      "actionsAfterScroll": [
+        {
+          "label": "Отмена",
+          "w": 75,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 152,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "dialogOpen": true,
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 168,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 166,
+          "h": 44,
+          "visible": true
+        }
+      ],
+      "unlabeled": [],
+      "headingVisibleAtOpen": true,
+      "actionsAfterScroll": [
+        {
+          "label": "Отмена",
+          "w": 168,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 166,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "dialogOpen": true,
+      "documentWidth": 320,
+      "viewportWidth": 320,
+      "activeName": "title",
+      "actions": [
+        {
+          "label": "Отмена",
+          "w": 112,
+          "h": 44,
+          "visible": false
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 152,
+          "h": 44,
+          "visible": false
+        }
+      ],
+      "unlabeled": [],
+      "headingVisibleAtOpen": true,
+      "actionsAfterScroll": [
+        {
+          "label": "Отмена",
+          "w": 112,
+          "h": 44,
+          "visible": true
+        },
+        {
+          "label": "Сохранить проект\n→",
+          "w": 152,
+          "h": 44,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "reducedMotion": true,
+  "darkTheme": "dark",
+  "lightThemeRestored": "light"
+}

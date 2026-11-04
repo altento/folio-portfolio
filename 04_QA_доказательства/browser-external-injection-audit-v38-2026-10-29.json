@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-29",
+  "version": "folio-shell-v38-showcase-themes",
+  "test_origin": "http://127.0.0.1:51804",
+  "source_files_checked": [
+    "index.html",
+    "styles.css",
+    "app.js",
+    "core.js",
+    "sw.js",
+    "manifest.webmanifest",
+    "offline.html"
+  ],
+  "source_files_with_kaspersky_reference": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:51804/",
+      "method": "GET",
+      "resource_type": "document"
+    },
+    {
+      "url": "http://127.0.0.1:51804/styles.css",
+      "method": "GET",
+      "resource_type": "stylesheet"
+    },
+    {
+      "url": "http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js",
+      "method": "GET",
+      "resource_type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:51804/app.js",
+      "method": "GET",
+      "resource_type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:51804/core.js",
+      "method": "GET",
+      "resource_type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:51804/assets/icons/nav-sprite.webp",
+      "method": "GET",
+      "resource_type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:51804/icons/icon.svg",
+      "method": "GET",
+      "resource_type": "other"
+    },
+    {
+      "url": "http://127.0.0.1:51804/demo.json",
+      "method": "GET",
+      "resource_type": "fetch"
+    },
+    {
+      "url": "http://127.0.0.1:51804/assets/icons/feature-sprite.webp",
+      "method": "GET",
+      "resource_type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:51804/assets/covers/portfolio-studio.webp",
+      "method": "GET",
+      "resource_type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:51804/assets/covers/city-courtyards.webp",
+      "method": "GET",
+      "resource_type": "image"
+    },
+    {
+      "url": "http://127.0.0.1:51804/assets/covers/cleaning-crm.webp",
+      "method": "GET",
+      "resource_type": "image"
+    }
+  ],
+  "external_responses": [
+    {
+      "url": "http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js",
+      "status": 200,
+      "content_type": "application/x-javascript;charset=UTF-8"
+    }
+  ],
+  "failed_requests": [],
+  "console_errors": [],
+  "page_errors": [],
+  "dom_scripts": [
+    "http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js",
+    "http://127.0.0.1:51804/app.js"
+  ],
+  "injected_kaspersky_script_not_in_source": true,
+  "external_requests": [
+    {
+      "url": "http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js",
+      "method": "GET",
+      "resource_type": "script"
+    }
+  ],
+  "external_hosts": [
+    "gc.kis.v2.scr.kaspersky-labs.com"
+  ]
+}

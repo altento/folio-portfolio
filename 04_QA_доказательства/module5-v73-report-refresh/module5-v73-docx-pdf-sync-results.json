@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "artifact": "Отчёт ООП Модуль 5",
+  "docx_paragraphs": 69,
+  "pdf_pages": 11,
+  "normalized_text_similarity": 0.999531,
+  "normalized_character_counts": {
+    "docx": 9593,
+    "pdf": 9602
+  },
+  "pdf_exporter": "Microsoft Word / Adobe PDFMaker",
+  "snapshot_markers": {
+    "desktop": "v86",
+    "web_pwa": "v73",
+    "python_sqlite": "53/53",
+    "web_core": "21/21",
+    "physical_phone_and_screen_reader_disclaimer": true
+  },
+  "visually_reviewed_pages": 11,
+  "render": "Poppler pdftoppm, 110 dpi",
+  "source_docx": "01_Отчёты/Отчёт_ООП_Модуль_5.docx",
+  "source_pdf": "01_Отчёты/Отчёт_ООП_Модуль_5.pdf"
+}

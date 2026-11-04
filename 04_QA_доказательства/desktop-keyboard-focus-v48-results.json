@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "area": "Windows Tkinter desktop project list keyboard access",
+  "source_sha256": "19916a972ebf7ca2ba3c2ac7c1d8065c5a8e8310f97e632abb6ab41cb8252ea7",
+  "qa_profile": "desktop-keyboard-v48 (three synthetic demo records; separate SQLite database)",
+  "tab_order": [
+    "Search",
+    "Find",
+    "Type filter",
+    "Status filter",
+    "Reset filters",
+    "Favorites checkbox",
+    "Tag filter",
+    "Project table",
+    "Add action"
+  ],
+  "project_table_reached_by_tab": true,
+  "arrow_down_changes_selected_project": true,
+  "detail_preview_updates_on_selection": true,
+  "tab_moves_to_row_actions": true,
+  "shift_tab_returns_to_selected_row": true,
+  "portfolio_data_changed": false,
+  "uia_tree": "Computer Use exposed the main app window and generic Tk panels, but not named widgets/row contents; full screen-reader semantics are not confirmed.",
+  "manual_screenreader_test": "open",
+  "dialogs_keyboard_test": "open",
+  "screenshots": [
+    "desktop-keyboard-selected-row-v48-1362x912.jpg",
+    "desktop-keyboard-focus-actions-v48-1362x912.jpg"
+  ]
+}

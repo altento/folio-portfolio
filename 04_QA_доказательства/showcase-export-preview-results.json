@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-30",
+  "purpose": "preview-first static showcase download, focus return and no data mutation",
+  "viewports": {
+    "desktop_1440x900": {
+      "title": "Портфолио веб-разработчика — Даниил Головин",
+      "projects": 1,
+      "scriptCount": 0,
+      "imageCount": 1,
+      "imagesLoaded": true,
+      "theme": "theme-night",
+      "width": 1180,
+      "dialogVisible": true,
+      "iframeTitle": "Предпросмотр автономной страницы портфолио",
+      "sandbox": "allow-same-origin allow-popups",
+      "documentWidth": 1440,
+      "viewportWidth": 1440
+    },
+    "mobile_390x844": {
+      "projects": 1,
+      "scriptCount": 0,
+      "theme": "theme-gallery",
+      "width": 390,
+      "dialogVisible": true,
+      "outerWidth": 390,
+      "viewportWidth": 390,
+      "dialogBounds": {
+        "width": 390,
+        "height": 844,
+        "left": 0,
+        "top": 0
+      }
+    }
+  },
+  "confirmed": true,
+  "navigation": [
+    {
+      "route": "dashboard",
+      "heading": "Ваши проекты,\nсобранные в одном месте."
+    },
+    {
+      "route": "projects",
+      "heading": "Все проекты"
+    },
+    {
+      "route": "showcase",
+      "heading": "Работы, которыми\nхочется поделиться."
+    },
+    {
+      "route": "settings",
+      "heading": "Настройки и данные"
+    }
+  ],
+  "escapeClosedDesktop": true,
+  "focusReturnedDesktop": true,
+  "download": {
+    "filename": "folio-showcase.html",
+    "selfContainedImage": true,
+    "containsFeaturedCase": true,
+    "containsNoScript": true,
+    "selectedTheme": true
+  },
+  "escapeClosedMobile": true,
+  "focusReturnedMobile": true,
+  "portfolioUnchanged": true,
+  "browserErrors": []
+}

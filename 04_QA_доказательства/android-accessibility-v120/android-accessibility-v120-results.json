@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-02",
+  "surface": "Android AVD API 36; Folio Capacitor/WebView app; showcase screen; landscape display 2400x1080 reported by wm size",
+  "method": "TalkBack 16.0.0 was temporarily enabled in the emulator; the Android accessibility tree was queried through UIAutomator; system accessibility settings were returned to their previous disabled/empty values afterwards.",
+  "tree_nodes": 51,
+  "clickable_or_checkable_nodes": 13,
+  "unlabeled_clickable_or_checkable_nodes": [],
+  "focusable_without_visible_name": [
+    {
+      "class": "android.view.View",
+      "resource_id": "main-content",
+      "bounds": "[705,244][2400,1019]"
+    }
+  ],
+  "observed_control_labels": [
+    "Перейти к содержимому",
+    "folio РАБОЧЕЕ ПРОСТРАНСТВО",
+    "Обзор",
+    "Мои проекты 3",
+    "Витрина",
+    "Настройки и данные",
+    "Переключить тему",
+    "Новый проект",
+    "Экспорт Markdown",
+    "Предпросмотр HTML",
+    "↓ Скачать готовую витрину",
+    "Редакционный",
+    "★ ИЗБРАННЫЙ КЕЙС 01 Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗"
+  ],
+  "accessibility_settings_after_test": {
+    "accessibility_enabled": "0",
+    "enabled_accessibility_services": "null"
+  },
+  "talkback_notification_permission_after_test": "android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]",
+  "limitations": [
+    "Only the Showcase screen was inspected.",
+    "TalkBack speech output and full swipe navigation were not verified.",
+    "A physical phone and its TalkBack/Gboard settings remain untested."
+  ],
+  "evidence_sha256": {
+    "android-screen-before-talkback.png": "f803af72eb3fc29299fecef02aa086940ebed414e43693a42fed7151fb2a5248",
+    "android-screen-talkback-enabled.png": "53faa935147147f0a1c2b5dba13cba2252c68ae60800759efaf11da9ee90a8fe",
+    "android-screen-talkback-restored.png": "7b3cb6c9bc458975001db21dec30d0502285a92ca4ad0356800bbb00113c326d",
+    "android-ui-hierarchy-talkback.xml": "80946c16e647dfa04452ac914a1ead70c5d0a7424aaf0777b0a53910e371ef23",
+    "android-ui-hierarchy.xml": "c75627e12c3b174b598da3a4efaea811df26c851c292f244b300f06289e4cf3b"
+  }
+}

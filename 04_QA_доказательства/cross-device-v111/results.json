@@ -1,0 +1,72 @@
+{
+  "version": "v111",
+  "date": "2026-11-02",
+  "service_worker_cache": "folio-shell-v111-cross-device-export-guard-date-parity",
+  "transfer_contract": {
+    "shared_desktop_web_fixture": "PASS",
+    "web_json_export_and_replacement_backup_limit_bytes": 67108864,
+    "web_strict_id_order_featured_types": "PASS",
+    "cover_limit_bytes": 2097152,
+    "sqlite_real_calendar_date_validation": "PASS",
+    "sqlite_technology_limit": 40,
+    "sqlite_technology_name_category_version_limits": [
+      60,
+      60,
+      40
+    ],
+    "sqlite_embedded_image_decode_and_portfolio_budgets": "PASS"
+  },
+  "regression": {
+    "python_sqlite": {
+      "passed": 72,
+      "failed": 0
+    },
+    "web": {
+      "passed": 48,
+      "failed": 0
+    },
+    "python_compile": "PASS"
+  },
+  "android": {
+    "application_id": "ru.folio.portfolio",
+    "target": "Android Emulator API 36",
+    "installed": "PASS",
+    "cold_launch": "PASS",
+    "airplane_mode_on": 1,
+    "network_stats": "not connected",
+    "service_worker_update_banner": "absent after update apply and cold relaunch",
+    "apk_file": "mobile/folio-android-debug.apk",
+    "apk_bytes": 19048371,
+    "apk_sha256": "9b8c78cf95c86723205c95955ffa28d154a190a9b68fce7b958008c5e3d2beb1",
+    "zipalign_4": "PASS",
+    "signature_v2": "PASS",
+    "phone_zip_file": "folio-android-debug-for-phone.zip",
+    "phone_zip_bytes": 18105827,
+    "phone_zip_sha256": "22a10c945b07b6437ffaf6db63f73df60118e8e314066dcf3fe7120c800eadd2",
+    "phone_zip_crc": "PASS",
+    "phone_zip_members": [
+      "folio-android-debug.apk",
+      "УСТАНОВКА.txt",
+      "SHA256.txt"
+    ],
+    "embedded_apk_sha256_matches": true,
+    "service_worker_cache": "folio-shell-v111-cross-device-export-guard-date-parity",
+    "latest_cache_id_runtime_verified": true,
+    "runtime_tested_apk_sha256": "9b8c78cf95c86723205c95955ffa28d154a190a9b68fce7b958008c5e3d2beb1"
+  },
+  "evidence": {
+    "screenshot": "android-v111-offline-relaunch.png",
+    "screenshot_bytes": 980234,
+    "screenshot_sha256": "549f600cf9e2a9c42a52d1feeead891a644aeb09814c139187d6b40bd359309f",
+    "first_install_update_banner_diagnostic": {
+      "screenshot": "android-v111-update-banner-diagnostic.png",
+      "bytes": 693615,
+      "sha256": "54b100f10df8d8b9da681628071ec32a73fbaea62440f6b36ca86be506bf86f0"
+    }
+  },
+  "not_checked": [
+    "physical Android phone",
+    "TalkBack on physical device",
+    "system font scaling on physical device"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "scope": "manual native Tkinter dialog keyboard smoke check",
+  "profile": "служебные_файлы/qa_30-10-2026/desktop-keyboard-v48 (isolated QA copy)",
+  "database": {
+    "integrity_check": "ok",
+    "project_count": 3,
+    "read_only_inspection": true,
+    "sha256_after_check": "126f5a24751a8197d3bbbed0a0181bf76f19e2ee1db5ee0ba0545f781236ba6e",
+    "precheck_hash_not_recorded": true
+  },
+  "edit_dialog": {
+    "opened": true,
+    "prepopulated_project_visible": true,
+    "escape_closed_without_save": true,
+    "focus_returned_to_edit_action_visually": true,
+    "tab_traversal": "partial; full per-control order not asserted"
+  },
+  "add_dialog": {
+    "opened": true,
+    "initial_focus_in_required_name_field": true,
+    "escape_closed_without_save": true,
+    "focus_returned_to_add_action_visually": true
+  },
+  "accessibility_limit": "Computer Use exposed dialog descendants as generic panels; this run is not a screenreader or complete UI Automation accessibility audit.",
+  "screenshots": [
+    "desktop-keyboard-edit-dialog-context-v50-1362x912.png",
+    "desktop-keyboard-edit-dialog-v50-1182x812.png",
+    "desktop-keyboard-add-dialog-v50-1182x812.png"
+  ],
+  "user_database_touched": false
+}

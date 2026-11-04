@@ -1,0 +1,140 @@
+{
+  "version": "web-pwa-v83-saved-view-touch-targets",
+  "checks": {
+    "initialLoad": true,
+    "v83ServiceWorkerActive": true,
+    "filteredSingleResultInList": true,
+    "layoutPersistedInSavedSnapshot": true,
+    "savedViewControlsHaveAccessibleNames": true,
+    "applyRestoresAllFiltersAndLayout": true,
+    "globalLayoutPreferenceUpdated": true,
+    "savedViewKeyboardFocusVisible": true,
+    "noHorizontalOverflow-390": true,
+    "savedViewTargetsAtLeast44px-390": true,
+    "noHorizontalOverflow-320": true,
+    "savedViewTargetsAtLeast44px-320": true,
+    "savedViewPersistsReload": true,
+    "offlineReloadWithSavedView": true,
+    "legacyViewKeepsCurrentLayout": true,
+    "noPageOrConsoleErrors": true
+  },
+  "errors": [],
+  "externalOrigins": [
+    "http://gc.kis.v2.scr.kaspersky-labs.com"
+  ],
+  "externalRequestDetails": [
+    {
+      "origin": "http://gc.kis.v2.scr.kaspersky-labs.com",
+      "resourceType": "script",
+      "frameOrigin": "http://127.0.0.1:65239"
+    }
+  ],
+  "screenshots": [
+    "saved-view-layout-desktop-1440x900-2026-11-01.jpg",
+    "saved-view-layout-mobile-390x844-2026-11-01.jpg",
+    "android-emulator-api36-2026-11-01/saved-view-v83-touch-targets-updated.png",
+    "android-emulator-api36-2026-11-01/saved-view-v83-projects.png"
+  ],
+  "externalScriptElements": [
+    {
+      "origin": "http://gc.kis.v2.scr.kaspersky-labs.com",
+      "scriptName": "main.js"
+    }
+  ],
+  "mobileTargetsByWidth": {
+    "390": [
+      {
+        "name": "Сохранённые представления",
+        "height": 44
+      },
+      {
+        "name": "Сохранить вид",
+        "height": 44
+      },
+      {
+        "name": "Удалить выбранное представление",
+        "height": 44
+      }
+    ],
+    "320": [
+      {
+        "name": "Сохранённые представления",
+        "height": 44
+      },
+      {
+        "name": "Сохранить вид",
+        "height": 44
+      },
+      {
+        "name": "Удалить выбранное представление",
+        "height": 44
+      }
+    ]
+  },
+  "mobileTargets": [
+    {
+      "name": "Сохранённые представления",
+      "height": 44
+    },
+    {
+      "name": "Сохранить вид",
+      "height": 44
+    },
+    {
+      "name": "Удалить выбранное представление",
+      "height": 44
+    }
+  ],
+  "observedThirdPartyOrigins": [
+    "http://gc.kis.v2.scr.kaspersky-labs.com"
+  ],
+  "testScript": "verify_saved_views_v83.py",
+  "networkObservation": {
+    "externalOrigin": "http://gc.kis.v2.scr.kaspersky-labs.com",
+    "resourceType": "script",
+    "presentAsExternalScriptElement": true,
+    "scriptName": "main.js",
+    "frameOrigin": "http://127.0.0.1:<ephemeral-port>",
+    "browserLaunchFlags": [
+      "--disable-extensions",
+      "--disable-component-extensions-with-background-pages"
+    ],
+    "appSourceScan": "No matching hostname or remote script reference found in folio web source.",
+    "officialReference": "https://support.kaspersky.com/help/Kaspersky%20Free/Win21.6/en-US/97156.html",
+    "attribution": "Highly consistent with host-level Kaspersky script injection; official documentation describes webpage injection including without the browser extension. Exact hostname/component is not explicitly attributed and remains unconfirmed."
+  },
+  "android": {
+    "build": "web/PWA v83 debug",
+    "api": 36,
+    "device": "emulator-5554",
+    "apkSha256": "eb09a9d3813d5a8f7fbaf224ab94bdae7c4003fd23a5dc698c341055e2004b26",
+    "installed": true,
+    "launched": true,
+    "updateBannerDismissedByRestart": true,
+    "fatalExceptionsObserved": false,
+    "physicalPhoneTested": false,
+    "screenshots": [
+      "android-emulator-api36-2026-11-01/saved-view-v83-touch-targets-updated.png",
+      "android-emulator-api36-2026-11-01/saved-view-v83-projects.png"
+    ],
+    "savedViewFlow": {
+      "device": "Android API 36 emulator (emulator-5554)",
+      "syntheticDemoDataOnly": true,
+      "search": "crm",
+      "savedViewName": "crm v83",
+      "initialResultCount": 1,
+      "layout": "list",
+      "savedViewSurvivedForceStopAndRelaunch": true,
+      "reappliedAfterRelaunch": true,
+      "restoredSearch": "crm",
+      "restoredLayout": "list",
+      "restoredResultCount": 1,
+      "screenshots": [
+        "android-emulator-api36-2026-11-01/saved-view-v83-saved.png",
+        "android-emulator-api36-2026-11-01/saved-view-v83-relaunch-after-nav.png",
+        "android-emulator-api36-2026-11-01/saved-view-v83-applied-after-relaunch.png"
+      ],
+      "limitations": "Emulator acceptance only; no physical handset or screen reader."
+    }
+  }
+}

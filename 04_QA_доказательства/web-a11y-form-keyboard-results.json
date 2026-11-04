@@ -1,0 +1,53 @@
+{
+  "errors": [],
+  "viewports": [
+    {
+      "viewport": 1440,
+      "height": 900,
+      "cancel": {
+        "name": "Отмена",
+        "className": "button button-quiet",
+        "rect": {
+          "top": 747,
+          "bottom": 791,
+          "height": 44
+        }
+      },
+      "save": {
+        "name": "Сохранить проект →",
+        "type": "submit",
+        "rect": {
+          "top": 747,
+          "bottom": 791,
+          "height": 44
+        }
+      },
+      "save_visible": true,
+      "dialog_scrollTop": 1108
+    },
+    {
+      "viewport": 390,
+      "height": 520,
+      "cancel": {
+        "name": "Отмена",
+        "className": "button button-quiet",
+        "rect": {
+          "top": 404,
+          "bottom": 448,
+          "height": 44
+        }
+      },
+      "save": {
+        "name": "Сохранить проект →",
+        "type": "submit",
+        "rect": {
+          "top": 404,
+          "bottom": 448,
+          "height": 44
+        }
+      },
+      "save_visible": true,
+      "dialog_scrollTop": 1792
+    }
+  ]
+}

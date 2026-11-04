@@ -1,0 +1,21 @@
+{
+  "desktop": {
+    "saved_card": "28% 73%",
+    "detail": "object-position:28% 73%",
+    "after_reload": "28% 73%"
+  },
+  "mobile": {
+    "position": "64% 22%",
+    "horizontal_overflow": false,
+    "controls_bounds": [
+      622.53125,
+      745.53125
+    ],
+    "save_button_bounds": [
+      783,
+      829
+    ],
+    "errors": []
+  },
+  "console_errors": []
+}

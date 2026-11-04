@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-01",
+  "product": "folio web/PWA v89",
+  "url": "http://127.0.0.1:8766/#dashboard",
+  "browser": "Chromium through Playwright MCP; isolated context folio-storage-v89-20261101",
+  "viewportCssPx": {
+    "width": 390,
+    "height": 844,
+    "documentClientWidth": 375,
+    "documentScrollWidth": 375,
+    "horizontalOverflow": false
+  },
+  "scenario": "Open featured project detail from dashboard; manually traverse modal controls with keyboard only; close with Escape.",
+  "focusableControls": [
+    "Закрыть",
+    "Открыть кейс CRM для клининговой компании",
+    "Открыть кейс Карта городских дворов",
+    "Создать копию",
+    "Изменить",
+    "Удалить проект"
+  ],
+  "results": {
+    "initialFocus": "Закрыть",
+    "tabForward": "All six controls traversed; Tab from final control wrapped to the close button.",
+    "shiftTabBackward": "Shift+Tab from close button wrapped to the final delete control.",
+    "escape": "Closed dialog and restored focus to the invoking project card.",
+    "modalOpenAtEnd": false,
+    "browserConsoleErrors": 0,
+    "dataMutation": "None; detail-only interaction."
+  },
+  "screenshotNote": "No screenshot from this manual keyboard pass; related mobile dialog rendering is documented separately in axe-v89-mobile-detail.png.",
+  "limitations": [
+    "Chromium browser test, not a physical phone or screen-reader acceptance."
+  ]
+}

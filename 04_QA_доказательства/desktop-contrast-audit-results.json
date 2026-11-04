@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-29",
+  "component": "desktop muted labels",
+  "old_foreground": "#747970",
+  "new_foreground": "#62666C",
+  "background": "#F4F5F1",
+  "surface": "#FFFFFF",
+  "web_muted_token": "#62666C",
+  "contrast_ratio_before_background": 4.07,
+  "contrast_ratio_after_background": 5.27,
+  "minimum_normal_text_ratio": 4.5,
+  "unit_test": "test_desktop_muted_text_meets_normal_text_contrast_on_surfaces",
+  "unit_test_result": "passed",
+  "fresh_desktop_screenshot": "not captured: Computer Use could not obtain process id for the isolated QA window"
+}

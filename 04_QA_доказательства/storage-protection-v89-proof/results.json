@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-01",
+  "product": "folio",
+  "desktopVersion": "v91",
+  "webVersion": "v89",
+  "androidDebugVersion": "v89-emulator-runtime-verified",
+  "serviceWorkerCache": "folio-shell-v89-storage-protection",
+  "browser": "Chromium isolated Playwright context",
+  "storageStatus": "best-effort",
+  "browserEstimate": "3 MiB used of 10 GiB",
+  "persistentStorageApiSupported": true,
+  "persistentStorageCurrentlyGranted": false,
+  "realPermissionChanged": false,
+  "viewports": [
+    {
+      "height": 568,
+      "buttonHeight": 44,
+      "width": 320,
+      "availableWidth": 305,
+      "panelWidth": 243,
+      "horizontalOverflow": false
+    },
+    {
+      "height": 844,
+      "buttonHeight": 44,
+      "width": 390,
+      "availableWidth": 375,
+      "panelWidth": 305,
+      "horizontalOverflow": false
+    },
+    {
+      "height": 900,
+      "buttonHeight": 44,
+      "width": 1440,
+      "availableWidth": 1425,
+      "panelWidth": 498.5,
+      "horizontalOverflow": false
+    }
+  ],
+  "accessibility": {
+    "fullAxeSweep": "last performed on v88; rerun is open for v89",
+    "darkThemeReviewed": true,
+    "progressbarLabel": "Использование хранилища этого браузера",
+    "progressbarValueText": "0% занято",
+    "liveStatusRegion": true
+  },
+  "persistentRequestUI": {
+    "deny": {
+      "status": "best-effort",
+      "toast": "Браузер не включил защиту. Сохраняйте резервную копию JSON.",
+      "buttonEnabled": true,
+      "apiMocked": true
+    },
+    "grant": {
+      "status": "protected",
+      "toast": "Браузер разрешил защищённое хранение.",
+      "buttonDisabled": true,
+      "apiMocked": true
+    }
+  },
+  "webTests": {
+    "failed": 0,
+    "passed": 26
+  },
+  "browserConsoleErrors": 0,
+  "android": {
+    "installedOnDevice": false,
+    "build": "Gradle assembleDebug: BUILD SUCCESSFUL",
+    "apkSha256": "d44350f7b8ca628aec5fbd479072f61d77c1aafc3e0b30955deeb70cc515e28",
+    "installedOnEmulator": true,
+    "runtimeLaunch": "PASS: Android Emulator API 36, ru.folio.portfolio/.MainActivity resumed; dashboard rendered after applying PWA update notice",
+    "screenshot": "android-emulator-v89-dashboard.png",
+    "physicalPhone": "not verified"
+  },
+  "phoneZip": {
+    "utf8InstructionFilename": true,
+    "crcPassed": true,
+    "sha256": "5888139e7ec7854063cd9d19cb2cd3fc6d843ca2c04176ac075490433e561d14"
+  },
+  "package": {
+    "webTests": "26/26",
+    "files": 1461,
+    "verified": true,
+    "pythonTests": "58/58",
+    "userDatabaseIncluded": false
+  },
+  "caveats": [
+    "Real browser persistent-storage permission was not invoked.",
+    "Browser environment injects a zero-byte Kaspersky resource, not referenced by app source.",
+    "Physical phone and assistive technology are not verified."
+  ],
+  "unavailableStorageApi": {
+    "testedWithMock": true,
+    "status": "unavailable",
+    "requestButtonHidden": true,
+    "jsonCsvExportAvailable": true,
+    "screenshot": "storage-unavailable-fallback-390x844.png"
+  },
+  "apkValidation": {
+    "zipalign4": "passed",
+    "signatureSchemeV2": "verified",
+    "signerCount": 1,
+    "phoneZipApkByteIdentical": true,
+    "phoneZipCrc": "passed",
+    "deviceInstallVerified": true,
+    "runtimeLaunchVerified": "Android Emulator API 36"
+  },
+  "axeCoreAudit": {
+    "version": "4.14.0",
+    "result": "PASS",
+    "states": 12,
+    "violations": 0,
+    "pageAndConsoleErrors": 0,
+    "resultsFile": "axe-a11y-results-v89.json",
+    "scannedSettings": [
+      "390x844 light",
+      "320x568 light",
+      "1440x1000 light",
+      "390x844 dark",
+      "320x568 dark",
+      "1440x1000 dark"
+    ]
+  },
+  "keyboardSmoke": {
+    "result": "PASS",
+    "views": 8,
+    "failures": 0,
+    "browserErrors": 0,
+    "mobile320Overflow": false,
+    "mobile390Overflow": false,
+    "desktop1440Overflow": false,
+    "modalTabTrap": true,
+    "escapeReturnsFocus": true,
+    "reducedMotion": true,
+    "resultsFile": "a11y-keyboard-results.json"
+  }
+}

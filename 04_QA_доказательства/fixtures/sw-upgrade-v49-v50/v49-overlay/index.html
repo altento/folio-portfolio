@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17181c">
+  <meta name="description" content="Локальное портфолио веб-разработчика: кейсы, поиск, фильтры и экспорт.">
+  <title>Портфолио — рабочее пространство</title>
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Основная навигация">
+      <a class="brand" href="#dashboard" data-view="dashboard" aria-label="Портфолио, главная">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 8.5 16 3l11 5.5v15L16 29 5 23.5z"/><path d="m11 13 4-3 6 3v6l-5 3-5-3z"/></svg></span>
+        <span><b>folio<span aria-hidden="true">®</span></b><small>РАБОЧЕЕ ПРОСТРАНСТВО</small></span>
+      </a>
+      <div class="workspace-label">МЕНЮ</div>
+      <nav class="side-nav">
+        <button class="nav-item active" data-view="dashboard"><span class="portfolio-nav-icon icon-overview" aria-hidden="true"></span><span>Обзор</span></button>
+        <button class="nav-item" data-view="projects"><span class="portfolio-nav-icon icon-projects" aria-hidden="true"></span><span>Мои проекты</span><span class="nav-count" id="nav-count">0</span></button>
+        <button class="nav-item" data-view="showcase"><span class="portfolio-nav-icon icon-showcase" aria-hidden="true"></span><span>Витрина</span></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="local-card"><span class="local-dot"></span><div><b>Данные на устройстве</b><small>Сохранение включено</small></div><span class="shield" aria-hidden="true">⌑</span></div>
+        <button class="nav-item" data-view="settings"><span class="portfolio-nav-icon icon-settings" aria-hidden="true"></span><span>Настройки и данные</span></button>
+        <div class="profile-mini"><div class="avatar" id="avatar-small">Д</div><div class="profile-copy"><b id="profile-small-name">Даниил Головин</b><small id="profile-small-role">Веб-разработчик</small></div><span class="more-dots" aria-hidden="true">···</span></div>
+      </div>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <button class="mobile-brand" data-view="dashboard" aria-label="На главную"><span class="brand-mark"><svg viewBox="0 0 32 32"><path d="M5 8.5 16 3l11 5.5v15L16 29 5 23.5z"/><path d="m11 13 4-3 6 3v6l-5 3-5-3z"/></svg></span><b>folio<span aria-hidden="true">®</span></b></button>
+        <div class="breadcrumb"><span>Рабочее пространство</span><span class="crumb-sep" aria-hidden="true">/</span><b id="breadcrumb-current">Обзор</b></div>
+        <div class="top-actions">
+          <span class="connection-pill" id="connection-status"><i></i><span>Локально</span></span>
+          <button class="icon-button theme-button" id="theme-toggle" aria-label="Переключить тему" aria-pressed="false" title="Переключить тему">◐</button>
+          <button class="button button-dark top-new" data-action="new-project"><span aria-hidden="true">＋</span> Новый проект</button>
+        </div>
+      </header>
+      <aside class="update-notice" id="update-notice" hidden role="status" aria-live="polite" aria-labelledby="update-notice-title">
+        <span class="update-notice-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 7v5h-5M4 17v-5h5"/><path d="M5.6 9a7 7 0 0 1 11.6-2L20 12M4 12l2.8 5a7 7 0 0 0 11.6-2"/></svg></span>
+        <p><strong id="update-notice-title">Доступно обновление приложения.</strong> Сохраните текущую работу и перезапустите страницу, чтобы применить новую версию.</p>
+        <div class="update-notice-actions"><button class="button button-dark" id="update-reload">Перезапустить</button><button class="update-dismiss" id="update-dismiss" aria-label="Скрыть уведомление">×</button></div>
+      </aside>
+      <aside class="origin-security-note" id="origin-security-notice" hidden role="note" aria-labelledby="origin-security-title">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v5.8c0 4.7 3.2 7.5 8 9.2 4.8-1.7 8-4.5 8-9.2V6l-8-3Z"/><path d="M12 8v5m0 3h.01"/></svg>
+        <p><strong id="origin-security-title">Открыто по HTTP в локальной сети.</strong> Соединение не шифруется; в этом режиме недоступны установка PWA и офлайн-кэш. Для них нужен HTTPS с доверенным сертификатом. Не используйте такую ссылку в публичной Wi-Fi сети.</p>
+      </aside>      <main id="main-content" class="main-content" tabindex="-1" aria-live="off"></main>
+      <nav class="mobile-nav" aria-label="Нижняя навигация">
+        <button class="mobile-nav-item active" data-view="dashboard"><span class="portfolio-nav-icon icon-overview" aria-hidden="true"></span><small>Обзор</small></button>
+        <button class="mobile-nav-item" data-view="projects"><span class="portfolio-nav-icon icon-projects" aria-hidden="true"></span><small>Проекты</small></button>
+        <button class="mobile-nav-item mobile-add" data-action="new-project" aria-label="Добавить проект"><span>＋</span></button>
+        <button class="mobile-nav-item" data-view="showcase"><span class="portfolio-nav-icon icon-showcase" aria-hidden="true"></span><small>Витрина</small></button>
+        <button class="mobile-nav-item" data-view="settings"><span class="portfolio-nav-icon icon-settings" aria-hidden="true"></span><small>Данные</small></button>
+      </nav>
+    </div>
+  </div>
+
+  <dialog id="project-dialog" class="dialog project-dialog" aria-labelledby="project-dialog-title">
+    <form id="project-form" class="dialog-form">
+      <div class="dialog-head"><div><span class="eyebrow">КАРТОЧКА КЕЙСА</span><h2 id="project-dialog-title">Новый проект</h2></div><button type="button" class="icon-button dialog-close" data-close-dialog aria-label="Закрыть">×</button></div>
+      <p id="project-draft-status" class="field-hint" role="status" aria-live="polite">Несохранённые изменения автоматически сохраняются на этом устройстве.</p>
+      <div class="form-grid">
+        <label class="field field-half"><span>Тип проекта</span><select name="type" id="form-type"><option value="Сайт / лендинг">Сайт / лендинг</option><option value="Веб-приложение">Веб-приложение</option></select></label>
+        <label class="field field-half"><span>Статус</span><select name="status" id="form-status"><option>В разработке</option><option>Завершён</option><option>Опубликован</option><option>Архив</option></select></label>
+        <label class="field"><span>Название <em>*</em></span><input name="title" required maxlength="90" autocomplete="off" placeholder="Например, сервис записи клиентов"></label>
+        <label class="field"><span>Короткое описание <em>*</em></span><textarea name="description" required maxlength="500" rows="3" placeholder="Какую задачу решает проект?"></textarea></label>
+        <label class="field"><span>Контекст задачи</span><textarea name="context" maxlength="500" rows="2" placeholder="Для кого и в какой ситуации возникла задача?"></textarea></label>
+        <label class="field"><span>Решение</span><textarea name="solution" maxlength="700" rows="3" placeholder="Какой подход вы выбрали и почему?"></textarea></label>
+        <label class="field"><span>Этапы работы</span><textarea name="process" maxlength="1500" rows="3" placeholder="Ключевые шаги: исследование, прототип, разработка, проверка…"></textarea></label>
+        <label class="field field-half"><span>Дата создания</span><input name="created_at" type="date" required></label>
+        <label class="field field-half"><span>Демо-ссылка</span><input name="demo_url" type="url" inputmode="url" placeholder="https://..."></label>
+        <label class="field"><span>Технологии</span><input name="technologies" placeholder="React, TypeScript, CSS"></label>
+        <label class="field"><span>Теги</span><input name="tags" maxlength="660" placeholder="Образование, frontend, личный проект"><small class="field-hint">До 20 тегов, разделяйте запятыми. Они помогают искать и группировать кейсы.</small></label>
+        <label class="field"><span>Моя роль</span><input name="role" maxlength="120" placeholder="Дизайн и разработка интерфейса"></label>
+        <div class="field"><span>Обложка кейса</span><div class="cover-editor"><div id="cover-preview" class="cover-preview" aria-live="polite"><span>Добавьте иллюстрацию проекта</span></div><div class="cover-editor-actions"><label class="button button-quiet cover-file-label" for="cover-file">Выбрать изображение</label><input id="cover-file" class="visually-hidden" type="file" accept="image/png,image/jpeg,image/webp" aria-label="Выбрать обложку проекта"><button type="button" id="remove-cover" class="text-button" data-action="remove-cover" hidden>Убрать обложку</button><small>PNG, JPEG или WebP · до 2 МиБ. Картинка останется на этом устройстве и в JSON-копии.</small></div></div><input name="cover_image_data" id="cover-image-data" type="hidden"></div>
+        <div class="field gallery-field"><span>Галерея проекта</span><div id="gallery-editor" class="gallery-editor" aria-live="polite"></div><div class="gallery-controls"><label class="button button-quiet gallery-file-label" for="gallery-files">＋ Добавить изображения</label><input id="gallery-files" class="visually-hidden" type="file" accept="image/png,image/jpeg,image/webp" multiple aria-label="Добавить изображения в галерею"><small>До 8 деталей · общий лимит около 6 МиБ · PNG, JPEG или WebP · с описанием для скринридеров. Изображения уменьшаются для экономии места.</small></div><input name="gallery_images" id="gallery-images-data" type="hidden" value="[]"></div>
+        <label class="field"><span>Результат</span><textarea name="outcome" maxlength="500" rows="2" placeholder="Что получилось и чем полезен проект?"></textarea></label>
+        <label class="field"><span>Метрики результата</span><input name="metrics" maxlength="300" placeholder="Например: время операции сократилось с 8 до 3 минут"></label>
+        <label class="field field-half landing-field"><span>Количество страниц</span><input name="page_count" type="number" min="1" step="1" value="1"></label>
+        <label class="field field-half webapp-field"><span>Репозиторий</span><input name="repository_url" type="url" inputmode="url" placeholder="https://github.com/..."></label>
+        <label class="field webapp-field"><span>Серверная часть</span><input name="backend_stack" placeholder="FastAPI, PostgreSQL"></label>
+      </div>
+      <label class="featured-toggle"><input type="checkbox" name="featured"><span class="toggle-mark"></span><span><b>Показать в избранном</b><small>Кейс появится вверху каталога и на витрине</small></span></label>
+      <div class="dialog-actions"><button type="button" class="button button-quiet" data-close-dialog>Отмена</button><button type="submit" class="button button-accent">Сохранить проект <span aria-hidden="true">→</span></button></div>
+      <p class="form-error" id="form-error" role="alert"></p>
+    </form>
+  </dialog>
+
+  <dialog id="showcase-preview-dialog" class="dialog showcase-preview-dialog" aria-labelledby="showcase-preview-title">
+    <header class="showcase-preview-header"><div><span class="eyebrow">ПРОВЕРКА ПЕРЕД ЭКСПОРТОМ</span><h2 id="showcase-preview-title">Проверьте состав HTML-витрины</h2><p>Файл сохранится на устройстве. Содержимое станет публичным, только если вы сами отправите или разместите его.</p></div><button type="button" id="showcase-preview-close" class="icon-button" data-close-dialog aria-label="Закрыть предпросмотр">×</button></header>
+    <section id="showcase-export-summary" class="showcase-export-review" aria-live="polite"></section>
+    <iframe id="showcase-preview-frame" title="Предпросмотр автономной страницы портфолио" sandbox="allow-same-origin allow-popups" src="about:blank"></iframe>
+    <footer class="showcase-preview-actions"><button type="button" class="button button-quiet" data-close-dialog>Вернуться к редактированию</button><button type="button" id="showcase-export-download" class="button button-accent">Скачать этот HTML</button></footer>
+  </dialog>
+  <dialog id="detail-dialog" class="dialog detail-dialog" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
+  <dialog id="import-dialog" class="dialog import-dialog" aria-labelledby="import-title" aria-describedby="import-summary">
+    <div class="import-dialog-body">
+      <span class="eyebrow">ПРЕДПРОСМОТР ФАЙЛА</span>
+      <h2 id="import-title">Перед импортом</h2>
+      <p id="import-file-name" class="import-file-name"></p>
+      <p id="import-summary" class="import-summary" role="status" aria-live="polite"></p>
+      <div id="import-conflicts" class="import-conflicts"></div>
+      <p class="import-backup-note">Полная замена сначала скачает текущие данные в JSON-резервную копию.</p>
+      <div class="import-actions">
+        <button type="button" class="button button-quiet" data-close-dialog>Отмена</button>
+        <button type="button" id="import-copy" class="button button-quiet" data-import-mode="copy">Добавить совпадения как копии</button>
+        <button type="button" id="import-keep" class="button button-accent" data-import-mode="keep-current">Объединить, оставить мои совпадения</button>
+        <button type="button" id="import-replace" class="button button-danger" data-import-mode="replace">Заменить портфолио целиком</button>
+      </div>
+    </div>
+  </dialog>
+  <input id="import-file" class="visually-hidden" type="file" accept=".json,application/json" aria-label="Выбрать JSON-файл для импорта">
+  <div id="search-announcer" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></div>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-01",
+  "title": "Web ↔ desktop media round-trip acceptance",
+  "browser": {
+    "engine": "Chromium via Playwright",
+    "origin": "http://127.0.0.1:8766",
+    "isolatedContext": "folio-cross-platform-media-2026-11-01",
+    "initialDemoProjects": 3
+  },
+  "syntheticCase": {
+    "title": "QA Cross Platform Media Transfer",
+    "coverDataUrlChars": 331695,
+    "galleryDataUrlChars": 308495,
+    "galleryAlt": "Синтетическая иллюстрация, проверяющая перенос обложки и галереи.",
+    "galleryPosition": "50% 50%"
+  },
+  "webToDesktop": {
+    "webExportFilename": "folio-backup.json",
+    "webExportBytes": 646435,
+    "webExportProjects": 4,
+    "desktopParser": "PortfolioApp._read_data(..., set_active_store=False, apply=False)",
+    "parsedClass": "WebAppProject",
+    "sqliteStore": "temporary database outside the project",
+    "sqliteIntegrityCheck": "ok",
+    "coverDataEqualAfterSqliteSaveLoad": true,
+    "galleryEqualAfterSqliteSaveLoad": true,
+    "desktopExportBytes": 646644
+  },
+  "desktopToWeb": {
+    "importedThroughWebUi": true,
+    "previewConflicts": 4,
+    "preReplaceBackupFilename": "folio-before-import.json",
+    "preReplaceBackupProjects": 4,
+    "caseVisibleAfterImport": true,
+    "coverDecoded": true,
+    "galleryDecoded": true,
+    "galleryAltPreserved": true
+  },
+  "offline": {
+    "navigatorOnLine": false,
+    "serviceWorker": "http://127.0.0.1:8766/sw.js",
+    "caseReopenedAfterReload": true,
+    "coverDecoded": true,
+    "galleryDecoded": true
+  },
+  "responsive": {
+    "mobileViewport": "390x844",
+    "horizontalOverflow": false,
+    "desktopScreenshot": "web-cross-platform-media-desktop-1440x900-2026-11-01.jpg",
+    "mobileScreenshot": "web-cross-platform-media-mobile-390x844-2026-11-01.jpg"
+  },
+  "dataSafety": {
+    "browserContextIsolated": true,
+    "syntheticOnly": true,
+    "userJsonOrSqliteOpened": false,
+    "userDatabaseModified": false,
+    "isolatedBrowserContextClosed": true
+  },
+  "limitations": [
+    "Desktop model parser and SQLite storage were exercised without opening or changing the user's desktop database; the native desktop window was not used for this media round-trip.",
+    "Browser phone viewport is emulated; no physical phone or screen-reader test was performed."
+  ]
+}

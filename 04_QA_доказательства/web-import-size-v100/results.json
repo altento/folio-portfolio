@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-02T01:01:24.588652+00:00",
+  "result": "PASS",
+  "source": "http://127.0.0.1:8766/",
+  "browser": "Isolated headless Chrome; service workers blocked; ephemeral IndexedDB context",
+  "scenario": "Select a valid JSON file exactly one byte over the 64 MiB import limit through the application file input.",
+  "file_size_bytes": 67108865,
+  "limit_bytes": 67108864,
+  "file_text_reads_before_rejection": 0,
+  "demo_projects_before": 3,
+  "demo_projects_after": 3,
+  "preview_opened": false,
+  "browser_errors": [],
+  "screenshot": "oversized-import-rejected-v100.png",
+  "user_data_touched": false
+}

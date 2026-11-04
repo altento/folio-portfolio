@@ -1,0 +1,20 @@
+{
+  "from": "folio-shell-v57-sticky-dialog-heading",
+  "to": "folio-shell-v58-illustrated-dashboard-hero",
+  "checks": {
+    "v57ControlsOfflineShellAndThreePortfolioRecords": true,
+    "updateNoticeWaitsForUserConfirmation": true,
+    "newShellIsCachedBeforeReload": true,
+    "portfolioRecordsSurviveConfirmedUpdate": true,
+    "newIllustrationLoadsAfterUpdate": true,
+    "oldVersionCacheIsRemoved": true,
+    "updatedDashboardAndIllustrationLoadOffline": true,
+    "portfolioRecordsSurviveOfflineReload": true,
+    "noApplicationErrors": true
+  },
+  "screens": [
+    "web-update-v57-v58-hero-notice-1440x900.png",
+    "web-update-v58-offline-hero-1440x900.png"
+  ],
+  "errors": []
+}

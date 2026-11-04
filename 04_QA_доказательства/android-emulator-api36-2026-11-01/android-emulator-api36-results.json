@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-01",
+  "app": "ru.folio.portfolio",
+  "build": "Debug APK, version 0.1.0, Capacitor 8.6.0, Android API 36",
+  "device": "Android Emulator, API 36, 1080x2400 physical / 411x914 dp, 420 dpi",
+  "tests": [
+    {
+      "id": "ANDROID-001",
+      "scenario": "Fresh install launch",
+      "result": "passed",
+      "evidence": "01-dashboard-1080x2400.png",
+      "notes": "Three sample projects loaded. No backend/network is required for the local UI."
+    },
+    {
+      "id": "ANDROID-002",
+      "scenario": "Export JSON backup through Android Storage Access Framework",
+      "result": "passed",
+      "evidence": "02-backup-saved-toast.png",
+      "artifact": "folio-backup (1).json in emulator Downloads; parsed as JSON: title correct, 3 projects, 4803 bytes."
+    },
+    {
+      "id": "ANDROID-003",
+      "scenario": "Cancel save picker",
+      "result": "passed",
+      "evidence": "03-backup-cancelled.png",
+      "notes": "Cancellation is reported; app remains available and data is unchanged."
+    },
+    {
+      "id": "ANDROID-004",
+      "scenario": "Sensitive bridge logging",
+      "result": "passed",
+      "notes": "Android loggingBehavior=none; source plugin debug logs removed. No native call payload was observed in logcat after a save run."
+    },
+    {
+      "id": "ANDROID-005",
+      "scenario": "Cancel backup before full replacement",
+      "result": "passed",
+      "evidence": [
+        "04-import-preview-before-replace.png",
+        "05-pre-import-backup-picker.png"
+      ],
+      "notes": "Import preview lists 3 existing ID matches. Full replace asks to save folio-before-import.json first. Back/cancel returns to preview and no replacement occurs."
+    },
+    {
+      "id": "ANDROID-006",
+      "scenario": "Branded launcher and startup",
+      "result": "passed",
+      "evidence": [
+        "06-launcher-brand-icon.png",
+        "07-branded-launch-splash.png",
+        "08-app-first-screen.png"
+      ],
+      "notes": "Adaptive launcher icon uses the folio vector mark, app label is folio, Android splash uses matching lime/ink brand colors, first screen loads."
+    },
+    {
+      "id": "ANDROID-007",
+      "scenario": "CSV export through Android Storage Access Framework",
+      "result": "passed",
+      "evidence": "09-csv-export-saved.png",
+      "artifact": "projects-export.csv",
+      "notes": "Saved while the emulator had no active default network. Parsed as UTF-8 BOM, semicolon-delimited CSV: 3 expected project records, 20 columns."
+    },
+    {
+      "id": "ANDROID-008",
+      "scenario": "Cold launch with Wi-Fi and mobile data disabled",
+      "result": "passed",
+      "evidence": "10-offline-cold-launch.png",
+      "notes": "Android dumpsys connectivity reported Active default network: none. App opened to dashboard with demo records and offline status; local UI remained available."
+    },
+    {
+      "id": "ANDROID-009",
+      "scenario": "Cold start splash retention and transition after local data is ready",
+      "result": "passed",
+      "evidence": [
+        "13-startup-splash-held-150ms.png",
+        "14-startup-home-after4s.png"
+      ],
+      "notes": "After moving setKeepOnScreenCondition before BridgeActivity super.onCreate, launcher splash was visible in screenshots at 150 ms, 500 ms and 1 second. By 4 seconds the dashboard had replaced it. Active default network was none during the run; the 15-second fallback was not reached."
+    }
+  ],
+  "limitations": [
+    "Tested on Android Emulator API 36 only; physical Android device and OEM file picker remain to be checked.",
+    "APK is a debug-signed test build, not a release/store build.",
+    "Desktop-to-phone synchronization is still manual JSON export/import; no cloud sync is implemented."
+  ],
+  "apk": {
+    "path": "02_Приложение/mobile/folio-android-debug.apk",
+    "size_bytes": 19048297,
+    "sha256": "c9af8baffd4d7d17f29cb4af51e0c5816601fda69b52d562000a2c7cefff3c91"
+  }
+}

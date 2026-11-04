@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "product": "folio",
+  "desktopVersion": "v86",
+  "webVersion": "v63",
+  "environment": "Isolated QA copy with its own demo SQLite",
+  "window": "1000x680 client geometry",
+  "visibleProjects": 3,
+  "visibleAreas": [
+    "Editorial banner",
+    "Search and type/status/tag filters",
+    "All three project rows",
+    "Horizontal scroll and row actions",
+    "Compact Card button"
+  ],
+  "cardAction": "Opened scrollable project detail window with full text and local cover",
+  "userDatabaseUsed": false,
+  "limitations": [
+    "Only minimum supported desktop geometry was manually inspected in this pass",
+    "No physical phone or screen reader used"
+  ]
+}

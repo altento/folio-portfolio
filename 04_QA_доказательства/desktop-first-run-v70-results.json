@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-30",
+  "test": "Native desktop fresh first launch",
+  "source": "Current main.py, sqlite_storage.py and assets copied into an isolated empty QA folder",
+  "launch": "Python 3.13 pythonw.exe main.py, direct launch; no database or legacy JSON present before start",
+  "observed": "The window opened and showed three starter/demo project records. A fresh portfolio_data.sqlite3 was created beside main.py.",
+  "database_read_only_check": {
+    "integrity_check": "ok",
+    "schema_version": 1,
+    "project_count": 3
+  },
+  "screenshot": "desktop-first-run-v70-1362x912.jpg",
+  "shutdown": "Test window closed after observation; test process exited.",
+  "safety": "Isolated QA folder only. User project databases were not opened or changed."
+}

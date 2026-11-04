@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-01",
+  "change": "Increase per-project gallery capacity from 8 to 10 images",
+  "unchanged_limits": {
+    "gallery_total_chars": 8000000,
+    "single_image_chars": 1600000,
+    "approximate_media_size": "6 MiB"
+  },
+  "cross_platform": {
+    "desktop_json_validator": "accepts 10, rejects 11",
+    "sqlite_storage": "accepts 10, rejects 11",
+    "web_normalizer": "accepts 10, rejects 11",
+    "editor_help_text": "До 10 деталей"
+  },
+  "regression": {
+    "python_sqlite": "58/58 PASS",
+    "web_core": "21/21 PASS"
+  },
+  "isolated_browser": {
+    "url": "http://127.0.0.1:8767/",
+    "viewport_css_px": "390x844",
+    "active_cache": "folio-shell-v84-gallery-depth",
+    "horizontal_overflow": false,
+    "offline_reload": true,
+    "console_errors": 0,
+    "project_form_open": true,
+    "screenshots": [
+      "web-dashboard-v84-390x844.png",
+      "web-editor-v84-390x844.png",
+      "web-gallery-v84-390x844.png",
+      "web-dashboard-v84-1440x900.png"
+    ]
+  },
+  "android": {
+    "web_assets_synced": true,
+    "debug_apk_rebuilt": false,
+    "blocker": "Gradle 8.14.3 with verified Eclipse Temurin 17 failed before compilation: Unable to establish loopback connection (java.net.SocketException: Invalid argument: connect). Included APK remains v83."
+  },
+  "user_data": "No personal portfolio database or files were opened or included."
+}

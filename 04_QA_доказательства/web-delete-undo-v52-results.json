@@ -1,0 +1,12 @@
+{
+  "version": "v52-delete-undo",
+  "checks": {
+    "deleteClosesDetailsAndShowsUndo": true,
+    "deletedCardDisappears": true,
+    "undoRestoresOriginalCase": true,
+    "undoAnnounced": true,
+    "mobileHasNoHorizontalOverflow": true,
+    "focusReturnsAfterUndoExpires": true
+  },
+  "errors": []
+}

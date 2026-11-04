@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-01",
+  "build": {
+    "web_pwa_shell": "v80",
+    "desktop": "v91"
+  },
+  "context": "isolated Playwright context folio-acceptance-2026-11-01",
+  "result": "PASS",
+  "synthetic_record": {
+    "title": "QA Acceptance Journey",
+    "initial_seeded_projects": 3,
+    "saved_total": 4,
+    "story_blocks_completed": 5,
+    "featured": true,
+    "tag": "qa-run",
+    "updated_description_persisted": true,
+    "saved_only_in_isolated_context": true
+  },
+  "workflow": [
+    {
+      "step": "Create project in the UI",
+      "result": "saved; dialog closed; toast confirmed; navigation count advanced to 4"
+    },
+    {
+      "step": "Combine search and filters",
+      "criteria": {
+        "search": "QA Acceptance",
+        "type": "Веб-приложение",
+        "status": "Завершён",
+        "tag": "qa-run",
+        "featured": true
+      },
+      "result_count": 1
+    },
+    {
+      "step": "Open case detail",
+      "result": "three story sections, one user tag, no broken images, document width unchanged"
+    },
+    {
+      "step": "Escape from detail",
+      "result": "dialog closed and focus returned to the originating case button"
+    },
+    {
+      "step": "Edit the case",
+      "result": "updated description displayed in the case card after save"
+    },
+    {
+      "step": "Online reload",
+      "result": "four projects and edited description persisted"
+    },
+    {
+      "step": "Offline reload",
+      "result": "Service Worker controlled page; four projects and edited description remained visible; no broken images"
+    },
+    {
+      "step": "Keyboard focus containment",
+      "result": "Shift+Tab plus 40 Tab presses produced no focus events outside detail dialog"
+    }
+  ],
+  "viewports": [
+    {
+      "name": "desktop details",
+      "size": "1440x900",
+      "detailDialogWidth": 705,
+      "documentWidth": 1440,
+      "horizontalOverflow": false,
+      "storySections": 3,
+      "brokenImages": 0,
+      "screenshot": "web-e2e-case-detail-desktop-1440x900-2026-11-01.jpg"
+    },
+    {
+      "name": "mobile details",
+      "size": "390x844",
+      "detailDialogWidth": 359,
+      "documentWidth": 375,
+      "clientWidth": 375,
+      "horizontalOverflow": false,
+      "storySections": 3,
+      "brokenImages": 0,
+      "screenshot": "web-e2e-case-detail-mobile-390x844-2026-11-01.jpg"
+    }
+  ],
+  "privacy_network": {
+    "browser_profile_isolated": true,
+    "personal_data_used": false,
+    "origins": [
+      "http://127.0.0.1:8766"
+    ],
+    "remote_origins": [],
+    "console_errors": 0,
+    "console_warnings": 0
+  },
+  "regression": {
+    "python_sqlite": "57/57",
+    "web_core": "21/21"
+  },
+  "limitations": [
+    "Browser viewport emulation is not a physical phone.",
+    "No system screen reader or install-to-home-screen flow was available.",
+    "The test record is synthetic and remains only in the isolated browser context."
+  ]
+}

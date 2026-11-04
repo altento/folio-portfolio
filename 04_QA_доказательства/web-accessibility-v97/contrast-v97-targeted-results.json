@@ -1,0 +1,208 @@
+{
+  "audit": "Targeted contrast regression, v97",
+  "source": "http://127.0.0.1:8766/",
+  "captured_at_utc": "2026-11-02T00:46:11.611127+00:00",
+  "browser": "Chromium via Playwright; isolated new context; service workers blocked",
+  "scope": "Only projects search shortcut hint and project-detail close glyph, light/dark themes.",
+  "database_safety": "No user browser profile used. Local app may seed demo content into ephemeral IndexedDB only. No imports, user data, edits, or form submissions.",
+  "method": "Computed foreground and nearest opaque solid CSS background; WCAG luminance contrast formula. Image/gradient backgrounds are reported but not pixel sampled.",
+  "page_errors": [],
+  "scans": [
+    {
+      "theme": "light",
+      "state": "projects_search_hint",
+      "target": {
+        "selector": "#search-input ~ kbd",
+        "found": true,
+        "text": "Ctrl/⌘ K",
+        "theme": "light",
+        "foreground": "rgb(95, 99, 104)",
+        "foreground_color": {
+          "r": 95,
+          "g": 99,
+          "b": 104,
+          "a": 1
+        },
+        "own_background": "rgb(244, 244, 242)",
+        "own_background_color": {
+          "r": 244,
+          "g": 244,
+          "b": 242,
+          "a": 1
+        },
+        "backgroundImage": "none",
+        "nearest_solid_background": {
+          "node": "kbd",
+          "color": {
+            "r": 244,
+            "g": 244,
+            "b": 242,
+            "a": 1
+          }
+        },
+        "background_chain": [
+          {
+            "node": "kbd",
+            "backgroundColor": "rgb(244, 244, 242)",
+            "backgroundImage": "none"
+          }
+        ],
+        "opacity": "1",
+        "fontSize": "8px",
+        "fontWeight": "400",
+        "visible": true,
+        "disabled": false
+      },
+      "contrast_ratio": 5.49,
+      "required_ratio": 4.5,
+      "result": "PASS"
+    },
+    {
+      "theme": "light",
+      "state": "project_detail_close",
+      "target": {
+        "selector": "#detail-dialog .detail-close",
+        "found": true,
+        "text": "×",
+        "theme": "light",
+        "foreground": "rgb(37, 38, 42)",
+        "foreground_color": {
+          "r": 37,
+          "g": 38,
+          "b": 42,
+          "a": 1
+        },
+        "own_background": "rgb(245, 245, 243)",
+        "own_background_color": {
+          "r": 245,
+          "g": 245,
+          "b": 243,
+          "a": 1
+        },
+        "backgroundImage": "none",
+        "nearest_solid_background": {
+          "node": "button",
+          "color": {
+            "r": 245,
+            "g": 245,
+            "b": 243,
+            "a": 1
+          }
+        },
+        "background_chain": [
+          {
+            "node": "button",
+            "backgroundColor": "rgb(245, 245, 243)",
+            "backgroundImage": "none"
+          }
+        ],
+        "opacity": "1",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "visible": true,
+        "disabled": false
+      },
+      "contrast_ratio": 13.85,
+      "required_ratio": 3,
+      "result": "PASS"
+    },
+    {
+      "theme": "dark",
+      "state": "projects_search_hint",
+      "target": {
+        "selector": "#search-input ~ kbd",
+        "found": true,
+        "text": "Ctrl/⌘ K",
+        "theme": "dark",
+        "foreground": "rgb(240, 240, 237)",
+        "foreground_color": {
+          "r": 240,
+          "g": 240,
+          "b": 237,
+          "a": 1
+        },
+        "own_background": "rgb(52, 53, 58)",
+        "own_background_color": {
+          "r": 52,
+          "g": 53,
+          "b": 58,
+          "a": 1
+        },
+        "backgroundImage": "none",
+        "nearest_solid_background": {
+          "node": "kbd",
+          "color": {
+            "r": 52,
+            "g": 53,
+            "b": 58,
+            "a": 1
+          }
+        },
+        "background_chain": [
+          {
+            "node": "kbd",
+            "backgroundColor": "rgb(52, 53, 58)",
+            "backgroundImage": "none"
+          }
+        ],
+        "opacity": "1",
+        "fontSize": "8px",
+        "fontWeight": "400",
+        "visible": true,
+        "disabled": false
+      },
+      "contrast_ratio": 10.72,
+      "required_ratio": 4.5,
+      "result": "PASS"
+    },
+    {
+      "theme": "dark",
+      "state": "project_detail_close",
+      "target": {
+        "selector": "#detail-dialog .detail-close",
+        "found": true,
+        "text": "×",
+        "theme": "dark",
+        "foreground": "rgb(37, 38, 42)",
+        "foreground_color": {
+          "r": 37,
+          "g": 38,
+          "b": 42,
+          "a": 1
+        },
+        "own_background": "rgb(245, 245, 243)",
+        "own_background_color": {
+          "r": 245,
+          "g": 245,
+          "b": 243,
+          "a": 1
+        },
+        "backgroundImage": "none",
+        "nearest_solid_background": {
+          "node": "button",
+          "color": {
+            "r": 245,
+            "g": 245,
+            "b": 243,
+            "a": 1
+          }
+        },
+        "background_chain": [
+          {
+            "node": "button",
+            "backgroundColor": "rgb(245, 245, 243)",
+            "backgroundImage": "none"
+          }
+        ],
+        "opacity": "1",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "visible": true,
+        "disabled": false
+      },
+      "contrast_ratio": 13.85,
+      "required_ratio": 3,
+      "result": "PASS"
+    }
+  ]
+}

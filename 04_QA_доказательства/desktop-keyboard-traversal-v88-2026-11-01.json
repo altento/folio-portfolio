@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-01",
+  "application_window": "folio — desktop v88 compact QA preview",
+  "source_file_sha256": "F4A949EDE33D735FBCD71B411449E3974AE51BF1EBEDF4F888ADE130FB62282A",
+  "scope": "isolated blank add-project form; no data entered or saved",
+  "viewport_px": {
+    "width": 1282,
+    "height": 892
+  },
+  "forward_route_confirmed": [
+    "Название",
+    "Описание",
+    "Дата",
+    "Статус",
+    "Демо URL",
+    "Технологии",
+    "Теги",
+    "Моя роль",
+    "Результат / польза",
+    "Контекст задачи",
+    "Решение",
+    "Этапы процесса",
+    "Метрики результата",
+    "Количество страниц",
+    "Избранное",
+    "Выбрать изображение",
+    "Убрать обложку",
+    "Галерея",
+    "Отмена",
+    "Сохранить"
+  ],
+  "reverse_route_confirmed_from_save_through": [
+    "Отмена",
+    "Галерея",
+    "Убрать обложку",
+    "Выбрать изображение",
+    "Избранное",
+    "Количество страниц",
+    "Метрики результата",
+    "Этапы процесса",
+    "Решение",
+    "Контекст задачи"
+  ],
+  "results": {
+    "forward_tab_reached_save": true,
+    "reverse_shift_tab_reached_multiline_case_story_fields": true,
+    "focused_field_scrolled_into_view": true,
+    "cancel_and_save_remained_visible": true,
+    "form_saved": false,
+    "escape_closed_empty_form_without_saving": true,
+    "demo_project_count_after_close": 3
+  },
+  "limitations": [
+    "Shift+Tab was confirmed backwards from Save through Context, not all the way back to Title.",
+    "Physical keyboard, screen reader, image picker, and gallery editor were not tested.",
+    "A fresh screenshot file was not persisted in this pass; existing desktop form screenshots remain in this QA directory."
+  ],
+  "related_existing_screenshots": [
+    "desktop-form-tab-context-to-solution-v80.jpg",
+    "desktop-form-bottom-v80.jpg",
+    "desktop-tab-gallery-visible-v83.jpg"
+  ]
+}

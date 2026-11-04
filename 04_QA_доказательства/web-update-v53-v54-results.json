@@ -1,0 +1,21 @@
+{
+  "migration": {
+    "controllerChanged": true,
+    "noticeVisible": true,
+    "savedFilterRetained": true,
+    "v54BulkActionsAvailableAfterUpdate": true,
+    "savedFilterAvailableOffline": true,
+    "cacheKeys": [
+      "folio-shell-v54-bulk-actions"
+    ],
+    "cacheKeysOnlyV54": true
+  },
+  "data": {
+    "demoProjectsLoadedBeforeUpdate": true,
+    "savedFilterCreatedBeforeUpdate": true,
+    "projectsRetained": true,
+    "savedFilterStillApplies": true,
+    "projectsRetainedOffline": true
+  },
+  "errors": []
+}

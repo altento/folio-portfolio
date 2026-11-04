@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-01",
+  "release": "Web/PWA v75",
+  "service_worker_cache": "folio-shell-v75-mobile-dashboard-first-case",
+  "change": "On mobile dashboard, surface featured work before summary metrics; preserve hero illustration and demo-data notice.",
+  "browser": "Isolated Chromium",
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "document_scroll_width": 305,
+      "layout_client_width": 305,
+      "horizontal_overflow": false,
+      "featured_grid_y": 861,
+      "mobile_nav_y": 504
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "document_scroll_width": 375,
+      "layout_client_width": 375,
+      "horizontal_overflow": false,
+      "featured_grid_y": 734,
+      "mobile_nav_y": 780
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "document_scroll_width": 1425,
+      "layout_client_width": 1425,
+      "horizontal_overflow": false,
+      "featured_grid_y": 933,
+      "mobile_nav_hidden": true
+    }
+  ],
+  "comparison_before_390x844_featured_grid_y": 1070,
+  "web_core_tests": "21/21 passed",
+  "fresh_screenshot": "captured later during follow-up; the initial v75 QA pass had a screenshot timeout",
+  "service_worker_upgrade": {
+    "registrations": 1,
+    "previous_cache_removed": true,
+    "active_cache": "folio-shell-v75-mobile-dashboard-first-case",
+    "demo_projects_after_upgrade": 3
+  },
+  "regression": {
+    "python_sqlite": "55/55 passed",
+    "web_core": "21/21 passed"
+  },
+  "runtime_observation": {
+    "browser_console_errors": 0,
+    "broken_images": 0,
+    "active_worker_state": "activated",
+    "cache_after_upgrade": [
+      "folio-shell-v75-mobile-dashboard-first-case"
+    ],
+    "demo_project_cards": 3
+  },
+  "cached_stylesheet": {
+    "present": true,
+    "contains_mobile_dashboard_rules": true,
+    "bytes": 90330
+  },
+  "later_capture": {
+    "file": "web-v75-mobile-dashboard-390x844.jpg",
+    "captured_in_follow-up_review": true,
+    "visual_findings": [
+      "mobile headline words were concatenated after hiding line breaks",
+      "demo clear icon wrapped to a second line"
+    ],
+    "fixed_in": "Web/PWA v78"
+  }
+}

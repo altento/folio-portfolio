@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-01",
+  "version": "folio-shell-v64-indexeddb-write-conflicts",
+  "errors": [],
+  "simultaneous_startup": {
+    "both_tabs_loaded": true,
+    "fatal_states": [
+      0,
+      0
+    ]
+  },
+  "stale_tab_write": {
+    "rejected": true,
+    "user_message": "Данные уже изменились в другой вкладке. Эта запись не перезаписала более свежую версию. Обновите страницу перед повторным сохранением; черновик формы проекта хранится отдельно.",
+    "latest_record_preserved": {
+      "name": "Проверка вкладки Б",
+      "revision": 2
+    },
+    "winning_write": {
+      "name": "Проверка вкладки Б",
+      "revision": 2
+    }
+  },
+  "simultaneous_writes": {
+    "fulfilled": 1,
+    "rejected": 1,
+    "conflictErrors": 1,
+    "revision": 1,
+    "winner": "A"
+  },
+  "legacy_record_compatibility": {
+    "legacyRevisionBefore": 0,
+    "legacyMarkerPreserved": true,
+    "revisionAfterWrite": 1,
+    "migratedFlag": true
+  },
+  "offline_reload": {
+    "controller": "http://127.0.0.1:58190/sw.js",
+    "cache_names": [
+      "folio-shell-v64-indexeddb-write-conflicts"
+    ],
+    "reload_succeeded": true,
+    "profile_preserved": "Офлайн-проверка v64"
+  }
+}

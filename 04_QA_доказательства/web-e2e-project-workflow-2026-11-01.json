@@ -1,0 +1,44 @@
+{
+  "reviewed_at_utc": "2026-11-01T04:27Z",
+  "application": {
+    "url": "http://127.0.0.1:8766/",
+    "title": "Портфолио — рабочее пространство",
+    "service_worker": "http://127.0.0.1:8766/sw.js"
+  },
+  "environment": {
+    "browser": "Google Chrome headless, controlled with Playwright",
+    "desktop_viewport": "1440x900",
+    "mobile_viewports": ["390x844", "320x568"],
+    "data_isolation": "Fresh disposable browser context; only synthetic demo/QA records; profile closed after capture; no owner browser profile or user database was opened."
+  },
+  "workflow": [
+    "Created a synthetic Web Application project through the UI with title, description, context, solution, work steps, role, result, metric, technologies, tag, and featured state.",
+    "Combined title search, type, status, tag, and featured filters; exactly one card matched.",
+    "Opened the case and confirmed its narrative, tag, technology, and metadata were visible.",
+    "Edited the description through the UI and confirmed it persisted after a normal reload.",
+    "Disabled network in the isolated browser context, reloaded through the active Service Worker, and confirmed HTTP 200 plus the edited record still present; network was restored before closing the profile.",
+    "Pressed Tab 40 times inside the detail dialog: zero focus events escaped. Escape closed the dialog and restored focus to the originating project card.",
+    "At 1440x900, 390x844, and 320x568, document scroll width equalled client width."
+  ],
+  "results": {
+    "matching_cards_after_combined_filters": 1,
+    "persistence_after_online_reload": true,
+    "offline_reload_status": 200,
+    "service_worker_controlled_offline_reload": true,
+    "offline_record_persisted": true,
+    "tab_events_outside_dialog": 0,
+    "escape_restored_focus_to_opener": true,
+    "document_horizontal_overflow_at_tested_widths": false,
+    "console_errors": 0,
+    "resource_origins": ["http://127.0.0.1:8766"]
+  },
+  "screenshots": [
+    "web-e2e-case-detail-desktop-1440x900-2026-11-01.jpg",
+    "web-e2e-case-detail-mobile-390x844-2026-11-01.jpg"
+  ],
+  "limitations": [
+    "Chromium viewport emulation is not physical-phone acceptance.",
+    "No real screen reader was used.",
+    "At 320x568, the case dialog is internally scrollable; the screenshot shows only the viewport portion."
+  ]
+}

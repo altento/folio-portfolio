@@ -1,0 +1,30 @@
+{
+  "url": "http://127.0.0.1:8766/",
+  "viewport": "390x844",
+  "offline": {
+    "online": false,
+    "controller": true,
+    "caches": [
+      "folio-shell-v115-mobile-readability"
+    ],
+    "projects": 3,
+    "images": [
+      {
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "title": "Портфолио — рабочее пространство",
+    "updateNoticeVisible": false
+  },
+  "page_and_console_errors": [],
+  "result": "PASS"
+}

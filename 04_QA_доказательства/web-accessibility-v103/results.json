@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-02",
+  "app_url": "http://127.0.0.1:8766/",
+  "isolated_context": "folio-zoom-audit",
+  "method": "Playwright CSS viewport reflow sampling; 720 CSS px approximates 200% on a 1440 px layout, 320 CSS px approximates 400% on a 1280 px layout. This is not OS text scaling or a direct native browser zoom test.",
+  "checks": [
+    {
+      "view": "projects",
+      "viewport_css_px": [
+        320,
+        800
+      ],
+      "document_scroll_width_css_px": 305,
+      "client_width_css_px": 305,
+      "horizontal_overflow": false,
+      "visible_controls_outside_viewport": false
+    },
+    {
+      "view": "project_create_dialog",
+      "viewport_css_px": [
+        320,
+        800
+      ],
+      "dialog_bounds_css_px": [
+        8,
+        52,
+        304,
+        736
+      ],
+      "dialog_client_size_css_px": [
+        289,
+        736
+      ],
+      "dialog_scroll_size_css_px": [
+        289,
+        2549
+      ],
+      "horizontal_overflow": false,
+      "long_form_uses_vertical_scroll": true,
+      "visible_text_fields_and_actions_min_height_px": 44
+    },
+    {
+      "view": "showcase_phone_preview_dialog",
+      "viewport_css_px": [
+        320,
+        800
+      ],
+      "outer_document_scroll_width_css_px": 305,
+      "iframe_client_width_css_px": 288,
+      "iframe_scroll_width_css_px": 288,
+      "horizontal_overflow": false,
+      "preview_vertical_scroll_available": true
+    },
+    {
+      "view": "projects",
+      "viewport_css_px": [
+        720,
+        900
+      ],
+      "document_scroll_width_css_px": 705,
+      "client_width_css_px": 705,
+      "horizontal_overflow": false,
+      "visible_focusable_controls_outside_viewport": false
+    },
+    {
+      "view": "projects_selection_targets",
+      "viewport_css_px": [
+        320,
+        800
+      ],
+      "checkbox_hit_area_labels_at_least_44x44": true
+    }
+  ],
+  "scope_limit": "Sampled dashboard/catalog actions, add-project dialog, and phone HTML preview only. Full browser zoom, OS font scaling, screen readers, manual contrast, and every application view remain open.",
+  "screenshots": [
+    {
+      "path": "projects-zoom-400-effective-320x800.jpg",
+      "width_px": 320,
+      "height_px": 800,
+      "bytes": 20074,
+      "sha256": "d01cd732480b361d9dbe14e6f8497a8a48db10bf2e056d90846152653a6cc489"
+    },
+    {
+      "path": "showcase-preview-320x800.png",
+      "width_px": 320,
+      "height_px": 800,
+      "bytes": 13615,
+      "sha256": "c5a3f4b0dd5064e70f27fcbd731245c9f65db6eb137f28d3c19d2dc773c0d606"
+    },
+    {
+      "path": "projects-zoom-200-effective-720x900.jpg",
+      "width_px": 720,
+      "height_px": 900,
+      "bytes": 29002,
+      "sha256": "a04826a44571795e80681a5e5e267e41208b150a57b6d68f7f22434aaee4596b"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-29",
+  "scope": "isolated QA data only; PWA profile and Tkinter SQLite copy",
+  "pwa_to_desktop": {
+    "pwa_initial_projects": 3,
+    "pwa_projects_after_save": 4,
+    "export_file": "C:\\Users\\Windows-10\\Desktop\\Портфолио_веб-разработчика\\служебные_файлы\\qa_30-10-2026\\exports\\pwa-to-desktop-v34.json",
+    "export_projects": 4,
+    "exported_case": {
+      "id": 4,
+      "title": "QA transfer PWA to desktop v34",
+      "page_count": 7
+    },
+    "desktop_import_preview": {
+      "incoming": 4,
+      "local": 4,
+      "id_conflicts": 4,
+      "new_ids": 0
+    },
+    "merge_result": {
+      "added": 0,
+      "copies": 4,
+      "local_conflicts_kept": 0
+    },
+    "sqlite_after_import": {
+      "integrity_check": "ok",
+      "project_count": 8,
+      "transferred_case": {
+        "id": 8,
+        "title": "QA transfer PWA to desktop v34 — импорт",
+        "page_count": 7
+      }
+    }
+  },
+  "desktop_to_pwa": {
+    "export_file": "C:\\Users\\Windows-10\\Desktop\\Портфолио_веб-разработчика\\служебные_файлы\\qa_30-10-2026\\exports\\desktop-to-pwa-v34.json",
+    "export_projects": 8,
+    "case_exported": {
+      "id": 8,
+      "title": "QA transfer PWA to desktop v34 — импорт",
+      "page_count": 7
+    },
+    "pwa_import_preview": {
+      "incoming": 8,
+      "local": 3,
+      "id_conflicts": 3,
+      "new_ids": 5
+    },
+    "merge_result": {
+      "added": 5,
+      "updated": 0,
+      "skipped": 3,
+      "copies": 0
+    },
+    "pwa_after_reload": {
+      "count": 8,
+      "transfer_match": 1
+    }
+  },
+  "browser_errors": [],
+  "screenshots": [
+    "desktop-v34-json-roundtrip-complete-1362x912.png",
+    "web-e2e-desktop-json-import-preview-1440x900.png",
+    "web-e2e-desktop-json-import-complete-1440x900.png"
+  ],
+  "machine_readable_sources": [
+    "pwa-to-desktop-export-results.json",
+    "desktop-to-pwa-import-results.json"
+  ]
+}
+

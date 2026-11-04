@@ -1,0 +1,323 @@
+{
+  "url": "http://127.0.0.1:8766/",
+  "viewports": [
+    {
+      "name": "narrow-320x568",
+      "width": 320,
+      "height": 568,
+      "innerWidth": 320,
+      "scrollWidth": 320,
+      "bodyWidth": 320,
+      "scrollHeight": 1769,
+      "hasHorizontalOverflow": false,
+      "landmarks": [
+        {
+          "tag": "ASIDE",
+          "aria": "Основная навигация",
+          "role": null
+        },
+        {
+          "tag": "NAV",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "HEADER",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "ASIDE",
+          "aria": null,
+          "role": "status"
+        },
+        {
+          "tag": "ASIDE",
+          "aria": null,
+          "role": "note"
+        },
+        {
+          "tag": "MAIN",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "NAV",
+          "aria": "Нижняя навигация",
+          "role": null
+        },
+        {
+          "tag": "HEADER",
+          "aria": null,
+          "role": null
+        }
+      ],
+      "project_cover_images": [
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        },
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        },
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        }
+      ],
+      "all_project_covers_loaded": true
+    },
+    {
+      "name": "phone-390x844",
+      "width": 390,
+      "height": 844,
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyWidth": 390,
+      "scrollHeight": 1948,
+      "hasHorizontalOverflow": false,
+      "landmarks": [
+        {
+          "tag": "ASIDE",
+          "aria": "Основная навигация",
+          "role": null
+        },
+        {
+          "tag": "NAV",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "HEADER",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "ASIDE",
+          "aria": null,
+          "role": "status"
+        },
+        {
+          "tag": "ASIDE",
+          "aria": null,
+          "role": "note"
+        },
+        {
+          "tag": "MAIN",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "NAV",
+          "aria": "Нижняя навигация",
+          "role": null
+        },
+        {
+          "tag": "HEADER",
+          "aria": null,
+          "role": null
+        }
+      ],
+      "project_cover_images": [
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        },
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        },
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        }
+      ],
+      "all_project_covers_loaded": true
+    },
+    {
+      "name": "desktop-1440x900",
+      "width": 1440,
+      "height": 900,
+      "innerWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyWidth": 1440,
+      "scrollHeight": 901,
+      "hasHorizontalOverflow": false,
+      "landmarks": [
+        {
+          "tag": "ASIDE",
+          "aria": "Основная навигация",
+          "role": null
+        },
+        {
+          "tag": "NAV",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "HEADER",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "ASIDE",
+          "aria": null,
+          "role": "status"
+        },
+        {
+          "tag": "ASIDE",
+          "aria": null,
+          "role": "note"
+        },
+        {
+          "tag": "MAIN",
+          "aria": null,
+          "role": null
+        },
+        {
+          "tag": "NAV",
+          "aria": "Нижняя навигация",
+          "role": null
+        },
+        {
+          "tag": "HEADER",
+          "aria": null,
+          "role": null
+        }
+      ],
+      "project_cover_images": [
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        },
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        },
+        {
+          "naturalWidth": 1536,
+          "complete": true
+        }
+      ],
+      "all_project_covers_loaded": true
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "http_status": 200,
+  "title": "Портфолио — рабочее пространство",
+  "functional_checks": {
+    "projects_navigation_count": 3,
+    "CRM_search_count": 1,
+    "CRM_search_match": true,
+    "search_clear_count": 3,
+    "showcase_navigation": true,
+    "dashboard_navigation": true,
+    "http_status": 200,
+    "page_errors": [],
+    "console_errors": []
+  },
+  "crud_e2e": {
+    "isolated_context": true,
+    "http_status": 200,
+    "tag_enter_adds_without_submitting": true,
+    "create_saved_and_dialog_closed": true,
+    "search_finds_created": true,
+    "detail_contains_history": true,
+    "edit_prefills_existing_data": true,
+    "edit_saved": true,
+    "edit_survives_reload": true,
+    "edited_project_survives_reload": true,
+    "edited_role_persists": true,
+    "page_errors": [],
+    "console_errors": []
+  },
+  "mobile_crud_smoke": {
+    "step1_shown": true,
+    "tag_enter_adds": true,
+    "step2_shown": true,
+    "step3_shown": true,
+    "no_overflow_in_step3": true,
+    "mobile_save_closes_dialog": true,
+    "mobile_create_added_project": true,
+    "no_overflow_after_save": true,
+    "http_status": 200,
+    "page_errors": [],
+    "console_errors": []
+  },
+  "json_transfer_e2e": {
+    "json_export_downloaded": true,
+    "export_has_three_projects": true,
+    "import_preview_reports_id_collisions": true,
+    "import_preview_warns_about_replacement": true,
+    "replacement_backup_downloaded": true,
+    "import_preview_closed": true,
+    "three_projects_after_import": true,
+    "imported_1": true,
+    "imported_2": true,
+    "imported_3": true,
+    "roundtrip_projects_match": true,
+    "page_errors": [],
+    "console_errors": []
+  },
+  "json_cancel_and_csv_e2e": {
+    "cancel_closes_preview": true,
+    "cancel_preserves_all_projects": true,
+    "csv_export_downloaded": true,
+    "csv_contains_three_projects": true,
+    "csv_rows_contain_expected": true,
+    "page_errors": [],
+    "console_errors": []
+  },
+  "pwa_offline_e2e": {
+    "online_status": 200,
+    "service_worker_ready": true,
+    "controller_after_reload": true,
+    "cache_names": [
+      "folio-shell-v111-cross-device-export-guard-date-parity"
+    ],
+    "projects_online": 3,
+    "offline_reload_success": true,
+    "offline_status": false,
+    "offline_title": "Портфолио — рабочее пространство",
+    "offline_app_content": true,
+    "offline_project_count": 3,
+    "page_errors": [],
+    "console_errors": []
+  },
+  "mobile_media_e2e": {
+    "mobile_step3_visible": true,
+    "mobile_cover_processed": true,
+    "gallery_description_filled": true,
+    "no_overflow_in_media_step": true,
+    "mobile_project_saved": true,
+    "no_overflow_after_save": true,
+    "search_finds_project": true,
+    "cover_visible_in_detail": true,
+    "gallery_caption_in_detail": true,
+    "gallery_decorative_alt_deduplicated": true,
+    "media_and_caption_survive_reload": true,
+    "page_errors": [],
+    "console_errors": []
+  },
+  "catalog_filters_sort_and_saved_view": {
+    "initial_count": 3,
+    "status_filter": true,
+    "combined_filter": true,
+    "reset_filters": true,
+    "tag_filter": true,
+    "title_sort_russian_collation": true,
+    "title_sort_order": [
+      "Карта городских дворов",
+      "Портфолио веб-разработчика",
+      "CRM для клининговой компании"
+    ],
+    "featured_filter": true,
+    "saved_view_created": true,
+    "reset_before_restore": true,
+    "saved_view_restores_filter": true,
+    "page_errors": [],
+    "console_errors": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-30",
+  "app": "Tkinter desktop QA clone, isolated from user database",
+  "window_title": "Folio QA v61 — desktop visual check",
+  "dialog_capture": "1782x892 including native window frame",
+  "code_change": "Dialog preferred width increased and the cover panel switches to stacked document flow below 1900 px.",
+  "verified": [
+    "Updated application launched successfully in isolated clone.",
+    "Case guide and full-width fields are visible in the dialog.",
+    "Python/SQLite suite passes 46/46.",
+    "Closing the dialog was tested earlier without entering or saving data."
+  ],
+  "not_verified": [
+    "The cover block below the long form and the final action buttons were not reached in this capture.",
+    "Full Tab traversal, screen reader, and physical phone remain unverified.",
+    "No save or destructive action was performed."
+  ]
+}

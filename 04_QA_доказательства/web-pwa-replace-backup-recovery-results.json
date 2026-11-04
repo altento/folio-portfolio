@@ -1,0 +1,42 @@
+{
+  "version": "folio-shell-v35-filter-target-size",
+  "errors": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "initial_count": 3,
+      "count_with_qa_record": 4,
+      "replace_preview": "В файле 1 проект, в портфолио сейчас 4. Совпадающих ID: 0. Новых: 1.",
+      "backup_projects": 4,
+      "replaced_count": 1,
+      "replacement_survived_reload": 1,
+      "restored_count": 4,
+      "restored_survived_reload": 4,
+      "backup_file": "folio-before-import.json",
+      "screenshots": [
+        "web-backup-replace-preview-1440x900.png",
+        "web-backup-replaced-1440x900.png",
+        "web-backup-restored-1440x900.png"
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "initial_count": 3,
+      "count_with_qa_record": 4,
+      "replace_preview": "В файле 1 проект, в портфолио сейчас 4. Совпадающих ID: 0. Новых: 1.",
+      "backup_projects": 4,
+      "replaced_count": 1,
+      "replacement_survived_reload": 1,
+      "restored_count": 4,
+      "restored_survived_reload": 4,
+      "backup_file": "folio-before-import.json",
+      "screenshots": [
+        "web-backup-replace-preview-390x844.png",
+        "web-backup-replaced-390x844.png",
+        "web-backup-restored-390x844.png"
+      ]
+    }
+  ]
+}

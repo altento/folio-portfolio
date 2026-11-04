@@ -1,0 +1,36 @@
+{
+  "desktop": {
+    "saved_card": "28% 73%",
+    "detail": "object-position:28% 73%",
+    "related_cases_initial": [
+      "50% 46%",
+      "50% 46%"
+    ],
+    "related_cases_after_edit": [
+      "50% 46%",
+      "50% 46%"
+    ],
+    "after_reload": "28% 73%",
+    "related_case_with_custom_crop": [
+      "28% 73%",
+      "50% 46%"
+    ]
+  },
+  "service_worker_cache": [
+    "folio-shell-v113-cover-focal-point-all-surfaces"
+  ],
+  "mobile": {
+    "position": "64% 22%",
+    "horizontal_overflow": false,
+    "controls_bounds": [
+      622.53125,
+      745.53125
+    ],
+    "save_button_bounds": [
+      783,
+      829
+    ],
+    "errors": []
+  },
+  "console_errors": []
+}

@@ -1,0 +1,73 @@
+{
+  "before": {
+    "cache_keys": [
+      "folio-shell-v42-touch-targets"
+    ],
+    "projects": 3,
+    "controller": "http://127.0.0.1:55876/sw.js",
+    "projects_after_form_save": 4
+  },
+  "after": {
+    "cache_keys": [
+      "folio-shell-v43-dialog-focus"
+    ],
+    "projects": 4,
+    "new_case_visible": 1,
+    "controller": "http://127.0.0.1:55876/sw.js",
+    "registration_state": {
+      "activeState": "activated",
+      "waitingState": null,
+      "installingState": null,
+      "controller": "http://127.0.0.1:55876/sw.js"
+    },
+    "controller_change_observed": true,
+    "service_worker_requests": [
+      "/sw.js",
+      "/?__folio=folio-shell-v43-dialog-focus",
+      "/index.html?__folio=folio-shell-v43-dialog-focus",
+      "/styles.css?__folio=folio-shell-v43-dialog-focus",
+      "/app.js?__folio=folio-shell-v43-dialog-focus",
+      "/core.js?__folio=folio-shell-v43-dialog-focus",
+      "/demo.json?__folio=folio-shell-v43-dialog-focus",
+      "/manifest.webmanifest?__folio=folio-shell-v43-dialog-focus",
+      "/icons/icon.svg?__folio=folio-shell-v43-dialog-focus",
+      "/icons/icon-192.png?__folio=folio-shell-v43-dialog-focus",
+      "/icons/icon-512.png?__folio=folio-shell-v43-dialog-focus",
+      "/offline.html?__folio=folio-shell-v43-dialog-focus",
+      "/assets/icons/nav-sprite.webp?__folio=folio-shell-v43-dialog-focus",
+      "/assets/icons/feature-sprite.webp?__folio=folio-shell-v43-dialog-focus",
+      "/assets/illustrations/featured-empty-folio.webp?__folio=folio-shell-v43-dialog-focus",
+      "/assets/covers/portfolio-studio.webp?__folio=folio-shell-v43-dialog-focus",
+      "/assets/covers/cleaning-crm.webp?__folio=folio-shell-v43-dialog-focus",
+      "/assets/covers/city-courtyards.webp?__folio=folio-shell-v43-dialog-focus"
+    ]
+  },
+  "offline": {
+    "projects": 4,
+    "retained": true,
+    "documentWidth": 1440,
+    "viewportWidth": 1440,
+    "cache_keys": [
+      "folio-shell-v43-dialog-focus"
+    ],
+    "dialog_focus_handlers": {
+      "project-dialog": 1,
+      "showcase-preview-dialog": 1,
+      "detail-dialog": 1,
+      "import-dialog": 1
+    }
+  },
+  "errors": [],
+  "v42_dialog_focus_handlers": {
+    "project-dialog": 2,
+    "showcase-preview-dialog": 2,
+    "detail-dialog": 2,
+    "import-dialog": 2
+  },
+  "offline_mobile": {
+    "projects": 4,
+    "retained": true,
+    "documentWidth": 390,
+    "viewportWidth": 390
+  }
+}

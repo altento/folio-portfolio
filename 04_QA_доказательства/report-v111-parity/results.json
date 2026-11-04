@@ -1,0 +1,45 @@
+{
+  "origin": "Microsoft Word 2021 COM render of current DOCX copies",
+  "date": "2026-11-02",
+  "documents": [
+    {
+      "module": "M4",
+      "docx_sha256": "04d2e8a5dca35aa8be296cdaf3f52761d87f3a0b26f56b222e2e04a0680142b3",
+      "pdf_sha256": "ba9e920845405e4896cd764cf7ebec63bb26969925af637192ef2f37aa6c3827",
+      "rendered_pdf_matches_source": true,
+      "page_count": 10,
+      "page_pngs_verified": [
+        "m4-page-01.png",
+        "m4-page-02.png",
+        "m4-page-03.png",
+        "m4-page-04.png",
+        "m4-page-05.png",
+        "m4-page-06.png",
+        "m4-page-07.png",
+        "m4-page-08.png",
+        "m4-page-09.png",
+        "m4-page-10.png"
+      ]
+    },
+    {
+      "module": "M5",
+      "docx_sha256": "d370bdb0fb5e1ecf57a721bf88dbff49cafd8e2671120f18944f394c7d7f8136",
+      "pdf_sha256": "847d8b3c2f7c196eb5114bfa0a580fd478949ab874940e26dd6985367ffaff64",
+      "rendered_pdf_matches_source": true,
+      "page_count": 11,
+      "page_pngs_verified": [
+        "m5-page-01.png",
+        "m5-page-02.png",
+        "m5-page-03.png",
+        "m5-page-04.png",
+        "m5-page-05.png",
+        "m5-page-06.png",
+        "m5-page-07.png",
+        "m5-page-08.png",
+        "m5-page-09.png",
+        "m5-page-10.png",
+        "m5-page-11.png"
+      ]
+    }
+  ]
+}

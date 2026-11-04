@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-02",
+  "device": "FolioQA_API36",
+  "android_api": 36,
+  "physical_size": "1080x2400",
+  "apk_sha256": "7984090366a320cbbadd2466204170ab60ecc0063a1872e5a07ac71092793a99",
+  "install": "success",
+  "offline_mode": "airplane mode enabled; global airplane_mode_on=1",
+  "cold_launch": "force-stopped, relaunched through Android launcher intent, resumed MainActivity",
+  "webview": {
+    "url": "https://localhost/",
+    "title": "Портфолио — рабочее пространство",
+    "service_worker_controller": true,
+    "view": "projects",
+    "project_cards": 3,
+    "viewport_width_css_px": 412,
+    "document_width_css_px": 412,
+    "select_label_font": "12px",
+    "layout_button_font": "11px",
+    "reset_button_font": "12px"
+  },
+  "screenshots": [
+    "folio-v92-offline-settled.png",
+    "folio-v92-projects-offline.png"
+  ],
+  "limitations": ["emulator only; no physical device", "no screenreader or 200% zoom check"]
+}

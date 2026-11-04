@@ -1,0 +1,68 @@
+{
+  "version": "folio-shell-v58-illustrated-dashboard-hero",
+  "checks": {
+    "heroContainsLocalGeneratedArtwork": true,
+    "heroHasHeadingAndPrimaryAction": true,
+    "desktop-1440x900": {
+      "viewport": 1440,
+      "document": 1440,
+      "hero": {
+        "x": 288,
+        "y": 104,
+        "width": 1110,
+        "height": 281
+      },
+      "image": {
+        "x": 892,
+        "y": 127,
+        "width": 481,
+        "height": 235
+      },
+      "actionVisible": true
+    },
+    "mobile-390x844": {
+      "viewport": 390,
+      "document": 390,
+      "hero": {
+        "x": 17,
+        "y": 83,
+        "width": 356,
+        "height": 447
+      },
+      "image": {
+        "x": 34,
+        "y": 322,
+        "width": 322,
+        "height": 195
+      },
+      "actionVisible": true
+    },
+    "mobile-320x568": {
+      "viewport": 320,
+      "document": 320,
+      "hero": {
+        "x": 13,
+        "y": 83,
+        "width": 294,
+        "height": 417
+      },
+      "image": {
+        "x": 27,
+        "y": 334,
+        "width": 266,
+        "height": 155
+      },
+      "actionVisible": true
+    },
+    "darkThemeHeadingReadable": true,
+    "serviceWorkerCachesHeroAsset": true,
+    "dashboardLoadsAfterOfflineReload": true,
+    "noApplicationErrors": true
+  },
+  "screens": [
+    "web-dashboard-hero-v58-desktop-1440x900.png",
+    "web-dashboard-hero-v58-mobile-390x844.png",
+    "web-dashboard-hero-v58-mobile-320x568.png"
+  ],
+  "errors": []
+}

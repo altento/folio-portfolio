@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-01",
+  "build": "Web/PWA v73",
+  "profile": "folio-goal-2026-11-01",
+  "user_data_touched": false,
+  "service_worker_cache": "folio-shell-v73-related-case-navigation-body-fit",
+  "catalog_viewports_px": [
+    [
+      320,
+      568
+    ],
+    [
+      320,
+      844
+    ],
+    [
+      340,
+      568
+    ],
+    [
+      340,
+      844
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      375,
+      812
+    ],
+    [
+      380,
+      844
+    ],
+    [
+      390,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      420,
+      612
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "catalog_overflow_test": "document.documentElement.scrollWidth <= document.documentElement.clientWidth",
+  "checks": {
+    "no_catalog_horizontal_overflow_13_sizes": "pass",
+    "dashboard_projects_showcase_settings_no_horizontal_overflow_320_390_1440": "pass",
+    "body_minimum_width_no_longer_forces_horizontal_scroll_under_vertical_scrollbar": "pass",
+    "related_case_strip_shows_up_to_three_cases_in_manual_owner_order": "pass",
+    "related_case_buttons_have_accessible_names_and_cover_images": "pass",
+    "related_case_enter_opens_next_case_without_reopening_dialog": "pass",
+    "escape_closes_and_restores_focus_to_selected_case_card": "pass",
+    "detail_action_controls_at_least_44px": "pass",
+    "service_worker_offline_reload_and_case_detail_images": "pass",
+    "offline_reload_console_errors": 0,
+    "online_restored_after_offline_test": true
+  },
+  "detail_at_320x568": {
+    "title": "Портфолио веб-разработчика",
+    "related_cards": 2,
+    "related_card_box_px": [
+      253,
+      216
+    ],
+    "related_images_loaded": true,
+    "detail_action_button_heights_px": [
+      44,
+      44,
+      44,
+      44,
+      44
+    ]
+  },
+  "keyboard": {
+    "activation": "Enter",
+    "next_case": "CRM для клининговой компании",
+    "dialog_remains_open": true,
+    "escape": "close",
+    "focus_restored_to_case_id": 1
+  },
+  "app_views_viewport_matrix_px": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "screenshots": [
+    "mobile-320x568-catalog-toolbar.png",
+    "mobile-390x844-related.png",
+    "desktop-1440x900-related.png"
+  ],
+  "not_checked": [
+    "physical phone",
+    "VoiceOver/TalkBack/screen reader",
+    "OS PWA install dialog"
+  ]
+}

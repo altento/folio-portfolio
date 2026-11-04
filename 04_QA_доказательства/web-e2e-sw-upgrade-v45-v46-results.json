@@ -1,0 +1,64 @@
+{
+  "errors": [],
+  "before": {
+    "status": 200,
+    "cacheKeys": [
+      "folio-shell-v45-gallery-touch-targets"
+    ],
+    "projects": 3,
+    "controller": "http://127.0.0.1:63436/sw.js",
+    "testRecordSaved": true
+  },
+  "after": {
+    "cacheKeys": [
+      "folio-shell-v46-sidebar-secondary-text"
+    ],
+    "controllerChange": true,
+    "recordVisible": 1,
+    "controller": "http://127.0.0.1:63436/sw.js",
+    "requestedServiceWorker": true,
+    "sidebarLabels": {
+      "light": [
+        {
+          "text": "МЕНЮ",
+          "foreground": "rgb(139, 140, 145)",
+          "background": "rgb(32, 33, 38)",
+          "contrast": 4.79
+        },
+        {
+          "text": "4",
+          "foreground": "rgb(139, 140, 145)",
+          "background": "rgb(32, 33, 38)",
+          "contrast": 4.79
+        }
+      ],
+      "dark": [
+        {
+          "text": "МЕНЮ",
+          "foreground": "rgb(188, 188, 192)",
+          "background": "rgb(32, 33, 38)",
+          "contrast": 8.49
+        },
+        {
+          "text": "4",
+          "foreground": "rgb(188, 188, 192)",
+          "background": "rgb(32, 33, 38)",
+          "contrast": 8.49
+        }
+      ]
+    }
+  },
+  "offline": {
+    "recordVisible": true,
+    "documentWidth": 1440,
+    "viewportWidth": 1440,
+    "cacheKeys": [
+      "folio-shell-v46-sidebar-secondary-text"
+    ]
+  },
+  "offlineMobile": {
+    "recordVisible": true,
+    "documentWidth": 390,
+    "viewportWidth": 390
+  }
+}

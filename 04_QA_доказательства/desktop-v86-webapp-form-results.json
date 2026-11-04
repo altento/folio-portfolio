@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-01",
+  "window": "1362x912",
+  "application": "Windows Tkinter portfolio, active user window; no saved data changes",
+  "flow": [
+    "Open Add project form",
+    "Use Shift+Tab to focus type selector",
+    "Use Down and Return to select Web application",
+    "Inspect dynamically added Repository and Server side fields",
+    "Tab from Repository to Server side",
+    "Continue Tab through featured/image/gallery controls to visible Cancel",
+    "Cancel blank form"
+  ],
+  "checks": {
+    "keyboard_type_selection": true,
+    "repository_field_visible": true,
+    "server_side_field_visible": true,
+    "focus_moves_repository_to_server_field": true,
+    "focus_autoscrolls_to_image_controls": true,
+    "cancel_reachable": true,
+    "project_count_after_cancel": 3,
+    "form_saved": false
+  },
+  "evidence": "desktop-v86-webapp-keyboard-cancel-1362x912.jpg",
+  "limits": [
+    "Not a complete keystroke-by-keystroke audit of every field on this type.",
+    "Shift+Tab reversal inside the full form and screen-reader output were not tested.",
+    "Cancel was activated by mouse after its keyboard focus was observed."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-11-01T06:19:44.940569+00:00",
+  "result": "PASS",
+  "url": "http://127.0.0.1:8766/",
+  "http_status": 200,
+  "service_worker_controller": "http://127.0.0.1:8766/sw.js",
+  "active_cache_names": [
+    "folio-shell-v86-accessibility"
+  ],
+  "v86_cache_active": true,
+  "mobile_390x844": {
+    "viewport": 390,
+    "document": 390,
+    "body": 390
+  },
+  "desktop_1440x1000": {
+    "viewport": 1440,
+    "document": 1440,
+    "body": 1440
+  },
+  "page_and_console_errors": [],
+  "screenshots": [
+    "pwa-v86-mobile-390x844.png",
+    "pwa-v86-desktop-1440x1000.png"
+  ],
+  "isolation": "Fresh isolated Chrome context; application demo data only; no user browser profile attached."
+}

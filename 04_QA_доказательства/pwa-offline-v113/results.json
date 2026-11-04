@@ -1,0 +1,31 @@
+{
+  "url": "http://127.0.0.1:8767/",
+  "isolated": true,
+  "online": {
+    "controller": true,
+    "caches": [
+      "folio-shell-v113-cover-focal-point-all-surfaces"
+    ],
+    "projects": 3,
+    "heading": "Ваши проекты,\nсобранные\nв одном месте."
+  },
+  "offline": {
+    "online": false,
+    "controller": true,
+    "caches": [
+      "folio-shell-v113-cover-focal-point-all-surfaces"
+    ],
+    "projects": 3,
+    "heading": "Ваши проекты,\nсобранные\nв одном месте.",
+    "title": "Портфолио — рабочее пространство",
+    "brokenImages": 0
+  },
+  "offline_mobile": {
+    "viewport": 390,
+    "document": 390,
+    "online": false,
+    "nav": true,
+    "heading": "Ваши проекты, собранные в одном месте."
+  },
+  "console_errors": []
+}

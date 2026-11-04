@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "docx": "01_Отчёты/Отчёт_ООП_Модуль_5.docx",
+  "pdf": "01_Отчёты/Отчёт_ООП_Модуль_5.pdf",
+  "exporter": "Microsoft Word / Adobe PDFMaker",
+  "docx_paragraphs": 69,
+  "pdf_pages": 11,
+  "normalized_text_similarity": 0.999527,
+  "normalized_character_counts": {
+    "docx": 9501,
+    "pdf": 9510
+  },
+  "pdf_markers": {
+    "snapshot_date": "01.11.2026",
+    "desktop": "v86",
+    "web_pwa": "v63",
+    "python_sqlite": "52/52",
+    "web_core": "21/21",
+    "physical_phone_and_screen_reader_disclaimer": true
+  },
+  "normalization": "All whitespace removed, Unicode letters/digits retained, case-folded."
+}

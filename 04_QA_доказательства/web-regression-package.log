@@ -1,0 +1,65 @@
+
+> test
+> node --test tests/*.test.js
+
+✔ small sidebar labels and navigation counts meet WCAG AA contrast in both themes (1.1472ms)
+✔ dark-theme search shortcut and detail close control remain distinguishable (0.3698ms)
+✔ favorite sorting is distinct from filtering to favorites (0.1621ms)
+✔ mobile case editor keeps one form and exposes an accessible three-step flow (0.5233ms)
+✔ gallery caption is the single accessible description for each gallery image (0.1385ms)
+✔ narrow-phone supporting copy keeps readable minimum sizes (0.2949ms)
+✔ settings explain private browsing data loss and recommend a portable backup (0.174ms)
+✔ settings explain cross-device JSON transfer and replacement impact (0.2033ms)
+✔ static showcase preview avoids duplicate banner landmarks and preserves control contrast (0.269ms)
+✔ requires strict portable IDs, order and featured types and aligns cover byte limits (6.6917ms)
+✔ exports only JSON backups within the import byte limit (1.2793ms)
+✔ rejects malformed import metadata and applies portfolio-wide resource limits (170.9966ms)
+✔ normalizes, persists and exports a shared cover focal point while keeping legacy files centered (1.1509ms)
+✔ shared portable transfer fixture preserves desktop and web case data (1.3685ms)
+✔ rejects an oversized portfolio backup before reading its contents (0.2594ms)
+✔ bounds imported project text and technology metadata (0.5729ms)
+✔ validates imported images before preview and releases decoded sources (0.8131ms)
+✔ browser storage inspection returns quota, usage, and persistence state (0.2871ms)
+✔ browser storage inspection degrades safely when APIs are absent or fail (0.2599ms)
+✔ persistent storage request is idempotent when storage is already protected (0.1506ms)
+✔ persistent storage request reports grants, denials, and unsupported browsers (0.1146ms)
+✔ IndexedDB open failures are retryable instead of remaining cached forever (0.4201ms)
+✔ IndexedDB connections close and reopen when an upgrade is requested (0.2291ms)
+✔ IndexedDB write quota errors keep their QuotaExceededError name (0.3388ms)
+✔ validates calendar dates consistently across Python and JavaScript year ranges (0.1481ms)
+✔ accepts valid project and normalizes URL (0.0722ms)
+✔ round trips desktop JSON shape and retains project fields while rejecting malformed page counts (0.2726ms)
+✔ preserves desktop technology categories and versions through web import/export and edit normalization (0.2624ms)
+✔ keeps legacy author profiles compatible and safely exports opted-in contact details (0.7272ms)
+✔ search and filters are locale-insensitive and support empty query (0.1141ms)
+✔ normalizes tags, searches and filters by them, and includes them in exports (0.3729ms)
+✔ rejects malformed or oversized user tags and loads legacy projects without tags (0.2122ms)
+✔ preserves custom case order, sorts by it, and assigns legacy records a stable order (0.3321ms)
+✔ moves a case within its featured group and respects group boundaries (0.2448ms)
+✔ duplicates a case with a fresh identity and date, cleared external links, and independent fields (0.4372ms)
+✔ normalizes, searches, serializes and exports a structured case narrative (0.3607ms)
+✔ escapes untrusted text and quotes CSV cells (0.0836ms)
+✔ neutralizes spreadsheet formulas in CSV while preserving ordinary values (0.1034ms)
+✔ rejects duplicate imported IDs, unsafe protocols, and credential-bearing URLs (0.2514ms)
+✔ preserves only safe local cover asset references across desktop JSON backups (0.3496ms)
+✔ keeps bounded local image data in portable backups and rejects unsafe or oversized data (0.9309ms)
+✔ stores accessible gallery images with a safe focal crop in portable backups and exports (0.5918ms)
+✔ exports a self-contained responsive showcase with featured cases only and escaped content (0.4943ms)
+✔ omits empty optional role and technology sections from the public showcase (0.2341ms)
+✔ previews JSON import conflicts before mutation and supports safe merge strategies (0.5944ms)
+✔ uses correct Russian case-count forms for a standalone portfolio (0.1154ms)
+✔ exports three named portfolio themes without mutating case data (0.3443ms)
+✔ parses project lists beyond JavaScript argument-spread limits (502.088ms)
+✔ optional preferences fall back to session memory when localStorage is blocked (0.6945ms)
+✔ optional preferences use localStorage when available and fall back after an operation fails (0.2529ms)
+✔ offline navigation with a query string reuses the cached app root (1.5905ms)
+✔ uncached offline paths show the fallback page instead of a broken app shell (0.8058ms)
+✔ offline page returns to the registered app scope with a relative fallback (0.2074ms)
+ℹ tests 53
+ℹ suites 0
+ℹ pass 53
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 819.0222

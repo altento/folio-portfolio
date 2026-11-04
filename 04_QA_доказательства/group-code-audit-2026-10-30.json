@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-30",
+  "question": "Which group code is currently official for the student reports?",
+  "local_evidence": [
+    {
+      "artifact": "ООП module 2 (student report)",
+      "group_code": "ИСУ(kz-us)-24-1",
+      "weight": "student-authored coursework; consistency evidence only"
+    },
+    {
+      "artifact": "ООП module 3 (student report)",
+      "group_code": "ИСУ(kz-us)-24-1",
+      "weight": "student-authored coursework; consistency evidence only"
+    },
+    {
+      "artifact": "ООП modules 4 and 5 (current submission reports)",
+      "group_code": "ИСУ(kz-us)-24-1",
+      "weight": "student-authored coursework; consistency evidence only"
+    },
+    {
+      "artifact": "Portfolio module 1 and one separate lab report",
+      "group_code": "ИСУ-24-1-1",
+      "weight": "student-authored coursework; consistency evidence only"
+    }
+  ],
+  "official_sources": [
+    {
+      "title": "Kozybayev University: grant order appendix, 16 Oct 2025",
+      "url": "https://ku.edu.kz/files/students/grant/2024-2025/prikaz_prisuzhdeniya_granta_DO-473_16.10.25_leto.pdf",
+      "observation": "Public registry lists other cohorts, including ИСУ(KZ-US)-23-2; it does not identify this student or confirm 24-1."
+    },
+    {
+      "title": "Kozybayev University: sports league results, 31 Jan 2026",
+      "url": "https://ku.edu.kz/news/view?id=13028",
+      "observation": "Public article uses ИСУ (US)-24-2а for a different student/cohort; it demonstrates naming variation, not this student’s official code."
+    }
+  ],
+  "conclusion": "Evidence aligns reports 2–5 and separately aligns module 1 with another lab, but no official, student-specific enrollment or approved cover template was found. Keep all cover codes unchanged until an official roster/template is available.",
+  "open_item": "Compare against current enrollment roster, student portal record, or instructor-approved report template."
+}

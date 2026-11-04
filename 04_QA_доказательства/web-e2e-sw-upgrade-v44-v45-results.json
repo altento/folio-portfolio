@@ -1,0 +1,34 @@
+{
+  "errors": [],
+  "before": {
+    "status": 200,
+    "cacheKeys": [
+      "folio-shell-v44-gallery-capacity"
+    ],
+    "projects": 3,
+    "controller": "http://127.0.0.1:50664/sw.js",
+    "testRecordSaved": true
+  },
+  "after": {
+    "cacheKeys": [
+      "folio-shell-v45-gallery-touch-targets"
+    ],
+    "controllerChange": true,
+    "recordVisible": 1,
+    "controller": "http://127.0.0.1:50664/sw.js",
+    "requestedServiceWorker": true
+  },
+  "offline": {
+    "recordVisible": true,
+    "documentWidth": 1440,
+    "viewportWidth": 1440,
+    "cacheKeys": [
+      "folio-shell-v45-gallery-touch-targets"
+    ]
+  },
+  "offlineMobile": {
+    "recordVisible": true,
+    "documentWidth": 390,
+    "viewportWidth": 390
+  }
+}

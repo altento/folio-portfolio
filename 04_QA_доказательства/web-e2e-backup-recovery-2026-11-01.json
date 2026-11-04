@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-01",
+  "title": "Web/PWA JSON backup, merge and replacement acceptance",
+  "environment": {
+    "browser": "Chromium via Playwright",
+    "origin": "http://127.0.0.1:8766",
+    "context": "folio-backup-acceptance-2026-11-01 (isolated; disposable)",
+    "initialDemoProjects": 3
+  },
+  "export": {
+    "filename": "folio-backup.json",
+    "bytes": 4803,
+    "projects": 3,
+    "profilePresent": true,
+    "schemaFields": ["schema_version", "title", "next_id", "developer", "projects"]
+  },
+  "merge": {
+    "incomingProjects": 2,
+    "conflictingIds": 1,
+    "newIds": 1,
+    "strategy": "keep-current",
+    "resultProjectCount": 4,
+    "originalConflictKept": true,
+    "newProjectAdded": true
+  },
+  "replacement": {
+    "preReplaceBackup": {
+      "filename": "folio-before-import.json",
+      "bytes": 6067,
+      "projectCount": 4,
+      "containsOriginalDemoCase": true,
+      "containsMergedSyntheticCase": true
+    },
+    "resultProjectCount": 1,
+    "replacementRecordPresent": true,
+    "oldRecordsAbsent": true
+  },
+  "cancelPreview": {
+    "projectCount": 1,
+    "existingReplacementRecordPreserved": true,
+    "incomingProjectAbsent": true,
+    "dialogClosed": true
+  },
+  "responsivePreview": {
+    "summary": "2 incoming projects; 1 current project; 1 conflicting ID; 1 new ID",
+    "desktop": {
+      "viewport": "1440x900",
+      "horizontalOverflow": false,
+      "screenshot": "web-backup-import-preview-desktop-1440x900-2026-11-01.jpg"
+    },
+    "mobile": {
+      "viewport": "390x844",
+      "horizontalOverflow": false,
+      "screenshot": "web-backup-import-preview-mobile-390x844-2026-11-01.jpg"
+    }
+  },
+  "dataSafety": {
+    "isolatedBrowserContext": true,
+    "syntheticDataOnly": true,
+    "userDataAccessed": false,
+    "userProfileOrDatabaseChanged": false
+  },
+  "limitations": [
+    "Browser-emulated viewport only; no physical phone or screen-reader test",
+    "Download event and generated JSON contents were verified in Chromium; native download-save UI was not manually inspected"
+  ]
+}

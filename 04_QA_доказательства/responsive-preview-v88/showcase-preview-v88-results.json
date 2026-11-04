@@ -1,0 +1,97 @@
+{
+  "timestamp_utc": "2026-11-01T06:33:52.502429+00:00",
+  "result": "PASS",
+  "cache_names": [
+    "folio-shell-v88-responsive-preview"
+  ],
+  "desktop": {
+    "frameWidth": 1148,
+    "viewport": 1146,
+    "document": 1146,
+    "pressed": true
+  },
+  "mobile": {
+    "frameWidth": 390,
+    "viewport": 388,
+    "document": 388,
+    "pressed": true,
+    "status": "Предпросмотр для телефона · ширина до 390 px"
+  },
+  "offline": {
+    "viewport": 388,
+    "document": 388,
+    "pressed": true,
+    "cache": []
+  },
+  "mobile_app_390x844": {
+    "viewport": 390,
+    "document": 390,
+    "dialog": 390,
+    "frame": 388,
+    "buttons": [
+      {
+        "width": 176,
+        "height": 44,
+        "right": 193
+      },
+      {
+        "width": 176,
+        "height": 44,
+        "right": 373
+      }
+    ]
+  },
+  "compact_app_320x568": {
+    "viewport": 320,
+    "document": 320,
+    "dialog": 320,
+    "frame": 318,
+    "frameRect": {
+      "x": 0,
+      "width": 320,
+      "right": 320
+    },
+    "frameCss": {
+      "width": "320px",
+      "minWidth": "0px",
+      "flexBasis": "min(100%, 390px)"
+    },
+    "stage": {
+      "width": 320,
+      "scrollWidth": 320,
+      "clientWidth": 320
+    },
+    "buttons": [
+      {
+        "width": 141,
+        "height": 44,
+        "right": 158
+      },
+      {
+        "width": 141,
+        "height": 44,
+        "right": 303
+      }
+    ]
+  },
+  "controls": [
+    {
+      "name": "Компьютер\nширокий экран",
+      "pressed": "false",
+      "height": 44
+    },
+    {
+      "name": "Телефон\nмобильная ширина",
+      "pressed": "true",
+      "height": 44
+    }
+  ],
+  "preview_html_unchanged": true,
+  "browser_errors": [],
+  "screenshots": [
+    "showcase-preview-v88-desktop-1440.png",
+    "showcase-preview-v88-mobile-390.png",
+    "showcase-preview-v88-app-mobile-390x844.png",
+    "showcase-preview-v88-app-mobile-320x568.png"
+  ]
+}

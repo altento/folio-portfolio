@@ -1,0 +1,818 @@
+[
+  {
+    "viewport": "desktop",
+    "httpStatus": 200,
+    "uploaded": 8,
+    "eighthLabel": "Деталь 8 из 8",
+    "pickerDisabledAtLimit": true,
+    "serializedItems": 8,
+    "galleryAccessibility": {
+      "controls": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 377,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 1",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 1",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 1 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 1 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 377,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 2",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 2",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 2 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 2 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 377,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 3",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 3",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 3 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 3 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 377,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 4",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 4",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 4 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 4 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 377,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 5",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 5",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 5 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 5 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 377,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 6",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 6",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 6 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 6 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 377,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 7",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 7",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 7 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 7 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 377,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 8",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 8",
+          "width": 171,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 8 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 8 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        }
+      ],
+      "unnamed": 0,
+      "under44": []
+    },
+    "aggregateDataUriChars": 48716,
+    "serviceWorkerCacheKeys": [
+      "folio-shell-v45-gallery-touch-targets"
+    ],
+    "pageErrors": [],
+    "screenshot": "gallery-capacity-v45-desktop-1440x900.png",
+    "serviceWorkerControlledBeforeOffline": true,
+    "offlineReloadStatus": 200,
+    "offlineReloadVisibleHeading": "Ваши проекты,\nсобранные в одном месте.",
+    "offlinePageErrors": []
+  },
+  {
+    "viewport": "mobile",
+    "httpStatus": 200,
+    "uploaded": 8,
+    "eighthLabel": "Деталь 8 из 8",
+    "pickerDisabledAtLimit": true,
+    "serializedItems": 8,
+    "galleryAccessibility": {
+      "controls": [
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 316,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 1",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 1",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 1 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 1 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 316,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 2",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 2",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 2 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 2 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 316,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 3",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 3",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 3 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 3 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 316,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 4",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 4",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 4 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 4 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 316,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 5",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 5",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 5 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 5 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 316,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 6",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 6",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 6 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 6 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 316,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 7",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 7",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 7 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 7 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "text",
+          "name": "Описание изображения",
+          "width": 316,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по горизонтали, изображение 8",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "INPUT",
+          "type": "range",
+          "name": "Кадрирование по вертикали, изображение 8",
+          "width": 141,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 8 выше",
+          "width": 44,
+          "height": 44,
+          "disabled": false
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Переместить изображение 8 ниже",
+          "width": 44,
+          "height": 44,
+          "disabled": true
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "name": "Удалить",
+          "width": 62,
+          "height": 44,
+          "disabled": false
+        }
+      ],
+      "unnamed": 0,
+      "under44": []
+    },
+    "aggregateDataUriChars": 48716,
+    "serviceWorkerCacheKeys": [
+      "folio-shell-v45-gallery-touch-targets"
+    ],
+    "pageErrors": [],
+    "screenshot": "gallery-capacity-v45-mobile-390x844.png",
+    "serviceWorkerControlledBeforeOffline": true,
+    "offlineReloadStatus": 200,
+    "offlineReloadVisibleHeading": "Ваши проекты,\nсобранные в одном месте.",
+    "offlinePageErrors": []
+  }
+]

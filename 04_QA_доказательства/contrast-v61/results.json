@@ -1,0 +1,884 @@
+[
+  {
+    "viewport": "desktop",
+    "route": "dashboard",
+    "theme": "light",
+    "http": 200,
+    "width": 1920,
+    "documentWidth": 1920,
+    "overflow": false,
+    "active": [
+      "dashboard",
+      "dashboard"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 16.067994334843153,
+      "mobile-nav-idle": 16.067994334843153,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/illustrations/folio-dashboard-hero-v1.webp",
+        "ok": true,
+        "width": 1553
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-desktop-dashboard-light.png"
+  },
+  {
+    "viewport": "desktop",
+    "route": "dashboard",
+    "theme": "dark",
+    "http": 200,
+    "width": 1920,
+    "documentWidth": 1920,
+    "overflow": false,
+    "active": [
+      "dashboard",
+      "dashboard"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 16.067994334843153,
+      "mobile-nav-idle": 16.067994334843153,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/illustrations/folio-dashboard-hero-v1.webp",
+        "ok": true,
+        "width": 1553
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-desktop-dashboard-dark.png"
+  },
+  {
+    "viewport": "desktop",
+    "route": "projects",
+    "theme": "light",
+    "http": 200,
+    "width": 1920,
+    "documentWidth": 1920,
+    "overflow": false,
+    "active": [
+      "projects",
+      "projects"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-desktop-projects-light.png"
+  },
+  {
+    "viewport": "desktop",
+    "route": "projects",
+    "theme": "dark",
+    "http": 200,
+    "width": 1920,
+    "documentWidth": 1920,
+    "overflow": false,
+    "active": [
+      "projects",
+      "projects"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-desktop-projects-dark.png"
+  },
+  {
+    "viewport": "desktop",
+    "route": "showcase",
+    "theme": "light",
+    "http": 200,
+    "width": 1920,
+    "documentWidth": 1920,
+    "overflow": false,
+    "active": [
+      "showcase",
+      "showcase"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-desktop-showcase-light.png"
+  },
+  {
+    "viewport": "desktop",
+    "route": "showcase",
+    "theme": "dark",
+    "http": 200,
+    "width": 1920,
+    "documentWidth": 1920,
+    "overflow": false,
+    "active": [
+      "showcase",
+      "showcase"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-desktop-showcase-dark.png"
+  },
+  {
+    "viewport": "desktop",
+    "route": "settings",
+    "theme": "light",
+    "http": 200,
+    "width": 1920,
+    "documentWidth": 1920,
+    "overflow": false,
+    "active": [
+      "settings",
+      "settings"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-desktop-settings-light.png"
+  },
+  {
+    "viewport": "desktop",
+    "route": "settings",
+    "theme": "dark",
+    "http": 200,
+    "width": 1920,
+    "documentWidth": 1920,
+    "overflow": false,
+    "active": [
+      "settings",
+      "settings"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-desktop-settings-dark.png"
+  },
+  {
+    "viewport": "mobile-390",
+    "route": "dashboard",
+    "theme": "light",
+    "http": 200,
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false,
+    "active": [
+      "dashboard",
+      "dashboard"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 16.067994334843153,
+      "mobile-nav-idle": 16.067994334843153,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/illustrations/folio-dashboard-hero-v1.webp",
+        "ok": true,
+        "width": 1553
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-390-dashboard-light.png"
+  },
+  {
+    "viewport": "mobile-390",
+    "route": "dashboard",
+    "theme": "dark",
+    "http": 200,
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false,
+    "active": [
+      "dashboard",
+      "dashboard"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 16.067994334843153,
+      "mobile-nav-idle": 16.067994334843153,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/illustrations/folio-dashboard-hero-v1.webp",
+        "ok": true,
+        "width": 1553
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-390-dashboard-dark.png"
+  },
+  {
+    "viewport": "mobile-390",
+    "route": "projects",
+    "theme": "light",
+    "http": 200,
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false,
+    "active": [
+      "projects",
+      "projects"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-390-projects-light.png"
+  },
+  {
+    "viewport": "mobile-390",
+    "route": "projects",
+    "theme": "dark",
+    "http": 200,
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false,
+    "active": [
+      "projects",
+      "projects"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-390-projects-dark.png"
+  },
+  {
+    "viewport": "mobile-390",
+    "route": "showcase",
+    "theme": "light",
+    "http": 200,
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false,
+    "active": [
+      "showcase",
+      "showcase"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-390-showcase-light.png"
+  },
+  {
+    "viewport": "mobile-390",
+    "route": "showcase",
+    "theme": "dark",
+    "http": 200,
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false,
+    "active": [
+      "showcase",
+      "showcase"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-390-showcase-dark.png"
+  },
+  {
+    "viewport": "mobile-390",
+    "route": "settings",
+    "theme": "light",
+    "http": 200,
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false,
+    "active": [
+      "settings",
+      "settings"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-390-settings-light.png"
+  },
+  {
+    "viewport": "mobile-390",
+    "route": "settings",
+    "theme": "dark",
+    "http": 200,
+    "width": 390,
+    "documentWidth": 390,
+    "overflow": false,
+    "active": [
+      "settings",
+      "settings"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-390-settings-dark.png"
+  },
+  {
+    "viewport": "mobile-320",
+    "route": "dashboard",
+    "theme": "light",
+    "http": 200,
+    "width": 320,
+    "documentWidth": 320,
+    "overflow": false,
+    "active": [
+      "dashboard",
+      "dashboard"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 16.067994334843153,
+      "mobile-nav-idle": 16.067994334843153,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/illustrations/folio-dashboard-hero-v1.webp",
+        "ok": true,
+        "width": 1553
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-320-dashboard-light.png"
+  },
+  {
+    "viewport": "mobile-320",
+    "route": "dashboard",
+    "theme": "dark",
+    "http": 200,
+    "width": 320,
+    "documentWidth": 320,
+    "overflow": false,
+    "active": [
+      "dashboard",
+      "dashboard"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 16.067994334843153,
+      "mobile-nav-idle": 16.067994334843153,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/illustrations/folio-dashboard-hero-v1.webp",
+        "ok": true,
+        "width": 1553
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-320-dashboard-dark.png"
+  },
+  {
+    "viewport": "mobile-320",
+    "route": "projects",
+    "theme": "light",
+    "http": 200,
+    "width": 320,
+    "documentWidth": 320,
+    "overflow": false,
+    "active": [
+      "projects",
+      "projects"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-320-projects-light.png"
+  },
+  {
+    "viewport": "mobile-320",
+    "route": "projects",
+    "theme": "dark",
+    "http": 200,
+    "width": 320,
+    "documentWidth": 320,
+    "overflow": false,
+    "active": [
+      "projects",
+      "projects"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/cleaning-crm-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      },
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/city-courtyards-case-v2.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-320-projects-dark.png"
+  },
+  {
+    "viewport": "mobile-320",
+    "route": "showcase",
+    "theme": "light",
+    "http": 200,
+    "width": 320,
+    "documentWidth": 320,
+    "overflow": false,
+    "active": [
+      "showcase",
+      "showcase"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-320-showcase-light.png"
+  },
+  {
+    "viewport": "mobile-320",
+    "route": "showcase",
+    "theme": "dark",
+    "http": 200,
+    "width": 320,
+    "documentWidth": 320,
+    "overflow": false,
+    "active": [
+      "showcase",
+      "showcase"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [
+      {
+        "src": "http://127.0.0.1:8766/assets/covers/portfolio-studio.webp",
+        "ok": true,
+        "width": 1536
+      }
+    ],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-320-showcase-dark.png"
+  },
+  {
+    "viewport": "mobile-320",
+    "route": "settings",
+    "theme": "light",
+    "http": 200,
+    "width": 320,
+    "documentWidth": 320,
+    "overflow": false,
+    "active": [
+      "settings",
+      "settings"
+    ],
+    "contrast": {
+      "muted-on-canvas": 5.290271171811293,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 6.049762685939967,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-320-settings-light.png"
+  },
+  {
+    "viewport": "mobile-320",
+    "route": "settings",
+    "theme": "dark",
+    "http": 200,
+    "width": 320,
+    "documentWidth": 320,
+    "overflow": false,
+    "active": [
+      "settings",
+      "settings"
+    ],
+    "contrast": {
+      "muted-on-canvas": 6.917133411648668,
+      "sidebar-label": 8.48750892907775,
+      "sidebar-nav": 8.48750892907775,
+      "mobile-nav-idle": 8.48750892907775,
+      "mobile-nav-active": 16.067994334843153,
+      "mobile-nav-active-label": 16.067994334843153
+    },
+    "failedContrast": {},
+    "images": [],
+    "brokenImages": [],
+    "errors": [],
+    "screenshot": "folio-v61-mobile-320-settings-dark.png"
+  }
+]

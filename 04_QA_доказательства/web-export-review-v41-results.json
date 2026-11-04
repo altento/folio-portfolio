@@ -1,0 +1,180 @@
+{
+  "version": "folio-shell-v42-touch-targets",
+  "feature": "pre-export-review-v41",
+  "viewports": [
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "summary": {
+        "open": true,
+        "labelledby": "showcase-preview-title",
+        "titleExists": true,
+        "documentWidth": 1440,
+        "viewportWidth": 1440,
+        "iframeTitle": "Предпросмотр автономной страницы портфолио",
+        "summaryLive": "polite",
+        "unnamed": [],
+        "buttons": [
+          {
+            "name": "Закрыть предпросмотр",
+            "x": 1244,
+            "y": 36,
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "hit": "icon-button"
+          },
+          {
+            "name": "Вернуться к редактированию",
+            "x": 940,
+            "y": 826,
+            "width": 205,
+            "height": 44,
+            "visible": true,
+            "hit": "button button-quiet"
+          },
+          {
+            "name": "Скачать этот HTML",
+            "x": 1155,
+            "y": 826,
+            "width": 137,
+            "height": 44,
+            "visible": true,
+            "hit": "button button-accent"
+          }
+        ],
+        "dialogRect": {
+          "x": 130,
+          "y": 18,
+          "width": 1180,
+          "height": 864,
+          "bottom": 882
+        },
+        "footerRect": {
+          "x": 130,
+          "y": 813,
+          "width": 1180,
+          "height": 69,
+          "bottom": 882
+        },
+        "iframeRect": {
+          "x": 130,
+          "y": 342,
+          "width": 1180,
+          "height": 471,
+          "bottom": 813
+        },
+        "mobileNavRect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "bottom": 0
+        }
+      },
+      "featured_titles": [
+        "Портфолио веб-разработчика"
+      ],
+      "excluded_titles": [
+        "CRM для клининговой компании",
+        "Карта городских дворов"
+      ],
+      "selected_contact_included": true,
+      "unchecked_contacts_excluded": true,
+      "download_matches_review": true,
+      "download_filename": "folio-showcase.html",
+      "screenshot": "web-export-review-v41-desktop-1440x900.png"
+    },
+    {
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "summary": {
+        "open": true,
+        "labelledby": "showcase-preview-title",
+        "titleExists": true,
+        "documentWidth": 390,
+        "viewportWidth": 390,
+        "iframeTitle": "Предпросмотр автономной страницы портфолио",
+        "summaryLive": "polite",
+        "unnamed": [],
+        "buttons": [
+          {
+            "name": "Закрыть предпросмотр",
+            "x": 330,
+            "y": 14,
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "hit": "icon-button"
+          },
+          {
+            "name": "Вернуться к редактированию",
+            "x": 12,
+            "y": 790,
+            "width": 191,
+            "height": 44,
+            "visible": true,
+            "hit": "button button-quiet"
+          },
+          {
+            "name": "Скачать этот HTML",
+            "x": 213,
+            "y": 790,
+            "width": 165,
+            "height": 44,
+            "visible": true,
+            "hit": "button button-accent"
+          }
+        ],
+        "dialogRect": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "bottom": 844
+        },
+        "footerRect": {
+          "x": 0,
+          "y": 779,
+          "width": 390,
+          "height": 65,
+          "bottom": 844
+        },
+        "iframeRect": {
+          "x": 0,
+          "y": 467,
+          "width": 390,
+          "height": 312,
+          "bottom": 779
+        },
+        "mobileNavRect": {
+          "x": 0,
+          "y": 780,
+          "width": 390,
+          "height": 64,
+          "bottom": 844
+        }
+      },
+      "featured_titles": [
+        "Портфолио веб-разработчика"
+      ],
+      "excluded_titles": [
+        "CRM для клининговой компании",
+        "Карта городских дворов"
+      ],
+      "selected_contact_included": true,
+      "unchecked_contacts_excluded": true,
+      "download_matches_review": true,
+      "download_filename": "folio-showcase.html",
+      "screenshot": "web-export-review-v41-mobile-390x844.png"
+    }
+  ],
+  "errors": [],
+  "non_get_requests": []
+}

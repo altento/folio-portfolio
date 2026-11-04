@@ -1,0 +1,71 @@
+{
+  "version": "v51-tag-chip-editor",
+  "errors": [],
+  "tags": {
+    "deduplicatesCaseInsensitively": true,
+    "suggestionsAvailable": true,
+    "invalidLengthPreservesExisting": true,
+    "removeRestoresEntryFocus": true,
+    "savedAndEditable": true
+  },
+  "backup": {
+    "portableTags": [
+      "React",
+      "frontend",
+      "CRM"
+    ],
+    "previewShown": true,
+    "importedEditorTitle": "QA: редактор тегов v51",
+    "importedInputValue": "React, frontend, CRM",
+    "importedTagChips": "React\n×\nfrontend\n×\nCRM\n×",
+    "restoredTagsEditable": true,
+    "replacementBackupDownloaded": true
+  },
+  "responsive": {
+    "desktopDocumentWidth": 1440,
+    "390Geometry": {
+      "field": [
+        125,
+        311
+      ],
+      "actions": [
+        772,
+        833
+      ],
+      "help": [
+        254,
+        287
+      ]
+    },
+    "390": {
+      "doc": 390,
+      "inner": 390,
+      "entry": 254,
+      "button": 82
+    },
+    "320Geometry": {
+      "field": [
+        103,
+        305
+      ],
+      "actions": [
+        1239,
+        1300
+      ],
+      "help": [
+        232,
+        282
+      ]
+    },
+    "320": {
+      "doc": 320,
+      "inner": 320,
+      "entry": 184,
+      "button": 82
+    }
+  },
+  "draft": {
+    "savedBeforeReload": true,
+    "entryRestored": true
+  }
+}

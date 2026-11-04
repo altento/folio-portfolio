@@ -1,0 +1,205 @@
+{
+  "timestamp_utc": "2026-11-02T11:50:11.697145+00:00",
+  "axe_core_version": "4.14.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "url": "http://127.0.0.1:8766/",
+  "service_worker_caches": [
+    "folio-shell-v114-showcase-preview-accessibility"
+  ],
+  "result": "PASS",
+  "scan_count": 15,
+  "total_violations_across_scans": 0,
+  "scans": {
+    "dashboard_mobile_light_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    },
+    "projects_mobile_light_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 42
+    },
+    "projects_mobile_light_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 42
+    },
+    "detail_mobile_light_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 43
+    },
+    "project_editor_step_1_mobile_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 48
+    },
+    "project_editor_step_2_mobile_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 44
+    },
+    "project_editor_step_3_mobile_320": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 44
+    },
+    "settings_mobile_light_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 42
+    },
+    "settings_mobile_dark_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 42
+    },
+    "dashboard_mobile_dark_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    },
+    "dashboard_desktop_dark_1440": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    },
+    "dashboard_desktop_light_1440": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    },
+    "showcase_desktop_light_1440": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 41
+    },
+    "showcase_preview_desktop_light_1440": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 4,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "frame-tested",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    },
+    "showcase_preview_mobile_light_390": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 4,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "frame-tested",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    }
+  },
+  "page_and_console_errors": [],
+  "screenshots": [
+    "axe-v114-dashboard-mobile-light-390.png",
+    "axe-v114-projects-mobile-light-390.png",
+    "axe-v114-projects-mobile-light-320.png",
+    "axe-v114-project-editor-step-1-mobile-320.png",
+    "axe-v114-project-editor-step-2-mobile-320.png",
+    "axe-v114-project-editor-step-3-mobile-320.png",
+    "axe-v114-settings-mobile-dark-390.png",
+    "axe-v114-dashboard-desktop-dark-1440.png",
+    "axe-v114-showcase-preview-mobile-390.png"
+  ],
+  "limits": [
+    "axe-core detects a subset of accessibility issues and does not certify WCAG conformance.",
+    "No physical screen reader, switch control, direct browser zoom, or operating-system font scaling was tested.",
+    "The project editor was scanned in all three mobile wizard steps; the temporary draft was not saved."
+  ]
+}

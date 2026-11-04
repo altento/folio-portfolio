@@ -1,0 +1,25 @@
+{
+  "build": "Android debug, web/PWA v93",
+  "apk_sha256": "4ECF5DDB2A8B66F8285406E7C4825C4D07CACC07A7F2B9D14FDF30C6BED6DAEE",
+  "device": "isolated FolioQA_API36 AVD, Android API 36, 1080x2400",
+  "installation": "success",
+  "airplane_mode_setting": 1,
+  "wifi_setting": 0,
+  "cold_launch_after_force_stop": true,
+  "webview_url": "https://localhost/",
+  "browser_offline_emulation": true,
+  "service_worker_controller": true,
+  "service_worker_cache": "folio-shell-v93-storage-resilience",
+  "projects_view": true,
+  "project_cards": 3,
+  "viewport_width_css_px": 412,
+  "document_width_css_px": 412,
+  "horizontal_overflow": false,
+  "passed": true,
+  "screenshots": [
+    "folio-v93-offline-launch.png",
+    "folio-v93-projects-offline.png"
+  ],
+  "verification_script": "verify-android-v93.mjs",
+  "limitation": "AVD evidence only; physical Android device was not tested."
+}

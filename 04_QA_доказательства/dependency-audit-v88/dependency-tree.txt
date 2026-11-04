@@ -1,0 +1,6 @@
+folio-mobile@1.0.0 C:\Users\Windows-10\Desktop\Портфолио_веб-разработчика\mobile
+└─┬ @capacitor/cli@8.6.0
+  └─┬ rimraf@6.1.3
+    └─┬ glob@14.0.3 overridden
+      └── minimatch@11.0.3
+

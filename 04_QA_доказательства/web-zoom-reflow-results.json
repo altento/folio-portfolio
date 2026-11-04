@@ -1,0 +1,220 @@
+{
+  "version": "folio-shell-v35-filter-target-size",
+  "errors": [],
+  "viewports": [
+    {
+      "width": 720,
+      "height": 900,
+      "route": "dashboard",
+      "viewport": 720,
+      "main": 720,
+      "visibleButtons": 15
+    },
+    {
+      "width": 720,
+      "height": 900,
+      "route": "projects",
+      "viewport": 720,
+      "main": 720,
+      "visibleButtons": 13
+    },
+    {
+      "width": 720,
+      "height": 900,
+      "route": "showcase",
+      "viewport": 720,
+      "main": 720,
+      "visibleButtons": 11
+    },
+    {
+      "width": 720,
+      "height": 900,
+      "route": "settings",
+      "viewport": 720,
+      "main": 720,
+      "visibleButtons": 13
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "route": "dashboard",
+      "viewport": 640,
+      "main": 640,
+      "visibleButtons": 15
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "route": "projects",
+      "viewport": 640,
+      "main": 640,
+      "visibleButtons": 13
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "route": "showcase",
+      "viewport": 640,
+      "main": 640,
+      "visibleButtons": 11
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "route": "settings",
+      "viewport": 640,
+      "main": 640,
+      "visibleButtons": 13
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "dashboard",
+      "viewport": 390,
+      "main": 390,
+      "visibleButtons": 14
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "projects",
+      "viewport": 390,
+      "main": 390,
+      "visibleButtons": 12
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "showcase",
+      "viewport": 390,
+      "main": 390,
+      "visibleButtons": 10
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "route": "settings",
+      "viewport": 390,
+      "main": 390,
+      "visibleButtons": 12
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "dashboard",
+      "viewport": 320,
+      "main": 320,
+      "visibleButtons": 14
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "projects",
+      "viewport": 320,
+      "main": 320,
+      "visibleButtons": 12
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "showcase",
+      "viewport": 320,
+      "main": 320,
+      "visibleButtons": 10
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "route": "settings",
+      "viewport": 320,
+      "main": 320,
+      "visibleButtons": 12
+    }
+  ],
+  "forms": [
+    {
+      "width": 720,
+      "height": 900,
+      "viewport": 720,
+      "actions": [
+        {
+          "text": "Отмена",
+          "top": 841,
+          "bottom": 885,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "text": "Сохранить проект\n→",
+          "top": 841,
+          "bottom": 885,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "viewport": 640,
+      "actions": [
+        {
+          "text": "Отмена",
+          "top": 841,
+          "bottom": 885,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "text": "Сохранить проект\n→",
+          "top": 841,
+          "bottom": 885,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "viewport": 390,
+      "actions": [
+        {
+          "text": "Отмена",
+          "top": 785,
+          "bottom": 829,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "text": "Сохранить проект\n→",
+          "top": 785,
+          "bottom": 829,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "viewport": 320,
+      "actions": [
+        {
+          "text": "Отмена",
+          "top": 509,
+          "bottom": 553,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "text": "Сохранить проект\n→",
+          "top": 509,
+          "bottom": 553,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    }
+  ]
+}

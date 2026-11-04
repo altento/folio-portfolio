@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-11-01T06:37:20.251868+00:00",
+  "result": "PASS",
+  "scope": "Isolated Chrome functional accessibility smoke; not a full WCAG audit or assistive-technology test.",
+  "views": {
+    "dashboard_mobile_390x844": {
+      "controlCount": 18,
+      "missingNames": [],
+      "fieldCount": 1,
+      "missingFieldLabels": [],
+      "visibleImageCount": 4,
+      "missingImageAlt": []
+    },
+    "new_project_dialog_mobile": {
+      "controlCount": 40,
+      "missingNames": [],
+      "fieldCount": 19,
+      "missingFieldLabels": [],
+      "visibleImageCount": 4,
+      "missingImageAlt": []
+    },
+    "projects_mobile_390x844": {
+      "controlCount": 28,
+      "missingNames": [],
+      "fieldCount": 11,
+      "missingFieldLabels": [],
+      "visibleImageCount": 3,
+      "missingImageAlt": []
+    },
+    "showcase_mobile_390x844": {
+      "controlCount": 13,
+      "missingNames": [],
+      "fieldCount": 1,
+      "missingFieldLabels": [],
+      "visibleImageCount": 1,
+      "missingImageAlt": []
+    },
+    "settings_mobile_390x844": {
+      "controlCount": 22,
+      "missingNames": [],
+      "fieldCount": 9,
+      "missingFieldLabels": [],
+      "visibleImageCount": 0,
+      "missingImageAlt": []
+    },
+    "projects_desktop_1440x1000": {
+      "controlCount": 28,
+      "missingNames": [],
+      "fieldCount": 11,
+      "missingFieldLabels": [],
+      "visibleImageCount": 3,
+      "missingImageAlt": []
+    }
+  },
+  "dialog": {
+    "aria_labelledby": "project-dialog-title",
+    "initial_focus": "title",
+    "tab_sequence_length": 27,
+    "tab_focus_trapped": true,
+    "escape_focus_return": true
+  },
+  "empty_form_validation": {
+    "invalid_fields": [
+      "title",
+      "description"
+    ],
+    "focus_after_submit": "title"
+  },
+  "reduced_motion": {
+    "transitionDuration": "0s",
+    "animationName": "none",
+    "scrollBehavior": "auto"
+  },
+  "mobile_390x844": {
+    "viewport": 390,
+    "document": 390,
+    "body": 390
+  },
+  "desktop_1440x1000": {
+    "viewport": 1440,
+    "document": 1440,
+    "body": 1440
+  },
+  "page_and_console_errors": [],
+  "failures": [],
+  "screenshots": [
+    "a11y-v88-mobile-dashboard.png",
+    "a11y-v88-mobile-project-dialog.png",
+    "a11y-v88-desktop-projects.png"
+  ]
+}

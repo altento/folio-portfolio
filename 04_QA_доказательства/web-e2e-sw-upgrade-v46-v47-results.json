@@ -1,0 +1,69 @@
+{
+  "errors": [],
+  "before": {
+    "status": 200,
+    "cacheKeys": [
+      "folio-shell-v46-sidebar-secondary-text"
+    ],
+    "projects": 3,
+    "controller": "http://127.0.0.1:64389/sw.js",
+    "testRecordSaved": true
+  },
+  "after": {
+    "cacheKeys": [
+      "folio-shell-v47-project-layout-toggle"
+    ],
+    "controllerChange": true,
+    "recordVisible": 1,
+    "controller": "http://127.0.0.1:64389/sw.js",
+    "requestedServiceWorker": true,
+    "layoutToggleCount": 1,
+    "sidebarLabels": {
+      "light": [
+        {
+          "text": "МЕНЮ",
+          "foreground": "rgb(139, 140, 145)",
+          "background": "rgb(32, 33, 38)",
+          "contrast": 4.79
+        },
+        {
+          "text": "4",
+          "foreground": "rgb(139, 140, 145)",
+          "background": "rgb(32, 33, 38)",
+          "contrast": 4.79
+        }
+      ],
+      "dark": [
+        {
+          "text": "МЕНЮ",
+          "foreground": "rgb(188, 188, 192)",
+          "background": "rgb(32, 33, 38)",
+          "contrast": 8.49
+        },
+        {
+          "text": "4",
+          "foreground": "rgb(188, 188, 192)",
+          "background": "rgb(32, 33, 38)",
+          "contrast": 8.49
+        }
+      ]
+    },
+    "layoutPreferenceStored": true
+  },
+  "offline": {
+    "recordVisible": true,
+    "documentWidth": 1440,
+    "viewportWidth": 1440,
+    "cacheKeys": [
+      "folio-shell-v47-project-layout-toggle"
+    ],
+    "layoutToggle": 1,
+    "layoutPreference": "true"
+  },
+  "offlineMobile": {
+    "recordVisible": true,
+    "documentWidth": 390,
+    "viewportWidth": 390,
+    "layoutPreference": "true"
+  }
+}

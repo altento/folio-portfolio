@@ -1,0 +1,94 @@
+[
+  {
+    "viewport": "420x612",
+    "metrics": {
+      "viewport": {
+        "width": 420,
+        "height": 612
+      },
+      "pageHeadHeight": 50,
+      "gridTop": 520,
+      "gridColumns": "386px",
+      "navTop": 548,
+      "cardCount": 3,
+      "allCoversLoaded": true,
+      "selectLabel": "block"
+    },
+    "pageErrors": [],
+    "functionalSmoke": {
+      "demoCasesBeforeFilter": 3,
+      "searchMatched": "клининговой",
+      "matchingCases": 1,
+      "bulkSelectionCount": 3
+    }
+  },
+  {
+    "viewport": "390x568",
+    "metrics": {
+      "viewport": {
+        "width": 390,
+        "height": 568
+      },
+      "pageHeadHeight": 50,
+      "gridTop": 470,
+      "gridColumns": "356px",
+      "navTop": 504,
+      "cardCount": 3,
+      "allCoversLoaded": true,
+      "selectLabel": "block"
+    },
+    "pageErrors": [],
+    "functionalSmoke": {
+      "demoCasesBeforeFilter": 3,
+      "searchMatched": "клининговой",
+      "matchingCases": 1,
+      "bulkSelectionCount": 3
+    }
+  },
+  {
+    "viewport": "390x844",
+    "metrics": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "pageHeadHeight": 114,
+      "gridTop": 649,
+      "gridColumns": "356px",
+      "navTop": 780,
+      "cardCount": 3,
+      "allCoversLoaded": true,
+      "selectLabel": "block"
+    },
+    "pageErrors": [],
+    "functionalSmoke": {
+      "demoCasesBeforeFilter": 3,
+      "searchMatched": "клининговой",
+      "matchingCases": 1,
+      "bulkSelectionCount": 3
+    }
+  },
+  {
+    "viewport": "1440x900",
+    "metrics": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "pageHeadHeight": 104,
+      "gridTop": 452,
+      "gridColumns": "360.656px 360.672px 360.656px",
+      "navTop": 0,
+      "cardCount": 3,
+      "allCoversLoaded": true,
+      "selectLabel": "block"
+    },
+    "pageErrors": [],
+    "functionalSmoke": {
+      "demoCasesBeforeFilter": 3,
+      "searchMatched": "клининговой",
+      "matchingCases": 1,
+      "bulkSelectionCount": 3
+    }
+  }
+]

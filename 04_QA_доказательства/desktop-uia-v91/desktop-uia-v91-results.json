@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-02",
+  "app": "Портфолио веб-разработчика",
+  "runtime": "Python 3.13 / Tkinter",
+  "isolatedWorkingDirectory": "C:\\Users\\Windows-10\\AppData\\Local\\Temp\\folio-desktop-qa-v91-20261102",
+  "uiAutomation": {
+    "startupFocusedElement": "1 панель",
+    "afterTabToAddButton": "1 панель",
+    "afterTabToSearchField": "1 панель",
+    "visibleFocusObserved": true,
+    "controlsExposedAsNamedUIAElements": false,
+    "treeContainsOnlyPanelsAndWindowMenuControls": true
+  },
+  "keyboardSmoke": {
+    "fromStartupTabShowsVisibleFocusOnAddButton": true,
+    "nextTabShowsVisibleFocusOnSearchField": true,
+    "enterActivatedAddButton": false,
+    "spaceActivatedAddButton": true,
+    "tabMovesFromTitleToDescriptionWithVisibleFocus": true
+  },
+  "limitations": [
+    "Native UI Automation did not expose Tk child controls as named controls.",
+    "No screenreader speech verification was performed.",
+    "The focus check covers only the home screen; full add/edit/filter walkthrough remains open.",
+    "The modal form is visible in Windows Graphics Capture but was not returned as a separate UI Automation window; fields are absent from the accessibility tree."
+  ],
+  "screenshot": "desktop-keyboard-focus-search.png",
+  "form": {
+    "visible": true,
+    "topLevelTitle": "Добавить проект",
+    "listedAsSeparateWindow": false,
+    "automationTreeExposesFields": false,
+    "screenshot": "desktop-add-form-keyboard-focus.png"
+  }
+}\n

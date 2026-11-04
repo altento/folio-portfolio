@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "title": "QA — перенос JSON",
+  "next_id": 42,
+  "developer": {
+    "full_name": "QA Автор",
+    "specialization": "Проверка переноса",
+    "introduction": "",
+    "email": "",
+    "website_url": "",
+    "github_url": "",
+    "include_email": false,
+    "include_website": false,
+    "include_github": false
+  },
+  "projects": [
+    {
+      "id": 41,
+      "project_id": 41,
+      "sort_order": 41,
+      "type": "Веб-приложение",
+      "title": "QA interop case",
+      "description": "Синтетический кейс для проверки переноса между desktop и web.",
+      "created_at": "2026-11-01",
+      "status": "Завершён",
+      "technologies": [
+        {
+          "name": "SQLite",
+          "category": "СУБД",
+          "version": "3.46"
+        },
+        {
+          "name": "Python",
+          "category": "Язык программирования",
+          "version": "3.13"
+        }
+      ],
+      "demo_url": "",
+      "role": "QA",
+      "outcome": "Проверен круговой перенос.",
+      "context": "Тестовые данные без пользовательской информации.",
+      "solution": "Импорт, редактирование и повторный экспорт.",
+      "process": "Синтетический сценарий в чистом профиле.",
+      "metrics": "Данные категории и версии должны сохраниться.",
+      "tags": [
+        "QA"
+      ],
+      "featured": true,
+      "cover_image_data": "data:image/png;base64,AA==",
+      "gallery_images": [
+        {
+          "image_data": "data:image/png;base64,AA==",
+          "alt": "Синтетическая картинка",
+          "position": "20% 80%"
+        }
+      ],
+      "repository_url": "",
+      "backend_stack": "Flask"
+    }
+  ]
+}

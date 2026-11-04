@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "app_id": "ru.folio.portfolio",
+  "build_command": "mobile\\build-android.ps1",
+  "gradle_result": "BUILD SUCCESSFUL",
+  "apk": {
+    "bytes": 19048371,
+    "sha256": "646413e5feca94e46495c294e8c942138e559da16628a2f15ff73053dd5accef",
+    "apksigner_v2": true,
+    "zipalign_4": true,
+    "crc": "pass",
+    "build_type": "debug"
+  },
+  "emulator": {
+    "api": 36,
+    "physical_resolution": "1080x2400",
+    "airplane_mode_on": 1,
+    "wifi_on": 0,
+    "cold_start_after_force_stop": "pass",
+    "home_dashboard_visible": true,
+    "mobile_catalog_filters_open": true,
+    "sort_filter_labels_distinct": true
+  },
+  "screenshots": [
+    {"file": "folio-v104-cold-offline.png", "sha256": "FF07493614E4399124FD4949A4694E53D790022F05C53BC5D4A881F01EFD48DB"},
+    {"file": "folio-v104-favorites.png", "sha256": "E01864DCE53BEB0979B15B11822E0C0AC515BA678269E36195020AD40512D97A"}
+  ],
+  "limitations": ["No physical phone", "No TalkBack or OS font scale", "Chromium cache-index/tile-memory warnings need real-device follow-up"]
+}

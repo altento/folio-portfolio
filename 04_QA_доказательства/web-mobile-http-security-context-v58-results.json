@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-30",
+  "purpose": "compare secure loopback and ordinary HTTP LAN-style origin",
+  "origins": {
+    "loopback": {
+      "origin": "http://127.0.0.1:62505",
+      "isSecureContext": true,
+      "indexedDBAvailable": true,
+      "serviceWorkerAvailable": true,
+      "warningVisible": false,
+      "warningText": "Открыто по HTTP в локальной сети. Соединение не шифруется; в этом режиме недоступны установка PWA и офлайн-кэш. Для них нужен HTTPS с доверенным сертификатом. Не используйте такую ссылку в публичной Wi-Fi сети.",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "registration": "success",
+      "browserErrors": []
+    },
+    "lan_http_analogue": {
+      "origin": "http://folio.test:62505",
+      "isSecureContext": false,
+      "indexedDBAvailable": true,
+      "serviceWorkerAvailable": false,
+      "warningVisible": true,
+      "warningText": "Открыто по HTTP в локальной сети. Соединение не шифруется; в этом режиме недоступны установка PWA и офлайн-кэш. Для них нужен HTTPS с доверенным сертификатом. Не используйте такую ссылку в публичной Wi-Fi сети.",
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "registration": "api-unavailable",
+      "browserErrors": [],
+      "mobile": {
+        "warningVisible": true,
+        "documentWidth": 390,
+        "viewportWidth": 390,
+        "serviceWorkerAvailable": false,
+        "isSecureContext": false
+      }
+    }
+  },
+  "screenshots": [
+    "mobile-http-security-warning-desktop-1440x900.png",
+    "mobile-http-security-warning-390x844.png"
+  ],
+  "confirmed": true
+}

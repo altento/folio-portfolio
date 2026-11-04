@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-11-01T06:00:35.937496+00:00",
+  "result": "PASS",
+  "route": "desktop JSON payload -> SQLite -> PWA parse/serialize -> SQLite",
+  "fixture": "synthetic two-project fixture derived from the project's storage tests",
+  "checks": {
+    "project_count": 2,
+    "project_titles_and_order_preserved": true,
+    "developer_profile_preserved": true,
+    "technology_categories_and_versions_preserved": true,
+    "cover_data_preserved": true,
+    "gallery_data_alt_and_crop_preserved": true,
+    "both_sqlite_writes_validated": true
+  }
+}

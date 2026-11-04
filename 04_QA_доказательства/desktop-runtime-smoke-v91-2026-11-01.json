@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "product": "folio desktop Tkinter v91",
+  "window": "Портфолио веб-разработчика; 1920x1080",
+  "dataSource": "Existing local SQLite portfolio_data.sqlite3; read-only smoke only.",
+  "checks": {
+    "launch": "PASS: window rendered dashboard with 3 of 3 projects.",
+    "about": "PASS: opened from application menu; illustration, project details and return button visible; closed via window close control.",
+    "fileMenu": "Menu opened; Down highlighted the first item. Escape closed menu without invoking an operation.",
+    "search": "PASS: query CRM yielded 1 of 3 results; clearing query and pressing Find restored 3 of 3.",
+    "dataMutation": "None.",
+    "keyboardTraversal": "Partial: Tab focused the type filter and then the status filter. The window became minimized and Computer Use reported user input in the window during the next transition; interaction was stopped."
+  },
+  "limitations": [
+    "Alt+F did not visibly open the File menu; menu was opened by clicking the menu bar.",
+    "Windows UI Automation exposed container panels and menus but not the individual form and search controls.",
+    "A floating overlay from outside the application covered part of the top-right filters and view controls; its source was not identified.",
+    "A fresh screenshot from this run was not included because the external overlay obscured the application; existing clean desktop QA screenshots remain in the package.",
+    "Keyboard traversal was stopped after the app window minimized and Computer Use detected user input; tag filter, view controls and dialogs were not traversed."
+  ],
+  "open": "Full native keyboard traversal of form controls, image/gallery selection, filter dropdowns and screen-reader acceptance."
+}

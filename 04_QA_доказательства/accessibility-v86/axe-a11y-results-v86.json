@@ -1,0 +1,116 @@
+{
+  "timestamp_utc": "2026-11-01T06:18:56.721851+00:00",
+  "axe_core_version": "4.14.0",
+  "tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "url": "http://127.0.0.1:8766/",
+  "result": "PASS",
+  "scan_count": 8,
+  "total_violations_across_scans": 0,
+  "scans": {
+    "dashboard_mobile_light": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    },
+    "project_detail_mobile_light": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 47
+    },
+    "projects_mobile_light": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 43
+    },
+    "showcase_mobile_light": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 41
+    },
+    "settings_mobile_light": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 39
+    },
+    "settings_mobile_dark": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 39
+    },
+    "dashboard_mobile_dark": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    },
+    "dashboard_desktop_dark": {
+      "violation_count": 0,
+      "violations": [],
+      "incomplete_count": 3,
+      "incomplete_rules": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "passes_count": 46
+    }
+  },
+  "page_and_console_errors": [],
+  "screenshots": [
+    "axe-v86-mobile-dashboard.png",
+    "axe-v86-mobile-detail.png",
+    "axe-v86-desktop-dashboard-dark.png"
+  ],
+  "limits": [
+    "Automated axe rules detect a subset of accessibility issues; they do not replace full WCAG conformance review.",
+    "No physical screen reader, switch control, or human assistive-technology test was performed."
+  ]
+}

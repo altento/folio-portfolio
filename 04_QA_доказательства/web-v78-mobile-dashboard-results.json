@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-01",
+  "release": "Web/PWA v78",
+  "service_worker_cache": "folio-shell-v78-accessible-mobile-heading",
+  "change": [
+    "Mobile dashboard featured case is placed before summary metrics",
+    "Responsive heading uses line spans and real whitespace; accessible text is correct",
+    "Demo warning copy is shorter while retaining the replace-or-remove instruction",
+    "Clear-demo trailing icon remains aligned with button label"
+  ],
+  "browser": "Isolated Chromium",
+  "runtime": {
+    "service_worker_controlled": true,
+    "only_cache_after_upgrade": [
+      "folio-shell-v78-accessible-mobile-heading"
+    ],
+    "demo_project_cards": 3,
+    "browser_console_errors": 0,
+    "broken_images_with_nonempty_src": 0,
+    "heading_text": "Ваши проекты, собранные в одном месте.",
+    "update_banner_after_reload": "none"
+  },
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "layout_client_width": 305,
+      "document_scroll_width": 305,
+      "horizontal_overflow": false,
+      "featured_grid_y": 843,
+      "mobile_nav_y": 504
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "layout_client_width": 375,
+      "document_scroll_width": 375,
+      "horizontal_overflow": false,
+      "featured_grid_y": 734,
+      "mobile_nav_y": 780,
+      "demo_note_height": 92
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "layout_client_width": 1425,
+      "document_scroll_width": 1425,
+      "horizontal_overflow": false,
+      "featured_grid_y": 933,
+      "mobile_nav_hidden": true
+    }
+  ],
+  "regression": {
+    "python_sqlite": "55/55 passed",
+    "web_core": "21/21 passed"
+  },
+  "screenshots": {
+    "mobile": {
+      "file": "web-v78-mobile-dashboard-390x844.jpg",
+      "bytes": 46323,
+      "sha256": "6c9308802170bcb3d90441fff5241095e067381adbb2fe78d995c38c89493522"
+    },
+    "desktop": {
+      "file": "web-v78-dashboard-desktop-1440x900.jpg",
+      "bytes": 116910,
+      "sha256": "f4940a04a1714e220b71b32e7b3fd1473e03388fe2ca840c45460de47e9cb47a"
+    }
+  },
+  "report_control_slice": "desktop v87 / web-PWA v74; included report figures show v73"
+}

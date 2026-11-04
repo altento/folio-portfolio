@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-02",
+  "release": "web-pwa-v110-cross-device-transfer-contract",
+  "python_sqlite_tests": {
+    "passed": 66,
+    "failed": 0
+  },
+  "web_tests": {
+    "passed": 46,
+    "failed": 0
+  },
+  "python_compile": "PASS",
+  "android": {
+    "build": "PASS",
+    "emulator_api": 36,
+    "offline_relaunch": "PASS",
+    "zipalign": "PASS",
+    "apk_signature_v2": "PASS",
+    "physical_device": "NOT_TESTED"
+  },
+  "apk_sha256": "523428f4c6d4d839714f6fe2aaee027cc9c95e5613019609a64f92a0adbab872",
+  "screenshots": [
+    "android-v110-launch.png",
+    "android-v110-offline-relaunch.png"
+  ],
+  "shared_fixture": "tests/fixtures/portable-transfer.json"
+}

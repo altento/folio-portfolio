@@ -1,0 +1,18 @@
+{
+  "scenario": "Synthetic IndexedDB quota request failure in isolated Chrome profile",
+  "result": {
+    "dialog": true,
+    "error": "Недостаточно места в хранилище браузера. Уменьшите изображения или освободите место и повторите сохранение.",
+    "draft": "Черновик сохранён на этом устройстве.",
+    "title": "Проверка ошибки квоты",
+    "projects": 3
+  },
+  "verified": [
+    "QuotaExceededError rendered inline",
+    "project dialog remains open",
+    "input values remain present",
+    "no project was added",
+    "separate IndexedDB draft write completed"
+  ],
+  "limitations": "Synthetic failure path; actual disk/quota exhaustion was not induced."
+}

@@ -1,0 +1,16 @@
+{
+  "migration": {
+    "controllerChanged": true,
+    "noticeVisible": true,
+    "chipEditorAvailable": true,
+    "cacheKeys": [
+      "folio-shell-v51-tag-chip-editor"
+    ]
+  },
+  "record": {
+    "createdInOldVersion": true,
+    "retainedAfterUpgrade": true,
+    "retainedOffline": true
+  },
+  "errors": []
+}

@@ -1,0 +1,20 @@
+{
+  "build": "Android debug APK from web/PWA v102",
+  "device": "emulator-5554",
+  "api_level": "36",
+  "install": "Performing Streamed Install\nSuccess",
+  "clear_test_emulator_data": "Success",
+  "launch": "bash arg: -p\n  bash arg: ru.folio.portfolio\n  bash arg: 1\nEvents injected: 1\n## Network stats: elapsed time=26ms (0ms mobile, 0ms wifi, 26ms not connected)",
+  "package_installed": true,
+  "foreground_contains_package": true,
+  "wifi_global_setting": "0",
+  "mobile_data_global_setting": "0",
+  "offline_requested": true,
+  "version_name": "versionName=0.1.0",
+  "apk_sha256": "d563efc0c6d7476ee8a1fced524fea6a5d856c58446d645e7edbd75ef3fb56ae",
+  "screenshot": "android-v102-cold-offline-home.png",
+  "screenshot_bytes": 980373,
+  "screenshot_sha256": "a15eb77e7d5bbac192d2884f524aa45f94c04ad132b2a7106645738bda96fac4",
+  "screenshot_png_signature_valid": true,
+  "status": "PASS"
+}

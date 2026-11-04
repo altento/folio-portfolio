@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-01",
+  "scope": "current submission reports 4 and 5; report snapshot desktop v87 / web-PWA v74; current product desktop v91 / web-PWA v83",
+  "module4": {
+    "docx": "Отчёт_ООП_Модуль_4.docx",
+    "pdf": "Отчёт_ООП_Модуль_4.pdf",
+    "docx_sha256": "218291a1ccdfa695e7d4d52e86c0d18452c05338792ecb4aa720044b895a425f",
+    "pdf_sha256": "dab8387d27f38f7ac05dea8799eb0ec21ad551a8dc155d77d511ea5a53d39744",
+    "docx_chars": 7684,
+    "pdf_pages": 10,
+    "pdf_pages_with_text": 10,
+    "pdf_text_extract_ok": true
+  },
+  "module5": {
+    "docx": "Отчёт_ООП_Модуль_5.docx",
+    "pdf": "Отчёт_ООП_Модуль_5.pdf",
+    "docx_sha256": "8911fa60c9472ca8fbdc7e115ca7d8adcd8ebb9a4897c007bec7b15c339a446a",
+    "pdf_sha256": "de40abc5fd6d96a569c9b8457dc1ea7d2b2c0e2f23ae2d8a2673228280a3721d",
+    "docx_chars": 12035,
+    "pdf_pages": 11,
+    "pdf_pages_with_text": 11,
+    "pdf_text_extract_ok": true
+  },
+  "module4_docx_pdf_normalized_text_similarity": 0.999006,
+  "module4_rendered_pages": 10,
+  "module4_all_pages_rendered": true,
+  "module5_docx_pdf_normalized_text_similarity": 0.998616,
+  "module5_rendered_pages": 11,
+  "module5_all_pages_rendered": true,
+  "module5_visual_contact_sheet": true,
+  "module5_content_checks": {
+    "module5_content_1_docx": true,
+    "module5_content_1_pdf": true,
+    "module5_content_2_docx": true,
+    "module5_content_2_pdf": true,
+    "module5_content_3_docx": true,
+    "module5_content_3_pdf": true,
+    "module5_content_4_docx": true,
+    "module5_content_4_pdf": true,
+    "module5_content_5_docx": true,
+    "module5_content_5_pdf": true,
+    "module5_content_6_docx": true,
+    "module5_content_6_pdf": true,
+    "module5_content_7_docx": true,
+    "module5_content_7_pdf": true,
+    "module5_content_8_docx": true,
+    "module5_content_8_pdf": true
+  },
+  "root_package_hash_sync": {
+    "module4_docx": true,
+    "module4_pdf": true,
+    "module5_docx": true,
+    "module5_pdf": true
+  },
+  "latest_package_regression": {
+    "python_58_of_58": true,
+    "web_21_of_21": true
+  },
+  "all_checks_passed": true
+}

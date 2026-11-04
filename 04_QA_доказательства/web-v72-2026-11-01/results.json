@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-01",
+  "build": "Web/PWA v72",
+  "browser": "Chromium via isolated Playwright context",
+  "profile": "folio-goal-2026-11-01",
+  "url": "http://127.0.0.1:8766/",
+  "user_data_touched": false,
+  "viewport_matrix_px": [
+    [
+      320,
+      568
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "checks": {
+    "no_horizontal_overflow_all_viewports": "pass",
+    "mobile_bottom_navigation_at_320_390": "pass",
+    "desktop_sidebar_at_1024_1440": "pass",
+    "service_worker_activated_at_390x844": "pass",
+    "web_manifest_link_present": "pass",
+    "project_search_crm_returns_one": "pass",
+    "clear_search_restores_three_demo_cases": "pass",
+    "list_view_sets_aria_pressed_true": "pass",
+    "visible_controls_have_accessible_names": "pass",
+    "project_checkbox_label_hit_target_44x44": "pass",
+    "offline_reload_from_activated_service_worker": "pass",
+    "no_console_or_page_errors_during_offline_online_reload": "pass",
+    "browser_backup_json_consumed_by_desktop_read_only_parser": "pass",
+    "static_showcase_exact_composition_preview_matches_export": "pass",
+    "downloaded_standalone_html_contains_selected_case_and_embedded_media_only": "pass",
+    "static_html_no_unselected_cases_or_contacts": "pass",
+    "static_html_no_external_resources_or_network_requests": "pass",
+    "static_html_responsive_at_390_and_1440": "pass",
+    "static_html_embedded_image_decodes": "pass"
+  },
+  "not_checked": [
+    "physical phone acceptance",
+    "OS install prompt",
+    "real touch input",
+    "VoiceOver/TalkBack/screen reader",
+    "unstable or high-latency network"
+  ],
+  "screenshots": [
+    "desktop-1440x900.png",
+    "mobile-390x844.png"
+  ],
+  "offline_reload_at_viewport_px": [
+    390,
+    844
+  ],
+  "integration": {
+    "backup_file": "folio-backup.json",
+    "bytes": 3949,
+    "projects": 3,
+    "desktop_classes": [
+      "LandingProject",
+      "WebAppProject",
+      "WebAppProject"
+    ],
+    "desktop_read_only_mode": true,
+    "sqlite_modified": false,
+    "temporary_export_deleted": true,
+    "showcase_preview": {
+      "featured_cases": 1,
+      "images": 1,
+      "links": 1,
+      "contacts_included": 0
+    },
+    "static_html": {
+      "filename": "folio-showcase.html",
+      "bytes": 337258,
+      "selected_case_only": true,
+      "unselected_cases": false,
+      "embedded_images": 1,
+      "contacts": 0,
+      "external_resources": 0,
+      "external_requests": 0,
+      "script_tags": 0,
+      "mobile": {
+        "viewport_px": [
+          390,
+          844
+        ],
+        "overflow": false
+      },
+      "desktop": {
+        "viewport_px": [
+          1440,
+          900
+        ],
+        "overflow": false
+      }
+    }
+  }
+}

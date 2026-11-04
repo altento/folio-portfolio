@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-01",
+  "test": "Desktop project type conversion preserves user awareness of model-specific data loss",
+  "result": "passed",
+  "cases": [
+    {
+      "source": "Веб-приложение",
+      "target": "Сайт / лендинг",
+      "input": "repository_url + backend_stack present",
+      "expected": [
+        "repository_url",
+        "backend_stack"
+      ]
+    },
+    {
+      "source": "Сайт / лендинг",
+      "target": "Веб-приложение",
+      "input": "saved page_count=1",
+      "expected": [
+        "page_count"
+      ]
+    },
+    {
+      "source": "Сайт / лендинг",
+      "target": "Веб-приложение",
+      "input": "new form default page_count=1",
+      "expected": []
+    },
+    {
+      "source": "same type",
+      "target": "same type",
+      "expected": []
+    }
+  ],
+  "coverage": "test_project_type_change_explains_fields_that_would_be_lost; full Python/SQLite regression 58 tests"
+}
