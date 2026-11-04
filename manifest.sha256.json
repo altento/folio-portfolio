@@ -9219,8 +9219,8 @@
     },
     {
       "path": "04_QA_доказательства/web-v120-accessibility/github-pages-live-v120-smoke.json",
-      "size_bytes": 607,
-      "sha256": "d92e6a062531fc96720b6c74969caaa3c1a4c88b2faf45dcfc937007932c9919"
+      "size_bytes": 594,
+      "sha256": "b6d0bc3e8db862cd8fb54c297e5626841ddaec126083508069b379c709b9de2c"
     },
     {
       "path": "04_QA_доказательства/web-v120-accessibility/offline-results.json",
