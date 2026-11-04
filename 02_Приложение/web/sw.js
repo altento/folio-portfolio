@@ -1,4 +1,4 @@
-const CACHE='folio-shell-v118-private-storage-guidance';
+const CACHE='folio-shell-v119-demo-copy-edit';
 const FILES=['./','./index.html','./styles.css','./app.js','./core.js','./preferences.js','./native-export.js','./native-startup.js','./demo.json','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./offline.html','./assets/icons/nav-sprite.webp','./assets/icons/feature-sprite.webp','./assets/illustrations/featured-empty-folio.webp','./assets/illustrations/folio-dashboard-hero-v1.webp','./assets/covers/portfolio-studio.webp','./assets/covers/cleaning-crm.webp','./assets/covers/city-courtyards.webp','./assets/covers/cleaning-crm-case-v2.webp','./assets/covers/city-courtyards-case-v2.webp'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{
   const cache=await caches.open(CACHE);
