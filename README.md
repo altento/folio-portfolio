@@ -247,3 +247,8 @@ Web/PWA cache — `folio-shell-v99-compact-short-phone`; web tests 36/36, Python
 ## Работа в GitHub Codespaces
 
 Откройте **Code → Codespaces → Create codespace on main**. Среда установит Python, Node.js и зависимости настольной части. Веб-превью запустится на порту 8765 и откроется в браузере Codespaces. Останавливайте Codespace после работы, чтобы беречь месячный лимит Codespaces.
+
+
+## Update — 2026-11-05
+
+The demo case typo was fixed and the PWA cache was bumped to `folio-shell-v119-demo-copy-edit`. The Android debug APK was rebuilt from the same web assets (SHA-256: `1bfa7c8aa695ab3597f1697a1372b97675b8f4a62310a32a8b190d215b43c263`). GitHub Pages serves the corrected `demo.json` and v119 service worker. Regression suites: Python/SQLite 81/81; web 53/53. The v119 APK has not yet been retested on a physical phone or emulator; the previous device QA evidence is for v118.
