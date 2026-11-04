@@ -1,6 +1,6 @@
 {
   "package": "Пакет_сдачи_портфолио_модули_4_5_на_проверку",
-  "file_count_excluding_manifest": 2023,
+  "file_count_excluding_manifest": 2033,
   "files": [
     {
       "path": "01_Отчёты/Отчёт_ООП_Модуль_4.docx",
@@ -9159,8 +9159,8 @@
     },
     {
       "path": "04_QA_доказательства/web-v120-accessibility/README.md",
-      "size_bytes": 724,
-      "sha256": "e0364078533009def8f7c06d681a8e6c85d3714a47ec7e63f3d6b674c0447af7"
+      "size_bytes": 1141,
+      "sha256": "3a2e9e8e6f13be9a387b0794efec711ea0d35e9432a530a152d7b25db995904f"
     },
     {
       "path": "04_QA_доказательства/web-v120-accessibility/axe-a11y-results-v120-local.json",
@@ -9228,9 +9228,44 @@
       "sha256": "3da8c37db72a38a9f9be8cc124bf809e6eaca8e1f8bd3f61f712fadd3f8b09e0"
     },
     {
+      "path": "04_QA_доказательства/web-v120-accessibility/results-v120.json",
+      "size_bytes": 5732,
+      "sha256": "3f8b0cf3b72796b030a8c82050c612e33517950d2e9b21b8e99f8bb89d20c7a2"
+    },
+    {
       "path": "04_QA_доказательства/web-v120-accessibility/run_a11y_axe_v120.py",
       "size_bytes": 8871,
       "sha256": "b2869c191e904d7173268a853bdf8736d9d81935c48ac0775e75bddf7213c4c8"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/run_public_cross_route_v120.py",
+      "size_bytes": 3332,
+      "sha256": "1325f0395d124294ea523857378c9b37dc0d0cbe481d32ac50f8917bc157754b"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-desktop-dashboard.png",
+      "size_bytes": 1522819,
+      "sha256": "467365822061cc30ce0ee3731e6fbfc5bd5072ff8f5386690ac4b4e5a1321489"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-desktop-projects.png",
+      "size_bytes": 131021,
+      "sha256": "a4c3feed1814cce5237d35df1feaed7e1cca985b6d60ef49ccf017b6339051f7"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-desktop-settings.png",
+      "size_bytes": 59886,
+      "sha256": "40a140bc31cf31403282100da28bb108ee42e0335e44b2166d7263b266fa198f"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-desktop-showcase.png",
+      "size_bytes": 135593,
+      "sha256": "932cea4f527859e590f4e1ea47a45573bfd83451afc2e38a1eb3a82b7723df1b"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-dashboard.png",
+      "size_bytes": 609480,
+      "sha256": "056a94993d143fc1077d30287db35d0809a133cf99a857f4fd0ea2d01929128e"
     },
     {
       "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-offline-reload.png",
@@ -9246,6 +9281,21 @@
       "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-projects-list.png",
       "size_bytes": 140129,
       "sha256": "de0912f12afd465c47a072a4b077ae8a58e1b02a3d1f42d72d45b43fafd848c8"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-projects.png",
+      "size_bytes": 367655,
+      "sha256": "ee15198945cdcf5b42bbc225c00d4ffc2b66bde0270a733573249f9c6eab90b8"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-settings.png",
+      "size_bytes": 50727,
+      "sha256": "97a74fd1695f2735d711dd430e2b79a61647687970eaa90bc8e805c528d46c2c"
+    },
+    {
+      "path": "04_QA_доказательства/web-v120-accessibility/web-v120-mobile-showcase.png",
+      "size_bytes": 95866,
+      "sha256": "1650e095a11a6fdf2c28db7b323916f3f450fff34ce1b9f43456d5171e1d9a6e"
     },
     {
       "path": "04_QA_доказательства/web-v60-case-art-offline-mobile-390x844.png",
@@ -10049,13 +10099,13 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 29338,
-      "sha256": "b7db8e42d4dc6e5c1252b142f24f55987e122213dc1ec85256aa3a7ece2f4fb7"
+      "size_bytes": 29603,
+      "sha256": "03c0b5bab7e27c9796b16a5ffb4b1838f8497ecec1b65bb8ce888e65989a7b30"
     },
     {
       "path": "Матрица_требований_модулей_4_5.md",
-      "size_bytes": 61700,
-      "sha256": "81e2430c57977a0a070266b77391d9f2eab94a507aaedb9b5cea7cf2436a1593"
+      "size_bytes": 62655,
+      "sha256": "14f0e87e5d93d73b49fbf02426bae8e56decd8d6674c0bcc958039dda09c9e8f"
     },
     {
       "path": "Отчет_QA_01-11-2026.md",
@@ -10074,8 +10124,8 @@
     },
     {
       "path": "План_работ_продукт_и_отчеты.md",
-      "size_bytes": 363114,
-      "sha256": "ef6f6b653acb39a9a183525ad96c417162b35ed3504ae595e6f9bd1eec4ff4cb"
+      "size_bytes": 364069,
+      "sha256": "70da3bcbe71ac0be00057102fe3890f41efed55800c9850dd4d568cd4a5370cd"
     },
     {
       "path": "Решение_публикация_и_синхронизация_29-10-2026.md",
