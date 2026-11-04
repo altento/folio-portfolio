@@ -204,8 +204,8 @@
     },
     {
       "path": "02_Приложение/mobile/android/app/src/main/assets/public/demo.json",
-      "size_bytes": 4393,
-      "sha256": "0107fc3485c45af08b9786b01133fcf5263ca6c34d9180fbc47f6d8494cd500d"
+      "size_bytes": 4391,
+      "sha256": "c07d46b538cbc8d0b729b3bdadcc1b00a0f0a75b6835d52847b9453f486ac36b"
     },
     {
       "path": "02_Приложение/mobile/android/app/src/main/assets/public/icons/icon-192.png",
@@ -679,8 +679,8 @@
     },
     {
       "path": "02_Приложение/mobile/www/demo.json",
-      "size_bytes": 4393,
-      "sha256": "0107fc3485c45af08b9786b01133fcf5263ca6c34d9180fbc47f6d8494cd500d"
+      "size_bytes": 4391,
+      "sha256": "c07d46b538cbc8d0b729b3bdadcc1b00a0f0a75b6835d52847b9453f486ac36b"
     },
     {
       "path": "02_Приложение/mobile/www/icons/icon-192.png",
@@ -779,8 +779,8 @@
     },
     {
       "path": "02_Приложение/web/app.js",
-      "size_bytes": 108133,
-      "sha256": "ce6de79314fe9048c4ab18ce12859ee372ebe1a52da81b17984ceaa2bed5e014"
+      "size_bytes": 108214,
+      "sha256": "d3c59e1f9fb6ce7a933c9d8b335285fd8592edb7db91eac6ab394e21be8341ed"
     },
     {
       "path": "02_Приложение/web/assets/covers/city-courtyards-case-v2.webp",
@@ -854,8 +854,8 @@
     },
     {
       "path": "02_Приложение/web/demo.json",
-      "size_bytes": 4393,
-      "sha256": "0107fc3485c45af08b9786b01133fcf5263ca6c34d9180fbc47f6d8494cd500d"
+      "size_bytes": 4391,
+      "sha256": "c07d46b538cbc8d0b729b3bdadcc1b00a0f0a75b6835d52847b9453f486ac36b"
     },
     {
       "path": "02_Приложение/web/icons/icon-192.png",
@@ -909,13 +909,13 @@
     },
     {
       "path": "02_Приложение/web/styles.css",
-      "size_bytes": 112818,
-      "sha256": "5851e7bdf35d7e7cd06bcd6bde1e79f37cffc9827bf9edaf55fa0cae57693bd2"
+      "size_bytes": 113289,
+      "sha256": "512add15036895ba7c21c910cacd43c565e5b8e854d7a9d634b3d57afb0a4d4f"
     },
     {
       "path": "02_Приложение/web/sw.js",
-      "size_bytes": 2222,
-      "sha256": "bc1b18be10a5a8edad0ee2aaa506c40c262c699823deb00d872188de98bb5d41"
+      "size_bytes": 2218,
+      "sha256": "03be20c5d2c99590ad1d629d2f84b92b7386f6e1d39ce15c372041332aa174be"
     },
     {
       "path": "02_Приложение/web/tests/accessibility.test.js",
@@ -9944,13 +9944,13 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 29224,
-      "sha256": "926a6626f6373558af8af0cfc924ef83142c1789d0660e925f4ab57253e489c1"
+      "size_bytes": 29338,
+      "sha256": "b7db8e42d4dc6e5c1252b142f24f55987e122213dc1ec85256aa3a7ece2f4fb7"
     },
     {
       "path": "Матрица_требований_модулей_4_5.md",
-      "size_bytes": 55376,
-      "sha256": "e8e40b01bab39a68f5f6c2153c4255fe0e0643af9e8adeb017501e8cb1778cc4"
+      "size_bytes": 61700,
+      "sha256": "81e2430c57977a0a070266b77391d9f2eab94a507aaedb9b5cea7cf2436a1593"
     },
     {
       "path": "Отчет_QA_01-11-2026.md",
@@ -9969,8 +9969,8 @@
     },
     {
       "path": "План_работ_продукт_и_отчеты.md",
-      "size_bytes": 355697,
-      "sha256": "6236032150287ea05b0ab2b2d242cc5f6e61972de36c04e551c43eb2c6269d05"
+      "size_bytes": 363114,
+      "sha256": "ef6f6b653acb39a9a183525ad96c417162b35ed3504ae595e6f9bd1eec4ff4cb"
     },
     {
       "path": "Решение_публикация_и_синхронизация_29-10-2026.md",
