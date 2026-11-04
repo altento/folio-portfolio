@@ -307,6 +307,9 @@ html[data-theme=dark] .check-filter{color:#bcbcc0}
 
 /* Preserve the detail in the generated miniature nav artwork at real interface sizes. */
 .portfolio-nav-icon{width:36px;height:24px}.mobile-nav-item .portfolio-nav-icon{width:30px;height:20px}
+.project-cover .cover-kicker,.project-cover .cover-index{background:#202126;color:#fff;text-shadow:none;padding:5px 8px;border-radius:999px;box-shadow:0 2px 8px #0005}
+.project-card-selectable .cover-kicker{left:64px;max-width:calc(100% - 80px)}
+@media(max-width:480px){.project-list .cover-kicker{max-width:calc(100% - 24px);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:4px 6px}.project-list .project-card-selectable .cover-kicker{display:none}}
 
 /* Folio editorial dashboard: lead with the work, let metrics follow. */
 .main-content{max-width:1600px;padding-top:30px}
