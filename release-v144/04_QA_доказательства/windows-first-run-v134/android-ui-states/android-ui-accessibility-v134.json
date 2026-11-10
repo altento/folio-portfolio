@@ -1,0 +1,801 @@
+{
+  "build": "Android 0.2.7 / versionCode 9",
+  "device": "Android Emulator API 36, emulator-5554",
+  "method": "UIAutomator accessibility hierarchy; label check counts visible text, content-desc, or hint. New project and case details were opened then closed without saving or invoking data actions. Emulator returned to Overview.",
+  "states": {
+    "overview": {
+      "clickable_nodes": 18,
+      "unnamed_clickable_nodes": 0,
+      "controls": [
+        {
+          "class": "android.view.View",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "Перейти к содержимому",
+          "hint": "",
+          "bounds": "[28,136][522,136]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "folio",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[42,151][262,269]"
+        },
+        {
+          "class": "android.widget.ToggleButton",
+          "resource-id": "theme-toggle",
+          "text": "Переключить тему",
+          "content-desc": "",
+          "hint": "Переключить тему",
+          "bounds": "[924,151][1042,269]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Создать проект",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[97,852][532,981]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Открыть коллекцию",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[548,852][984,981]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Очистить примеры демонстрационных данных",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[808,1385][1013,1503]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Открыть витрину ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[808,1758][1039,1902]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[44,1944][1036,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Все проекты ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[766,2339][1039,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Веб-приложение Завершён Карта городских дворов Демо-запись интерактивного проекта с картой. JavaScript Leaflet.js карта городская среда 2026-09-25 Открыть кейс ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[44,2339][1036,2339]"
+        },
+        {
+          "class": "android.widget.CheckBox",
+          "resource-id": "",
+          "text": "Выбрать проект CRM для клининговой компании",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[105,2339][160,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Веб-приложение В разработке CRM для клининговой компании Демо-запись для проверки карточек, поиска и статусов. Python Flask SQLite CRM автоматизация 2026-09-22 Открыть кейс ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[44,2339][1036,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Открыть кейс ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[149,2339][441,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Обзор",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[21,2183][231,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Проекты",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[228,2183][438,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Добавить проект",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[483,2201][601,2322]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Витрина",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[643,2183][853,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Данные",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[850,2183][1063,2339]"
+        }
+      ],
+      "unnamed": [],
+      "screenshot": "overview-final2-v134.png"
+    },
+    "projects": {
+      "clickable_nodes": 24,
+      "unnamed_clickable_nodes": 0,
+      "controls": [
+        {
+          "class": "android.view.View",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "Перейти к содержимому",
+          "hint": "",
+          "bounds": "[28,136][522,136]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "folio",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[42,151][262,269]"
+        },
+        {
+          "class": "android.widget.ToggleButton",
+          "resource-id": "theme-toggle",
+          "text": "Переключить тему",
+          "content-desc": "",
+          "hint": "Переключить тему",
+          "bounds": "[924,151][1042,269]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "＋ Новый проект",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[724,432][1039,545]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "search-input",
+          "text": "",
+          "content-desc": "",
+          "hint": "Поиск проектов",
+          "bounds": "[173,692][842,813]"
+        },
+        {
+          "class": "android.view.View",
+          "resource-id": "",
+          "text": "Фильтры Тип · статус · тег · порядок",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[65,831][1015,955]"
+        },
+        {
+          "class": "android.view.View",
+          "resource-id": "",
+          "text": "Мои подборки 0/12 сохранено",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[44,999][1036,1123]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Убрать из избранного",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[73,1296][535,1414]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Удалить",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[546,1296][1008,1414]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Снять выбор",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[73,1427][1008,1548]"
+        },
+        {
+          "class": "android.widget.CheckBox",
+          "resource-id": "select-visible-projects",
+          "text": "Выбрать показанные проекты",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[73,1690][123,1737]"
+        },
+        {
+          "class": "android.widget.ToggleButton",
+          "resource-id": "",
+          "text": "Карточки",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[52,1795][351,1913]"
+        },
+        {
+          "class": "android.widget.ToggleButton",
+          "resource-id": "",
+          "text": "Список",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[357,1795][656,1913]"
+        },
+        {
+          "class": "android.widget.CheckBox",
+          "resource-id": "",
+          "text": "Выбрать проект Портфолио веб-разработчика",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[105,1989][160,2044]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[44,1942][1036,2339]"
+        },
+        {
+          "class": "android.widget.CheckBox",
+          "resource-id": "",
+          "text": "Выбрать проект CRM для клининговой компании",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[105,2339][160,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Веб-приложение В разработке CRM для клининговой компании Демо-запись для проверки карточек, поиска и статусов. Python Flask SQLite CRM автоматизация 2026-09-22 Открыть кейс ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[44,2339][1036,2339]"
+        },
+        {
+          "class": "android.widget.CheckBox",
+          "resource-id": "",
+          "text": "Выбрать проект Карта городских дворов",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[105,2339][160,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Веб-приложение Завершён Карта городских дворов Демо-запись интерактивного проекта с картой. JavaScript Leaflet.js карта городская среда 2026-09-25 Открыть кейс ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[44,2339][1036,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Обзор",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[21,2183][231,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Проекты",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[228,2183][438,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Добавить проект",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[483,2201][601,2322]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Витрина",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[643,2183][853,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Данные",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[850,2183][1063,2339]"
+        }
+      ],
+      "unnamed": [],
+      "screenshot": "projects-v134.png"
+    },
+    "new_project_dialog": {
+      "clickable_nodes": 7,
+      "unnamed_clickable_nodes": 0,
+      "controls": [
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Закрыть",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[876,353][997,474]"
+        },
+        {
+          "class": "android.view.View",
+          "resource-id": "form-type",
+          "text": "Сайт / лендинг",
+          "content-desc": "",
+          "hint": "Тип проекта",
+          "bounds": "[84,1175][997,1301]"
+        },
+        {
+          "class": "android.view.View",
+          "resource-id": "form-status",
+          "text": "В разработке",
+          "content-desc": "",
+          "hint": "Статус",
+          "bounds": "[84,1382][997,1508]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "",
+          "hint": "Название *",
+          "bounds": "[84,1590][997,1716]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "",
+          "hint": "Короткое описание *",
+          "bounds": "[84,1797][997,2041]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Отмена",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[84,1873][532,1997]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "project-form-step-next",
+          "text": "Далее",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[84,2015][997,2138]"
+        }
+      ],
+      "unnamed": [],
+      "screenshot": "new-project-dialog-v134.png"
+    },
+    "case_detail_dialog": {
+      "clickable_nodes": 8,
+      "unnamed_clickable_nodes": 0,
+      "controls": [
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Закрыть",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[882,191][1000,311]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Открыть кейс CRM для клининговой компании",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[89,2339][530,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Открыть кейс Карта городских дворов",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[553,2339][992,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Поднять Портфолио веб-разработчика выше",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[89,2339][288,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Опустить Портфолио веб-разработчика ниже",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[309,2339][504,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "⧉ Создать копию",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[522,2339][879,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Изменить",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[89,2339][325,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Удалить проект",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[703,2339][992,2339]"
+        }
+      ],
+      "unnamed": [],
+      "screenshot": "detail-dialog-v134.png"
+    },
+    "showcase": {
+      "clickable_nodes": 13,
+      "unnamed_clickable_nodes": 0,
+      "controls": [
+        {
+          "class": "android.view.View",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "Перейти к содержимому",
+          "hint": "",
+          "bounds": "[28,136][522,136]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "folio",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[42,151][262,269]"
+        },
+        {
+          "class": "android.widget.ToggleButton",
+          "resource-id": "theme-toggle",
+          "text": "Переключить тему",
+          "content-desc": "",
+          "hint": "Переключить тему",
+          "bounds": "[924,151][1042,269]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Экспорт Markdown",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[42,773][1039,892]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Предпросмотр HTML",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[42,910][1039,1028]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "↓ Скачать готовую витрину",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[42,1046][1039,1165]"
+        },
+        {
+          "class": "android.view.View",
+          "resource-id": "showcase-theme",
+          "text": "Редакционный",
+          "content-desc": "",
+          "hint": "Стиль HTML-страницы Меняет только файл витрины, не карточки проектов. Меняет только файл витрины, не карточки проектов.",
+          "bounds": "[441,1251][1005,1369]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[44,2007][1036,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Обзор",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[21,2183][231,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Проекты",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[228,2183][438,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Добавить проект",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[483,2201][601,2322]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Витрина",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[643,2183][853,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Данные",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[850,2183][1063,2339]"
+        }
+      ],
+      "unnamed": [],
+      "screenshot": "showcase-v134.png"
+    },
+    "data_settings": {
+      "clickable_nodes": 23,
+      "unnamed_clickable_nodes": 0,
+      "controls": [
+        {
+          "class": "android.view.View",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "Перейти к содержимому",
+          "hint": "",
+          "bounds": "[28,136][522,136]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "folio",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[42,151][262,269]"
+        },
+        {
+          "class": "android.widget.ToggleButton",
+          "resource-id": "theme-toggle",
+          "text": "Переключить тему",
+          "content-desc": "",
+          "hint": "Переключить тему",
+          "bounds": "[924,151][1042,269]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "",
+          "text": "Даниил Головин",
+          "content-desc": "",
+          "hint": "Имя",
+          "bounds": "[89,1267][992,1390]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "",
+          "text": "Веб-разработчик",
+          "content-desc": "",
+          "hint": "Специализация",
+          "bounds": "[89,1485][992,1608]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "",
+          "hint": "Вступление До 800 символов. Текст появится во вступлении витрины.",
+          "bounds": "[89,1703][992,2010]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "",
+          "hint": "Email",
+          "bounds": "[89,2162][992,2285]"
+        },
+        {
+          "class": "android.widget.CheckBox",
+          "resource-id": "",
+          "text": "Показывать email в портфолио",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[123,2339][173,2339]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "",
+          "hint": "Личный сайт",
+          "bounds": "[89,2339][992,2339]"
+        },
+        {
+          "class": "android.widget.CheckBox",
+          "resource-id": "",
+          "text": "Показывать личный сайт в портфолио",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[123,2339][173,2339]"
+        },
+        {
+          "class": "android.widget.EditText",
+          "resource-id": "",
+          "text": "",
+          "content-desc": "",
+          "hint": "GitHub",
+          "bounds": "[89,2339][992,2339]"
+        },
+        {
+          "class": "android.widget.CheckBox",
+          "resource-id": "",
+          "text": "Показывать GitHub в портфолио",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[123,2339][173,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Сохранить профиль",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[89,2339][992,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "↓ Скачать резервную копию",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[89,2339][992,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "↑ Импортировать JSON",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[89,2339][992,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Экспорт CSV",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[89,2339][992,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Попросить защиту от автоочистки",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[123,2339][958,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Удалить все проекты",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[89,2339][496,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Обзор",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[21,2183][231,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Проекты",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[228,2183][438,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Добавить проект",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[483,2201][601,2322]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Витрина",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[643,2183][853,2339]"
+        },
+        {
+          "class": "android.widget.Button",
+          "resource-id": "",
+          "text": "Данные",
+          "content-desc": "",
+          "hint": "",
+          "bounds": "[850,2183][1063,2339]"
+        }
+      ],
+      "unnamed": [],
+      "screenshot": "data-settings-v134.png"
+    }
+  },
+  "all_states_no_unnamed_controls": true,
+  "result": "All clickable controls in the six captured states expose text, content description, or an input hint; no unnamed clickable controls were found. Static tree inspection only; TalkBack speech/focus order/gestures not verified."
+}

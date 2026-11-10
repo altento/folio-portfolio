@@ -1,0 +1,28 @@
+{
+  "name": "folio-mobile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local-first Android wrapper for folio portfolio",
+  "scripts": {
+    "build:web": "node scripts/build-web.mjs",
+    "android:add": "cap add android",
+    "android:sync": "npm run build:web && cap sync android",
+    "android:debug": "npm run android:sync && cd android && gradlew.bat assembleDebug --no-daemon --console=plain --max-workers=1"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.6.0",
+    "@capacitor/app": "8.1.2",
+    "@capacitor/core": "8.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.6.0",
+    "esbuild": "0.28.2"
+  },
+  "overrides": {
+    "@capacitor/cli": {
+      "rimraf": {
+        "glob": "14.0.3"
+      }
+    }
+  }
+}

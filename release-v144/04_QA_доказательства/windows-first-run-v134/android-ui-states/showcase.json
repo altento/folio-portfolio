@@ -1,0 +1,72 @@
+{
+  "clickable_nodes": 13,
+  "unnamed_clickable_nodes": 0,
+  "controls": [
+    {
+      "text": "",
+      "content_description": "Перейти к содержимому",
+      "bounds": "[28,136][522,136]"
+    },
+    {
+      "text": "folio",
+      "content_description": "",
+      "bounds": "[42,151][262,269]"
+    },
+    {
+      "text": "Переключить тему",
+      "content_description": "",
+      "bounds": "[924,151][1042,269]"
+    },
+    {
+      "text": "Экспорт Markdown",
+      "content_description": "",
+      "bounds": "[42,773][1039,892]"
+    },
+    {
+      "text": "Предпросмотр HTML",
+      "content_description": "",
+      "bounds": "[42,910][1039,1028]"
+    },
+    {
+      "text": "↓ Скачать готовую витрину",
+      "content_description": "",
+      "bounds": "[42,1046][1039,1165]"
+    },
+    {
+      "text": "Редакционный",
+      "content_description": "",
+      "bounds": "[441,1251][1005,1369]"
+    },
+    {
+      "text": "Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗",
+      "content_description": "",
+      "bounds": "[44,2007][1036,2339]"
+    },
+    {
+      "text": "Обзор",
+      "content_description": "",
+      "bounds": "[21,2183][231,2339]"
+    },
+    {
+      "text": "Проекты",
+      "content_description": "",
+      "bounds": "[228,2183][438,2339]"
+    },
+    {
+      "text": "Добавить проект",
+      "content_description": "",
+      "bounds": "[483,2201][601,2322]"
+    },
+    {
+      "text": "Витрина",
+      "content_description": "",
+      "bounds": "[643,2183][853,2339]"
+    },
+    {
+      "text": "Данные",
+      "content_description": "",
+      "bounds": "[850,2183][1063,2339]"
+    }
+  ],
+  "unnamed": []
+}

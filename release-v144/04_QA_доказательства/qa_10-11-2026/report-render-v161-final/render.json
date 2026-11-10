@@ -1,0 +1,88 @@
+{
+  "source_docx": "Отчет_ООП_Модуль_5_v161.docx",
+  "source_docx_sha256": "c47a023627111dd80c4f1add066fbb7fcc9eb42c0c1012d700ace320ba7812b8",
+  "rendered_pdf": "Отчет_ООП_Модуль_5_v161.pdf",
+  "rendered_pdf_sha256": "5d61e206ce663acc6c10fab0914b138d9d6dbe3b247c092ee6fe0c713e2fd9ad",
+  "pdf_pages": 18,
+  "rendered_png_pages": 18,
+  "page_image_dimensions_px": [
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ],
+    [
+      1224,
+      1584
+    ]
+  ],
+  "dpi": 144,
+  "renderer": "render_docx.py with LibreOffice 26.8.2 (The Document Foundation signed MSI, temporary administrative extraction), then bundled Poppler",
+  "all_pages_have_extractable_text": true,
+  "docx_pdf_text_similarity": 0.99869,
+  "contact_sheet": "contact-sheet.png",
+  "contact_sheet_sha256": "0aa17baf017abed065e2ac7fc661119025c50617d8f1f6fedc1ebea759ff762e"
+}

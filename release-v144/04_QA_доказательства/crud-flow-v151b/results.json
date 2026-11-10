@@ -1,0 +1,8 @@
+{
+  "date":"2026-11-06",
+  "build":"Web/PWA v151b",
+  "mobileWidthFlow":{"viewport":720,"wizardSteps":3,"initialSeedRecords":3,"recordsAfterSave":4,"exactTitleSearchMatches":1,"newTagFilterMatches":1,"editTitle":"QA — каталог после правки","editDescriptionPersisted":true,"narrativeFieldsPreserved":true,"metadataPreserved":true,"afterReloadRecords":4,"editedCaseFound":true},
+  "desktopWidthFlow":{"viewport":[1440,900],"initialSeedRecords":3,"mobileWizardHidden":true,"singlePageSubmitVisible":true,"formValid":true,"createdSyntheticCaseFound":true,"recordsAfterSave":4},
+  "isolation":{"browserContexts":"Playwright isolated Chromium contexts","userProfileTouched":false,"realUserDataChanged":false,"published":false,"syntheticRecordsCleanedByClosingContexts":true},
+  "limitations":["No image/gallery file was uploaded in this CRUD flow.","Native mobile keyboard, physical device and screenreader validation are separate checks.","Playwright screenshot file export failed with ENOENT in the configured output directory; Android UI screenshots remain in compact-form-v151."]
+}

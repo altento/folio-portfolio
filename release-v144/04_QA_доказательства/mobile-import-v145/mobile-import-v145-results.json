@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-05",
+  "build": "folio-shell-v145-mobile-import-actions",
+  "viewportHeights": 568,
+  "results": {
+    "320": {
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "pageWidth": 320,
+      "dialog": {
+        "x": 8,
+        "y": 8,
+        "width": 304,
+        "height": 552,
+        "right": 312,
+        "bottom": 560
+      },
+      "content": {
+        "top": 9,
+        "bottom": 424,
+        "clientHeight": 415,
+        "scrollHeight": 491,
+        "overflowY": "auto"
+      },
+      "actions": {
+        "x": 25,
+        "y": 424,
+        "width": 270,
+        "height": 123,
+        "right": 295,
+        "bottom": 547
+      },
+      "buttons": [
+        {
+          "selector": "#import-dialog [data-close-dialog]",
+          "hidden": false,
+          "text": "×",
+          "x": 251,
+          "y": 21,
+          "width": 44,
+          "height": 44,
+          "right": 295,
+          "bottom": 65
+        },
+        {
+          "selector": "#import-keep",
+          "hidden": false,
+          "text": "Добавить в портфолио",
+          "x": 25,
+          "y": 435,
+          "width": 270,
+          "height": 44,
+          "right": 295,
+          "bottom": 479
+        },
+        {
+          "selector": "#import-replace",
+          "hidden": false,
+          "text": "Заменить портфолио целиком",
+          "x": 25,
+          "y": 503,
+          "width": 270,
+          "height": 44,
+          "right": 295,
+          "bottom": 547
+        }
+      ],
+      "buttonOverlaps": [],
+      "horizontalOverflow": false,
+      "actionsWithinDialogWidth": true,
+      "actionsAlwaysVisible": true,
+      "replaceActionReachability": {
+        "insideDialog": true,
+        "scrollTop": 0,
+        "top": 503,
+        "bottom": 547,
+        "withinViewport": true
+      },
+      "importedCount": 4,
+      "importedTitleVisible": true,
+      "passed": true
+    },
+    "390": {
+      "viewport": {
+        "width": 390,
+        "height": 568
+      },
+      "pageWidth": 390,
+      "dialog": {
+        "x": 8,
+        "y": 10.90625,
+        "width": 374,
+        "height": 546.171875,
+        "right": 382,
+        "bottom": 557.078125
+      },
+      "content": {
+        "top": 11.90625,
+        "bottom": 421.078125,
+        "clientHeight": 409,
+        "scrollHeight": 409,
+        "overflowY": "auto"
+      },
+      "actions": {
+        "x": 25,
+        "y": 421.078125,
+        "width": 340,
+        "height": 123,
+        "right": 365,
+        "bottom": 544.078125
+      },
+      "buttons": [
+        {
+          "selector": "#import-dialog [data-close-dialog]",
+          "hidden": false,
+          "text": "×",
+          "x": 321,
+          "y": 23.90625,
+          "width": 44,
+          "height": 44,
+          "right": 365,
+          "bottom": 67.90625
+        },
+        {
+          "selector": "#import-keep",
+          "hidden": false,
+          "text": "Добавить в портфолио",
+          "x": 25,
+          "y": 432.078125,
+          "width": 340,
+          "height": 44,
+          "right": 365,
+          "bottom": 476.078125
+        },
+        {
+          "selector": "#import-replace",
+          "hidden": false,
+          "text": "Заменить портфолио целиком",
+          "x": 25,
+          "y": 500.078125,
+          "width": 340,
+          "height": 44,
+          "right": 365,
+          "bottom": 544.078125
+        }
+      ],
+      "buttonOverlaps": [],
+      "horizontalOverflow": false,
+      "actionsWithinDialogWidth": true,
+      "actionsAlwaysVisible": true,
+      "replaceActionReachability": {
+        "insideDialog": true,
+        "scrollTop": 0,
+        "top": 500.078125,
+        "bottom": 544.078125,
+        "withinViewport": true
+      },
+      "importedCount": 4,
+      "importedTitleVisible": true,
+      "passed": true
+    }
+  },
+  "runtimeErrors": [],
+  "userDataChanged": false,
+  "passed": true
+}

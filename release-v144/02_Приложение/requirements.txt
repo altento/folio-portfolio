@@ -1,0 +1,2 @@
+# Pillow renders and prepares local PNG/JPEG/WebP covers in the Tkinter app.
+Pillow>=10.0

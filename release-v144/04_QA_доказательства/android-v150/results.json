@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-06",
+  "release": "Android 0.3.13 / versionCode 25; Web/PWA v150",
+  "install": "PASS: adb install -r succeeded; existing app data was retained",
+  "offline_cold_start": "PASS: force-stop then cold launch while Active default network was none",
+  "dashboard": "PASS: three demo projects and responsive app shell rendered",
+  "settings": "PASS: mobile settings route and JSON-backup section rendered",
+  "backup_status_text_visible": "PASS: “Резервная копия не отмечена” plus explanatory copy visible",
+  "talkback_accessibility_tree": "Captured with TalkBack service temporarily enabled; service disabled and settings restored afterward",
+  "uia_tree_nodes": 104,
+  "clickable_controls": 23,
+  "unnamed_clickable_controls": 0,
+  "accessible_names": "Every clickable control in captured settings tree had text, content-desc or input hint",
+  "programmatic_focus_target_note": "One unnamed focusable node is the main-content landmark with tabindex=-1; it is not clickable/actionable",
+  "accessible_controls_check": "PASS",
+  "audio_or_gesture_walkthrough": "NOT VERIFIED",
+  "runtime_error_lines": 0,
+  "personal_data_cleared": false,
+  "published": false,
+  "network_restored": "Airplane mode off; Wi-Fi and mobile-data toggles enabled; active network remains none in this emulator",
+  "accessibility_restored": "TalkBack service null; accessibility_enabled=0",
+  "screenshots": [
+    "android-v150-offline.png",
+    "android-v150-settings-backup-offline.png"
+  ],
+  "accessibility_tree": "android-v150-settings-talkback-uia.xml"
+}

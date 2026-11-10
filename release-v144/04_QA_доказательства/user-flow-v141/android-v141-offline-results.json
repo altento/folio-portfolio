@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05",
+  "build": "Android debug 0.3.4 / code 16",
+  "device": "AVD API 36",
+  "wifi_initial": 1,
+  "mobile_data_initial": 1,
+  "wifi_during": 0,
+  "mobile_data_during": 0,
+  "wifi_at_capture": 0,
+  "mobile_data_at_capture": 0,
+  "captured_at": "2026-11-05 19:11:43 +05:00",
+  "screenshot": "android-v141-offline-home.png",
+  "app_cold_started_offline": true,
+  "passed": true
+}

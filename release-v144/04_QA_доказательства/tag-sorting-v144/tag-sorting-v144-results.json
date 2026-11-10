@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-05",
+  "build": "Packaged Windows WebView v144 web assets, isolated browser profile",
+  "httpStatus": 200,
+  "desktopOrder": [
+    {
+      "title": "CRM для клининговой компании",
+      "tags": [
+        "CRM",
+        "автоматизация"
+      ]
+    },
+    {
+      "title": "Карта городских дворов",
+      "tags": [
+        "карта",
+        "городская среда"
+      ]
+    },
+    {
+      "title": "Портфолио веб-разработчика",
+      "tags": [
+        "портфолио",
+        "учебный проект"
+      ]
+    }
+  ],
+  "desktopSortCorrect": true,
+  "savedSortPreserved": true,
+  "savedViewReappliesTagSort": true,
+  "savedViewOrderMatches": true,
+  "mobile": {
+    "320": {
+      "sortOptionExists": true,
+      "orderMatches": true,
+      "viewport": 320,
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "screenshot": "projects-sorted-by-tags-v144-320.png"
+    },
+    "390": {
+      "sortOptionExists": true,
+      "orderMatches": true,
+      "viewport": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "screenshot": "projects-sorted-by-tags-v144-390.png"
+    }
+  },
+  "runtimeErrors": [],
+  "noUserDataChanged": true,
+  "passed": true
+}

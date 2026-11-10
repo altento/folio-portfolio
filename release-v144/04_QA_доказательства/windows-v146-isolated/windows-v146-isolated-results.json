@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-05",
+  "build": "folio-webview-v146 QA isolated-profile build",
+  "windowTitle": "folio — личное портфолио",
+  "launchUrl": "http://127.0.0.1:41946/?folio-desktop=1",
+  "isolatedProfile": "C:\\Users\\Windows-10\\AppData\\Local\\Temp\\folio-webview-v146-qa-profile",
+  "opened": true,
+  "dashboardVisible": true,
+  "demoProjectsCount": 3,
+  "accessibilityTreeAvailable": true,
+  "runtimeErrors": "not collected by this UI smoke",
+  "screenshot": "C:\\Users\\Windows-10\\Desktop\\Портфолио_веб-разработчика\\служебные_файлы\\qa_05-11-2026\\windows-v146-isolated\\windows-v146-isolated-home.jpg"
+}

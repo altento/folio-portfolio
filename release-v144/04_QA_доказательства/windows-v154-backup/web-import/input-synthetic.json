@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "title": "Isolated QA portfolio",
+  "next_id": 902,
+  "developer": {
+    "full_name": "Folio QA",
+    "specialization": "Transfer test"
+  },
+  "projects": [
+    {
+      "id": 901,
+      "type": "Сайт / лендинг",
+      "title": "Synthetic cross-device import QA",
+      "description": "Generated only for isolated import and restore verification.",
+      "created_at": "2026-09-20",
+      "status": "Опубликован",
+      "technologies": [
+        {
+          "name": "HTML",
+          "category": "Инструмент",
+          "version": "5"
+        }
+      ],
+      "demo_url": "https://example.com",
+      "project_id": 901,
+      "role": "Индивидуальный учебный проект",
+      "outcome": "Собраны карточки проектов, стек технологий и контактная информация.",
+      "featured": false,
+      "page_count": 4,
+      "cover_image": "",
+      "tags": [
+        "qa",
+        "synthetic"
+      ],
+      "context": "Нужно было показать учебные проекты и упростить просмотр работ.",
+      "solution": "Создать адаптивную витрину с карточками, стеком и подробностями кейса.",
+      "process": "Сбор требований, построение структуры страниц, разработка интерфейса и ручная проверка.",
+      "cover_image_data": "",
+      "gallery_images": []
+    }
+  ]
+}

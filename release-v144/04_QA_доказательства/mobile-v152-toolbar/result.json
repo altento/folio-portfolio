@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-07",
+  "build": "Web/PWA v152 readability fix",
+  "profile": "new isolated Playwright context",
+  "url": "http://127.0.0.1:41823/",
+  "http_status": 200,
+  "viewport_checks": [
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "visibleProjects": 1,
+      "resetVisible": true,
+      "selectLabel": [
+        {
+          "label": "Выбрать показанные",
+          "fontSize": 11,
+          "height": 25,
+          "width": 103
+        }
+      ],
+      "viewButtons": [
+        {
+          "label": "Карточки",
+          "fontSize": 11,
+          "height": 44,
+          "width": 101
+        },
+        {
+          "label": "Список",
+          "fontSize": 11,
+          "height": 44,
+          "width": 101
+        }
+      ],
+      "resetButton": [
+        {
+          "label": "Сбросить фильтры",
+          "fontSize": 11,
+          "height": 44,
+          "width": 356
+        }
+      ],
+      "touchTargets": [
+        {
+          "label": "Выбрать показанные",
+          "fontSize": 12,
+          "height": 44,
+          "width": 140
+        },
+        {
+          "label": "Карточки",
+          "fontSize": 11,
+          "height": 44,
+          "width": 101
+        },
+        {
+          "label": "Список",
+          "fontSize": 11,
+          "height": 44,
+          "width": 101
+        },
+        {
+          "label": "Сбросить фильтры",
+          "fontSize": 11,
+          "height": 44,
+          "width": 356
+        }
+      ],
+      "noHorizontalOverflow": true,
+      "toolbarTextReadable": true,
+      "touchTargetsAtLeast44px": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "visibleProjects": 1,
+      "resetVisible": true,
+      "selectLabel": [
+        {
+          "label": "Выбрать показанные",
+          "fontSize": 12,
+          "height": 15,
+          "width": 116
+        }
+      ],
+      "viewButtons": [
+        {
+          "label": "Карточки",
+          "fontSize": 11,
+          "height": 44,
+          "width": 102
+        },
+        {
+          "label": "Список",
+          "fontSize": 11,
+          "height": 44,
+          "width": 102
+        }
+      ],
+      "resetButton": [
+        {
+          "label": "Сбросить фильтры",
+          "fontSize": 12,
+          "height": 52,
+          "width": 136
+        }
+      ],
+      "touchTargets": [
+        {
+          "label": "Выбрать показанные",
+          "fontSize": 12,
+          "height": 44,
+          "width": 356
+        },
+        {
+          "label": "Карточки",
+          "fontSize": 11,
+          "height": 44,
+          "width": 102
+        },
+        {
+          "label": "Список",
+          "fontSize": 11,
+          "height": 44,
+          "width": 102
+        },
+        {
+          "label": "Сбросить фильтры",
+          "fontSize": 12,
+          "height": 52,
+          "width": 136
+        }
+      ],
+      "noHorizontalOverflow": true,
+      "toolbarTextReadable": true,
+      "touchTargetsAtLeast44px": true
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "visibleProjects": 1,
+      "resetVisible": true,
+      "selectLabel": [
+        {
+          "label": "Выбрать показанные",
+          "fontSize": 11,
+          "height": 25,
+          "width": 75
+        }
+      ],
+      "viewButtons": [
+        {
+          "label": "Карточки",
+          "fontSize": 11,
+          "height": 44,
+          "width": 81
+        },
+        {
+          "label": "Список",
+          "fontSize": 11,
+          "height": 44,
+          "width": 81
+        }
+      ],
+      "resetButton": [
+        {
+          "label": "Сбросить фильтры",
+          "fontSize": 11,
+          "height": 44,
+          "width": 292
+        }
+      ],
+      "touchTargets": [
+        {
+          "label": "Выбрать показанные",
+          "fontSize": 12,
+          "height": 44,
+          "width": 114
+        },
+        {
+          "label": "Карточки",
+          "fontSize": 11,
+          "height": 44,
+          "width": 81
+        },
+        {
+          "label": "Список",
+          "fontSize": 11,
+          "height": 44,
+          "width": 81
+        },
+        {
+          "label": "Сбросить фильтры",
+          "fontSize": 11,
+          "height": 44,
+          "width": 292
+        }
+      ],
+      "noHorizontalOverflow": true,
+      "toolbarTextReadable": true,
+      "touchTargetsAtLeast44px": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "visibleProjects": 1,
+      "resetVisible": true,
+      "selectLabel": [
+        {
+          "label": "Выбрать показанные",
+          "fontSize": 9,
+          "height": 14,
+          "width": 86
+        }
+      ],
+      "viewButtons": [
+        {
+          "label": "Карточки",
+          "fontSize": 10,
+          "height": 44,
+          "width": 86
+        },
+        {
+          "label": "Список",
+          "fontSize": 10,
+          "height": 44,
+          "width": 86
+        }
+      ],
+      "resetButton": [
+        {
+          "label": "Сбросить фильтры",
+          "fontSize": 12,
+          "height": 44,
+          "width": 123
+        }
+      ],
+      "touchTargets": [
+        {
+          "label": "Выбрать показанные",
+          "fontSize": 10,
+          "height": 44,
+          "width": 128
+        },
+        {
+          "label": "Карточки",
+          "fontSize": 10,
+          "height": 44,
+          "width": 86
+        },
+        {
+          "label": "Список",
+          "fontSize": 10,
+          "height": 44,
+          "width": 86
+        },
+        {
+          "label": "Сбросить фильтры",
+          "fontSize": 12,
+          "height": 44,
+          "width": 123
+        }
+      ],
+      "noHorizontalOverflow": true,
+      "toolbarTextReadable": true,
+      "touchTargetsAtLeast44px": true
+    }
+  ],
+  "reset_flow": {
+    "query": "",
+    "projectCount": 3,
+    "resetHidden": true
+  },
+  "page_or_console_errors": [],
+  "screenshot": {
+    "file": "mobile-toolbar-390x568.png",
+    "sha256": "3313345adf96bcc08143d833df9b7f8d128016b4959f6395c1eae1ff8c844c47"
+  }
+}

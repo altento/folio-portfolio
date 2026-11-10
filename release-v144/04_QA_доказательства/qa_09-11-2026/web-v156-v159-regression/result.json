@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-09",
+  "url": "http://127.0.0.1:41766/?folio-desktop=1",
+  "http_status": 200,
+  "browser": "Installed Chrome, isolated Playwright context",
+  "viewports": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      900
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "route_matrix": [
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": "Ваши проекты, собранные в одном месте.",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 3073,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": "Все проекты",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 19,
+      "smallestControlHeight": 13,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 1605,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 1166,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 3012,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "title": "Ваши проекты, собранные в одном месте.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 3121,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "title": "Все проекты",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 19,
+      "smallestControlHeight": 13,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 1634,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 1140,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 2833,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Ваши проекты, собранные в одном месте.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 3121,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Все проекты",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 19,
+      "smallestControlHeight": 13,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 1784,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 1140,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 2833,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "title": "Ваши проекты,\nсобранные\nв одном месте.",
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 3097,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "title": "Все проекты",
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 19,
+      "smallestControlHeight": 13,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 2101,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 1134,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 2529,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "title": "Ваши проекты,\nсобранные\nв одном месте.",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 2248,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "title": "Все проекты",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 19,
+      "smallestControlHeight": 13,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 835,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 949,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mainHeight": 1437,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    }
+  ],
+  "offline_cold_reload": {
+    "controller": true,
+    "online": false,
+    "projectCount": 3,
+    "title": "Ваши проекты, собранные в одном месте.",
+    "brokenImages": 0
+  },
+  "crud_flow": {
+    "wizard_visible_on_mobile": true,
+    "create_project_persisted_after_reload": true,
+    "edit_project_visible_in_card": true,
+    "undo_delete_restored_project": true,
+    "recoverable_delete_expired_and_restored_demo_count": 3,
+    "synthetic_project_name": "QA·«Folio smoke»"
+  },
+  "browser_errors": [],
+  "screenshots": [
+    {
+      "file": "dashboard-390x844.png",
+      "sha256": "c6f384691880535c7199fb884c8de039dbaadefc283c4c5ec85021c5046185c6"
+    },
+    {
+      "file": "dashboard-390x844-viewport.png",
+      "sha256": "5087d8efc67d9622ed06ff78e537fc7c55be0ba003347c63ff5c30f7adb41264"
+    },
+    {
+      "file": "projects-390x844.png",
+      "sha256": "3b2e5cdcde3b8d9645016e57c2d29263a6f0a55f788b68a9fb25b44a45ec6e4a"
+    },
+    {
+      "file": "projects-390x844-viewport.png",
+      "sha256": "a1eb7a5df4877795b32821082e3173d39eb5ee5f6a1400deb82cffd5e4b260bb"
+    },
+    {
+      "file": "settings-390x844.png",
+      "sha256": "99e37fb5257274ae33d39eb81369be20a94998290c8e5ff0857d6f3a17a63b0d"
+    },
+    {
+      "file": "settings-390x844-viewport.png",
+      "sha256": "ce687ba35096459ad7f9518be0e07bbd141bb655eee87e34f47fb5ac909ba877"
+    },
+    {
+      "file": "dashboard-1440x900.png",
+      "sha256": "cbfa56664002399c8451c84582fba291a689c6245caafab5b44f2396bb60c40b"
+    },
+    {
+      "file": "projects-1440x900.png",
+      "sha256": "8b5666d05b0919ef2097f3b901af3df74d7d6766db4cc1b21842cae3e27a15a4"
+    },
+    {
+      "file": "offline-dashboard-390x844.png",
+      "sha256": "c6f384691880535c7199fb884c8de039dbaadefc283c4c5ec85021c5046185c6"
+    },
+    {
+      "file": "offline-dashboard-390x844-viewport.png",
+      "sha256": "5087d8efc67d9622ed06ff78e537fc7c55be0ba003347c63ff5c30f7adb41264"
+    }
+  ],
+  "data_scope": "fresh isolated browser context; no user profile or existing database used"
+}

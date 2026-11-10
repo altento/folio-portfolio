@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "build": "folio-shell-v146-import-a11y-target-size",
+  "viewportHeight": 568,
+  "results": {
+    "320": {
+      "build": "folio-shell-v146-import-a11y-target-size",
+      "axeViolations": [],
+      "axePasses": 28,
+      "initialFocusInsideDialog": true,
+      "initialFocusLabel": "Отмена",
+      "shiftTabRemainsInside": true,
+      "escapeClosesDialog": true,
+      "escapeRestoresTrigger": true,
+      "passed": true
+    },
+    "390": {
+      "build": "folio-shell-v146-import-a11y-target-size",
+      "axeViolations": [],
+      "axePasses": 27,
+      "initialFocusInsideDialog": true,
+      "initialFocusLabel": "Отмена",
+      "shiftTabRemainsInside": true,
+      "escapeClosesDialog": true,
+      "escapeRestoresTrigger": true,
+      "passed": true
+    }
+  },
+  "runtimeErrors": [],
+  "passed": true
+}

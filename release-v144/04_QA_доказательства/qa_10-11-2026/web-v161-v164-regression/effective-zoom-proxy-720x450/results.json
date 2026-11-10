@@ -1,0 +1,192 @@
+{
+  "date": "2026-11-10",
+  "url": "http://127.0.0.1:8766/",
+  "viewport": [
+    720,
+    450
+  ],
+  "interpretation": "Viewport proxy for a 1440x900 CSS workspace at nominal 200% scale; not a system magnifier test.",
+  "states": [
+    {
+      "title": "Портфолио — рабочее пространство",
+      "theme": "light",
+      "viewport": [
+        720,
+        450
+      ],
+      "documentWidth": 720,
+      "bodyWidth": 720,
+      "mainWidth": 720,
+      "mainScrollWidth": 720,
+      "horizontalOverflow": false,
+      "visibleControls": 21,
+      "controlsOutOfHorizontalBounds": [],
+      "navVisible": true,
+      "activeRoute": "dashboard",
+      "activeHeading": "Ваши проекты,\nсобранные\nв одном месте.",
+      "route": "dashboard",
+      "themeExpected": "light",
+      "screenshot": "dashboard-light-720x450.png",
+      "passed": true
+    },
+    {
+      "title": "Портфолио — рабочее пространство",
+      "theme": "light",
+      "viewport": [
+        720,
+        450
+      ],
+      "documentWidth": 720,
+      "bodyWidth": 720,
+      "mainWidth": 720,
+      "mainScrollWidth": 720,
+      "horizontalOverflow": false,
+      "visibleControls": 31,
+      "controlsOutOfHorizontalBounds": [],
+      "navVisible": true,
+      "activeRoute": "projects",
+      "activeHeading": "Все проекты",
+      "route": "projects",
+      "themeExpected": "light",
+      "screenshot": "projects-light-720x450.png",
+      "passed": true
+    },
+    {
+      "title": "Портфолио — рабочее пространство",
+      "theme": "light",
+      "viewport": [
+        720,
+        450
+      ],
+      "documentWidth": 720,
+      "bodyWidth": 720,
+      "mainWidth": 720,
+      "mainScrollWidth": 720,
+      "horizontalOverflow": false,
+      "visibleControls": 17,
+      "controlsOutOfHorizontalBounds": [],
+      "navVisible": true,
+      "activeRoute": "showcase",
+      "activeHeading": "Работы, которыми\nхочется поделиться.",
+      "route": "showcase",
+      "themeExpected": "light",
+      "screenshot": "showcase-light-720x450.png",
+      "passed": true
+    },
+    {
+      "title": "Портфолио — рабочее пространство",
+      "theme": "light",
+      "viewport": [
+        720,
+        450
+      ],
+      "documentWidth": 720,
+      "bodyWidth": 720,
+      "mainWidth": 720,
+      "mainScrollWidth": 720,
+      "horizontalOverflow": false,
+      "visibleControls": 27,
+      "controlsOutOfHorizontalBounds": [],
+      "navVisible": true,
+      "activeRoute": "settings",
+      "activeHeading": "Настройки и данные",
+      "route": "settings",
+      "themeExpected": "light",
+      "screenshot": "settings-light-720x450.png",
+      "passed": true
+    },
+    {
+      "title": "Портфолио — рабочее пространство",
+      "theme": "dark",
+      "viewport": [
+        720,
+        450
+      ],
+      "documentWidth": 720,
+      "bodyWidth": 720,
+      "mainWidth": 720,
+      "mainScrollWidth": 720,
+      "horizontalOverflow": false,
+      "visibleControls": 21,
+      "controlsOutOfHorizontalBounds": [],
+      "navVisible": true,
+      "activeRoute": "dashboard",
+      "activeHeading": "Ваши проекты,\nсобранные\nв одном месте.",
+      "route": "dashboard",
+      "themeExpected": "dark",
+      "screenshot": "dashboard-dark-720x450.png",
+      "passed": true
+    },
+    {
+      "title": "Портфолио — рабочее пространство",
+      "theme": "dark",
+      "viewport": [
+        720,
+        450
+      ],
+      "documentWidth": 720,
+      "bodyWidth": 720,
+      "mainWidth": 720,
+      "mainScrollWidth": 720,
+      "horizontalOverflow": false,
+      "visibleControls": 31,
+      "controlsOutOfHorizontalBounds": [],
+      "navVisible": true,
+      "activeRoute": "projects",
+      "activeHeading": "Все проекты",
+      "route": "projects",
+      "themeExpected": "dark",
+      "screenshot": "projects-dark-720x450.png",
+      "passed": true
+    },
+    {
+      "title": "Портфолио — рабочее пространство",
+      "theme": "dark",
+      "viewport": [
+        720,
+        450
+      ],
+      "documentWidth": 720,
+      "bodyWidth": 720,
+      "mainWidth": 720,
+      "mainScrollWidth": 720,
+      "horizontalOverflow": false,
+      "visibleControls": 17,
+      "controlsOutOfHorizontalBounds": [],
+      "navVisible": true,
+      "activeRoute": "showcase",
+      "activeHeading": "Работы, которыми\nхочется поделиться.",
+      "route": "showcase",
+      "themeExpected": "dark",
+      "screenshot": "showcase-dark-720x450.png",
+      "passed": true
+    },
+    {
+      "title": "Портфолио — рабочее пространство",
+      "theme": "dark",
+      "viewport": [
+        720,
+        450
+      ],
+      "documentWidth": 720,
+      "bodyWidth": 720,
+      "mainWidth": 720,
+      "mainScrollWidth": 720,
+      "horizontalOverflow": false,
+      "visibleControls": 27,
+      "controlsOutOfHorizontalBounds": [],
+      "navVisible": true,
+      "activeRoute": "settings",
+      "activeHeading": "Настройки и данные",
+      "route": "settings",
+      "themeExpected": "dark",
+      "screenshot": "settings-dark-720x450.png",
+      "passed": true
+    }
+  ],
+  "browserErrors": [],
+  "httpStatus": 200,
+  "darkThemeActivated": true,
+  "passCount": 8,
+  "allStatesPassed": true
+}

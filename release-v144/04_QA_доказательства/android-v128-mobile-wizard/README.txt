@@ -1,0 +1,2 @@
+Android Emulator API 36. Обновлённый APK установлен поверх предыдущей версии без очистки данных; приложение успешно открыто. Скриншот показывает мобильный стартовый экран. Ручные шаги мастера, кнопки и прокрутка дополнительно проверены в Chromium при 320×568; Web suite 61/61, Python/SQLite 86/86. Физический телефон не проверялся.
+ Live Chromium measurements are recorded in results-v128.json, including the 320×568 viewport, visible action coordinates, scroll region, cache ID and decoded cover count.

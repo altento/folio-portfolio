@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-05",
+  "build": "web/PWA v128",
+  "service_worker_cache": "folio-shell-v128-mobile-sticky-wizard",
+  "browser": "Playwright Chromium, isolated context folio-finishlab-v128-check",
+  "overview_mobile": {
+    "viewport_css_px": [
+      320,
+      568
+    ],
+    "document_scroll_width": 312,
+    "body_scroll_width": 305,
+    "visible_images": 4,
+    "visible_images_decoded": 4,
+    "service_worker_controller": true
+  },
+  "new_project_dialog": {
+    "viewport_css_px": [
+      320,
+      568
+    ],
+    "rect_css_px": {
+      "x": 8,
+      "y": 33.45,
+      "width": 304,
+      "height": 522.55,
+      "bottom": 556
+    },
+    "scroll_area": {
+      "id": "project-form-scroll",
+      "client_height": 218,
+      "scroll_height": 579
+    },
+    "primary_action": {
+      "text": "Далее",
+      "y": 445,
+      "height": 46,
+      "bottom": 491
+    },
+    "first_step_title": "Основа проекта",
+    "focused_field": "Название"
+  },
+  "after_close": {
+    "dialog_open": false,
+    "visible_project_count": 3
+  },
+  "data_safety": "No project was submitted. The Chromium profile was isolated; the installed app/user database was not opened or modified.",
+  "android_avd_api36": "APK v0.2.2 installed over previous version without clearing data and launched successfully; screenshot android-v128-mobile-wizard.png.",
+  "suites": {
+    "web": "61/61",
+    "python_sqlite": "86/86"
+  },
+  "apk_sha256": "c56ad0c4d34c8e65071cfde55d9fd836dadaa917e55f154f1765677285c690aa"
+}

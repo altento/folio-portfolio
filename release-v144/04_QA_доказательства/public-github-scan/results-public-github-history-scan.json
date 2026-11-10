@@ -1,0 +1,19 @@
+{
+  "repository": "altento/folio-portfolio",
+  "visibility": "public",
+  "branches": [
+    "main"
+  ],
+  "tags": [],
+  "commits_on_default_branch": 14,
+  "distinct_commit_trees_scanned": 14,
+  "aggregate_tree_entries_scanned": 31378,
+  "unique_text_blobs_scanned": 584,
+  "unique_text_blobs_failed": [],
+  "large_text_files_skipped": [],
+  "truncated_trees": [],
+  "credential_like_paths_in_history": [],
+  "secret_marker_matches": [],
+  "coverage_complete_for_declared_text_scope": true,
+  "scope": "All commits on the only listed branch (main), plus branch and tag heads; 14 commits, no tags observed. Text files on an explicit extension allowlist, up to 20 MB; selected credential markers and key/database-like filenames. No remote changes made."
+}

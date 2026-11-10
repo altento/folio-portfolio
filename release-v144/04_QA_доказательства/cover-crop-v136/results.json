@@ -1,0 +1,45 @@
+{
+  "viewport_desktop": {
+    "width": 1440,
+    "height": 1000
+  },
+  "viewport_mobile": {
+    "width": 390,
+    "height": 844
+  },
+  "desktopState": {
+    "desktop": "50% 46%",
+    "mobile": "14% 83%",
+    "mode": "mobile",
+    "previewPosition": "14% 83%",
+    "cropPreviewPosition": "14% 83%",
+    "previewRect": {
+      "width": 282.59375,
+      "height": 131.4375
+    }
+  },
+  "restoredDesktopControls": {
+    "x": "50",
+    "y": "46"
+  },
+  "mobileState": {
+    "step": "2",
+    "title": "Изображения и ссылки",
+    "desktop": "50% 46%",
+    "mobile": "14% 83%",
+    "mode": "mobile",
+    "pressed": "true",
+    "previewPosition": "14% 83%",
+    "cropPreviewPosition": "14% 83%",
+    "previewRect": {
+      "width": 342,
+      "height": 159.0625
+    }
+  },
+  "errors": [],
+  "projectCountAfterCancel": "3",
+  "screenshots": [
+    "cover-crop-desktop-v136.png",
+    "cover-crop-phone-v136.png"
+  ]
+}

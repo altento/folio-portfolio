@@ -1,0 +1,11 @@
+{
+  "url": "https://localhost/",
+  "updateBannerHidden": true,
+  "cropPreviewExists": true,
+  "desktopField": true,
+  "mobileField": true,
+  "projectCount": "3",
+  "cacheNames": [
+    "folio-shell-v136-responsive-cover-crop-preview"
+  ]
+}

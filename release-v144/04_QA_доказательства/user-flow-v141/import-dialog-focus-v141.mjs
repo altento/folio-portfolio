@@ -1,0 +1,38 @@
+import { chromium } from 'file:///C:/Users/Windows-10/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs';
+import { mkdir, writeFile } from 'node:fs/promises';
+
+const port=process.env.FOLIO_PORT;
+const out=process.env.FOLIO_QA_DIR;
+await mkdir(out,{recursive:true});
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+const context=await browser.newContext({viewport:{width:1440,height:900},reducedMotion:'reduce'});
+const page=await context.newPage();
+const errors=[];
+page.on('pageerror',e=>errors.push(String(e)));
+await page.goto(`http://127.0.0.1:${port}/?folio-desktop=1`,{waitUntil:'networkidle'});
+await page.locator('[data-view="settings"]:visible').first().click();
+const opener=page.locator('[data-action="import-json"]:visible').first();
+await opener.scrollIntoViewIfNeeded();
+const chooserPromise=page.waitForEvent('filechooser');
+await opener.click();
+const chooser=await chooserPromise;
+await chooser.setFiles({name:'focus-audit-empty-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({schema_version:1,projects:[],next_id:1}))});
+const dialog=page.locator('#import-dialog');
+await dialog.waitFor({state:'visible'});
+await page.waitForTimeout(100);
+const initial=await page.evaluate(()=>({activeId:document.activeElement?.id||'',activeText:document.activeElement?.textContent?.trim()||'',inside:document.querySelector('#import-dialog')?.contains(document.activeElement),open:document.querySelector('#import-dialog')?.open}));
+const focusable=dialog.locator('button:not([disabled]):visible');
+const count=await focusable.count();
+const tabTrace=[];
+for(let i=0;i<count+1;i++){await page.keyboard.press('Tab');tabTrace.push(await page.evaluate(()=>({id:document.activeElement?.id||'',inside:document.querySelector('#import-dialog')?.contains(document.activeElement),text:document.activeElement?.textContent?.trim()||''})));}
+await page.keyboard.press('Shift+Tab');
+tabTrace.push(await page.evaluate(()=>({id:document.activeElement?.id||'',inside:document.querySelector('#import-dialog')?.contains(document.activeElement),text:document.activeElement?.textContent?.trim()||''})));
+await page.screenshot({path:`${out}/import-dialog-v141.png`,fullPage:true});
+await page.keyboard.press('Escape');
+await page.waitForFunction(()=>!document.querySelector('#import-dialog')?.open);
+const afterEscape=await page.evaluate(()=>({activeId:document.activeElement?.id||'',activeAction:document.activeElement?.getAttribute('data-action')||'',activeText:document.activeElement?.textContent?.trim()||'',dialogOpen:document.querySelector('#import-dialog')?.open}));
+const result={date:'2026-11-05',build:'packaged Windows WebView2 v141; isolated profile',fixture:'Synthetic empty schema_version 1 JSON, preview only; no import action invoked',initial,tabTrace,afterEscape,errors,passed:initial.open&&initial.inside&&initial.activeText==='Отмена'&&tabTrace.every(x=>x.inside)&&!afterEscape.dialogOpen&&afterEscape.activeAction==='import-json'&&errors.length===0};
+await writeFile(`${out}/import-dialog-focus-v141-results.json`,JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify(result,null,2));
+await browser.close();
+if(!result.passed)process.exitCode=1;

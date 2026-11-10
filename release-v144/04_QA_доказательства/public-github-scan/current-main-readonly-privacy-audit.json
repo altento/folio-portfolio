@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-11-05",
+  "repository": "altento/folio-portfolio",
+  "visibility": "public",
+  "default_branch": "main",
+  "recursive_tree_entries": 2269,
+  "tree_truncated": false,
+  "user_data_path_matches": [],
+  "public_binaries": [
+    "02_Приложение/folio.exe",
+    "02_Приложение/mobile/folio-android-debug.apk",
+    "02_Приложение/mobile/folio-android-debug-for-phone.zip"
+  ],
+  "remote_service_worker_cache": "folio-shell-v120-cover-label-contrast",
+  "local_web_android_build": "v128",
+  "remote_changes_made": false,
+  "method": "GitHub read-only repository metadata, recursive tree, and current web/sw.js content; filename scan only, not a semantic review of every public file for personal content",
+  "head_commit": "de95e6f1ac767c9149cdc12a42ecd3dddb3198c7",
+  "head_tree": "45fb20ea8fa9b26db7b11658f84575dd33eecdc4",
+  "head_commit_date_utc": "2026-11-04T23:45:58Z",
+  "current_head_text_scan": {
+    "text_paths": 626,
+    "unique_blobs_scanned": 564,
+    "failed_blobs": 0,
+    "secret_marker_matches": 0,
+    "credential_like_paths": 0,
+    "coverage_complete_for_declared_scope": true
+  },
+  "history_scan": {
+    "branches": 1,
+    "commits_scanned": 14,
+    "distinct_trees_scanned": 14,
+    "unique_text_blobs_scanned": 584,
+    "failed_blobs": 0,
+    "secret_marker_matches": 0,
+    "credential_like_paths": 0,
+    "coverage_complete_for_declared_scope": true
+  },
+  "coverage_limits": "The full scan covers the declared text-extension allowlist and selected secret markers/path patterns. It does not semantically inspect every image or binary. The current recursive tree check found no personal database file paths."
+}

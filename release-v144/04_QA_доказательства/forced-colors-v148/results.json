@@ -1,0 +1,16 @@
+{
+  "build": "Web/PWA v148",
+  "date": "2026-11-06",
+  "environment": "isolated Playwright Chromium, local static server",
+  "forced_colors": {
+    "desktop_1440x1000": {"active": true, "active_navigation_text": "readable", "horizontal_overflow": false, "broken_images": 0},
+    "mobile_390x844": {"active": true, "horizontal_overflow": false},
+    "narrow_320x568": {"horizontal_overflow": false, "document_width_css_px": 305}
+  },
+  "screenshots": ["dashboard-1440.png", "dashboard-390.png"],
+  "limitations": [
+    "v148 Android APK built but not installed on AVD in this session; last confirmed Android offline runtime is v147.",
+    "v148 packaged Windows EXE built but not launched in this session; last confirmed packaged Windows GUI smoke is v147.",
+    "File System Access save picker was not manually exercised; safe backup/cancel behavior is covered by source regression tests."
+  ]
+}

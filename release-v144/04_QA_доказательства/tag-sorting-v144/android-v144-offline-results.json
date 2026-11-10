@@ -1,0 +1,14 @@
+{
+  "appVersion": "0.3.7 / versionCode 19",
+  "apkSha256": "14152f66ff1ae86e970b42fffdc4ff58e55e8e5bf2dc82df7eb521b0ccd52d79",
+  "wifiBefore": 1,
+  "dataBefore": 1,
+  "wifiOff": true,
+  "dataOff": true,
+  "appForeground": true,
+  "activity": "    topResumedActivity=ActivityRecord{62862706 u0 ru.folio.portfolio/.MainActivity t141}",
+  "wifiRestored": true,
+  "dataRestored": true,
+  "screenshot": "android-v144-offline.png",
+  "passed": true
+}

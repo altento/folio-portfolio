@@ -1,0 +1,12 @@
+{
+  "repository": "altento/folio-portfolio",
+  "branch": "main",
+  "commit": "de95e6f1ac767c9149cdc12a42ecd3dddb3198c7",
+  "tree_entries": 2269,
+  "text_paths": 626,
+  "unique_text_blobs_scanned": 564,
+  "unique_text_blobs_failed": [],
+  "credential_like_paths": [],
+  "secret_marker_matches": [],
+  "coverage_complete": true
+}

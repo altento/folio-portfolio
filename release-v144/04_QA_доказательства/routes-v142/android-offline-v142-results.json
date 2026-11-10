@@ -1,0 +1,13 @@
+{
+  "wifiBefore": 1,
+  "dataBefore": 1,
+  "wifiOff": true,
+  "dataOff": true,
+  "appForeground": true,
+  "wifiRestored": true,
+  "dataRestored": true,
+  "activity": "topResumedActivity=ActivityRecord{102716766 u0 ru.folio.portfolio/.MainActivity t137}",
+  "appVersion": "0.3.5 / versionCode 17",
+  "apkSha256": "290a54b63580779fd83a439c6adb73d06dfc39ad0d76decf75eefbb55fe26a01",
+  "screenshot": "android-offline-v142.png"
+}

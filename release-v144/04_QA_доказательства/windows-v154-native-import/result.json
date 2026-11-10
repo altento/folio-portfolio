@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-07",
+  "build": "Windows WebView2 v154",
+  "executable": "dist/folio-webview-v154/folio-desktop/folio-desktop.exe",
+  "profile": "%TEMP%/folio-desktop-v154-native-picker-qa",
+  "loopback_port": 41771,
+  "user_profile_used": false,
+  "user_database_used": false,
+  "native_file_picker_opened": true,
+  "selected_file": "служебные_файлы/qa_07-11-2026/windows-v154-backup/web-import/input-synthetic.json",
+  "first_preview": {
+    "incoming_projects": 1,
+    "existing_projects": 3,
+    "matching_ids": 0,
+    "new_projects": 1
+  },
+  "action": "Добавить в портфолио",
+  "import_result": {
+    "added": 1,
+    "updated": 0,
+    "skipped": 0,
+    "copied_conflicts": 0,
+    "projects_after_import": 4
+  },
+  "reload_persistence": {
+    "projects_after_reload": 4,
+    "synthetic_project_visible": true,
+    "synthetic_project_title": "Synthetic cross-device import QA"
+  },
+  "repeat_preview": {
+    "existing_projects": 4,
+    "matching_ids": 1,
+    "matching_project_id": 901,
+    "cancelled_without_changes": true
+  },
+  "full_replace_tested_in_native_picker_flow": false,
+  "screenshots": [
+    {
+      "file": "native-file-picker.jpg",
+      "sha256": "0cf66c9f6ccfd19f083a9456fa5464da7ffedaf1dc9aab18b8c236b3a03e83d4"
+    },
+    {
+      "file": "settings-after-import.jpg",
+      "sha256": "c6320b0d57ee6ecf9250277a1b16749637950b49c7d9c74c8b6583ab7fdfa796"
+    },
+    {
+      "file": "native-import-preview-existing-id.jpg",
+      "sha256": "487b5f2aa1d8d139286e0d41c94d666aa2ebccbbd036cee5acaff45b96b8ad62"
+    },
+    {
+      "file": "project-list-after-reload.jpg",
+      "sha256": "3a6c7c95a96f3b25a46dc1ad53557b7e8c6f248edc8ba6a24fe7753b03f6c5ce"
+    }
+  ]
+}

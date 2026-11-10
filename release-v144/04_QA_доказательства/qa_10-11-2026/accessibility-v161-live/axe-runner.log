@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-10",
+  "axe_version": "4.14.0",
+  "url": "http://127.0.0.1:8766/",
+  "viewport": [
+    390,
+    844
+  ],
+  "wcag_tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "states": [
+    {
+      "state": "mobile-dashboard-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 12,
+          "targets": [
+            [
+              ".hero-signature > b"
+            ],
+            [
+              ".hero-signature > span"
+            ],
+            [
+              ".insight-next > .insight-heading > div > .eyebrow"
+            ],
+            [
+              ".insight-next > .insight-heading > div > h2"
+            ],
+            [
+              ".insight-intro"
+            ],
+            [
+              ".insight-item-copy > b"
+            ],
+            [
+              ".insight-item-copy > p"
+            ],
+            [
+              ".insight-action"
+            ],
+            [
+              ".active[aria-current=\"page\"][data-view=\"dashboard\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"projects\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"showcase\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"settings\"] > small"
+            ]
+          ]
+        }
+      ],
+      "passes": 46,
+      "inapplicable": 45
+    },
+    {
+      "state": "mobile-projects-filters-closed-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 2,
+          "targets": [
+            [
+              ".mobile-nav-item[data-view=\"dashboard\"] > small"
+            ],
+            [
+              ".active[data-view=\"projects\"][aria-current=\"page\"] > small"
+            ]
+          ]
+        }
+      ],
+      "passes": 42,
+      "inapplicable": 49
+    },
+    {
+      "state": "mobile-projects-filters-and-saved-views-open-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 4,
+          "targets": [
+            [
+              ".mobile-nav-item[data-view=\"dashboard\"] > small"
+            ],
+            [
+              ".active[data-view=\"projects\"][aria-current=\"page\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"showcase\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"settings\"] > small"
+            ]
+          ]
+        }
+      ],
+      "passes": 44,
+      "inapplicable": 47
+    },
+    {
+      "state": "mobile-new-project-dialog-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 8,
+          "targets": [
+            [
+              ".mobile-nav-item[data-view=\"dashboard\"] > small"
+            ],
+            [
+              ".active[data-view=\"projects\"][aria-current=\"page\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"showcase\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"settings\"] > small"
+            ],
+            [
+              "#project-form-step-count"
+            ],
+            [
+              "#project-form-step-title"
+            ],
+            [
+              "#project-form-step-description"
+            ],
+            [
+              "#project-form-step-next > span[aria-hidden=\"true\"]"
+            ]
+          ]
+        }
+      ],
+      "passes": 47,
+      "inapplicable": 44
+    },
+    {
+      "state": "mobile-showcase-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 4,
+          "targets": [
+            [
+              ".mobile-nav-item[data-view=\"dashboard\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"projects\"] > small"
+            ],
+            [
+              ".active[data-view=\"showcase\"][aria-current=\"page\"] > small"
+            ],
+            [
+              ".mobile-nav-item[data-view=\"settings\"] > small"
+            ]
+          ]
+        }
+      ],
+      "passes": 41,
+      "inapplicable": 50
+    },
+    {
+      "state": "mobile-project-detail-dialog-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 3,
+          "targets": [
+            [
+              ".detail-hero > .eyebrow"
+            ],
+            [
+              "#detail-title"
+            ],
+            [
+              ".detail-hero > p"
+            ]
+          ]
+        }
+      ],
+      "passes": 42,
+      "inapplicable": 49
+    },
+    {
+      "state": "mobile-settings-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 2,
+          "targets": [
+            [
+              ".mobile-nav-item[data-view=\"dashboard\"] > small"
+            ],
+            [
+              ".active[data-view=\"settings\"][aria-current=\"page\"] > small"
+            ]
+          ]
+        }
+      ],
+      "passes": 42,
+      "inapplicable": 49
+    },
+    {
+      "state": "mobile-settings-dark",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 2,
+          "targets": [
+            [
+              ".mobile-nav-item[data-view=\"dashboard\"] > small"
+            ],
+            [
+              ".active[data-view=\"settings\"][aria-current=\"page\"] > small"
+            ]
+          ]
+        }
+      ],
+      "passes": 42,
+      "inapplicable": 49
+    },
+    {
+      "state": "desktop-dashboard-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 16,
+          "targets": [
+            [
+              ".shield"
+            ],
+            [
+              ".hero-kicker"
+            ],
+            [
+              ".hero-title-line:nth-child(1)"
+            ],
+            [
+              ".hero-title-line:nth-child(2) > em"
+            ],
+            [
+              ".hero-title-line:nth-child(3)"
+            ],
+            [
+              ".dashboard-hero-copy > p"
+            ],
+            [
+              ".button-accent.button[data-action=\"new-project\"]"
+            ],
+            [
+              ".hero-library-link"
+            ],
+            [
+              ".hero-signature > b"
+            ],
+            [
+              ".hero-signature > span"
+            ],
+            [
+              ".insight-next > .insight-heading > div > .eyebrow"
+            ],
+            [
+              ".insight-next > .insight-heading > div > h2"
+            ]
+          ]
+        }
+      ],
+      "passes": 46,
+      "inapplicable": 45
+    },
+    {
+      "state": "desktop-projects-light",
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "nodeCount": 1,
+          "targets": [
+            [
+              ".shield"
+            ]
+          ]
+        }
+      ],
+      "passes": 43,
+      "inapplicable": 48
+    }
+  ],
+  "errors": [],
+  "http_status": 200,
+  "dark_theme_active": true,
+  "violation_count": 0,
+  "incomplete_count": 10,
+  "all_scans_have_zero_violations": true,
+  "browser_errors_zero": true
+}

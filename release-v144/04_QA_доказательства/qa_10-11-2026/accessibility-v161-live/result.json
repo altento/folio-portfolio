@@ -1,0 +1,94 @@
+{
+  "url": "http://127.0.0.1:8766/",
+  "viewport": [
+    390,
+    844
+  ],
+  "routes": [
+    {
+      "route": "dashboard",
+      "title": "Портфолио — рабочее пространство",
+      "lang": "ru",
+      "mainCount": 1,
+      "navCount": 2,
+      "headings": [
+        "Ваши проекты, собранные в одном месте."
+      ],
+      "visibleControlCount": 18,
+      "controlsWithoutDetectedName": [],
+      "visibleImagesWithoutAlt": []
+    },
+    {
+      "route": "projects",
+      "title": "Портфолио — рабочее пространство",
+      "lang": "ru",
+      "mainCount": 1,
+      "navCount": 2,
+      "headings": [
+        "Все проекты"
+      ],
+      "visibleControlCount": 27,
+      "controlsWithoutDetectedName": [],
+      "visibleImagesWithoutAlt": []
+    },
+    {
+      "route": "showcase",
+      "title": "Портфолио — рабочее пространство",
+      "lang": "ru",
+      "mainCount": 1,
+      "navCount": 2,
+      "headings": [
+        "Работы, которыми\nхочется поделиться."
+      ],
+      "visibleControlCount": 13,
+      "controlsWithoutDetectedName": [],
+      "visibleImagesWithoutAlt": []
+    },
+    {
+      "route": "settings",
+      "title": "Портфолио — рабочее пространство",
+      "lang": "ru",
+      "mainCount": 1,
+      "navCount": 2,
+      "headings": [
+        "Настройки и данные"
+      ],
+      "visibleControlCount": 23,
+      "controlsWithoutDetectedName": [],
+      "visibleImagesWithoutAlt": []
+    }
+  ],
+  "keyboard": {
+    "first_tab": {
+      "className": "skip-link",
+      "text": "Перейти к содержимому",
+      "href": "#main-content"
+    },
+    "skip_target_active": true,
+    "escape_closed_dialog": true,
+    "focus_returned_to_actual_trigger": true
+  },
+  "project_form": {
+    "role": "dialog",
+    "labelledby": "project-dialog-title",
+    "title": "Новый проект",
+    "initialFocusId": "project-form-step-title",
+    "visibleControlCount": 7,
+    "controlsWithoutDetectedName": []
+  },
+  "browser_errors": [],
+  "http_status": 200,
+  "checks": {
+    "http_200": true,
+    "skip_link_is_first_tab_stop": true,
+    "skip_link_moves_focus_to_main": true,
+    "all_four_routes_have_no_controls_without_detected_name": true,
+    "all_four_routes_have_no_visible_images_without_alt": true,
+    "project_dialog_has_accessible_title": true,
+    "project_form_controls_have_detected_names": true,
+    "escape_closes_dialog": true,
+    "focus_returns_to_actual_trigger": true,
+    "browser_errors_zero": true
+  },
+  "all_checks_passed": true
+}

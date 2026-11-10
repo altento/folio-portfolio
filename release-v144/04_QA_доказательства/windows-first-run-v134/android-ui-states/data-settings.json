@@ -1,0 +1,211 @@
+{
+  "clickable_nodes": 23,
+  "unnamed_clickable_nodes": 4,
+  "controls": [
+    {
+      "text": "",
+      "content_description": "Перейти к содержимому",
+      "bounds": "[28,136][522,136]"
+    },
+    {
+      "text": "folio",
+      "content_description": "",
+      "bounds": "[42,151][262,269]"
+    },
+    {
+      "text": "Переключить тему",
+      "content_description": "",
+      "bounds": "[924,151][1042,269]"
+    },
+    {
+      "text": "Даниил Головин",
+      "content_description": "",
+      "bounds": "[89,1267][992,1390]"
+    },
+    {
+      "text": "Веб-разработчик",
+      "content_description": "",
+      "bounds": "[89,1485][992,1608]"
+    },
+    {
+      "text": "",
+      "content_description": "",
+      "bounds": "[89,1703][992,2010]"
+    },
+    {
+      "text": "",
+      "content_description": "",
+      "bounds": "[89,2162][992,2285]"
+    },
+    {
+      "text": "Показывать email в портфолио",
+      "content_description": "",
+      "bounds": "[123,2339][173,2339]"
+    },
+    {
+      "text": "",
+      "content_description": "",
+      "bounds": "[89,2339][992,2339]"
+    },
+    {
+      "text": "Показывать личный сайт в портфолио",
+      "content_description": "",
+      "bounds": "[123,2339][173,2339]"
+    },
+    {
+      "text": "",
+      "content_description": "",
+      "bounds": "[89,2339][992,2339]"
+    },
+    {
+      "text": "Показывать GitHub в портфолио",
+      "content_description": "",
+      "bounds": "[123,2339][173,2339]"
+    },
+    {
+      "text": "Сохранить профиль",
+      "content_description": "",
+      "bounds": "[89,2339][992,2339]"
+    },
+    {
+      "text": "↓ Скачать резервную копию",
+      "content_description": "",
+      "bounds": "[89,2339][992,2339]"
+    },
+    {
+      "text": "↑ Импортировать JSON",
+      "content_description": "",
+      "bounds": "[89,2339][992,2339]"
+    },
+    {
+      "text": "Экспорт CSV",
+      "content_description": "",
+      "bounds": "[89,2339][992,2339]"
+    },
+    {
+      "text": "Попросить защиту от автоочистки",
+      "content_description": "",
+      "bounds": "[123,2339][958,2339]"
+    },
+    {
+      "text": "Удалить все проекты",
+      "content_description": "",
+      "bounds": "[89,2339][496,2339]"
+    },
+    {
+      "text": "Обзор",
+      "content_description": "",
+      "bounds": "[21,2183][231,2339]"
+    },
+    {
+      "text": "Проекты",
+      "content_description": "",
+      "bounds": "[228,2183][438,2339]"
+    },
+    {
+      "text": "Добавить проект",
+      "content_description": "",
+      "bounds": "[483,2201][601,2322]"
+    },
+    {
+      "text": "Витрина",
+      "content_description": "",
+      "bounds": "[643,2183][853,2339]"
+    },
+    {
+      "text": "Данные",
+      "content_description": "",
+      "bounds": "[850,2183][1063,2339]"
+    }
+  ],
+  "unnamed": [
+    {
+      "NAF": "true",
+      "index": "1",
+      "text": "",
+      "resource-id": "",
+      "class": "android.widget.EditText",
+      "package": "ru.folio.portfolio",
+      "content-desc": "",
+      "checkable": "false",
+      "checked": "false",
+      "clickable": "true",
+      "enabled": "true",
+      "focusable": "true",
+      "focused": "false",
+      "scrollable": "false",
+      "long-clickable": "false",
+      "password": "false",
+      "selected": "false",
+      "bounds": "[89,1703][992,2010]",
+      "drawing-order": "0",
+      "hint": "Вступление До 800 символов. Текст появится во вступлении витрины."
+    },
+    {
+      "NAF": "true",
+      "index": "1",
+      "text": "",
+      "resource-id": "",
+      "class": "android.widget.EditText",
+      "package": "ru.folio.portfolio",
+      "content-desc": "",
+      "checkable": "false",
+      "checked": "false",
+      "clickable": "true",
+      "enabled": "true",
+      "focusable": "true",
+      "focused": "false",
+      "scrollable": "false",
+      "long-clickable": "false",
+      "password": "false",
+      "selected": "false",
+      "bounds": "[89,2162][992,2285]",
+      "drawing-order": "0",
+      "hint": "Email"
+    },
+    {
+      "NAF": "true",
+      "index": "1",
+      "text": "",
+      "resource-id": "",
+      "class": "android.widget.EditText",
+      "package": "ru.folio.portfolio",
+      "content-desc": "",
+      "checkable": "false",
+      "checked": "false",
+      "clickable": "true",
+      "enabled": "true",
+      "focusable": "true",
+      "focused": "false",
+      "scrollable": "false",
+      "long-clickable": "false",
+      "password": "false",
+      "selected": "false",
+      "bounds": "[89,2339][992,2339]",
+      "drawing-order": "0",
+      "hint": "Личный сайт"
+    },
+    {
+      "NAF": "true",
+      "index": "1",
+      "text": "",
+      "resource-id": "",
+      "class": "android.widget.EditText",
+      "package": "ru.folio.portfolio",
+      "content-desc": "",
+      "checkable": "false",
+      "checked": "false",
+      "clickable": "true",
+      "enabled": "true",
+      "focusable": "true",
+      "focused": "false",
+      "scrollable": "false",
+      "long-clickable": "false",
+      "password": "false",
+      "selected": "false",
+      "bounds": "[89,2339][992,2339]",
+      "drawing-order": "0",
+      "hint": "GitHub"
+    }
+  ]
+}

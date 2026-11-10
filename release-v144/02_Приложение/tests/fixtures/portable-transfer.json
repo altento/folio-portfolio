@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "title": "Портфолио для переноса",
+  "next_id": 8,
+  "developer": {
+    "full_name": "Тестовый автор",
+    "specialization": "Веб-разработчик",
+    "introduction": "Учебный профиль",
+    "email": "author@example.test",
+    "website_url": "",
+    "github_url": "",
+    "include_email": false,
+    "include_website": false,
+    "include_github": false
+  },
+  "projects": [
+    {
+      "id": 7,
+      "sort_order": 3,
+      "type": "Сайт / лендинг",
+      "title": "Кейс для проверки переноса",
+      "description": "Проверка общего формата настольной и веб-версии.",
+      "created_at": "2026-10-24",
+      "status": "Завершён",
+      "technologies": [
+        {
+          "name": "HTML",
+          "category": "Frontend",
+          "version": "5"
+        },
+        {
+          "name": "CSS",
+          "category": "Frontend",
+          "version": "3"
+        }
+      ],
+      "demo_url": "https://example.org/demo",
+      "role": "Дизайн и разработка",
+      "outcome": "Адаптивная витрина проекта",
+      "context": "Проверить содержимое кейса при переносе между устройствами.",
+      "solution": "Сохранить подробности, визуалы и настройки сортировки.",
+      "process": "Проектирование, сборка, проверка на телефоне.",
+      "metrics": "2 представления · 1 перенос",
+      "tags": [
+        "перенос",
+        "проверка"
+      ],
+      "featured": true,
+      "cover_image": "",
+      "cover_image_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4z8DwHwAFAAH/iZk9HQAAAABJRU5ErkJggg==",
+      "cover_position": "35% 65%",
+      "gallery_images": [
+        {
+          "image_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR4nGP4z8DwHwAFAAH/iZk9HQAAAABJRU5ErkJggg==",
+          "alt": "Миниатюра кейса",
+          "position": "50% 50%"
+        }
+      ],
+      "page_count": 4,
+      "cover_position_mobile": "12% 80%"
+    }
+  ]
+}

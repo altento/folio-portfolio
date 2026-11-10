@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-09",
+  "avd": "FolioQA_API36",
+  "device": "emulator-5554",
+  "api_level": 36,
+  "package_id": "ru.folio.portfolio",
+  "version_name": "0.3.19",
+  "version_code": 31,
+  "target_sdk": 36,
+  "previous_version": "0.3.18",
+  "install_method": "adb install -r; no uninstall or data clear",
+  "update_notice_seen": true,
+  "restart_applied_update": true,
+  "dashboard_open_after_update": true,
+  "demo_project_count": 3,
+  "uiautomator": {
+    "node_count": 107,
+    "named_clickable_count": 18,
+    "unnamed_clickable_count": 0
+  },
+  "apk_sha256": "264ecb00d0fc17bc9eaf3c2e56cb45b10760370138b5deaa13218c00c5e7fa52",
+  "physical_phone_checked": false,
+  "talkback_audio_or_gestures_checked": false,
+  "google_play_release": false,
+  "evidence": [
+    "first-launch.png",
+    "after-update.png",
+    "window.xml",
+    "window-after-update.xml"
+  ]
+}

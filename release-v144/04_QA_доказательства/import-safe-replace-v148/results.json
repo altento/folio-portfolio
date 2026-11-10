@@ -1,0 +1,23 @@
+{
+  "build": "Web/PWA v148 safe-replace regression",
+  "date": "2026-11-06",
+  "environment": "Isolated Playwright Chromium context; local source at 127.0.0.1:41950",
+  "input": {"file": "folio-v148-synthetic.json", "project_count": 1, "title": "QA synthetic transfer case"},
+  "initial_portfolio": {"project_count": 3, "storage": "IndexedDB folio-workspace / portfolio"},
+  "cancelled_backup": {
+    "picker_result": "AbortError",
+    "replacement_cancelled": true,
+    "project_count_after_cancel": 3,
+    "titles_after_cancel": ["Портфолио веб-разработчика", "CRM для клининговой компании", "Карта городских дворов"]
+  },
+  "successful_backup": {
+    "fake_file_name": "folio-before-import.json",
+    "writer_closed_before_indexeddb_put": true,
+    "backup_project_count": 3,
+    "project_count_after_replace": 1,
+    "stored_title": "QA synthetic transfer case",
+    "reload_persistence": true
+  },
+  "screenshots": ["01-preview.png", "02-cancelled.png", "03-replaced.png", "04-persisted-after-reload.png"],
+  "native_os_file_picker": "Not exercised; the File System Access API was stubbed in the isolated browser context."
+}

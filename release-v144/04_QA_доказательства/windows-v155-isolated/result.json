@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-07",
+  "build": "Windows WebView2 v155 onedir",
+  "binary": "dist/folio-webview-v155/folio-desktop/folio-desktop.exe",
+  "binary_sha256": "E4498C77E7C989047DFE287A8E29CD50FE7AFA0A8340D933C3E87F90105F85A2",
+  "profile": "fresh isolated temporary profile; user profile and database not accessed",
+  "loopback_port": 41765,
+  "checks": {
+    "native_webview2_window_launched": true,
+    "dashboard_rendered": true,
+    "seed_demo_projects": 3,
+    "project_catalog_rendered": true,
+    "crm_search_matches": 1,
+    "demo_reset_restored_projects": 3,
+    "settings_and_data_rendered": true,
+    "dashboard_revisited": true,
+    "backup_controls_rendered_without_invoking_data_operations": true,
+    "user_profile_or_database_touched": false
+  },
+  "evidence": [
+    {"file": "v155-dashboard.jpg", "sha256": "4F5AB6305EE43802BB57730885D6FCE0D89578E2269252BC46BAC0A6B8B8FB25"},
+    {"file": "v155-catalog-reset.jpg", "sha256": "8F6FF782926BCB9505D93BEB80EFF29F54CBB11FA6D74A874F706B39ED7B50BE"},
+    {"file": "v155-settings.jpg", "sha256": "B9C4AA9F784510CCE02B95122C54484EE1581D064FA0D608742E5D104222C67D"}
+  ],
+  "not_covered": [
+    "full CRUD workflow on v155",
+    "native file picker and JSON transfer on v155; separately checked on v154",
+    "Narrator speech and gestures",
+    "Windows Magnifier or system zoom",
+    "physical Android-device acceptance"
+  ]
+}

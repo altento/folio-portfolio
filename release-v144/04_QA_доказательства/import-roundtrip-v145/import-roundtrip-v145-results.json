@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-05",
+  "build": "folio-shell-v145-mobile-import-actions",
+  "isolatedContext": true,
+  "httpStatus": 200,
+  "merge": {
+    "initialDemoRecords": 3,
+    "resultingRecords": 4,
+    "importedProjectSearchHits": 1,
+    "passed": true
+  },
+  "fullReplacement": {
+    "preReplaceBackupDownloaded": true,
+    "preReplaceBackupProjectCount": 4,
+    "backupContainsMergedCase": true,
+    "resultingRecords": 1,
+    "replacementApplied": true,
+    "temporaryBackupRemoved": true,
+    "passed": true
+  },
+  "runtimeErrors": [],
+  "userDataChanged": false,
+  "passed": true
+}

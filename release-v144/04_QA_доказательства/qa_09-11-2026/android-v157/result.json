@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-09",
+  "device": "device",
+  "old_version_name": "versionName=0.3.19",
+  "old_version_code": "versionCode=31 minSdk=24 targetSdk=36",
+  "install_output": "Performing Streamed Install\nSuccess",
+  "launch_output": "bash arg: -p\n  bash arg: ru.folio.portfolio\n  bash arg: 1\nEvents injected: 1\n## Network stats: elapsed time=43ms (0ms mobile, 0ms wifi, 43ms not connected)",
+  "new_version_name": "0.3.20",
+  "new_version_code": "32 minSdk=24 targetSdk=36",
+  "apk_sha256": "e08abcbe9947b46ea2da44f9fbfb1b1da3335b7db7577247dfc50cddd87fc9ff",
+  "phone_zip_sha256": "cfa6233d4ce7c994594f6ba560c9324be6f4cc410cca2b8882f3c34ed2dc2839",
+  "apk_bytes": 6049780,
+  "uiautomator_output": "UI hierchary dumped to: /sdcard/window-v157.xml",
+  "first_screenshot": "first-launch.png",
+  "first_screenshot_sha256": "ed1e126967736e776cd337fe1530547fd2b5234c4d3c488325df2cca52d9a18b",
+  "first_window_xml": "window.xml",
+  "first_window_xml_sha256": "f4c6378103a32a55dc63f0bd9691059baa14ab791536bc605d8449b67762986b",
+  "after_update_screenshot": "after-update.png",
+  "after_update_screenshot_sha256": "9d0f0da2d5f4a792d1f9bcb92f773a6e980492898094520eb8082c0a166cef5f",
+  "after_update_window_xml": "window-after-update.xml",
+  "after_update_window_xml_sha256": "600475263984ddb0f381098f84bc88bec053e2e659afc92acc6c2978511b0f30",
+  "uiautomator_after_update": {
+    "nodes": 107,
+    "clickable_named": 18,
+    "clickable_unnamed": 0
+  },
+  "result": "PASS: the first launch showed the update notice; after restart it disappeared and the dashboard with demo projects loaded.",
+  "scope_limitations": [
+    "Tested on an Android API 36 emulator, not a physical phone.",
+    "TalkBack speech and gesture operation were not evaluated.",
+    "OEM file picker behavior was not evaluated."
+  ]
+}

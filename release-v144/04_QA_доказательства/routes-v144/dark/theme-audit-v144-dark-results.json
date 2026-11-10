@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-05",
+  "build": "packaged Windows WebView2 v144; dark palette",
+  "axe": "4.14.0",
+  "states": {
+    "desktop-dashboard": {
+      "theme": "dark",
+      "title": "Ваши проекты,\nсобранные\nв одном месте.",
+      "viewport": 1440,
+      "scroll": 1440,
+      "body": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "desktop-projects": {
+      "theme": "dark",
+      "title": "Все проекты",
+      "viewport": 1440,
+      "scroll": 1440,
+      "body": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "desktop-showcase": {
+      "theme": "dark",
+      "title": "Работы, которыми\nхочется поделиться.",
+      "viewport": 1440,
+      "scroll": 1440,
+      "body": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "desktop-settings": {
+      "theme": "dark",
+      "title": "Настройки и данные",
+      "viewport": 1440,
+      "scroll": 1440,
+      "body": 1440,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "phone-390-dashboard": {
+      "theme": "dark",
+      "title": "Ваши проекты, собранные в одном месте.",
+      "viewport": 390,
+      "scroll": 390,
+      "body": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "phone-390-projects": {
+      "theme": "dark",
+      "title": "Все проекты",
+      "viewport": 390,
+      "scroll": 390,
+      "body": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "phone-390-showcase": {
+      "theme": "dark",
+      "title": "Работы, которыми\nхочется поделиться.",
+      "viewport": 390,
+      "scroll": 390,
+      "body": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "phone-390-settings": {
+      "theme": "dark",
+      "title": "Настройки и данные",
+      "viewport": 390,
+      "scroll": 390,
+      "body": 390,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "phone-320-dashboard": {
+      "theme": "dark",
+      "title": "Ваши проекты, собранные в одном месте.",
+      "viewport": 320,
+      "scroll": 320,
+      "body": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "phone-320-projects": {
+      "theme": "dark",
+      "title": "Все проекты",
+      "viewport": 320,
+      "scroll": 320,
+      "body": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "phone-320-showcase": {
+      "theme": "dark",
+      "title": "Работы, которыми\nхочется поделиться.",
+      "viewport": 320,
+      "scroll": 320,
+      "body": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    },
+    "phone-320-settings": {
+      "theme": "dark",
+      "title": "Настройки и данные",
+      "viewport": 320,
+      "scroll": 320,
+      "body": 320,
+      "violations": [],
+      "incomplete": [
+        "aria-allowed-role",
+        "color-contrast",
+        "label-content-name-mismatch"
+      ],
+      "failedImages": [],
+      "labelMatches": true
+    }
+  },
+  "summary": {
+    "count": 12,
+    "allDark": true,
+    "allHeadings": true,
+    "allLayoutsFit": true,
+    "allAxeClean": true,
+    "allImagesLoaded": true,
+    "noRuntimeErrors": true
+  },
+  "errors": [],
+  "badResponses": [],
+  "imageErrors": [],
+  "passed": true
+}

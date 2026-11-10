@@ -1,0 +1,145 @@
+{
+  "url": "https://altento.github.io/folio-portfolio/",
+  "date": "2026-11-05",
+  "checks": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "view": "dashboard",
+      "images_total": 4,
+      "images_decoded": 4,
+      "images_broken": [],
+      "hash": "",
+      "document": [
+        1440,
+        2314
+      ],
+      "mainText": "ЛИЧНОЕ ПРОСТРАНСТВО\nВаши проекты,\nсобранные\nв одном месте.\n\nИдеи, процесс и результат — в живой коллекции ваших работ.\n\n＋\nСоздать проект\nОткрыть коллекцию\n↗\nFOLIO  /  01\nИДЕЯ · РАЗ",
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "view": "projects",
+      "images_total": 3,
+      "images_decoded": 3,
+      "images_broken": [],
+      "hash": "",
+      "document": [
+        1440,
+        901
+      ],
+      "mainText": "КАТАЛОГ РАБОТ\nВсе проекты\n\nИщите, сортируйте и управляйте своим портфолио.\n\n＋ Новый проект\nCtrl/⌘ K\nВсе типы\nСайт / лендинг\nВеб-приложение\nВсе статусы\nВ разработке\nЗавершён\nОпублик",
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "view": "showcase",
+      "images_total": 1,
+      "images_decoded": 1,
+      "images_broken": [],
+      "hash": "",
+      "document": [
+        1440,
+        1015
+      ],
+      "mainText": "ПРЕДПРОСМОТР ВИТРИНЫ\nРаботы, которыми\nхочется поделиться.\n\nПроверьте избранные кейсы и автономную страницу перед скачиванием.\n\nЭкспорт Markdown\nПредпросмотр HTML\n↓ Скачать готовую ",
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "view": "settings",
+      "images_total": 0,
+      "images_decoded": 0,
+      "images_broken": [],
+      "hash": "",
+      "document": [
+        1440,
+        1482
+      ],
+      "mainText": "ПРОСТРАНСТВО\nНастройки и данные\n\nВаши проекты сохранены только в этом браузере.\n\nЛокально на этом устройстве\nПРОФИЛЬ\nКак вас представить?\n\nДобавьте короткое вступление и выберите к",
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "view": "dashboard",
+      "images_total": 4,
+      "images_decoded": 4,
+      "images_broken": [],
+      "hash": "",
+      "document": [
+        390,
+        3285
+      ],
+      "mainText": "ЛИЧНОЕ ПРОСТРАНСТВО\nВаши проекты, собранные в одном месте.\n\nИдеи, процесс и результат — в живой коллекции ваших работ.\n\n＋\nСоздать проект\nОткрыть коллекцию\n↗\nFOLIO  /  01\nИДЕЯ · РАЗ",
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "view": "projects",
+      "images_total": 3,
+      "images_decoded": 3,
+      "images_broken": [],
+      "hash": "",
+      "document": [
+        390,
+        1948
+      ],
+      "mainText": "КАТАЛОГ РАБОТ\nВсе проекты\n\nИщите, сортируйте и управляйте своим портфолио.\n\n＋ Новый проект\nCtrl/⌘ K\nФильтры\nТип · статус · тег · порядок\nМои подборки\n0/12 сохранено\n3 проекта\nВыбра",
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "view": "showcase",
+      "images_total": 1,
+      "images_decoded": 1,
+      "images_broken": [],
+      "hash": "",
+      "document": [
+        390,
+        1304
+      ],
+      "mainText": "ПРЕДПРОСМОТР ВИТРИНЫ\nРаботы, которыми\nхочется поделиться.\n\nПроверьте избранные кейсы и автономную страницу перед скачиванием.\n\nЭкспорт Markdown\nПредпросмотр HTML\n↓ Скачать готовую ",
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "view": "settings",
+      "images_total": 0,
+      "images_decoded": 0,
+      "images_broken": [],
+      "hash": "",
+      "document": [
+        390,
+        2852
+      ],
+      "mainText": "ПРОСТРАНСТВО\nНастройки и данные\n\nВаши проекты сохранены только в этом браузере.\n\nЛокально на этом устройстве\nПРОФИЛЬ\nКак вас представить?\n\nДобавьте короткое вступление и выберите к",
+      "horizontalOverflow": false
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "http_status": 200
+}

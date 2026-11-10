@@ -1,0 +1,12 @@
+{
+  "appVersion": "0.3.6 / versionCode 18",
+  "apkSha256": "bdb428d9a4027599889be5739b9701fc9465d457c6dff218299f35e0dfe88f37",
+  "wifiBefore": 1,
+  "dataBefore": 1,
+  "wifiOff": true,
+  "dataOff": true,
+  "appForeground": true,
+  "wifiRestored": true,
+  "dataRestored": true,
+  "screenshot": "android-offline-v143.png"
+}

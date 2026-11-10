@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-11-07T20:42:27.802617+00:00",
+  "emulator": "emulator-5554",
+  "app_package": "ru.folio.portfolio",
+  "installed_before": {
+    "version_code": 28,
+    "version_name": "0.3.16"
+  },
+  "install_command": "adb install -r (no uninstall, clear-data, or wipe-data)",
+  "install_output": "Performing Streamed Install\r\nSuccess",
+  "installed_after": {
+    "version_code": 28,
+    "version_name": "0.3.16"
+  },
+  "install_mode": "upgrade over existing app",
+  "embedded_v153_assets": true,
+  "launch_output": "Starting: Intent { cmp=ru.folio.portfolio/.MainActivity }",
+  "app_process_running": true,
+  "dashboard_title_before_update_in_accessibility_tree": true,
+  "update_notice_visible_before_reload": false,
+  "update_reload_button_bounds": null,
+  "update_notice_cleared_after_reload": true,
+  "dashboard_title_after_reload_in_accessibility_tree": true,
+  "named_clickable_controls": 18,
+  "unnamed_clickable_controls": 0,
+  "uiautomator_dump_result": "UI hierchary dumped to: /sdcard/folio-v153-window.xml",
+  "screenshots": [
+    {
+      "file": "android-v153-dashboard-after-update.png",
+      "width": 1080,
+      "height": 2400,
+      "sha256": "172291d62d0e282c94afaae97256953fa9910f952b510a82e501bc47ca729e4a"
+    }
+  ],
+  "data_scope": "dedicated FolioQA_API36 emulator; no physical phone or user browser profile used",
+  "limits": [
+    "This verifies emulator install and launch, not physical-device compatibility or TalkBack speech and gesture acceptance."
+  ]
+}

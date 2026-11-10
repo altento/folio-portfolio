@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-05",
+  "build": "Android debug 0.3.4",
+  "version_code": 16,
+  "device": "Android Emulator AVD API 36 emulator-5554",
+  "talkback_enabled_during_tree_capture": true,
+  "talkback_restored_after_capture": true,
+  "restored_accessibility_enabled": "0",
+  "restored_accessibility_services": null,
+  "states": {
+    "overview": {
+      "node_count": 107,
+      "clickable_count": 18,
+      "unnamed_clickable_count": 0,
+      "unnamed_clickables": []
+    },
+    "project_form_step_1": {
+      "node_count": 38,
+      "clickable_count": 7,
+      "unnamed_clickable_count": 0,
+      "unnamed_clickables": []
+    }
+  },
+  "main_landmark": [
+    {
+      "index": "2",
+      "text": "",
+      "resource-id": "main-content",
+      "class": "android.view.View",
+      "package": "ru.folio.portfolio",
+      "content-desc": "",
+      "checkable": "false",
+      "checked": "false",
+      "clickable": "false",
+      "enabled": "true",
+      "focusable": "true",
+      "focused": "false",
+      "scrollable": "false",
+      "long-clickable": "false",
+      "password": "false",
+      "selected": "false",
+      "bounds": "[0,285][1080,2339]",
+      "drawing-order": "0",
+      "hint": ""
+    }
+  ],
+  "result": "PASS",
+  "limitations": [
+    "Static UIAutomator accessibility tree only; speech, gesture navigation, physical phone, system magnification, and user acceptance were not tested."
+  ]
+}

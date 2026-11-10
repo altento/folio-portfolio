@@ -1,0 +1,17 @@
+{
+  "build": "Windows WebView2 QA host from v148 source and web assets",
+  "date": "2026-11-06",
+  "window_title": "folio — личное портфолио",
+  "executable": "dist/folio-webview-v148-qa/folio-webview-v148-qa/folio-webview-v148-qa.exe",
+  "profile": "C:\\Users\\Windows-10\\AppData\\Local\\Temp\\folio-v148-desktop-qa-profile",
+  "port": 41948,
+  "user_profile_opened": false,
+  "states_checked": {
+    "dashboard": {"projects": 3, "accessibility_tree": true},
+    "project_catalog": {"project_count": 3, "search_controls": true},
+    "project_detail": {"context": true, "solution": true, "process": true, "role": true, "outcome": true}
+  },
+  "window_size_px": [1426, 933],
+  "screenshots": ["windows-v148-dashboard.png", "windows-v148-projects.png", "windows-v148-project-detail.png"],
+  "scope_note": "QA-specific packaged host built from the same v148 desktop host source and web assets, using an isolated Temp profile. The shipped release EXE itself was not launched because its default profile targets the user's existing Folio SQLite data. Android v148 runtime remains unverified."
+}

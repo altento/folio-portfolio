@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-06",
+  "release": "Web/PWA v150 served from the current project root on a local-only loopback server",
+  "browser_context": "New isolated Playwright context: folio-current-audit",
+  "profile": "Seeded demonstration records only; project data was not edited or imported",
+  "viewports": {
+    "390x844": {
+      "routes": [
+        {
+          "route": "dashboard",
+          "heading": "Ваши проекты, собранные в одном месте.",
+          "horizontal_overflow": false
+        },
+        {
+          "route": "projects",
+          "heading": "Все проекты",
+          "horizontal_overflow": false
+        },
+        {
+          "route": "showcase",
+          "heading": "Работы, которыми хочется поделиться.",
+          "horizontal_overflow": false
+        },
+        {
+          "route": "settings",
+          "heading": "Настройки и данные",
+          "horizontal_overflow": false
+        }
+      ],
+      "layout_client_width_px": 375,
+      "document_scroll_width_px": 375,
+      "broken_images": 0,
+      "open_dialogs": 0,
+      "console_errors": 0
+    },
+    "320x568": {
+      "routes": [
+        {
+          "route": "dashboard",
+          "heading": "Ваши проекты, собранные в одном месте.",
+          "horizontal_overflow": false
+        },
+        {
+          "route": "projects",
+          "heading": "Все проекты",
+          "horizontal_overflow": false
+        },
+        {
+          "route": "showcase",
+          "heading": "Работы, которыми хочется поделиться.",
+          "horizontal_overflow": false
+        },
+        {
+          "route": "settings",
+          "heading": "Настройки и данные",
+          "horizontal_overflow": false
+        }
+      ],
+      "layout_client_width_px": 305,
+      "document_scroll_width_px": 305,
+      "open_dialogs": 0,
+      "console_errors": 0,
+      "notes": "Small visible inputs are native checkboxes inside labeled rows; hidden file inputs are 1x1 CSS-pixel by design. Their label target dimensions were not audited in this pass."
+    }
+  },
+  "visual_screenshot": "Not captured in this pass; previous product screenshots remain in the package. This record reports browser DOM/layout evidence only.",
+  "limitations": "Not a physical device, zoom, touch hardware, screen reader or manual visual acceptance test.",
+  "interactive_name_review": {
+    "method": "Read-only DOM inspection of visible interactive elements using explicit label, aria-label, title, text or placeholder metadata; heuristic only, not a screen-reader test",
+    "routes": {
+      "dashboard": {
+        "elements_seen": 19,
+        "user_facing_unnamed_found": 0
+      },
+      "projects": {
+        "elements_seen": 28,
+        "user_facing_unnamed_found": 0
+      },
+      "showcase": {
+        "elements_seen": 14,
+        "user_facing_unnamed_found": 0
+      },
+      "settings": {
+        "elements_seen": 24,
+        "user_facing_unnamed_found": 0
+      }
+    },
+    "excluded_element": "One 1x1 CSS-pixel file input is aria-hidden and tabindex=-1; visible import actions are separate named buttons."
+  }
+}

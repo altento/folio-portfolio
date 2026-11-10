@@ -1,0 +1,4 @@
+# Shared Windows desktop shell for the responsive local-first web application.
+pywebview==6.2.1
+Pillow>=10.0
+PyInstaller==6.22.3

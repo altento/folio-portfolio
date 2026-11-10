@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-06",
+  "artifact": "Android debug 0.3.11, versionCode 23 (v148)",
+  "host": {
+    "cpu": "12th Gen Intel Core i5-12400F",
+    "architecture": "x86_64",
+    "virtualizationFirmwareEnabled": false,
+    "adbDevices": []
+  },
+  "emulator": "37.2.13.0",
+  "attempts": [
+    {
+      "image": "android-36;google_apis;x86_64",
+      "options": ["-accel off", "-gpu swiftshader_indirect", "-no-snapshot"],
+      "result": "process exited before ADB device registration",
+      "exitCodeDecimal": -1073741819,
+      "exitCodeHex": "0xC0000005",
+      "note": "x86_64 software-emulation warning; no runtime proof"
+    },
+    {
+      "image": "android-36;google_apis;arm64-v8a",
+      "result": "rejected before boot",
+      "message": "ARM64 QEMU2 image is unsupported on x86_64 host"
+    }
+  ],
+  "apkInstalled": false,
+  "appLaunched": false,
+  "screenshot": null,
+  "userDataTouched": false,
+  "nextAction": "Run v148 on a physical Android phone or enable firmware virtualization and retry the x86_64 AVD."
+}

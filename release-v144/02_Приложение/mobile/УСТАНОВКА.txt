@@ -1,0 +1,9 @@
+Установка folio на Android
+
+1. Распакуйте архив на телефоне.
+2. Откройте folio-android-debug.apk и подтвердите установку из выбранного источника, если Android спросит.
+3. Запустите «folio». Данные остаются на устройстве; для переноса используйте экспорт/импорт JSON.
+
+Сборка: Web/PWA v161, Windows WebView2 v164 и Android 0.3.24 (versionCode 36). Web regression: 85/85; Android использует те же Web/PWA ресурсы v161. Service Worker cache: `folio-shell-v161-accessible-vector-controls`. Android Auto Backup отключён, пользовательские хранилища исключены из cloud backup/device transfer.
+Физический телефон, аудиопроверка TalkBack/TTS, системное увеличение и поведение private mode не проверялись. Это debug APK для проверки, не для Google Play; для магазина нужна отдельная release-подпись.
+SHA-256 APK указан в SHA256.txt.

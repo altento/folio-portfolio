@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-05",
+  "build": "packaged Windows WebView2 v142; isolated profile",
+  "fixture": "Synthetic empty schema_version 1 JSON, preview only; no import action invoked",
+  "initial": {
+    "activeId": "",
+    "activeText": "Отмена",
+    "inside": true,
+    "open": true
+  },
+  "tabTrace": [
+    {
+      "id": "import-keep",
+      "inside": true,
+      "text": "Добавить в портфолио"
+    },
+    {
+      "id": "import-replace",
+      "inside": true,
+      "text": "Заменить портфолио целиком"
+    },
+    {
+      "id": "",
+      "inside": true,
+      "text": "Отмена"
+    },
+    {
+      "id": "import-keep",
+      "inside": true,
+      "text": "Добавить в портфолио"
+    },
+    {
+      "id": "",
+      "inside": true,
+      "text": "Отмена"
+    }
+  ],
+  "afterEscape": {
+    "activeId": "",
+    "activeAction": "import-json",
+    "activeText": "↑ Импортировать JSON",
+    "dialogOpen": false
+  },
+  "errors": [],
+  "passed": true
+}

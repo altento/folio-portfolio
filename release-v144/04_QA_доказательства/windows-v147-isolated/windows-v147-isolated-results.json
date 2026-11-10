@@ -1,0 +1,12 @@
+{
+  "build": "Windows WebView2 v147 onedir",
+  "executable": "dist/folio-webview-v147/folio-desktop/folio-desktop.exe",
+  "profile": "C:\\Users\\WINDOW~1\\AppData\\Local\\Temp\\folio-v147-desktop-qa-profile",
+  "port": 41947,
+  "window": "folio — личное портфолио",
+  "screenshot": "windows-v147-isolated-home.png",
+  "screenshot_size": "1426x933",
+  "dashboard_projects": 3,
+  "data_scope": "isolated Temp profile; user profile and user database not opened",
+  "result": "native packaged window opened; dashboard and accessibility tree show 3 demo projects"
+}

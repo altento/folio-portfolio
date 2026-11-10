@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-05",
+  "build": "Windows WebView2 v141",
+  "window": "folio — личное портфолио",
+  "window_size_px": [
+    1426,
+    925
+  ],
+  "profile": "isolated temporary QA profile",
+  "port": 41942,
+  "user_data_touched": false,
+  "ui_automation_tree": {
+    "web_document_present": true,
+    "skip_link_named": "Перейти к содержимому",
+    "main_landmark_present": true,
+    "navigation_controls_named": [
+      "Обзор",
+      "Мои проекты",
+      "Витрина",
+      "Настройки и данные"
+    ],
+    "search_field_name": "Поиск проектов",
+    "search_field_description": "Название, технология, тег, роль…"
+  },
+  "keyboard_flow": {
+    "skip_link_reached_with_tab": true,
+    "navigation_reached_with_tab": true,
+    "projects_opened_with_enter": true,
+    "page_heading_received_focus": true,
+    "new_project_action_reached_with_tab": true,
+    "search_field_reached_with_tab": true,
+    "synthetic_query_input": "folio-v141-keyboard-check",
+    "synthetic_query_showed_zero_results": true,
+    "ctrl_a_backspace_cleared_query": true,
+    "three_demo_projects_restored": true
+  },
+  "dialog_flow": {
+    "project_dialog_opened": true,
+    "tab_focus_visible_on_close_control": true,
+    "tab_focus_visible_on_case_structure_control": true,
+    "tab_focus_visible_on_project_type": true,
+    "escape_closed_dialog": true,
+    "focus_returned_to_new_project_button": true,
+    "form_submitted": false
+  },
+  "result": "PASS",
+  "scope_note": "Native WebView2 UI Automation tree and visual focus were inspected. This does not claim Windows Narrator speech testing."
+}

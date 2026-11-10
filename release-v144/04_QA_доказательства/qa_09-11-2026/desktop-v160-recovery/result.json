@@ -1,0 +1,22 @@
+{
+  "scope": "Fresh isolated Chrome context loading the exact Windows v160 loopback recovery endpoint with a minimal pywebview bridge stub; no native WebView2 storage or user browser profile was used.",
+  "url": "http://127.0.0.1:41800/?folio-desktop=1#projects",
+  "profile": "C:\\Users\\Windows-10\\AppData\\Local\\Temp\\folio-v160-recovery-qa",
+  "syntheticOnly": true,
+  "candidateSnapshotSha256": "0d9afec7817d5e536a5130242a15862641be0c192d329381e72d3c637ad475a1",
+  "candidateProjectCount": 4,
+  "pageStatus": 200,
+  "recoveredProjectCards": 4,
+  "syntheticMarkerVisible": true,
+  "visibleTitles": [
+    "★ ИЗБРАННЫЙ КЕЙС\n01\nСайт / лендинг\nОпубликован\nПортфолио веб-разработчика\nУчебный пример: персональный сайт с проектами и контактами.\nHTML\nCSS\nJavaScript\nпортфолио\nучебный проект\n2026-09-20\nОткрыть кейс ↗",
+    "КЕЙС\n02\nВеб-приложение\nВ разработке\nCRM для клининговой компании\nДемо-запись для проверки карточек, поиска и статусов.\nPython\nFlask\nSQLite\nCRM\nавтоматизация\n2026-09-22\nОткрыть кейс ↗",
+    "КЕЙС\n03\nВеб-приложение\nЗавершён\nКарта городских дворов\nДемо-запись интерактивного проекта с картой.\nJavaScript\nLeaflet.js\nкарта\nгородская среда\n2026-09-25\nОткрыть кейс ↗",
+    "КЕЙС\n9001\nСайт / лендинг\nОпубликован\nQA: восстановленный проект\nСинтетическая запись для проверки локального восстановления.\nHTML\nCSS\nJavaScript\nпортфолио\nучебный проект\n2026-11-10\nОткрыть кейс ↗"
+  ],
+  "pageErrors": [],
+  "screenshot": "recovered-projects-v160-1440x900.png",
+  "screenshotSha256": "07adcbf33a20c2e76fb45321f548ba647284363d12772a9d2371591c8553a8a1",
+  "passed": true,
+  "originalSnapshotRestored": true
+}

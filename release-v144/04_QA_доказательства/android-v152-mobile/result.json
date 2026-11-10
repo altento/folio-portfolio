@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-07",
+  "apk": "Android 0.3.15",
+  "versionCode": 27,
+  "targetSdk": 36,
+  "apk_sha256": "5302cda38bafc804726a988182e6b1a3c8dcdc1b6e40971b2ca99364cf5cd493",
+  "installed_over": "0.3.14 / versionCode 26",
+  "avd": "FolioQA_API36 / emulator-5554",
+  "data_wiped": false,
+  "first_install_time_unchanged": true,
+  "checks": {
+    "update_installed": true,
+    "dashboard_opened": true,
+    "catalog_opened": true,
+    "search_CRM_visible_result_count": 1,
+    "reset_query_cleared": true,
+    "reset_restored_demo_project_count": 3,
+    "cold_start_after_wifi_and_data_disabled": true,
+    "dashboard_loaded_offline": true
+  },
+  "screenshots": [
+    {
+      "file": "android-v152-catalog.png",
+      "sha256": "43cbded46a19232a792cffd4d0b9cf220684f23e0c2f95f5f6b8a931fdb62f57"
+    },
+    {
+      "file": "android-v152-search.png",
+      "sha256": "d0d36136f6900bbadbef83f6fd7ee540f5bf4b3a728ab5c42a530988a61aa307"
+    },
+    {
+      "file": "android-v152-reset.png",
+      "sha256": "d97c2d72a7d07e6662d159a6104187880ed9ddb2269038328c823b4d4cb6bffb"
+    },
+    {
+      "file": "android-v152-offline.png",
+      "sha256": "8f716ccd0ac7b6141ec6a4fe43fdf754bed91434e2dc89b8b9ee6cf495dd2af5"
+    }
+  ]
+}

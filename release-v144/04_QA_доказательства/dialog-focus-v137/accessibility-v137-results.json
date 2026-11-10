@@ -1,0 +1,819 @@
+{
+  "date": "2026-11-05",
+  "build": "Windows WebView2 packaged v137; isolated profile",
+  "httpStatuses": {
+    "desktop": 200,
+    "phone": 200
+  },
+  "viewports": {
+    "desktop": {
+      "width": 1440,
+      "height": 1000
+    },
+    "phone": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "desktop": {
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "×",
+        "aria": "Закрыть",
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "SELECT",
+        "id": "form-type",
+        "text": "Сайт / лендинг\nВеб-приложение",
+        "aria": null,
+        "label": "Тип проекта\nСайт / лендинг\nВеб-приложение",
+        "disabled": false
+      },
+      {
+        "tag": "SELECT",
+        "id": "form-status",
+        "text": "В разработке\nЗавершён\nОпубликован\nАрхив",
+        "aria": null,
+        "label": "Статус\nВ разработке\nЗавершён\nОпубликован\nАрхив",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Название *",
+        "disabled": false
+      },
+      {
+        "tag": "TEXTAREA",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Короткое описание *",
+        "disabled": false
+      },
+      {
+        "tag": "TEXTAREA",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Контекст задачи",
+        "disabled": false
+      },
+      {
+        "tag": "TEXTAREA",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Решение",
+        "disabled": false
+      },
+      {
+        "tag": "TEXTAREA",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Этапы работы",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Дата создания",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Демо-ссылка",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Технологии",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "case-tag-entry",
+        "text": "",
+        "aria": null,
+        "label": "Добавить тег",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "case-tag-add",
+        "text": "Добавить",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Моя роль",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "cover-file",
+        "text": "",
+        "aria": "Выбрать обложку проекта",
+        "label": "Выбрать изображение",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Компьютер",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Телефон",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "cover-crop-x",
+        "text": "",
+        "aria": "Положение кадра обложки по горизонтали, на компьютере",
+        "label": "По горизонтали",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "cover-crop-y",
+        "text": "",
+        "aria": "Положение кадра обложки по вертикали, на компьютере",
+        "label": "По вертикали",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "gallery-files",
+        "text": "",
+        "aria": "Добавить изображения в галерею",
+        "label": "＋ Добавить изображения",
+        "disabled": false
+      },
+      {
+        "tag": "TEXTAREA",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Результат",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Метрики результата",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Количество страниц",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Показать в избранном\nКейс появится вверху каталога и на витрине",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Отмена",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "project-form-submit",
+        "text": "Сохранить проект\n→",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      }
+    ],
+    "axe": {
+      "violations": [],
+      "passes": 27,
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    "keyboard": {
+      "stayedInside": true,
+      "sequence": [
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "case-tag-entry",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "case-tag-add",
+          "label": "Добавить"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "cover-file",
+          "label": "Выбрать обложку проекта"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": "Компьютер"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": "Телефон"
+        },
+        {
+          "inside": true,
+          "id": "cover-crop-x",
+          "label": "Положение кадра обложки по горизонтали, на компьютере"
+        },
+        {
+          "inside": true,
+          "id": "cover-crop-y",
+          "label": "Положение кадра обложки по вертикали, на компьютере"
+        },
+        {
+          "inside": true,
+          "id": "gallery-files",
+          "label": "Добавить изображения в галерею"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        }
+      ]
+    },
+    "escape": {
+      "open": false,
+      "returnedToOpener": true
+    }
+  },
+  "phone": {
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "×",
+        "aria": "Закрыть",
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Дата создания",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Демо-ссылка",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Технологии",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "case-tag-entry",
+        "text": "",
+        "aria": null,
+        "label": "Добавить тег",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "case-tag-add",
+        "text": "Добавить",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "cover-file",
+        "text": "",
+        "aria": "Выбрать обложку проекта",
+        "label": "Выбрать изображение",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Компьютер",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Телефон",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "cover-crop-x",
+        "text": "",
+        "aria": "Положение кадра обложки по горизонтали, на компьютере",
+        "label": "По горизонтали",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "cover-crop-y",
+        "text": "",
+        "aria": "Положение кадра обложки по вертикали, на компьютере",
+        "label": "По вертикали",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "gallery-files",
+        "text": "",
+        "aria": "Добавить изображения в галерею",
+        "label": "＋ Добавить изображения",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Количество страниц",
+        "disabled": false
+      },
+      {
+        "tag": "INPUT",
+        "id": "",
+        "text": "",
+        "aria": null,
+        "label": "Показать в избранном\nКейс появится вверху каталога и на витрине",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "project-form-step-back",
+        "text": "← Назад",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "text": "Отмена",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      },
+      {
+        "tag": "BUTTON",
+        "id": "project-form-submit",
+        "text": "Сохранить проект\n→",
+        "aria": null,
+        "label": "",
+        "disabled": false
+      }
+    ],
+    "axe": {
+      "violations": [],
+      "passes": 25,
+      "incomplete": [
+        "color-contrast",
+        "label-content-name-mismatch"
+      ]
+    },
+    "previewBox": {
+      "x": 37,
+      "y": 303.03125,
+      "width": 316,
+      "height": 177.75
+    },
+    "cropBefore": {
+      "desktop": "50% 46%",
+      "mobile": ""
+    },
+    "cropAfter": {
+      "desktop": "50% 46%",
+      "mobile": "51% 46%",
+      "x": "51",
+      "y": "46",
+      "previewMode": "mobile",
+      "phonePressed": "true"
+    },
+    "keyboard": {
+      "stayedInside": true,
+      "sequence": [
+        {
+          "inside": true,
+          "id": "cover-crop-y",
+          "label": "Положение кадра обложки по вертикали, на телефоне"
+        },
+        {
+          "inside": true,
+          "id": "gallery-files",
+          "label": "Добавить изображения в галерею"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "project-form-step-back",
+          "label": "← Назад"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": "Отмена"
+        },
+        {
+          "inside": true,
+          "id": "project-form-submit",
+          "label": "Сохранить проект\n→"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": "Закрыть"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "case-tag-entry",
+          "label": ""
+        },
+        {
+          "inside": true,
+          "id": "case-tag-add",
+          "label": "Добавить"
+        },
+        {
+          "inside": true,
+          "id": "cover-file",
+          "label": "Выбрать обложку проекта"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": "Компьютер"
+        },
+        {
+          "inside": true,
+          "id": "",
+          "label": "Телефон"
+        },
+        {
+          "inside": true,
+          "id": "cover-crop-x",
+          "label": "Положение кадра обложки по горизонтали, на телефоне"
+        },
+        {
+          "inside": true,
+          "id": "cover-crop-y",
+          "label": "Положение кадра обложки по вертикали, на телефоне"
+        },
+        {
+          "inside": true,
+          "id": "gallery-files",
+          "label": "Добавить изображения в галерею"
+        }
+      ]
+    },
+    "escape": {
+      "open": false,
+      "returnedToOpener": true,
+      "active": {
+        "tag": "BUTTON",
+        "id": "",
+        "className": "mobile-nav-item mobile-add",
+        "text": "＋"
+      },
+      "opener": {
+        "tag": "BUTTON",
+        "id": "",
+        "className": "mobile-nav-item mobile-add",
+        "connected": true,
+        "rect": {
+          "x": 172.984375,
+          "y": 793,
+          "width": 44,
+          "height": 44
+        }
+      },
+      "focusLog": [
+        {
+          "id": "",
+          "className": "mobile-nav-item mobile-add",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "",
+          "className": "icon-button dialog-close",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "project-form-step-title",
+          "className": "",
+          "tag": "H3"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "TEXTAREA"
+        },
+        {
+          "id": "project-form-step-next",
+          "className": "button button-accent",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "project-form-step-title",
+          "className": "",
+          "tag": "H3"
+        },
+        {
+          "id": "project-form-step-next",
+          "className": "button button-accent",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "project-form-step-title",
+          "className": "",
+          "tag": "H3"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "cover-crop-x",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "cover-crop-y",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "gallery-files",
+          "className": "visually-hidden",
+          "tag": "INPUT"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "project-form-step-back",
+          "className": "button button-quiet",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "",
+          "className": "button button-quiet",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "project-form-submit",
+          "className": "button button-accent",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "",
+          "className": "icon-button dialog-close",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "case-tag-entry",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "case-tag-add",
+          "className": "button button-quiet",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "cover-file",
+          "className": "visually-hidden",
+          "tag": "INPUT"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "",
+          "className": "",
+          "tag": "BUTTON"
+        },
+        {
+          "id": "cover-crop-x",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "cover-crop-y",
+          "className": "",
+          "tag": "INPUT"
+        },
+        {
+          "id": "gallery-files",
+          "className": "visually-hidden",
+          "tag": "INPUT"
+        },
+        {
+          "id": "",
+          "className": "mobile-nav-item mobile-add",
+          "tag": "BUTTON"
+        }
+      ]
+    }
+  },
+  "consoleErrors": [],
+  "allChecksPassed": true
+}

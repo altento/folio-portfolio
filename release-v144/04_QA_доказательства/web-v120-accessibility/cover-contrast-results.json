@@ -1,0 +1,18 @@
+{
+  "test": "cover label contrast and selected-card overlap",
+  "viewport": [
+    390,
+    844
+  ],
+  "text_to_opaque_chip_contrast_ratio": 16.07,
+  "computed_styles": {
+    "foreground": "rgb(255, 255, 255)",
+    "background": "rgb(32, 33, 38)",
+    "ariaHidden": "true"
+  },
+  "checkbox_clearance_px": 10,
+  "kicker_hidden_in_mobile_list": true,
+  "accessible_card_name_snapshot": "- 'button \"Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗\"'",
+  "document_width": 390,
+  "errors": []
+}

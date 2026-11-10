@@ -1,0 +1,150 @@
+{
+  "clickable_nodes": 24,
+  "unnamed_clickable_nodes": 1,
+  "controls": [
+    {
+      "text": "",
+      "content_description": "Перейти к содержимому",
+      "bounds": "[28,136][522,136]"
+    },
+    {
+      "text": "folio",
+      "content_description": "",
+      "bounds": "[42,151][262,269]"
+    },
+    {
+      "text": "Переключить тему",
+      "content_description": "",
+      "bounds": "[924,151][1042,269]"
+    },
+    {
+      "text": "＋ Новый проект",
+      "content_description": "",
+      "bounds": "[724,432][1039,545]"
+    },
+    {
+      "text": "",
+      "content_description": "",
+      "bounds": "[173,692][842,813]"
+    },
+    {
+      "text": "Фильтры Тип · статус · тег · порядок",
+      "content_description": "",
+      "bounds": "[65,831][1015,955]"
+    },
+    {
+      "text": "Мои подборки 0/12 сохранено",
+      "content_description": "",
+      "bounds": "[44,999][1036,1123]"
+    },
+    {
+      "text": "Убрать из избранного",
+      "content_description": "",
+      "bounds": "[73,1296][535,1414]"
+    },
+    {
+      "text": "Удалить",
+      "content_description": "",
+      "bounds": "[546,1296][1008,1414]"
+    },
+    {
+      "text": "Снять выбор",
+      "content_description": "",
+      "bounds": "[73,1427][1008,1548]"
+    },
+    {
+      "text": "Выбрать показанные проекты",
+      "content_description": "",
+      "bounds": "[73,1690][123,1737]"
+    },
+    {
+      "text": "Карточки",
+      "content_description": "",
+      "bounds": "[52,1795][351,1913]"
+    },
+    {
+      "text": "Список",
+      "content_description": "",
+      "bounds": "[357,1795][656,1913]"
+    },
+    {
+      "text": "Выбрать проект Портфолио веб-разработчика",
+      "content_description": "",
+      "bounds": "[105,1989][160,2044]"
+    },
+    {
+      "text": "Сайт / лендинг Опубликован Портфолио веб-разработчика Учебный пример: персональный сайт с проектами и контактами. HTML CSS JavaScript портфолио учебный проект 2026-09-20 Открыть кейс ↗",
+      "content_description": "",
+      "bounds": "[44,1942][1036,2339]"
+    },
+    {
+      "text": "Выбрать проект CRM для клининговой компании",
+      "content_description": "",
+      "bounds": "[105,2339][160,2339]"
+    },
+    {
+      "text": "Веб-приложение В разработке CRM для клининговой компании Демо-запись для проверки карточек, поиска и статусов. Python Flask SQLite CRM автоматизация 2026-09-22 Открыть кейс ↗",
+      "content_description": "",
+      "bounds": "[44,2339][1036,2339]"
+    },
+    {
+      "text": "Выбрать проект Карта городских дворов",
+      "content_description": "",
+      "bounds": "[105,2339][160,2339]"
+    },
+    {
+      "text": "Веб-приложение Завершён Карта городских дворов Демо-запись интерактивного проекта с картой. JavaScript Leaflet.js карта городская среда 2026-09-25 Открыть кейс ↗",
+      "content_description": "",
+      "bounds": "[44,2339][1036,2339]"
+    },
+    {
+      "text": "Обзор",
+      "content_description": "",
+      "bounds": "[21,2183][231,2339]"
+    },
+    {
+      "text": "Проекты",
+      "content_description": "",
+      "bounds": "[228,2183][438,2339]"
+    },
+    {
+      "text": "Добавить проект",
+      "content_description": "",
+      "bounds": "[483,2201][601,2322]"
+    },
+    {
+      "text": "Витрина",
+      "content_description": "",
+      "bounds": "[643,2183][853,2339]"
+    },
+    {
+      "text": "Данные",
+      "content_description": "",
+      "bounds": "[850,2183][1063,2339]"
+    }
+  ],
+  "unnamed": [
+    {
+      "NAF": "true",
+      "index": "0",
+      "text": "",
+      "resource-id": "search-input",
+      "class": "android.widget.EditText",
+      "package": "ru.folio.portfolio",
+      "content-desc": "",
+      "checkable": "false",
+      "checked": "false",
+      "clickable": "true",
+      "enabled": "true",
+      "focusable": "true",
+      "focused": "false",
+      "scrollable": "false",
+      "long-clickable": "false",
+      "password": "false",
+      "selected": "false",
+      "bounds": "[173,692][842,813]",
+      "drawing-order": "0",
+      "hint": "Поиск проектов"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-05",
+  "build": "Windows WebView2 packaged v141",
+  "initialHttp": 200,
+  "routes": [
+    [
+      "dashboard",
+      "Обзор"
+    ],
+    [
+      "projects",
+      "Мои проекты"
+    ],
+    [
+      "showcase",
+      "Витрина"
+    ],
+    [
+      "settings",
+      "Настройки и данные"
+    ]
+  ],
+  "desktop": {
+    "dashboard": {
+      "title": "Ваши проекты,\nсобранные\nв одном месте.",
+      "labelMatches": false,
+      "viewport": 1440,
+      "scroll": 1440,
+      "body": 1440,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          "aria-allowed-role",
+          "color-contrast",
+          "label-content-name-mismatch"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Все проекты",
+      "labelMatches": false,
+      "viewport": 1440,
+      "scroll": 1440,
+      "body": 1440,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          "aria-allowed-role",
+          "color-contrast",
+          "label-content-name-mismatch"
+        ]
+      }
+    },
+    "showcase": {
+      "title": "Работы, которыми\nхочется поделиться.",
+      "labelMatches": false,
+      "viewport": 1440,
+      "scroll": 1440,
+      "body": 1440,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          "aria-allowed-role",
+          "color-contrast",
+          "label-content-name-mismatch"
+        ]
+      }
+    },
+    "settings": {
+      "title": "Настройки и данные",
+      "labelMatches": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "body": 1440,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          "aria-allowed-role",
+          "color-contrast",
+          "label-content-name-mismatch"
+        ]
+      }
+    }
+  },
+  "phone": {
+    "320": {
+      "dashboard": {
+        "title": "Ваши проекты, собранные в одном месте.",
+        "labelMatches": false,
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            "aria-allowed-role",
+            "color-contrast",
+            "label-content-name-mismatch"
+          ]
+        }
+      },
+      "projects": {
+        "title": "Все проекты",
+        "labelMatches": false,
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            "aria-allowed-role",
+            "color-contrast",
+            "label-content-name-mismatch"
+          ]
+        }
+      },
+      "showcase": {
+        "title": "Работы, которыми\nхочется поделиться.",
+        "labelMatches": false,
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            "aria-allowed-role",
+            "color-contrast",
+            "label-content-name-mismatch"
+          ]
+        }
+      },
+      "settings": {
+        "title": "Настройки и данные",
+        "labelMatches": true,
+        "viewport": 320,
+        "scroll": 320,
+        "body": 320,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            "aria-allowed-role",
+            "color-contrast",
+            "label-content-name-mismatch"
+          ]
+        }
+      }
+    },
+    "390": {
+      "dashboard": {
+        "title": "Ваши проекты, собранные в одном месте.",
+        "labelMatches": false,
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            "aria-allowed-role",
+            "color-contrast",
+            "label-content-name-mismatch"
+          ]
+        }
+      },
+      "projects": {
+        "title": "Все проекты",
+        "labelMatches": false,
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            "aria-allowed-role",
+            "color-contrast",
+            "label-content-name-mismatch"
+          ]
+        }
+      },
+      "showcase": {
+        "title": "Работы, которыми\nхочется поделиться.",
+        "labelMatches": false,
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            "aria-allowed-role",
+            "color-contrast",
+            "label-content-name-mismatch"
+          ]
+        }
+      },
+      "settings": {
+        "title": "Настройки и данные",
+        "labelMatches": true,
+        "viewport": 390,
+        "scroll": 390,
+        "body": 390,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            "aria-allowed-role",
+            "color-contrast",
+            "label-content-name-mismatch"
+          ]
+        }
+      }
+    }
+  },
+  "badResponses": [],
+  "errors": [],
+  "imageErrors": [],
+  "allImagesLoaded": true,
+  "allLayoutsFit": true,
+  "allScreensHaveHeadings": true,
+  "noRuntimeErrors": true,
+  "allAxeClean": true,
+  "allChecksPassed": true
+}

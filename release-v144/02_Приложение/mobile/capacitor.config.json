@@ -1,0 +1,11 @@
+{
+  "appId": "ru.folio.portfolio",
+  "appName": "folio",
+  "webDir": "www",
+  "backgroundColor": "#F4F3EF",
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "loggingBehavior": "none"
+  }
+}

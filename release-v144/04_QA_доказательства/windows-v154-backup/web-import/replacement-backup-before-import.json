@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "title": "Портфолио веб-разработчика",
+  "next_id": 4,
+  "developer": {
+    "full_name": "Даниил Головин",
+    "specialization": "Веб-разработчик",
+    "introduction": "",
+    "email": "",
+    "website_url": "",
+    "github_url": "",
+    "include_email": false,
+    "include_website": false,
+    "include_github": false
+  },
+  "projects": [
+    {
+      "id": 1,
+      "project_id": 1,
+      "sort_order": 1,
+      "type": "Сайт / лендинг",
+      "title": "Портфолио веб-разработчика",
+      "description": "Учебный пример: персональный сайт с проектами и контактами.",
+      "created_at": "2026-09-20",
+      "status": "Опубликован",
+      "technologies": [
+        {
+          "name": "HTML",
+          "category": "Инструмент",
+          "version": "5"
+        },
+        {
+          "name": "CSS",
+          "category": "Инструмент",
+          "version": "3"
+        },
+        {
+          "name": "JavaScript",
+          "category": "Инструмент",
+          "version": ""
+        }
+      ],
+      "demo_url": "https://example.com/",
+      "role": "Индивидуальный учебный проект",
+      "outcome": "Собраны карточки проектов, стек технологий и контактная информация.",
+      "context": "Нужно было показать учебные проекты и упростить просмотр работ.",
+      "solution": "Создать адаптивную витрину с карточками, стеком и подробностями кейса.",
+      "process": "Сбор требований, построение структуры страниц, разработка интерфейса и ручная проверка.",
+      "metrics": "",
+      "tags": [
+        "портфолио",
+        "учебный проект"
+      ],
+      "featured": true,
+      "cover_image": "./assets/covers/portfolio-studio.webp",
+      "cover_position": "50% 46%",
+      "gallery_images": [],
+      "page_count": 4
+    },
+    {
+      "id": 2,
+      "project_id": 2,
+      "sort_order": 2,
+      "type": "Веб-приложение",
+      "title": "CRM для клининговой компании",
+      "description": "Демо-запись для проверки карточек, поиска и статусов.",
+      "created_at": "2026-09-22",
+      "status": "В разработке",
+      "technologies": [
+        {
+          "name": "Python",
+          "category": "Инструмент",
+          "version": ""
+        },
+        {
+          "name": "Flask",
+          "category": "Инструмент",
+          "version": ""
+        },
+        {
+          "name": "SQLite",
+          "category": "СУБД",
+          "version": ""
+        }
+      ],
+      "demo_url": "",
+      "role": "Учебный пример",
+      "outcome": "Показаны связи между клиентами, заказами и сотрудниками.",
+      "context": "",
+      "solution": "",
+      "process": "",
+      "metrics": "",
+      "tags": [
+        "CRM",
+        "автоматизация"
+      ],
+      "featured": false,
+      "cover_image": "./assets/covers/cleaning-crm-case-v2.webp",
+      "cover_position": "50% 46%",
+      "gallery_images": [],
+      "repository_url": "https://github.com/example/cleaning-crm",
+      "backend_stack": "Flask, SQLite"
+    },
+    {
+      "id": 3,
+      "project_id": 3,
+      "sort_order": 3,
+      "type": "Веб-приложение",
+      "title": "Карта городских дворов",
+      "description": "Демо-запись интерактивного проекта с картой.",
+      "created_at": "2026-09-25",
+      "status": "Завершён",
+      "technologies": [
+        {
+          "name": "JavaScript",
+          "category": "Инструмент",
+          "version": ""
+        },
+        {
+          "name": "Leaflet.js",
+          "category": "Инструмент",
+          "version": ""
+        }
+      ],
+      "demo_url": "https://example.com/map",
+      "role": "Учебный пример",
+      "outcome": "Инфраструктурные объекты представлены на интерактивной карте.",
+      "context": "",
+      "solution": "",
+      "process": "",
+      "metrics": "",
+      "tags": [
+        "карта",
+        "городская среда"
+      ],
+      "featured": false,
+      "cover_image": "./assets/covers/city-courtyards-case-v2.webp",
+      "cover_position": "50% 46%",
+      "gallery_images": [],
+      "repository_url": "https://github.com/example/courtyards",
+      "backend_stack": "REST API"
+    }
+  ]
+}

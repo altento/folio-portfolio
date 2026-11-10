@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "build": "packaged Windows WebView2 v141, mobile viewport 390x844",
+  "http_status": 200,
+  "three_step_wizard": true,
+  "created_with_empty_optional_mobile_crop": true,
+  "saved_and_found": true,
+  "persisted_after_reload": true,
+  "horizontal_overflow": false,
+  "page_errors": [],
+  "passed": true
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "build": "Android 0.3.0",
+  "versionCode": 12,
+  "targetSdk": 36,
+  "package": "ru.folio.portfolio",
+  "emulatorApi": 36,
+  "install": "adb install -r returned Success; upgraded 0.2.9 without uninstall or clear-data",
+  "launch": "App opened to dashboard; service-worker update prompt dismissed using the app restart action; app reloaded to dashboard",
+  "screenshots": [
+    "android-v137-home.png",
+    "android-v137-project-editor.png"
+  ],
+  "screenshotsBytes": {
+    "android-v137-home.png": 939708,
+    "android-v137-project-editor.png": 274627
+  },
+  "apkSha256": "c99a3eb32511e90bcea8b3760f0d979cc319dccbe8f3cb13aae9ee076535f85c",
+  "limitations": [
+    "Physical Android phone and TalkBack were not tested"
+  ]
+}

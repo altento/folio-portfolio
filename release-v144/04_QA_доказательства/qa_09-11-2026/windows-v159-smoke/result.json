@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-09",
+  "candidate": "Windows WebView2 v159 onedir",
+  "executable": "dist/folio-webview-v159/folio-desktop/folio-desktop.exe",
+  "executable_sha256": "2dc3e5a305967f5c5452adabbd28be2a9cd8e75fc203d0214fe92f7a8a623059",
+  "isolated_profile": "C:/Users/Windows-10/AppData/Local/Temp/folio-v159-isolated",
+  "loopback": "http://127.0.0.1:41766/",
+  "startup_dashboard": true,
+  "demo_project_count": 3,
+  "routes_opened": ["dashboard", "showcase", "dashboard"],
+  "embedded_assets_match_source": {
+    "index.html": true,
+    "styles.css": true,
+    "app.js": true,
+    "sw.js": true
+  },
+  "asset_sha256": {
+    "index.html": "2cb4b9fade9f44740c4d1d12027e6057c7634e71737367f4bea30ca885dcfae5",
+    "styles.css": "b8c7d7e185712cfe1072b0c29ff67fda4be98c18ee5a7cfb9c2e3012516f8ec9",
+    "app.js": "15537365532bc61dd446560e792bc7c8a597bdcffbe1486687a57d4102854cb3",
+    "sw.js": "34b7ff079d7b528dac418915255501abd9d823cd6173195b3fb64e4bf309e0c9"
+  },
+  "full_route_viewport_matrix_run": false,
+  "crud_run": false,
+  "offline_cold_reload_run": false,
+  "evidence": ["dashboard.jpg", "showcase.jpg"]
+}

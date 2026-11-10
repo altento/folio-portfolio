@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05",
+  "build": "Windows WebView2 v137 packaged EXE",
+  "root": {
+    "status": 200,
+    "server": "FolioLocal/1 "
+  },
+  "emptyLegacyMigrationSeed": {
+    "status": 204,
+    "server": "FolioLocal/1 ",
+    "bodyBytes": 0
+  },
+  "profile": "C:\\tmpj\\folio-v137-webview-profile2",
+  "sqliteFilesCreated": 0,
+  "accessibility": true,
+  "androidApkSha256": "c99a3eb32511e90bcea8b3760f0d979cc319dccbe8f3cb13aae9ee076535f85c"
+}

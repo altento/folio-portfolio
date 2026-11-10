@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-07",
+  "build": "Windows WebView2 v151 onedir",
+  "executable": "dist/folio-webview-v151/folio-desktop/folio-desktop.exe",
+  "executable_sha256": "1bb9dedec6bdb8a2baeeea1c631d0cd49a53661736fe081f58804347a1ad41ba",
+  "profile": "%TEMP%/folio-desktop-v151-final-qa",
+  "port": 41765,
+  "results": {
+    "first_launch_dashboard": true,
+    "demo_projects_visible": 3,
+    "reload_kept_three_demo_projects_visible": true,
+    "projects_route_opened": true,
+    "search_filters_sort_saved_views_and_view_mode_visible": true,
+    "settings_route_opened": true,
+    "backup_status": "Резервная копия не отмечена",
+    "sqlite_integrity": "ok",
+    "sqlite_bytes": 0,
+    "sqlite_tables": 0,
+    "synthetic_crud_created": true,
+    "reload_preserved_synthetic_case": true,
+    "synthetic_description_edit_persisted": true,
+    "recoverable_delete_notice_seconds": 7,
+    "projects_after_cleanup": 3,
+    "temporary_case_remaining_after_cleanup": false,
+    "user_profile_touched": false
+  },
+  "screenshots": {
+    "folio-v151-dashboard-1426x933.jpg": "3122b737228930acc6654e3ad91044635c59ca19345938e2d7e51d711c19f66d",
+    "folio-v151-projects-1426x933.jpg": "206804b08da35e4f5441e6a37c55f9fd617fa3df2d6db18af12aef66b230bdef",
+    "folio-v151-settings-backup-1426x933.jpg": "2e460e55af8653cf886606b9da852087c0447d7cfccef21985542050ab7fb436",
+    "folio-v151-crud-created-1426x933.jpg": "cc8d7039e18d839564b51bc54b1a0a82320f07cd70f95814a89d884b514e3093",
+    "folio-v151-crud-clean-1426x933.jpg": "348daac7ff7da3416b5adfc89a79ff95dff8737dfdfea83e515d0f3b0eb4ada0"
+  },
+  "limitations": [
+    "native file picker not tested",
+    "Windows Narrator/system zoom not tested",
+    "JSON export/import not tested in this GUI run",
+    "physical Android device not tested"
+  ]
+}

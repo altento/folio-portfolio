@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "build": "packaged Windows WebView2 v141",
+  "http_status": 200,
+  "isolated_profile": true,
+  "created_and_searched": true,
+  "detail_and_edit": true,
+  "persisted_after_reload": true,
+  "json_backup_downloaded_and_verified": true,
+  "project_count_in_backup": 4,
+  "temporary_backup_deleted": true,
+  "page_errors": [],
+  "passed": true
+}

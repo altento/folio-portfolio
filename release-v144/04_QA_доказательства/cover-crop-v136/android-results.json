@@ -1,0 +1,22 @@
+{
+  "build": "Android 0.2.9 (versionCode 11) / Web-PWA v136",
+  "runtime": "Android Emulator API 36, WebView 133",
+  "state": {
+    "step": "2",
+    "mode": "mobile",
+    "desktop": "50% 46%",
+    "mobile": "18% 79%",
+    "cropPreviewPosition": "18% 79%",
+    "previewPosition": "18% 79%",
+    "preview": {
+      "width": 346.19049072265625,
+      "height": 161.01785278320312
+    },
+    "viewport": {
+      "width": 412,
+      "height": 839
+    }
+  },
+  "projectCountAfterCancel": "3",
+  "screenshot": "android-v136-cover-editor.png"
+}

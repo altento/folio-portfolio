@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-05",
+  "platform": "Android Emulator API 36",
+  "app": "ru.folio.portfolio",
+  "versionName": "0.2.2",
+  "versionCode": 4,
+  "accessibilityService": "TalkBack 16 (temporary; restored to disabled after inspection)",
+  "states": {
+    "overview": {"nodes": 113, "interactive": 20, "unlabelledInteractive": 0, "tree": "overview-accessibility-tree.xml", "screenshot": "overview-talkback.png"},
+    "projects": {"nodes": 60, "interactive": 23, "unlabelledInteractive": 0, "tree": "projects-accessibility-tree.xml", "screenshot": "projects-talkback.png"},
+    "projectForm": {"nodes": 58, "interactive": 13, "unlabelledInteractive": 0, "tree": "form-open-accessibility-tree.xml", "screenshot": "form-open.png"}
+  },
+  "labelCheck": "Element text, content description, or edit-field hint",
+  "limitations": ["No speech output/TTS acceptance", "No physical phone", "No complete gesture sweep", "No system magnification acceptance"],
+  "restoredAccessibilityEnabled": "0",
+  "restoredEnabledAccessibilityServices": null,
+  "updateLifecycle": {
+    "initialNoticeVisibleAfterInstall": true,
+    "reloadedNoticeVisible": false,
+    "serviceWorkerControllerActive": true,
+    "waitingWorkerAfterReload": false,
+    "screenshotAfterReload": "after-update.png",
+    "treeAfterReload": "after-update-tree.xml"
+  }
+}

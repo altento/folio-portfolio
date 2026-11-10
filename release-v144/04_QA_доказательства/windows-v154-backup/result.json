@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-07",
+  "build": "Windows WebView2 v154",
+  "test_profile": "%TEMP%/folio-desktop-v154-backup-qa",
+  "test_export_dir": "%TEMP%/folio-desktop-v154-backup-qa/exports",
+  "result": "pass",
+  "backup_file_bytes": 4896,
+  "backup_sha256": "260f22b383c14ad79a7c7aec66966db0c1b6103680000457a7fc7275a9949469",
+  "backup_schema_version": 1,
+  "backup_project_count": 3,
+  "utf8_json_roundtrip": true,
+  "unique_filename_on_collision": true,
+  "status_persisted_after_reopen_same_origin": true,
+  "screenshot": "backup-export-confirmed.jpg",
+  "screenshot_sha256": "aac560912861e92309759f769d33ee541a2fcfda6368866317722fce1b94ecc1",
+  "desktop_exe_sha256": "6c6a2e0dc64fab76b3ab1a7db444d5543fb20243ff5afb65f179d7486f625482",
+  "import_in_windows_file_picker": "not verified",
+  "note": "Export dir was redirected to the isolated QA profile; user Downloads and production profiles were not touched."
+}

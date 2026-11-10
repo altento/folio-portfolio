@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-06",
+  "build": {"webPwa": "v151b", "windowsWebView": "v151b", "androidVersionName": "0.3.14", "androidVersionCode": 26, "apkSha256": "9c75a4b916105119440277c9fb4a83297e63b783dd50a9a14cec9b75f3b546cb"},
+  "verification": {
+    "webUnitSuite": {"passed": 76, "failed": 0},
+    "pythonSqliteDesktopSuite": {"passed": 93, "failed": 0},
+    "playwright": {"viewport": [320, 512], "projectTypeFieldFullyVisible": true, "fieldRect": [256, 302], "scrollRegionRect": [140, 306], "shortWizardDescriptionHidden": true},
+    "androidAvd": {"api": 36, "installedWithoutClearingAppData": true, "screenOverride": [320, 568], "densityOverride": 160, "projectTypeFieldVisibleInProjectDialog": true, "blankRequiredTitleTriggersNativeValidationAndFocus": true},
+    "windowsWebViewBuild": {"output": "dist/folio-webview-v151/folio-desktop/folio-desktop.exe", "built": true},
+    "published": false,
+    "personalDataChanged": false
+  },
+  "artifacts": [
+    "android-dashboard-v151b.png",
+    "android-compact-form-v151b.png",
+    "android-compact-form-step2-v151b.png"
+  ],
+  "limitations": [
+    "No physical Android phone was available.",
+    "TalkBack spoken output and gesture navigation were not verified.",
+    "The attempt to advance with a blank project title was checked; no synthetic project was saved."
+  ]
+}

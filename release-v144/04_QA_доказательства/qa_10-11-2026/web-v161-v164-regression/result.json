@@ -1,0 +1,587 @@
+{
+  "date": "2026-11-10",
+  "candidate_versions": {
+    "web": "v161",
+    "windows": "v164",
+    "android": "0.3.24/code36"
+  },
+  "url": "http://127.0.0.1:41803/",
+  "http_status": 200,
+  "browser": "Installed Chrome, isolated Playwright context",
+  "viewports": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      768,
+      900
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "route_matrix": [
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": "Ваши проекты, собранные в одном месте.",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 22,
+        "smallestFontPx": 10,
+        "below10px": 0
+      },
+      "mainHeight": 3085,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": "Все проекты",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 11,
+      "smallestControlHeight": 17,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 14,
+        "smallestFontPx": 11,
+        "below10px": 0
+      },
+      "mainHeight": 1614,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 5,
+        "smallestFontPx": 11,
+        "below10px": 0
+      },
+      "mainHeight": 1169,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": null,
+      "mainHeight": 3033,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "title": "Ваши проекты, собранные в одном месте.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 22,
+        "smallestFontPx": 10,
+        "below10px": 0
+      },
+      "mainHeight": 3133,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "title": "Все проекты",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 11,
+      "smallestControlHeight": 17,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 14,
+        "smallestFontPx": 11,
+        "below10px": 0
+      },
+      "mainHeight": 1643,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 5,
+        "smallestFontPx": 11,
+        "below10px": 0
+      },
+      "mainHeight": 1143,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        568
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": null,
+      "mainHeight": 2855,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Ваши проекты, собранные в одном месте.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 22,
+        "smallestFontPx": 10,
+        "below10px": 0
+      },
+      "mainHeight": 3133,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Все проекты",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 11,
+      "smallestControlHeight": 17,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 14,
+        "smallestFontPx": 11,
+        "below10px": 0
+      },
+      "mainHeight": 1793,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 5,
+        "smallestFontPx": 11,
+        "below10px": 0
+      },
+      "mainHeight": 1143,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": null,
+      "mainHeight": 2855,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "title": "Ваши проекты,\nсобранные\nв одном месте.",
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 22,
+        "smallestFontPx": 8,
+        "below10px": 4
+      },
+      "mainHeight": 3097,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "title": "Все проекты",
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 19,
+      "smallestControlHeight": 13,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 14,
+        "smallestFontPx": 10,
+        "below10px": 0
+      },
+      "mainHeight": 2101,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 5,
+        "smallestFontPx": 10,
+        "below10px": 0
+      },
+      "mainHeight": 1134,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        768,
+        900
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 768,
+      "bodyWidth": 768,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": null,
+      "mainHeight": 2551,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "title": "Ваши проекты,\nсобранные\nв одном месте.",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 10,
+      "smallestControlHeight": 20,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 22,
+        "smallestFontPx": 8,
+        "below10px": 4
+      },
+      "mainHeight": 2248,
+      "route": "dashboard",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "title": "Все проекты",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 3,
+      "visibleProjectImages": 3,
+      "brokenProjectImages": 0,
+      "visibleControls": 19,
+      "smallestControlHeight": 13,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 14,
+        "smallestFontPx": 10,
+        "below10px": 0
+      },
+      "mainHeight": 835,
+      "route": "projects",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 1,
+      "visibleProjectImages": 1,
+      "brokenProjectImages": 0,
+      "visibleControls": 5,
+      "smallestControlHeight": 44,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": {
+        "measuredLabels": 5,
+        "smallestFontPx": 10,
+        "below10px": 0
+      },
+      "mainHeight": 949,
+      "route": "showcase",
+      "noHorizontalOverflow": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "title": "Настройки и данные",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 0,
+      "visibleProjectImages": 0,
+      "brokenProjectImages": 0,
+      "visibleControls": 15,
+      "smallestControlHeight": 18,
+      "smallestTouchTargetHeight": 44,
+      "touchTargetsBelow44": [],
+      "mobileReadability": null,
+      "mainHeight": 1437,
+      "route": "settings",
+      "noHorizontalOverflow": true
+    }
+  ],
+  "dashboard_insight_badge": "1 подсказка",
+  "mobile_disclosures_closed": {
+    "filterOpen": false,
+    "filterBody": {
+      "display": "none",
+      "clientRects": 0,
+      "visibleControls": 0
+    },
+    "savedViewsOpen": false,
+    "savedViewsBody": {
+      "display": "none",
+      "clientRects": 0,
+      "visibleControls": 0
+    }
+  },
+  "mobile_disclosures_open_controls": {
+    "filter_controls_by_accessible_name": {
+      "Тип": 1,
+      "Статус": 1,
+      "Тег": 1,
+      "Сортировка проектов": 1,
+      "Только избранное": 1
+    },
+    "saved_view_controls_by_accessible_name": {
+      "selector": 1,
+      "save": 1,
+      "delete": 1
+    }
+  },
+  "offline_cold_reload": {
+    "controller": true,
+    "online": false,
+    "projectCount": 3,
+    "title": "Ваши проекты, собранные в одном месте.",
+    "brokenImages": 0
+  },
+  "crud_flow": {
+    "wizard_visible_on_mobile": true,
+    "create_project_persisted_after_reload": true,
+    "edit_project_visible_in_card": true,
+    "undo_delete_restored_project": true,
+    "recoverable_delete_expired_and_restored_demo_count": 3,
+    "synthetic_project_name": "QA·«Folio smoke»"
+  },
+  "browser_errors": [],
+  "screenshots": [
+    {
+      "file": "project-filters-open-390x844.png",
+      "sha256": "e30cea5ed4255574282722d56fa1d2492c4e9cd11297a8a417fd2423e29e9a16"
+    },
+    {
+      "file": "dashboard-390x844.png",
+      "sha256": "c92e258fc74b2829533cf11eb008a3472d6139947eaa08ca2e49cf1cdffa84e0"
+    },
+    {
+      "file": "dashboard-390x844-viewport.png",
+      "sha256": "c4f586b5d9fe3480ab65d402536ad9eb87ca8428c8089c5d8dd138ee2518ead0"
+    },
+    {
+      "file": "projects-390x844.png",
+      "sha256": "b42f3244ea5dce2fb9150b57c6430ff10ad1c05b6204582f703d83dc3cd9802a"
+    },
+    {
+      "file": "projects-390x844-viewport.png",
+      "sha256": "c46e31db9d5fe79451b9420558f0c579b0d7212226c8be2c6133428144799425"
+    },
+    {
+      "file": "settings-390x844.png",
+      "sha256": "f99824595d634267208ecefabda86c2edd9740c62c2744df442fcd98aa607a54"
+    },
+    {
+      "file": "settings-390x844-viewport.png",
+      "sha256": "f635b0f587e477e28261fbf0fde7e3419559552eecbba736fb3c2be3feabfaca"
+    },
+    {
+      "file": "dashboard-1440x900.png",
+      "sha256": "ad5904ef19e1f8064e44cd928506a21a6967f6a9c4e59e405843bbbb16d611ea"
+    },
+    {
+      "file": "projects-1440x900.png",
+      "sha256": "d6da9f07a6f78a632c5affdac138ed53b0130f69336fe3f7be8219633ee69c8a"
+    },
+    {
+      "file": "offline-dashboard-390x844.png",
+      "sha256": "c92e258fc74b2829533cf11eb008a3472d6139947eaa08ca2e49cf1cdffa84e0"
+    },
+    {
+      "file": "offline-dashboard-390x844-viewport.png",
+      "sha256": "c4f586b5d9fe3480ab65d402536ad9eb87ca8428c8089c5d8dd138ee2518ead0"
+    }
+  ],
+  "data_scope": "fresh isolated browser context; no user profile or existing database used"
+}

@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-05",
+  "build": "v144 localhost app in isolated Chromium context, reduced effective viewport approximating desktop 200% zoom",
+  "viewportCssPx": [
+    720,
+    450
+  ],
+  "note": "Effective reflow check; not a native browser zoom setting or physical OS magnifier test.",
+  "httpStatus": 200,
+  "routes": {
+    "light": [
+      {
+        "route": "dashboard",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "bodyWidth": 720,
+        "heading": "Ваши проекты, собранные в одном месте.",
+        "navTop": 386,
+        "lastControlBottom": 307.28125,
+        "lastControl": "КЕЙС02Веб-приложениеВ разработкеCRM для клининго",
+        "horizontalOverflow": false,
+        "bottomNavOverlap": false
+      },
+      {
+        "route": "projects",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "bodyWidth": 720,
+        "heading": "Все проекты",
+        "navTop": 386,
+        "lastControlBottom": 307.234375,
+        "lastControl": "КЕЙС03Веб-приложениеЗавершёнКарта городских двор",
+        "horizontalOverflow": false,
+        "bottomNavOverlap": false
+      },
+      {
+        "route": "showcase",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "bodyWidth": 720,
+        "heading": "Работы, которымихочется поделиться.",
+        "navTop": 386,
+        "lastControlBottom": 306.78125,
+        "lastControl": "★ ИЗБРАННЫЙ КЕЙС01Сайт / лендингОпубликованПортф",
+        "horizontalOverflow": false,
+        "bottomNavOverlap": false
+      },
+      {
+        "route": "settings",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "bodyWidth": 720,
+        "heading": "Настройки и данные",
+        "navTop": 386,
+        "lastControlBottom": 127.515625,
+        "lastControl": "Удалить все проекты",
+        "horizontalOverflow": false,
+        "bottomNavOverlap": false
+      }
+    ],
+    "dark": [
+      {
+        "route": "dashboard",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "bodyWidth": 720,
+        "heading": "Ваши проекты, собранные в одном месте.",
+        "navTop": 386,
+        "lastControlBottom": 307.28125,
+        "lastControl": "КЕЙС02Веб-приложениеВ разработкеCRM для клининго",
+        "horizontalOverflow": false,
+        "bottomNavOverlap": false
+      },
+      {
+        "route": "projects",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "bodyWidth": 720,
+        "heading": "Все проекты",
+        "navTop": 386,
+        "lastControlBottom": 307.234375,
+        "lastControl": "КЕЙС03Веб-приложениеЗавершёнКарта городских двор",
+        "horizontalOverflow": false,
+        "bottomNavOverlap": false
+      },
+      {
+        "route": "showcase",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "bodyWidth": 720,
+        "heading": "Работы, которымихочется поделиться.",
+        "navTop": 386,
+        "lastControlBottom": 306.78125,
+        "lastControl": "★ ИЗБРАННЫЙ КЕЙС01Сайт / лендингОпубликованПортф",
+        "horizontalOverflow": false,
+        "bottomNavOverlap": false
+      },
+      {
+        "route": "settings",
+        "viewport": {
+          "width": 720,
+          "height": 450
+        },
+        "documentWidth": 720,
+        "bodyWidth": 720,
+        "heading": "Настройки и данные",
+        "navTop": 386,
+        "lastControlBottom": 127.515625,
+        "lastControl": "Удалить все проекты",
+        "horizontalOverflow": false,
+        "bottomNavOverlap": false
+      }
+    ]
+  },
+  "runtimeErrors": [],
+  "userDataChanged": false,
+  "passed": true
+}

@@ -1,0 +1,48 @@
+{
+  "build": "Web/PWA v149 mobile closed-dialog regression",
+  "date": "2026-11-06",
+  "viewport": {
+    "width": 320,
+    "height": 568
+  },
+  "before_fix": {
+    "closed_import_dialog_display": "flex",
+    "bounding_box": [
+      8,
+      3236,
+      289,
+      445.5
+    ],
+    "document_height": 3682
+  },
+  "after_fix": {
+    "closed_import_dialog_display": "none",
+    "bounding_box": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "document_height": 3236
+  },
+  "opened_modal": {
+    "display": "flex",
+    "position": "fixed",
+    "bounding_box": [
+      8,
+      61.25,
+      289,
+      445.5
+    ],
+    "inside_viewport": true
+  },
+  "evidence_source": "Playwright isolated browser context, no user profile; showModal() was invoked only for visual/layout measurement then dialog closed",
+  "regression_suite": {
+    "web_tests": 70,
+    "passed": 70,
+    "failed": 0
+  },
+  "screenshot": null,
+  "limitation": "The browser screenshot was captured at the application viewport; this isolated page uses synthetic/default demo data.",
+  "screenshot_note": "Screenshot capture is unavailable in this isolated Playwright bridge (workspace output path returns ENOENT). Prior release QA folders retain desktop screenshots; this mobile-specific proof is recorded as DOM/CSS measurements."
+}

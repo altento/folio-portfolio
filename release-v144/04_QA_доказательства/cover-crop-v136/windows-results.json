@@ -1,0 +1,18 @@
+{
+  "build": "Windows WebView2 / Web-PWA v136",
+  "exe": "dist/folio-webview-v136/folio-desktop/folio-desktop.exe",
+  "profile": "C:/tmpj/folio-v136-webview-profile (isolated)",
+  "seedEndpoint": 204,
+  "state": {
+    "title": "Портфолио — рабочее пространство",
+    "projects": 3,
+    "navCount": "3",
+    "updateNoticeHidden": true,
+    "cacheNames": [
+      "folio-shell-v136-responsive-cover-crop-preview"
+    ],
+    "cropPreview": true
+  },
+  "errors": [],
+  "screenshot": "windows-v136-home.png"
+}

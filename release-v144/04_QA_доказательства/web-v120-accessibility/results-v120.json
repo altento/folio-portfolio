@@ -1,0 +1,191 @@
+{
+  "url": "https://altento.github.io/folio-portfolio/?qa=v120-cross-route",
+  "version": "v120",
+  "commit": "94dbdb2",
+  "checks": [
+    {
+      "device": "desktop",
+      "view": "dashboard",
+      "viewport": 1440,
+      "title": "Портфолио — рабочее пространство",
+      "hash": "",
+      "width": 1440,
+      "height": 2314,
+      "images": [
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/illustrations/folio-dashboard-hero-v1.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/portfolio-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/city-courtyards-case-v2.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/cleaning-crm-case-v2.webp",
+          "ok": true
+        }
+      ],
+      "hiddenLabels": true,
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "screenshot": "web-v120-desktop-dashboard.png"
+    },
+    {
+      "device": "desktop",
+      "view": "projects",
+      "viewport": 1440,
+      "title": "Все проекты",
+      "hash": "",
+      "width": 1440,
+      "height": 901,
+      "images": [
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/portfolio-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/cleaning-crm-case-v2.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/city-courtyards-case-v2.webp",
+          "ok": true
+        }
+      ],
+      "hiddenLabels": true,
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "screenshot": "web-v120-desktop-projects.png"
+    },
+    {
+      "device": "desktop",
+      "view": "showcase",
+      "viewport": 1440,
+      "title": "Работы, которыми\nхочется поделиться.",
+      "hash": "",
+      "width": 1440,
+      "height": 1015,
+      "images": [
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/portfolio-studio.webp",
+          "ok": true
+        }
+      ],
+      "hiddenLabels": true,
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "screenshot": "web-v120-desktop-showcase.png"
+    },
+    {
+      "device": "desktop",
+      "view": "settings",
+      "viewport": 1440,
+      "title": "Настройки и данные",
+      "hash": "",
+      "width": 1440,
+      "height": 1482,
+      "images": [],
+      "hiddenLabels": true,
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "screenshot": "web-v120-desktop-settings.png"
+    },
+    {
+      "device": "mobile",
+      "view": "dashboard",
+      "viewport": 390,
+      "title": "Портфолио — рабочее пространство",
+      "hash": "",
+      "width": 390,
+      "height": 3285,
+      "images": [
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/illustrations/folio-dashboard-hero-v1.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/portfolio-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/city-courtyards-case-v2.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/cleaning-crm-case-v2.webp",
+          "ok": true
+        }
+      ],
+      "hiddenLabels": true,
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "screenshot": "web-v120-mobile-dashboard.png"
+    },
+    {
+      "device": "mobile",
+      "view": "projects",
+      "viewport": 390,
+      "title": "Все проекты",
+      "hash": "",
+      "width": 390,
+      "height": 1948,
+      "images": [
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/portfolio-studio.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/cleaning-crm-case-v2.webp",
+          "ok": true
+        },
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/city-courtyards-case-v2.webp",
+          "ok": true
+        }
+      ],
+      "hiddenLabels": true,
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "screenshot": "web-v120-mobile-projects.png"
+    },
+    {
+      "device": "mobile",
+      "view": "showcase",
+      "viewport": 390,
+      "title": "Работы, которыми\nхочется поделиться.",
+      "hash": "",
+      "width": 390,
+      "height": 1304,
+      "images": [
+        {
+          "src": "https://altento.github.io/folio-portfolio/assets/covers/portfolio-studio.webp",
+          "ok": true
+        }
+      ],
+      "hiddenLabels": true,
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "screenshot": "web-v120-mobile-showcase.png"
+    },
+    {
+      "device": "mobile",
+      "view": "settings",
+      "viewport": 390,
+      "title": "Настройки и данные",
+      "hash": "",
+      "width": 390,
+      "height": 2852,
+      "images": [],
+      "hiddenLabels": true,
+      "horizontalOverflow": false,
+      "imagesBroken": [],
+      "screenshot": "web-v120-mobile-settings.png"
+    }
+  ],
+  "page_or_console_errors": [],
+  "passed": true
+}

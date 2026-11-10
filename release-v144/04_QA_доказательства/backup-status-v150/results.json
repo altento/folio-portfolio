@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-06",
+  "release": "Windows WebView2/Web-PWA v150; Android 0.3.13 versionCode 25",
+  "profile": "temporary isolated WebView2 profile under %TEMP%",
+  "initial_runtime": "FAIL: startup remained on loading screen",
+  "root_cause": "backup-status.js was absent from desktop_webview.py STATIC_FILES allowlist",
+  "fix": [
+    "Added backup-status.js to the desktop static-file allowlist",
+    "Added test_serves_backup_status_module_imported_by_app"
+  ],
+  "regression": {
+    "python_sqlite_desktop_host": "93/93 PASS",
+    "web": "75/75 PASS"
+  },
+  "rebuilt_exact_windows_exe": "PASS",
+  "isolated_windows_first_run_dashboard": "PASS: three demo projects rendered and exposed through UI Automation",
+  "settings_route_and_json_export": "PARTIAL: settings route PASS; JSON export not run to protect user Downloads",
+  "android_runtime": "NOT VERIFIED",
+  "personal_database_used": false,
+  "published": false,
+  "remaining_external_acceptance": [
+    "physical Android device",
+    "TalkBack/TTS audio and gesture walkthrough",
+    "system zoom and Windows Narrator",
+    "user/teacher walkthrough and official group code confirmation"
+  ],
+  "settings_route_and_backup_indicator": "PASS: exact rebuilt EXE showed “Резервная копия не отмечена” and instructions via UI Automation",
+  "settings_viewport": "1920x1080 maximized",
+  "json_export": "NOT RUN to avoid writing to or overwriting a file in the user Downloads folder",
+  "personal_downloads_touched": false
+}

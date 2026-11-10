@@ -1,0 +1,132 @@
+{
+  "build": "Web/PWA v134; Windows WebView2 v134; Android 0.2.7",
+  "date": "2026-11-05",
+  "checks": {
+    "desktop_first_run": {
+      "profile": "isolated %TEMP% profile folio-v134-no-seed-qa-20261105-01",
+      "legacy_database_before_run": false,
+      "legacy_database_after_run": false,
+      "seed_endpoint_status": 204,
+      "demo_projects_visible": 3,
+      "console_errors": 0,
+      "console_warnings": 0,
+      "user_profile_used": false
+    },
+    "regression": {
+      "python_sqlite": "91/91 PASS",
+      "web": "63/63 PASS",
+      "python_syntax": "PASS",
+      "javascript_syntax": "PASS"
+    },
+    "android": {
+      "application_id": "ru.folio.portfolio",
+      "version_name": "0.2.7",
+      "version_code": 9,
+      "api_level": 36,
+      "installed_over": "0.2.6",
+      "clear_data": false,
+      "service_worker_update_banner": "shown then dismissed by the app's restart action",
+      "home_screen_after_update": true,
+      "physical_device": false,
+      "apk_bytes": 6041388,
+      "apk_sha256": "8d81a1975c8aa65202518a451ec605c9fef21dc8e6c04cc13a6edf40acd065a9",
+      "phone_archive_crc": "PASS",
+      "accessibility_tree_overview": {
+        "clickable_nodes": 18,
+        "unnamed_clickable_nodes": 0,
+        "focusable_only_main_region": "main-content, a programmatic tabindex=-1 target for skip navigation",
+        "capture": "UIAutomator static hierarchy; no TalkBack audio/gesture claim"
+      },
+      "accessibility_states_v134": {
+        "overview": {
+          "clickable_nodes": 18,
+          "unnamed_clickable_nodes": 0
+        },
+        "projects": {
+          "clickable_nodes": 24,
+          "unnamed_clickable_nodes": 0
+        },
+        "new_project_dialog": {
+          "clickable_nodes": 7,
+          "unnamed_clickable_nodes": 0
+        },
+        "case_detail_dialog": {
+          "clickable_nodes": 8,
+          "unnamed_clickable_nodes": 0
+        },
+        "showcase": {
+          "clickable_nodes": 13,
+          "unnamed_clickable_nodes": 0
+        },
+        "data_settings": {
+          "clickable_nodes": 23,
+          "unnamed_clickable_nodes": 0
+        }
+      }
+    },
+    "windows_uia_keyboard": {
+      "profile": "isolated folio-v134-uia-20261105-01",
+      "port": 41775,
+      "user_profile_used": false,
+      "demo_projects_visible": 3,
+      "sequence": [
+        "Новый проект",
+        "Поиск проектов",
+        "Тип",
+        "Статус",
+        "Тег",
+        "Сортировка проектов",
+        "Только избранное",
+        "Сохранённые представления"
+      ],
+      "visual_focus_indicator": "visible outline moved with Tab at each captured step",
+      "uia_tree_named_controls": [
+        "Новый проект",
+        "Поиск проектов",
+        "Тип",
+        "Статус",
+        "Тег",
+        "Сортировка проектов",
+        "Только избранное",
+        "Сохранённые представления"
+      ],
+      "uia_focused_element_reporting": "stale RootWebArea during visual focus movement; machine-reported active target not confirmed",
+      "data_mutation": "none; no fields changed or saved",
+      "physical_keyboard_or_windows_narrator": false,
+      "screenshots": [
+        "windows-tab-focus-01-new-project-v134.jpg",
+        "windows-tab-focus-02-search-v134.jpg",
+        "windows-tab-focus-03-type-v134.jpg",
+        "windows-tab-focus-04-status-v134.jpg",
+        "windows-tab-focus-05-tag-v134.jpg",
+        "windows-tab-focus-06-sort-v134.jpg",
+        "windows-tab-focus-07-favorites-v134.jpg",
+        "windows-tab-focus-08-saved-view-v134.jpg"
+      ]
+    }
+  },
+  "artifacts": {
+    "desktop_screenshot": "desktop-first-run.jpg",
+    "android_screenshot": "android-v134-home.png",
+    "windows_exe": "dist/folio-webview-v134/folio-desktop/folio-desktop.exe",
+    "windows_exe_sha256": "05a868d34a625ef1d2c11097e2dc4c306344556cf694670b9c5b94dd945bf262",
+    "android_accessibility_tree": "android-accessibility-tree-v134.xml",
+    "android_accessibility_results": "android-ui-states/android-ui-accessibility-v134.json",
+    "android_accessibility_screenshots": "android-ui-states/*.png",
+    "windows_keyboard_screenshots": [
+      "windows-tab-focus-01-new-project-v134.jpg",
+      "windows-tab-focus-02-search-v134.jpg",
+      "windows-tab-focus-03-type-v134.jpg",
+      "windows-tab-focus-04-status-v134.jpg",
+      "windows-tab-focus-05-tag-v134.jpg",
+      "windows-tab-focus-06-sort-v134.jpg",
+      "windows-tab-focus-07-favorites-v134.jpg",
+      "windows-tab-focus-08-saved-view-v134.jpg"
+    ]
+  },
+  "remaining_manual_acceptance": [
+    "physical Android device",
+    "audible TalkBack/TTS and gesture walkthrough",
+    "physical Windows screen reader and magnifier"
+  ]
+}

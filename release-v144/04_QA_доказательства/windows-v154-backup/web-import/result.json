@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "preview": "В файле 1 проект, в портфолио сейчас 3. Совпадающих ID: 0. Новых: 1.\nПолная замена удалит текущие 3 проекта.",
+  "imported_project_visible_before_and_after_reload": true,
+  "project_count_after_reload": 1,
+  "replacement_backup_project_count": 3,
+  "replacement_backup_schema_version": 1,
+  "backup_bytes": 4896,
+  "console_errors": [],
+  "page_errors": [],
+  "browser_dialogs": [
+    "Браузер начал загрузку резервной копии, но не может подтвердить её сохранение. Проверьте, что folio-before-import.json появился в загрузках. Продолжать полную замену? Нажмите «Отмена», если файла нет."
+  ],
+  "file_selection": "Playwright set_input_files; native Windows picker not exercised"
+}

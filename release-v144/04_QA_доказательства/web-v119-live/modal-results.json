@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-05",
+  "url": "https://altento.github.io/folio-portfolio/",
+  "http_status": 200,
+  "title": "Портфолио — рабочее пространство",
+  "browser": "Installed Google Chrome via isolated Playwright context",
+  "new_project_dialog": {
+    "native_html_dialog": true,
+    "modal_state": true,
+    "accessibility_tree_role": "dialog",
+    "accessibility_tree_name": "Новый проект",
+    "aria_labelledby": "project-dialog-title",
+    "initial_focus": "input[name=title]",
+    "escape_closes": true,
+    "focus_returns_to_trigger": true
+  },
+  "mobile_390x844": {
+    "dialog_open": true,
+    "dialog_modal": true,
+    "dialog_width_css_px": 374,
+    "dialog_height_css_px": 776.47,
+    "content_overflow": false,
+    "document_horizontal_overflow": false,
+    "initial_focus": "input[name=title]"
+  },
+  "data_mutation": "None; dialog opened and dismissed in isolated browser context.",
+  "screenshots": [
+    "web-v119-desktop-initial.png",
+    "web-v119-modal-desktop.png",
+    "web-v119-mobile-dashboard.png",
+    "web-v119-mobile-new-project.png",
+    "web-v119-modal-mobile-check.png"
+  ]
+}

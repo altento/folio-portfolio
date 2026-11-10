@@ -1,0 +1,29 @@
+{
+  "url": "http://127.0.0.1:8777/",
+  "viewport": [
+    390,
+    844
+  ],
+  "steps": [
+    {
+      "phase": "online warm load",
+      "cards": 3
+    }
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "http_status_first_load": 200,
+  "service_worker": "http://127.0.0.1:8777/sw.js",
+  "cache_names": [
+    "folio-shell-v120-cover-label-contrast"
+  ],
+  "offline_reload_http_status": 200,
+  "offline": true,
+  "cards_after_offline_reload": 3,
+  "cover_images": {
+    "count": 4,
+    "decoded": 4,
+    "broken": []
+  },
+  "horizontal_overflow": false
+}

@@ -1,0 +1,246 @@
+{
+  "timestamp_utc": "2026-11-07T20:45:43.714214+00:00",
+  "webview2_build": "v156",
+  "shared_web_assets": "v153",
+  "url": "http://127.0.0.1:41766/",
+  "http_status": 200,
+  "browser": "Installed Chrome, isolated Playwright context against the exact v156 local host",
+  "initial_dashboard": {
+    "route": "dashboard",
+    "title": "Ваши проекты,\nсобранные\nв одном месте.",
+    "documentWidth": 1440,
+    "bodyWidth": 1440,
+    "projectCards": 3,
+    "brokenImages": 0,
+    "serviceWorkerControlled": true,
+    "viewport": [
+      1440,
+      900
+    ],
+    "noHorizontalOverflow": true
+  },
+  "route_matrix": [
+    {
+      "route": "dashboard",
+      "title": "Все проекты",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 3,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 1,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Настройки и данные",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 0,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Настройки и данные",
+      "documentWidth": 1440,
+      "bodyWidth": 1440,
+      "projectCards": 0,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        1440,
+        900
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Ваши проекты, собранные в одном месте.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Все проекты",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 3,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 1,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Настройки и данные",
+      "documentWidth": 390,
+      "bodyWidth": 390,
+      "projectCards": 0,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Ваши проекты, собранные в одном месте.",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 3,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        320,
+        568
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Все проекты",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 3,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        320,
+        568
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Работы, которыми\nхочется поделиться.",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 1,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        320,
+        568
+      ],
+      "noHorizontalOverflow": true
+    },
+    {
+      "route": "dashboard",
+      "title": "Настройки и данные",
+      "documentWidth": 320,
+      "bodyWidth": 320,
+      "projectCards": 0,
+      "brokenImages": 0,
+      "serviceWorkerControlled": true,
+      "viewport": [
+        320,
+        568
+      ],
+      "noHorizontalOverflow": true
+    }
+  ],
+  "offline_cold_reload": {
+    "route": "dashboard",
+    "title": "Ваши проекты, собранные в одном месте.",
+    "documentWidth": 390,
+    "bodyWidth": 390,
+    "projectCards": 3,
+    "brokenImages": 0,
+    "serviceWorkerControlled": true,
+    "viewport": [
+      390,
+      844
+    ],
+    "noHorizontalOverflow": true,
+    "online": false
+  },
+  "browser_errors": [],
+  "screenshots": [
+    {
+      "file": "v156-desktop-dashboard.png",
+      "viewport": [
+        1440,
+        900
+      ],
+      "sha256": "4e669387d42b54032ff948c1adaf6ba704c387aa203236e6768cd8c949bf465b"
+    },
+    {
+      "file": "v156-mobile-dashboard.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "5087d8efc67d9622ed06ff78e537fc7c55be0ba003347c63ff5c30f7adb41264"
+    },
+    {
+      "file": "v156-mobile-projects.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "4314e0bade9ce5ca0f29b7c04f38a192950952bfa0487f2078e35ed96a4c0203"
+    },
+    {
+      "file": "v156-mobile-offline-dashboard.png",
+      "viewport": [
+        390,
+        844
+      ],
+      "sha256": "4b53710b13142ff1936e76c01ced86fe0dc9e9a312c1822dbd2858f0e0ad6188"
+    }
+  ],
+  "data_scope": "fresh Playwright browser context and dedicated v156 host profile; no user browser profile or portfolio database used",
+  "limits": [
+    "The host is the exact v156 executable; page rendering was cross-checked in Chromium, while the native WebView2 window was separately opened and visually inspected."
+  ]
+}

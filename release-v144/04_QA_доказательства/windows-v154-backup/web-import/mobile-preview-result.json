@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "viewport": "390x844 CSS px",
+  "horizontal_overflow": false,
+  "projects_after_cancel": 3,
+  "page_errors": [],
+  "dialog_metrics": {
+    "width": 390,
+    "docWidth": 390,
+    "dialog": {
+      "x": 8,
+      "y": 130.90625,
+      "width": 374,
+      "height": 582.171875,
+      "top": 130.90625,
+      "right": 382,
+      "bottom": 713.078125,
+      "left": 8
+    },
+    "buttons": [
+      {
+        "text": "×",
+        "visible": true,
+        "height": 44
+      },
+      {
+        "text": "Добавить совпадения как копии",
+        "visible": false,
+        "height": 0
+      },
+      {
+        "text": "Добавить в портфолио",
+        "visible": true,
+        "height": 46
+      },
+      {
+        "text": "Заменить портфолио целиком",
+        "visible": true,
+        "height": 46
+      }
+    ]
+  }
+}

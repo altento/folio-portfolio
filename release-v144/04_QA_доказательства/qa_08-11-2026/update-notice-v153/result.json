@@ -1,0 +1,116 @@
+{
+  "timestamp_utc": "2026-11-07T20:23:23.309954+00:00",
+  "url": "http://127.0.0.1:8765/",
+  "http_status": 200,
+  "browser": "Installed Chrome, isolated Playwright context",
+  "axe_core_version": "4.14.0",
+  "axe_tags": [
+    "wcag2a",
+    "wcag2aa",
+    "wcag21a",
+    "wcag21aa",
+    "wcag22aa",
+    "best-practice"
+  ],
+  "observations": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "label": "mobile",
+      "geometry": {
+        "visible": true,
+        "role": "region",
+        "name": "Доступно обновление приложения.",
+        "messageRole": "status",
+        "messageText": "Доступно обновление приложения. Сохраните текущую работу и перезапустите страницу, чтобы применить новую версию.",
+        "messageContainsInteractiveControl": false,
+        "buttonNames": [
+          "Перезапустить",
+          "Скрыть уведомление"
+        ],
+        "box": {
+          "x": 0,
+          "y": 58,
+          "width": 390,
+          "height": 120
+        },
+        "messageBox": {
+          "width": 328,
+          "height": 48
+        }
+      },
+      "axe": {
+        "violationCount": 0,
+        "violations": [],
+        "incompleteRules": [
+          "color-contrast",
+          "label-content-name-mismatch"
+        ],
+        "statusRoleViolations": 0,
+        "statusRoleReview": 0
+      },
+      "dismissActionHidesNotice": true
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "label": "desktop",
+      "geometry": {
+        "visible": true,
+        "role": "region",
+        "name": "Доступно обновление приложения.",
+        "messageRole": "status",
+        "messageText": "Доступно обновление приложения. Сохраните текущую работу и перезапустите страницу, чтобы применить новую версию.",
+        "messageContainsInteractiveControl": false,
+        "buttonNames": [
+          "Перезапустить",
+          "Скрыть уведомление"
+        ],
+        "box": {
+          "x": 246,
+          "y": 66,
+          "width": 1194,
+          "height": 63
+        },
+        "messageBox": {
+          "width": 950,
+          "height": 17
+        }
+      },
+      "axe": {
+        "violationCount": 0,
+        "violations": [],
+        "incompleteRules": [
+          "color-contrast",
+          "label-content-name-mismatch"
+        ],
+        "statusRoleViolations": 0,
+        "statusRoleReview": 0
+      },
+      "dismissActionHidesNotice": true
+    }
+  ],
+  "page_and_console_errors": [],
+  "screenshots": [
+    {
+      "file": "update-notice-mobile-v153.png",
+      "width": 390,
+      "height": 844,
+      "sha256": "a100d4e81d50854bd3aa5448c9e820f4c44f8983b2f05ec4c17ca2b797b2e633"
+    },
+    {
+      "file": "update-notice-desktop-v153.png",
+      "width": 1440,
+      "height": 900,
+      "sha256": "2be4626fe1bd0bf9df92930eca25798d1a9fcd170f5eaa5eabc9b87019a9c1eb"
+    }
+  ],
+  "data_scope": "fresh isolated browser context; no user profile or stored portfolio used",
+  "limits": [
+    "Automated axe checks and DOM geometry do not replace TalkBack, Narrator, or physical-device acceptance."
+  ]
+}

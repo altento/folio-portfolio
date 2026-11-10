@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-05",
+  "build": "folio-shell-v144-tag-sorting",
+  "isolatedContext": true,
+  "httpStatus": 200,
+  "create": true,
+  "search": {
+    "matchingCards": 1,
+    "passed": true
+  },
+  "editAndReload": {
+    "persisted": true,
+    "passed": true
+  },
+  "jsonBackup": {
+    "downloaded": true,
+    "containsEditedProject": true,
+    "temporaryFileRemoved": true,
+    "passed": true
+  },
+  "deleteUndo": {
+    "undoAvailable": true,
+    "restoredMatchingCards": 1,
+    "passed": true
+  },
+  "runtimeErrors": [],
+  "userDataChanged": false,
+  "passed": true
+}

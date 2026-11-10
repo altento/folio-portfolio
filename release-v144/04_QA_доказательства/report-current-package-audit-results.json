@@ -1,0 +1,343 @@
+{
+  "date": "2026-11-10",
+  "scope": "local-first Folio: Web/PWA v161 through Windows WebView2 v164 local host, Android debug 0.3.24/code 36 emulator update; final OOP modules 4 and 5 reports",
+  "module4": {
+    "docx": "Отчёт_ООП_Модуль_4.docx",
+    "pdf": "Отчёт_ООП_Модуль_4.pdf",
+    "docx_sha256": "629e7c08ab04adfcfa22b87dcbc93564c0c7197b274862a3c8254f4d0c53e803",
+    "pdf_sha256": "3d4fe06f8b6e8f57cfd333a662ba70f56a5db386cabfe0fafa3b9815843065a5",
+    "docx_chars": 9790,
+    "pdf_pages": 12,
+    "all_pdf_pages_have_text": true,
+    "normalized_docx_pdf_similarity": 0.999171,
+    "inline_images": 8,
+    "embedded_image_dimensions_px": [
+      [
+        1080,
+        690
+      ],
+      [
+        1920,
+        1080
+      ],
+      [
+        1600,
+        1220
+      ],
+      [
+        1500,
+        1400
+      ],
+      [
+        1720,
+        1260
+      ],
+      [
+        762,
+        792
+      ],
+      [
+        762,
+        792
+      ],
+      [
+        396,
+        352
+      ]
+    ],
+    "embedded_image_sha256": [
+      "aef505170968479ef2918418626494905d493e8532420773891d19927653b90c",
+      "eb22a2241df22a104aa3a6cb6e8f7102fc914ff8db94487a7862f86ade9cee29",
+      "33d5266471010e844c2d199be8d32be1295ddf85c76d13cf5dcd1b6c0fde1af2",
+      "151f612d100455b60acc3243567ec97aeb973f6900f82cc1b170a402c30651e6",
+      "95d075d834c24096367a31ca1a7ca0b61a2f6a93d66971e360ed7ac91b25a93d",
+      "c580b433e3290178b48469176562880decca500ed02e94acde60af6e7baed39f",
+      "2f531e4782b57ea7cd212f83ec41d69841f14509d723cd8d31a94bfb8ca430f9",
+      "1cdfc96075cfd585331ad5446e13eef7d26a56f4b2da94f2d7755d009e8ee4b4"
+    ]
+  },
+  "module5": {
+    "docx": "Отчёт_ООП_Модуль_5.docx",
+    "pdf": "Отчёт_ООП_Модуль_5.pdf",
+    "docx_sha256": "c47a023627111dd80c4f1add066fbb7fcc9eb42c0c1012d700ace320ba7812b8",
+    "pdf_sha256": "5d61e206ce663acc6c10fab0914b138d9d6dbe3b247c092ee6fe0c713e2fd9ad",
+    "docx_chars": 18805,
+    "pdf_pages": 18,
+    "all_pdf_pages_have_text": true,
+    "normalized_docx_pdf_similarity": 0.99869,
+    "inline_images": 11,
+    "embedded_image_dimensions_px": [
+      [
+        326,
+        283
+      ],
+      [
+        1440,
+        1100
+      ],
+      [
+        1600,
+        1220
+      ],
+      [
+        1800,
+        1580
+      ],
+      [
+        1500,
+        1400
+      ],
+      [
+        1720,
+        1260
+      ],
+      [
+        721,
+        393
+      ],
+      [
+        1440,
+        900
+      ],
+      [
+        1362,
+        912
+      ],
+      [
+        1282,
+        892
+      ],
+      [
+        1362,
+        912
+      ]
+    ],
+    "embedded_image_sha256": [
+      "cb7e00710318583b5c29db5e1359a42a02051f005227b8c3f337e773ac25de8e",
+      "7eb5d454993497c979b2e849f6d0ff7a4f1b91312085ab40c42c605f0858ab4f",
+      "33d5266471010e844c2d199be8d32be1295ddf85c76d13cf5dcd1b6c0fde1af2",
+      "ae960e41482fea82c17e58f7d916d3c6f5a82359276133290d1790876ede5379",
+      "180e8fd383b2afcc2cbba0d761c93009a711e8fb17b441cd9fbef205b7d123a7",
+      "cc980d8c0568212ae246b43347f9d6a32fff9a93995eef303e48c4d8a60e0b9b",
+      "9712a84eb2a1ece5872159c0f85051c59527f8428aa33b874fe630cc64a4037f",
+      "d6da9f07a6f78a632c5affdac138ed53b0130f69336fe3f7be8219633ee69c8a",
+      "933ffe61dc45f1b4ed3b63b58a6becd295f081b188efbe241440f70f4ffeacff",
+      "3664d1e55c731c4eead7c4bb4adcab44c79f1eef2694b643e5681f9ada205536",
+      "984c1fd06ee6af3a5d9dd3c694f48822ea9106e495affd36d6d58c977f85a6c5"
+    ]
+  },
+  "module5_validation_source_sha256": "3664d1e55c731c4eead7c4bb4adcab44c79f1eef2694b643e5681f9ada205536",
+  "module5_file_menu_2x_source_sha256": "cb7e00710318583b5c29db5e1359a42a02051f005227b8c3f337e773ac25de8e",
+  "module5_render_v161": {
+    "source_docx": "Отчет_ООП_Модуль_5_v161.docx",
+    "source_docx_sha256": "c47a023627111dd80c4f1add066fbb7fcc9eb42c0c1012d700ace320ba7812b8",
+    "rendered_pdf": "Отчет_ООП_Модуль_5_v161.pdf",
+    "rendered_pdf_sha256": "5d61e206ce663acc6c10fab0914b138d9d6dbe3b247c092ee6fe0c713e2fd9ad",
+    "pdf_pages": 18,
+    "rendered_png_pages": 18,
+    "page_image_dimensions_px": [
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ],
+      [
+        1224,
+        1584
+      ]
+    ],
+    "dpi": 144,
+    "renderer": "render_docx.py with LibreOffice 26.8.2 (The Document Foundation signed MSI, temporary administrative extraction), then bundled Poppler",
+    "all_pages_have_extractable_text": true,
+    "docx_pdf_text_similarity": 0.99869,
+    "contact_sheet": "contact-sheet.png",
+    "contact_sheet_sha256": "0aa17baf017abed065e2ac7fc661119025c50617d8f1f6fedc1ebea759ff762e"
+  },
+  "accessibility_v161": {
+    "axe_version": "4.14.0",
+    "states": 10,
+    "violations": 0,
+    "incomplete": 10,
+    "browser_errors_zero": true,
+    "keyboard_snapshot_passed": true
+  },
+  "web_v161_via_v164_host_summary": {
+    "url": "http://127.0.0.1:41803/",
+    "matrix_rows": 20,
+    "offline_cold_reload": {
+      "controller": true,
+      "online": false,
+      "projectCount": 3,
+      "title": "Ваши проекты, собранные в одном месте.",
+      "brokenImages": 0
+    },
+    "crud_flow": {
+      "wizard_visible_on_mobile": true,
+      "create_project_persisted_after_reload": true,
+      "edit_project_visible_in_card": true,
+      "undo_delete_restored_project": true,
+      "recoverable_delete_expired_and_restored_demo_count": 3,
+      "synthetic_project_name": "QA·«Folio smoke»"
+    },
+    "mobile_disclosures_closed": {
+      "filterOpen": false,
+      "filterBody": {
+        "display": "none",
+        "clientRects": 0,
+        "visibleControls": 0
+      },
+      "savedViewsOpen": false,
+      "savedViewsBody": {
+        "display": "none",
+        "clientRects": 0,
+        "visibleControls": 0
+      }
+    },
+    "mobile_disclosures_open_controls": {
+      "filter_controls_by_accessible_name": {
+        "Тип": 1,
+        "Статус": 1,
+        "Тег": 1,
+        "Сортировка проектов": 1,
+        "Только избранное": 1
+      },
+      "saved_view_controls_by_accessible_name": {
+        "selector": 1,
+        "save": 1,
+        "delete": 1
+      }
+    },
+    "screenshot_count": 11
+  },
+  "android_v161_report": "# Отчёт проверки Android Folio 0.3.24 / versionCode 36\n\nДата: 10.11.2026. Проверена debug-сборка `ru.folio.portfolio` 0.3.24 (versionCode 36), содержащая ресурсы Web/PWA v161.\n\n## Среда и обновление\n\n- Android Emulator, AVD API 36, экран 1080×2400 px, плотность 420 dpi; устройство `emulator-5554`.\n- APK установлен поверх версии 0.3.23 без очистки данных и удаления приложения.\n- Состояние установленного пакета подтверждено через `adb shell dumpsys package`: `versionName=0.3.24`, `versionCode=36`.\n- После обновления показано уведомление о новых ресурсах; после перезапуска Folio открыл dashboard и локальные изображения.\n- Дерево UIAutomator сохранено отдельно. Оно содержит контейнер `android.webkit.WebView`, но не раскрывает DOM-элементы приложения.\n\n## Офлайн-сценарий и восстановление сети\n\n1. Перед холодным запуском сохранён `dumpsys connectivity` с состоянием `Active default network: none`.\n2. Folio остановлено и запущено через launcher при отключённых Wi‑Fi и мобильных данных.\n3. Dashboard и локальные обложки загрузились без активной сети; сетевых ошибок в самом приложении не наблюдалось.\n4. После снимка сети включены обратно. `restored-connectivity.txt` подтверждает активное соединение Wi‑Fi.\n\n## Снимки и протоколы\n\n- `android-v161/after-update.png` — экран после установки 0.3.24.\n- `android-v161/updated-dashboard.png` — Folio после применения обновления ресурсов.\n- `android-v161/offline-cold-launch.png` — холодный запуск при `Active default network: none`.\n- `android-v161/online-connectivity.txt`, `offline-connectivity.txt`, `restored-connectivity.txt` — состояния сети до и после.\n- `android-v161/uiautomator.xml` — дерево Android UIAutomator.\n\n## Контрольные суммы\n\n- `mobile/folio-android-debug.apk`: 6,050,496 байт; SHA-256 `4e658f6abdfd5ec8dfd47865597c02996a03ce23cc84452f7a35183564cf8cb7`.\n- `folio-android-debug-for-phone.zip`: 5,678,286 байт; SHA-256 `be77be46ac0cbec21e7af2a091dc519d372beb9d215ab63ee329cd4218d59b55`.\n\n## Границы проверки\n\nПодтверждены обновление без очистки данных, применение ресурсов, холодный офлайн-запуск на AVD и восстановление сети. Физический смартфон, OEM-диалог выбора файла и реальное озвучивание/жесты TalkBack не проверялись. APK подписан debug-ключом и предназначен для локальной проверки, не для Google Play.\n",
+  "desktop_v160_recovery": {
+    "scope": "Fresh isolated Chrome context loading the exact Windows v160 loopback recovery endpoint with a minimal pywebview bridge stub; no native WebView2 storage or user browser profile was used.",
+    "url": "http://127.0.0.1:41800/?folio-desktop=1#projects",
+    "profile": "C:\\Users\\Windows-10\\AppData\\Local\\Temp\\folio-v160-recovery-qa",
+    "syntheticOnly": true,
+    "candidateSnapshotSha256": "0d9afec7817d5e536a5130242a15862641be0c192d329381e72d3c637ad475a1",
+    "candidateProjectCount": 4,
+    "pageStatus": 200,
+    "recoveredProjectCards": 4,
+    "syntheticMarkerVisible": true,
+    "visibleTitles": [
+      "★ ИЗБРАННЫЙ КЕЙС\n01\nСайт / лендинг\nОпубликован\nПортфолио веб-разработчика\nУчебный пример: персональный сайт с проектами и контактами.\nHTML\nCSS\nJavaScript\nпортфолио\nучебный проект\n2026-09-20\nОткрыть кейс ↗",
+      "КЕЙС\n02\nВеб-приложение\nВ разработке\nCRM для клининговой компании\nДемо-запись для проверки карточек, поиска и статусов.\nPython\nFlask\nSQLite\nCRM\nавтоматизация\n2026-09-22\nОткрыть кейс ↗",
+      "КЕЙС\n03\nВеб-приложение\nЗавершён\nКарта городских дворов\nДемо-запись интерактивного проекта с картой.\nJavaScript\nLeaflet.js\nкарта\nгородская среда\n2026-09-25\nОткрыть кейс ↗",
+      "КЕЙС\n9001\nСайт / лендинг\nОпубликован\nQA: восстановленный проект\nСинтетическая запись для проверки локального восстановления.\nHTML\nCSS\nJavaScript\nпортфолио\nучебный проект\n2026-11-10\nОткрыть кейс ↗"
+    ],
+    "pageErrors": [],
+    "screenshot": "recovered-projects-v160-1440x900.png",
+    "screenshotSha256": "07adcbf33a20c2e76fb45321f548ba647284363d12772a9d2371591c8553a8a1",
+    "passed": true,
+    "originalSnapshotRestored": true
+  },
+  "module5_current_screenshot_sha256": "d6da9f07a6f78a632c5affdac138ed53b0130f69336fe3f7be8219633ee69c8a",
+  "checks": {
+    "module4_has_large_project_form": true,
+    "module4_has_lower_form_crop": true,
+    "module4_has_large_about_window": true,
+    "module5_file_menu_matches_highdpi_2x_source": true,
+    "module5_current_v161_v164_screenshot_is_embedded": true,
+    "module4_pdf_12_pages": true,
+    "module5_pdf_18_pages": true,
+    "module4_all_pdf_pages_have_text": true,
+    "module5_all_pdf_pages_have_text": true,
+    "module4_docx_pdf_similarity_ge_0_98": true,
+    "module5_docx_pdf_similarity_ge_0_98": true,
+    "module4_m5_docx_pdf_candidate_sync": true,
+    "module5_has_a3_a4_a5_evidence_sections": true,
+    "module5_validation_source_is_present": true,
+    "module5_full_validation_screenshot_matches_source": true,
+    "module5_full_validation_screenshot_dimensions": true,
+    "m4_contact_sheet_present": true,
+    "m5_contact_sheet_present": true,
+    "m4_all_final_page_renders_present": true,
+    "m5_all_final_page_renders_present": true,
+    "windows_desktop_screenshot_present": true,
+    "android_after_update_screenshot_present": true,
+    "windows_v159_dashboard_and_showcase_screenshots_present": true,
+    "android_v156_after_update_screenshot_present": true,
+    "android_v161_screenshots_and_version_present": true,
+    "android_v161_offline_state_documented": true,
+    "android_v161_apk_matches_reported_hash": true,
+    "android_v161_phone_zip_matches_reported_hash": true,
+    "desktop_v160_recovery_synthetic_flow_passed": true,
+    "web_v161_via_v164_host_route_matrix_20_passed": true,
+    "web_v161_via_v164_host_browser_errors_zero": true,
+    "web_v161_via_v164_host_offline_cold_reload_passed": true,
+    "web_v161_via_v164_host_crud_flow_passed": true,
+    "web_v161_mobile_readability_min_10px": true,
+    "web_v161_mobile_disclosures_hidden_and_accessibly_named": true,
+    "python_regression_97_passed": true,
+    "web_regression_85_passed": true,
+    "module5_render_v161_metadata_matches_pdf_and_docx": true,
+    "axe_v161_10_states_zero_violations_and_browser_errors": true,
+    "axe_v161_incomplete_contrast_groups_have_manual_review": true,
+    "accessibility_v161_keyboard_snapshot_passed": true
+  },
+  "all_checks_passed": true
+}

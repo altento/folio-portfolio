@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06",
+  "build": "Web/PWA v151b",
+  "method": "Isolated Chromium via Playwright. Effective viewport 720x450 CSS px; documentElement.style.zoom=2 to exercise 200% layout scaling. Four primary routes visited in sequence.",
+  "limitations": ["CSS zoom is an emulation, not browser toolbar zoom or Windows Magnifier.", "TalkBack, Narrator, and physical devices were not part of this run.", "Playwright screenshot file export failed with ENOENT in its configured output path; this JSON records the measured geometry, and Android screenshots remain in compact-form-v151."],
+  "routes": [
+    {"route":"dashboard","heading":"Ваши проекты, собранные в одном месте.","visibleControls":10,"unnamedControls":0,"viewportWidth":705,"documentWidth":705,"horizontalOverflow":false},
+    {"route":"projects","heading":"Все проекты","visibleControls":19,"unnamedControls":0,"viewportWidth":705,"documentWidth":705,"horizontalOverflow":false},
+    {"route":"showcase","heading":"Работы, которыми хочется поделиться.","visibleControls":5,"unnamedControls":0,"viewportWidth":705,"documentWidth":705,"horizontalOverflow":false},
+    {"route":"settings","heading":"Настройки и данные","visibleControls":15,"unnamedControls":0,"viewportWidth":705,"documentWidth":705,"horizontalOverflow":false}
+  ],
+  "published": false,
+  "dataChanged": false
+}

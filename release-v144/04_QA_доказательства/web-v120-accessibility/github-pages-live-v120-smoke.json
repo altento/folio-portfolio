@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "url": "https://altento.github.io/folio-portfolio/?verify=v120#projects",
+  "repository_commit": "94dbdb2",
+  "service_worker_cache": "folio-shell-v120-cover-label-contrast",
+  "project_cards": 3,
+  "decorative_cover_labels_aria_hidden": true,
+  "text_color": "rgb(255, 255, 255)",
+  "label_background": "rgb(32, 33, 38)",
+  "computed_contrast_ratio": 16.07,
+  "console_errors": 0,
+  "browser_page_errors": 0,
+  "screenshot": "Not captured: Playwright screenshot persistence failed with ENOENT in connected workspace; existing local v120 screenshots are retained."
+}

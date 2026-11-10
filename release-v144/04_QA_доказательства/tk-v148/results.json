@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-06",
+  "product": "Folio Tk fallback",
+  "build": "folio.exe rebuilt with PyInstaller 6.22.3 from current main.py",
+  "isolation": {
+    "profile": "tmp/qa-tk-exe-v148-profile/Folio",
+    "database": "portfolio_data.sqlite3",
+    "projectsAfterCancelledForm": 3,
+    "normalLocalAppDataDatabaseOpened": false
+  },
+  "checks": [
+    {"id":"dashboard", "result":"PASS", "details":"3 built-in demo cards and image assets rendered"},
+    {"id":"keyboard-focus", "result":"PASS", "details":"Tab reached hero action then search; add form focused title then description with visible outline"},
+    {"id":"form-scroll", "result":"PASS", "details":"Mouse wheel moved tall form to lower fields; fixed Cancel and Save stayed visible; cancellation preserved all 3 demo projects"},
+    {"id":"case-detail", "result":"PASS", "details":"Structured case text and cover gallery rendered"},
+    {"id":"dialog-position", "result":"PASS", "details":"Added centered position; rebuilt EXE screenshot origin 447,190, size 1042x732; dialog is resizable"},
+    {"id":"escape-return-focus", "result":"PASS", "details":"Escape closed the viewer and returned focus to the Card action"}
+  ],
+  "uiAutomationObservation": "Tk UIA tree mostly exposes unnamed panels; Narrator acceptance is not claimed.",
+  "longDetailOverflow": "not tested",
+  "narrator": "not tested",
+  "screenshots": [
+    "01-overview.jpg", "02-add-form.jpg", "03-scrolled-form.jpg",
+    "04-project-detail.jpg", "05-exe-overview.jpg", "06-centered-detail.jpg"
+  ]
+}

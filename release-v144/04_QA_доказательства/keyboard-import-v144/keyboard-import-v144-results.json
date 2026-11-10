@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-05",
+  "build": "v144 localhost app, isolated fresh Chromium context; no import strategy selected or data applied",
+  "httpStatus": 200,
+  "fixture": "synthetic empty schema_version 1 JSON used for preview only",
+  "initial": {
+    "open": true,
+    "inside": true,
+    "activeText": "Отмена",
+    "labelled": true
+  },
+  "tabTrace": [
+    {
+      "inside": true,
+      "activeId": "import-keep",
+      "activeText": "Добавить в портфолио"
+    },
+    {
+      "inside": true,
+      "activeId": "import-replace",
+      "activeText": "Заменить портфолио целиком"
+    },
+    {
+      "inside": true,
+      "activeId": "",
+      "activeText": "Отмена"
+    },
+    {
+      "inside": true,
+      "activeId": "import-keep",
+      "activeText": "Добавить в портфолио"
+    },
+    {
+      "inside": true,
+      "activeId": "",
+      "activeText": "Отмена"
+    }
+  ],
+  "afterEscape": {
+    "open": false,
+    "focusReturnedToImport": true,
+    "activeText": "↑ Импортировать JSON"
+  },
+  "runtimeErrors": [],
+  "userDataChanged": false,
+  "passed": true
+}

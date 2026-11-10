@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-06",
+  "build": "web/PWA v151b",
+  "context": "isolated Playwright context folio-backup-transfer-v151b on localhost:8777",
+  "export": {"filename": "folio-backup.json", "mime": "application/json", "bytes": 4896, "valid_json": true, "schema_keys": ["schema_version", "title", "next_id", "developer", "projects"], "project_count": 3},
+  "declined_download_confirmation": {"backup_status": "Резервная копия не отмечена"},
+  "import_preview": {"existing_projects": 3, "matching_ids": 3, "new_projects": 0, "replace_warning_mentions_deletion": true},
+  "merge_keep_current": {"dialog_closed": true, "stored_project_count_after_apply": 3, "stored_project_ids": [1, 2, 3], "sidebar_count": 3},
+  "limitations": ["synthetic File/DataTransfer upload; native OS picker not verified", "full replace path not executed", "no physical phone-to-desktop transfer", "isolated test context only; user profile untouched"]
+}
