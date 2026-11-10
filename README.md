@@ -15,6 +15,8 @@
 
 Чтобы получить интерфейс как на сайте, запускай актуальную сборку [folio-desktop.exe v164](https://github.com/altento/folio-portfolio/tree/main/release-v144/02_Приложение/dist/folio-webview-v164/folio-desktop). Скачай и распакуй полный ZIP, сохранив рядом папку `_internal` — одного EXE для запуска недостаточно.
 
+На этом компьютере также должен быть установлен [Microsoft Edge WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) — он отображает веб-интерфейс внутри окна и отдельно не входит в комплект Folio. Если окно открылось пустым, установи Evergreen Runtime с официальной страницы Microsoft и запусти Folio снова.
+
 В комплекте также есть [02_Приложение/folio.exe](https://github.com/altento/folio-portfolio/blob/main/release-v144/02_Приложение/folio.exe): это старая учебная Tk-версия, у неё другой интерфейс. Веб-сайт и Windows-приложение хранят проекты отдельно; автоматической синхронизации нет, перенос делается через JSON.
 
 Если после распаковки скачанного ZIP Windows показывает `Failed to resolve Python.Runtime.Loader.Initialize`, Windows, вероятно, пометила DLL как загруженную из интернета. Перед повторной распаковкой открой свойства исходного ZIP, отметь **Разблокировать** и нажми **Применить**, затем извлеки ZIP заново в новую папку. Делай это только для ZIP из репозитория, которому доверяешь. [Документация Microsoft о метке Zone.Identifier](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-6).

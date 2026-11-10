@@ -40,6 +40,8 @@ GitHub Pages публикует Web/PWA v161. Для Windows запускай `0
 
 Android debug 0.3.24 / code 36 доступен в полном ZIP. Персональные SQLite/JSON-базы в репозиторий не включены. APK подписан debug-ключом и не предназначен для Google Play.
 
+Для отображения интерфейса Windows-сборке нужен Microsoft Edge WebView2 Runtime на целевом компьютере; сам Runtime в папку `_internal` не включён. Пустое окно после запуска — повод установить Evergreen Runtime с [официальной страницы Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/webview2/) и запустить приложение повторно.
+
 ## Ошибка Python.Runtime при первом запуске
 
 Если Windows показывает `Failed to resolve Python.Runtime.Loader.Initialize` после извлечения ZIP, вероятная причина — метка Zone.Identifier на .NET DLL, поставленная Windows для скачанного архива. Microsoft документирует эту метку и её удаление через Unblock-File. Для ручного исправления: у исходного ZIP открыть **Свойства → Общие → Разблокировать → Применить**, затем распаковать заново. Проверенная сборка содержит DLL; её SHA-256 совпадает с Python.NET 3.2.1 из среды сборки. См. [Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-6).
