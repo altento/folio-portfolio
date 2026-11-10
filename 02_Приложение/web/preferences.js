@@ -13,14 +13,29 @@ export function createPreferenceStore(storageProvider = () => globalThis.localSt
     },
     set(key, value) {
       const normalized = String(value);
+      let persisted = false;
       try {
         const storage = storageProvider();
         if (!storage) throw new Error("Storage unavailable");
         storage.setItem(key, normalized);
+        persisted = true;
       } catch {
         // The in-memory copy below remains available if storage fails mid-session.
       }
       fallback.set(key, normalized);
+      return persisted;
+    },
+    setPersistent(key, value) {
+      const normalized = String(value);
+      try {
+        const storage = storageProvider();
+        if (!storage) return false;
+        storage.setItem(key, normalized);
+        fallback.set(key, normalized);
+        return true;
+      } catch {
+        return false;
+      }
     },
   };
 }

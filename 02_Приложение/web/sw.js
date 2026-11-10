@@ -1,5 +1,5 @@
-const CACHE='folio-shell-v120-cover-label-contrast';
-const FILES=['./','./index.html','./styles.css','./app.js','./core.js','./preferences.js','./native-export.js','./native-startup.js','./demo.json','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./offline.html','./assets/icons/nav-sprite.webp','./assets/icons/feature-sprite.webp','./assets/illustrations/featured-empty-folio.webp','./assets/illustrations/folio-dashboard-hero-v1.webp','./assets/covers/portfolio-studio.webp','./assets/covers/cleaning-crm.webp','./assets/covers/city-courtyards.webp','./assets/covers/cleaning-crm-case-v2.webp','./assets/covers/city-courtyards-case-v2.webp'];
+const CACHE='folio-shell-v161-accessible-vector-controls';
+const FILES=['./','./index.html','./styles.css','./app.js','./core.js','./preferences.js','./native-export.js','./native-startup.js','./demo.json','./manifest.webmanifest','./icons/icon.svg','./icons/icon-192.png','./icons/icon-512.png','./offline.html','./assets/icons/nav-sprite.webp','./assets/icons/feature-sprite.webp','./assets/illustrations/featured-empty-folio.webp','./assets/illustrations/folio-dashboard-hero-v1.webp','./assets/covers/portfolio-studio.webp','./assets/covers/cleaning-crm-case-v2.webp','./assets/covers/city-courtyards-case-v2.webp'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{
   const cache=await caches.open(CACHE);
   await Promise.all(FILES.map(async path=>{
@@ -15,6 +15,10 @@ self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise
 self.addEventListener('fetch',e=>{
   const request=e.request;
   if(request.method!=='GET'||new URL(request.url).origin!==self.location.origin)return;
+  if(['/desktop-seed.json','/desktop-recovery.json'].some(path=>new URL(request.url).pathname.endsWith(path))){
+    e.respondWith(fetch(new Request(request,{cache:'no-store'})));
+    return;
+  }
   e.respondWith((async()=>{
     const cache=await caches.open(CACHE);
     const cached=request.mode==='navigate'

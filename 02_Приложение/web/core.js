@@ -12,6 +12,19 @@ export const PORTFOLIO_IMPORT_MAX_IMAGES = 250;
 export const PORTFOLIO_IMPORT_MAX_IMAGE_DATA_CHARS = 24_000_000;
 export const PORTFOLIO_IMPORT_MAX_TOTAL_IMAGE_PIXELS = 120_000_000;
 
+const BUILTIN_COVER_REFRESH = new Map([
+  ["./assets/covers/cleaning-crm.webp", "./assets/covers/cleaning-crm-case-v2.webp"],
+  ["./assets/covers/city-courtyards.webp", "./assets/covers/city-courtyards-case-v2.webp"],
+  ["./assets/covers/cleaning-crm.png", "./assets/covers/cleaning-crm-case-v2.webp"],
+  ["./assets/covers/city-courtyards.png", "./assets/covers/city-courtyards-case-v2.webp"],
+  ["./assets/covers/portfolio-studio.png", "./assets/covers/portfolio-studio.webp"],
+]);
+
+export function resolveCoverImageSource(source) {
+  const path = String(source ?? "");
+  return BUILTIN_COVER_REFRESH.get(path) || path;
+}
+
 function embeddedBase64ByteLength(dataUrl) {
   const payload = dataUrl.slice(dataUrl.indexOf(",") + 1);
   const padding = payload.endsWith("==") ? 2 : payload.endsWith("=") ? 1 : 0;
@@ -189,6 +202,14 @@ export function normalizeProject(row, index = 0) {
     throw new Error(`У проекта «${title}» некорректная точка кадрирования обложки.`);
   }
   project.cover_position = coverPosition;
+  const rawMobileCoverPosition = row.cover_position_mobile;
+  if (rawMobileCoverPosition != null && String(rawMobileCoverPosition).trim() !== "") {
+    const coverPositionMobile = String(rawMobileCoverPosition).trim();
+    if (!/^(?:100|[0-9]{1,2})% (?:100|[0-9]{1,2})%$/.test(coverPositionMobile)) {
+      throw new Error(`У проекта «${title}» некорректная точка кадрирования обложки для телефона.`);
+    }
+    project.cover_position_mobile = coverPositionMobile;
+  }
   const coverImageData = String(row.cover_image_data ?? "").trim();
   if (coverImageData && (coverImageData.length > 2_800_000
     || !/^data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/]+={0,2}$/.test(coverImageData))) {
@@ -296,6 +317,15 @@ export function normalizeDeveloper(raw = {}) {
   return profile;
 }
 
+function portfolioNextId(projects, requested = 1) {
+  if (!Number.isSafeInteger(requested) || requested < 1) throw new Error("Указан некорректный следующий ID проекта.");
+  let maximum = 0;
+  for (const project of projects) maximum = Math.max(maximum, project.id);
+  const nextId = Math.max(requested, maximum + 1);
+  if (!Number.isSafeInteger(nextId)) throw new Error("ID проекта достиг предельного значения. Обновите резервную копию вручную.");
+  return nextId;
+}
+
 export function serializePortfolio(model) {
   if (!Array.isArray(model.projects) || model.projects.length > PORTFOLIO_IMPORT_MAX_PROJECTS) {
     throw new Error(`В портфолио может быть не больше ${PORTFOLIO_IMPORT_MAX_PROJECTS} проектов.`);
@@ -310,12 +340,12 @@ export function serializePortfolio(model) {
       ...(p.cover_image ? { cover_image: p.cover_image } : {}),
       ...(p.cover_image_data ? { cover_image_data: p.cover_image_data } : {}),
       cover_position: p.cover_position || "50% 46%",
+      ...(p.cover_position_mobile ? { cover_position_mobile: p.cover_position_mobile } : {}),
       gallery_images: p.gallery_images,
       ...(p.type === TYPES[0] ? { page_count: p.page_count } : { repository_url: p.repository_url, backend_stack: p.backend_stack }),
     }));
   projects.forEach((project, index) => normalizeProject(project, index));
-  const nextId = projects.reduce((maximum, project) => Math.max(maximum, project.id + 1), 1);
-  if (!Number.isSafeInteger(nextId)) throw new Error("ID проекта достиг предельного значения. Обновите резервную копию вручную.");
+  const nextId = portfolioNextId(projects, model.next_id ?? 1);
   let imageCount = 0, imageDataChars = 0;
   for (const project of projects) {
     const images = [project.cover_image_data, ...(project.gallery_images || []).map(image => image?.image_data)]
@@ -357,6 +387,16 @@ export function filterProjects(projects, { query = "", type = "Все типы",
     featured: (a, b) => Number(b.featured) - Number(a.featured) || a.sort_order - b.sort_order || a.title.localeCompare(b.title, "ru"),
     order: (a, b) => a.sort_order - b.sort_order || a.id - b.id,
     title: (a, b) => a.title.localeCompare(b.title, "ru"),
+    tags: (a, b) => {
+      const tagKey = (project) => project.tags
+        .map((value) => value.toLocaleLowerCase("ru"))
+        .sort((left, right) => left.localeCompare(right, "ru"))
+        .join("\u0000");
+      const left = tagKey(a);
+      const right = tagKey(b);
+      if (!left || !right) return Number(!left) - Number(!right) || a.title.localeCompare(b.title, "ru");
+      return left.localeCompare(right, "ru") || a.title.localeCompare(b.title, "ru");
+    },
     newest: (a, b) => b.created_at.localeCompare(a.created_at),
     oldest: (a, b) => a.created_at.localeCompare(b.created_at),
   };
@@ -375,11 +415,12 @@ export function moveProject(projects, id, direction) {
   return true;
 }
 
-export function duplicateProject(projects, id, createdAt = new Date().toISOString().slice(0, 10)) {
+export function duplicateProject(projects, id, createdAt = new Date().toISOString().slice(0, 10), requestedNextId = 1) {
   const source = projects.find((item) => item.id === Number(id));
   if (!source) return null;
   const duplicate = structuredClone(source);
-  duplicate.id = Math.max(0, ...projects.map((item) => item.id)) + 1;
+  duplicate.id = portfolioNextId(projects, requestedNextId);
+  if (!Number.isSafeInteger(duplicate.id + 1)) throw new Error("ID проекта достиг предельного значения. Обновите резервную копию вручную.");
   duplicate.sort_order = Math.max(0, ...projects.filter((item) => !item.featured).map((item) => item.sort_order || item.id)) + 1;
   duplicate.title = `${source.title.slice(0, 82).trimEnd()} — копия`;
   duplicate.created_at = createdAt;
@@ -399,14 +440,14 @@ export function previewPortfolioImport(currentProjects, incomingProjects) {
   return { incoming: incomingProjects.length, current: currentProjects.length, conflicts, additions: incomingProjects.length - conflicts.length };
 }
 
-export function mergePortfolioImport(currentProjects, incomingProjects, strategy = "keep-current") {
+export function mergePortfolioImport(currentProjects, incomingProjects, strategy = "keep-current", currentNextId = 1, incomingNextId = 1) {
   if (!["keep-current", "replace", "copy"].includes(strategy)) throw new Error("Неизвестная стратегия импорта.");
   const projects = currentProjects.map((project) => structuredClone(project));
   const currentById = new Map(projects.map((project, index) => [project.id, index]));
   const localPosition = new Map([...currentProjects].sort((a, b) => a.sort_order - b.sort_order || a.id - b.id).map((project, index) => [project.id, index]));
   const importPosition = new Map();
   const stats = { added: 0, replaced: 0, skipped: 0, copied: 0 };
-  let nextId = Math.max(0, ...projects.map((project) => project.id), ...incomingProjects.map((project) => project.id)) + 1;
+  let nextId = portfolioNextId([...projects, ...incomingProjects], Math.max(currentNextId, incomingNextId));
   for (const incoming of incomingProjects) {
     const conflictIndex = currentById.get(incoming.id);
     if (conflictIndex !== undefined && strategy === "keep-current") {
@@ -440,7 +481,27 @@ export function mergePortfolioImport(currentProjects, incomingProjects, strategy
       })
       .forEach((project, index) => { project.sort_order = index + 1; });
   }
-  return { projects, stats };
+  return { projects, nextId, stats };
+}
+
+export function restoreProjectsWithUniqueIds(currentProjects, removedItems, requestedNextId = 1) {
+  const projects = currentProjects.map((project) => structuredClone(project));
+  let nextId = portfolioNextId(projects, requestedNextId);
+  const restored = [];
+  for (const item of [...removedItems].sort((a, b) => a.index - b.index)) {
+    const project = structuredClone(item.project);
+    const originalId = project.id;
+    if (projects.some((candidate) => candidate.id === project.id)) {
+      project.id = nextId;
+      if (!Number.isSafeInteger(project.id + 1)) throw new Error("Не удалось восстановить проект: достигнут предел ID.");
+      nextId++;
+    } else {
+      nextId = portfolioNextId([...projects, project], nextId);
+    }
+    projects.splice(Math.min(item.index, projects.length), 0, project);
+    restored.push({ originalId, project });
+  }
+  return { projects, nextId, restored };
 }
 
 export function escapeHtml(value = "") {
@@ -497,7 +558,7 @@ export function staticShowcaseExport(model, covers = {}, options = {}) {
   const projectMarkup = projects.map((p, index) => {
     const cover = String(covers[p.id] || p.cover_image_data || "");
     const image = /^data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/]+={0,2}$/.test(cover)
-      ? `<img class="cover" src="${cover}" alt="Иллюстрация: ${escapeHtml(p.title)}" style="object-position:${escapeHtml(p.cover_position || "50% 46%")}"${index ? ' loading="lazy"' : ''}>`
+      ? `<img class="cover" src="${cover}" alt="Иллюстрация: ${escapeHtml(p.title)}" style="--cover-position:${escapeHtml(p.cover_position || "50% 46%")};--cover-position-mobile:${escapeHtml(p.cover_position_mobile || p.cover_position || "50% 46%")}"${index ? ' loading="lazy"' : ''}>`
       : `<div class="cover cover-placeholder" aria-hidden="true"><span>${String(index + 1).padStart(2, "0")}</span></div>`;
     const story = [["Контекст", p.context], ["Решение", p.solution], ["Процесс", p.process], ["Результат", p.outcome], ["Метрики", p.metrics]]
       .filter(([, value]) => value)
@@ -515,7 +576,7 @@ export function staticShowcaseExport(model, covers = {}, options = {}) {
   return `<!doctype html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light"><meta name="description" content="Портфолио ${name} — ${specialization}"><title>${title} — ${name}</title>
 <style>
-:root{font-family:Inter,"Segoe UI",Arial,sans-serif;color:#17231f;background:#f3f1e9;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}*{box-sizing:border-box}body{margin:0}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}.masthead{padding:28px 0;border-bottom:1px solid #d9d8cd;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:800;letter-spacing:-.04em}.local{font-size:12px;color:#53635b}.intro{padding:88px 0 64px;max-width:790px}.eyebrow,.story h3,.facts h3{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#527264}.intro h1{font-size:clamp(44px,8vw,88px);line-height:.98;letter-spacing:-.07em;margin:18px 0}.intro p{font-size:clamp(18px,2.5vw,24px);line-height:1.5;color:#53635b;margin:0}.count{display:inline-flex;margin-top:28px;padding:9px 13px;border-radius:999px;background:#e1e9dc;color:#2e5942;font-size:12px;font-weight:700}.projects{display:grid;gap:30px;padding:0 0 80px}.project{display:grid;grid-template-columns:minmax(260px,.82fr) 1.18fr;background:#fff;border:1px solid #e5e4da;border-radius:22px;overflow:hidden;box-shadow:0 18px 50px #28392d0a}.cover{width:100%;height:100%;min-height:380px;object-fit:cover;background:#d7e2d4}.cover-placeholder{display:flex;align-items:flex-end;padding:28px;background:radial-gradient(ellipse at 75% 20%,#d7e6cf 0,transparent 35%),linear-gradient(140deg,#203f35,#a8b89b);color:#fff}.cover-placeholder span{font-size:90px;font-weight:800;letter-spacing:-.08em;opacity:.75}.project-content{padding:38px clamp(24px,4vw,52px)}.meta{display:flex;justify-content:space-between;gap:12px;color:#68756c;font-size:12px}.project h2{font-size:clamp(28px,4vw,42px);line-height:1.08;letter-spacing:-.05em;margin:18px 0 10px}.description,.story p,.facts p{line-height:1.65;color:#53635b;margin:0}.story{padding-top:22px}.story h3,.facts h3{margin:0 0 8px}.facts{display:grid;grid-template-columns:1fr 1.3fr;gap:18px;padding-top:24px;margin-top:24px;border-top:1px solid #e9e9e1}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}.tags span{background:#eff3ed;border-radius:999px;padding:7px 10px;font-size:12px;color:#41624c}.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.links a{color:#173f2c;font-weight:700;text-decoration:none;border:1px solid #d6e0d4;border-radius:999px;padding:11px 15px}.links a:hover{background:#e9f1e7}.empty{padding:70px 20px;text-align:center;border:1px dashed #b6c4b4;border-radius:20px}.empty>span{font-size:34px;color:#527264}.empty h2{margin:12px 0 4px}.empty p{color:#53635b}.footer{border-top:1px solid #d9d8cd;padding:24px 0 36px;color:#647169;font-size:12px;display:flex;justify-content:space-between;gap:20px}@media(max-width:700px){.wrap{width:min(100% - 28px,560px)}.masthead{padding:20px 0}.intro{padding:58px 0 38px}.project{grid-template-columns:1fr;border-radius:18px}.cover{min-height:220px;height:240px}.project-content{padding:26px 22px}.facts{grid-template-columns:1fr}.projects{gap:18px;padding-bottom:52px}.footer{flex-direction:column}}@media(prefers-reduced-motion:no-preference){.project{animation:rise .45s ease both}.project:nth-child(2){animation-delay:.08s}@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}@media print{body{background:#fff}.wrap{width:100%}.project{box-shadow:none;break-inside:avoid}.intro{padding:35px 0}.links a{color:#000}}
+:root{font-family:Inter,"Segoe UI",Arial,sans-serif;color:#17231f;background:#f3f1e9;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}*{box-sizing:border-box}body{margin:0}.wrap{width:min(1100px,calc(100% - 40px));margin:auto}.masthead{padding:28px 0;border-bottom:1px solid #d9d8cd;display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-weight:800;letter-spacing:-.04em}.local{font-size:12px;color:#53635b}.intro{padding:88px 0 64px;max-width:790px}.eyebrow,.story h3,.facts h3{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#527264}.intro h1{font-size:clamp(44px,8vw,88px);line-height:.98;letter-spacing:-.07em;margin:18px 0}.intro p{font-size:clamp(18px,2.5vw,24px);line-height:1.5;color:#53635b;margin:0}.count{display:inline-flex;margin-top:28px;padding:9px 13px;border-radius:999px;background:#e1e9dc;color:#2e5942;font-size:12px;font-weight:700}.projects{display:grid;gap:30px;padding:0 0 80px}.project{display:grid;grid-template-columns:minmax(260px,.82fr) 1.18fr;background:#fff;border:1px solid #e5e4da;border-radius:22px;overflow:hidden;box-shadow:0 18px 50px #28392d0a}.cover{width:100%;height:100%;min-height:380px;object-fit:cover;object-position:var(--cover-position,50% 46%);background:#d7e2d4}.cover-placeholder{display:flex;align-items:flex-end;padding:28px;background:radial-gradient(ellipse at 75% 20%,#d7e6cf 0,transparent 35%),linear-gradient(140deg,#203f35,#a8b89b);color:#fff}.cover-placeholder span{font-size:90px;font-weight:800;letter-spacing:-.08em;opacity:.75}.project-content{padding:38px clamp(24px,4vw,52px)}.meta{display:flex;justify-content:space-between;gap:12px;color:#68756c;font-size:12px}.project h2{font-size:clamp(28px,4vw,42px);line-height:1.08;letter-spacing:-.05em;margin:18px 0 10px}.description,.story p,.facts p{line-height:1.65;color:#53635b;margin:0}.story{padding-top:22px}.story h3,.facts h3{margin:0 0 8px}.facts{display:grid;grid-template-columns:1fr 1.3fr;gap:18px;padding-top:24px;margin-top:24px;border-top:1px solid #e9e9e1}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0}.tags span{background:#eff3ed;border-radius:999px;padding:7px 10px;font-size:12px;color:#41624c}.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.links a{color:#173f2c;font-weight:700;text-decoration:none;border:1px solid #d6e0d4;border-radius:999px;padding:11px 15px}.links a:hover{background:#e9f1e7}.empty{padding:70px 20px;text-align:center;border:1px dashed #b6c4b4;border-radius:20px}.empty>span{font-size:34px;color:#527264}.empty h2{margin:12px 0 4px}.empty p{color:#53635b}.footer{border-top:1px solid #d9d8cd;padding:24px 0 36px;color:#647169;font-size:12px;display:flex;justify-content:space-between;gap:20px}@media(max-width:700px){.cover{object-position:var(--cover-position-mobile,var(--cover-position,50% 46%))}.wrap{width:min(100% - 28px,560px)}.masthead{padding:20px 0}.intro{padding:58px 0 38px}.project{grid-template-columns:1fr;border-radius:18px}.cover{min-height:220px;height:240px}.project-content{padding:26px 22px}.facts{grid-template-columns:1fr}.projects{gap:18px;padding-bottom:52px}.footer{flex-direction:column}}@media(prefers-reduced-motion:no-preference){.project{animation:rise .45s ease both}.project:nth-child(2){animation-delay:.08s}@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}}@media print{body{background:#fff}.wrap{width:100%}.project{box-shadow:none;break-inside:avoid}.intro{padding:35px 0}.links a{color:#000}}
 ${themeCss}</style></head><body class="theme-${theme}"><header class="wrap masthead"><span class="brand">folio®</span><span class="local">Портфолио · ${specialization}</span></header><main class="wrap"><section class="intro"><span class="eyebrow">ПОРТФОЛИО · ${specialization.toUpperCase()}</span><h1>${name}</h1><p>${introduction}</p>${contacts ? `<nav class="links profile-links" aria-label="Контакты автора">${contacts}</nav>` : ""}<span class="count">${caseCountLabel(projects.length).toUpperCase()}</span></section><section class="projects" aria-label="Избранные проекты">${projectMarkup || empty}</section></main><footer class="wrap footer"><span>Собрано в folio® · ${new Date().getFullYear()}</span><span>Автономная страница портфолио</span></footer></body></html>`;
 }
 

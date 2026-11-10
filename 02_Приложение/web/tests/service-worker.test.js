@@ -77,3 +77,9 @@ test('offline page returns to the registered app scope with a relative fallback'
   assert.match(offlinePageSource, /registration\.scope/);
   assert.doesNotMatch(offlinePageSource, /href="\/"/);
 });
+
+test('desktop seed and recovery endpoints bypass the service worker cache', () => {
+  assert.match(serviceWorkerSource, /\['\/desktop-seed\.json','\/desktop-recovery\.json'\][\s\S]*?respondWith\(fetch\(new Request\(request,\{cache:'no-store'\}\)\)\)/,
+    'desktop-only data endpoints must always reach the loopback host and stay out of the PWA cache');
+  assert.match(serviceWorkerSource, /folio-shell-v161-accessible-vector-controls/);
+});
