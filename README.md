@@ -11,6 +11,12 @@
 - [Скачать полный ZIP](Пакет_сдачи_портфолио_модули_4_5_на_проверку.zip) · [SHA-256](Пакет_сдачи_портфолио_модули_4_5_на_проверку.zip.sha256).
 - [Подробный QA-отчёт](release-v144/Отчет_QA_10-11-2026.md) · [краткий старт](release-v144/СНАЧАЛА_ПРОЧИТАЙ.md).
 
+## Windows: какой EXE запускать
+
+Чтобы получить интерфейс как на сайте, запускай актуальную сборку [folio-desktop.exe v164](https://github.com/altento/folio-portfolio/tree/main/release-v144/02_Приложение/dist/folio-webview-v164/folio-desktop). Скачай и распакуй полный ZIP, сохранив рядом папку `_internal` — одного EXE для запуска недостаточно.
+
+В комплекте также есть [02_Приложение/folio.exe](https://github.com/altento/folio-portfolio/blob/main/release-v144/02_Приложение/folio.exe): это старая учебная Tk-версия, у неё другой интерфейс. Веб-сайт и Windows-приложение хранят проекты отдельно; автоматической синхронизации нет, перенос делается через JSON.
+
 Публичный сайт [GitHub Pages](https://altento.github.io/folio-portfolio/) обновлён до Web/PWA v161. Публикация выполнена коммитом [`3722f94`](https://github.com/altento/folio-portfolio/commit/3722f941cf9a3a0f3e8e9bccd8abf09aa48838aa); workflow [Deploy web app to GitHub Pages](https://github.com/altento/folio-portfolio/actions/runs/42760224009) завершился успешно. Отдельный [отчёт о публикации и проверке](deployment-v161.md) содержит результаты и QA-скриншоты. APK предназначен для локальной проверки и подписан debug-ключом.
 
 Folio хранит данные локально. Персональные SQLite/JSON-базы в комплект не включены; JSON-резервная копия приложения содержит весь профиль и должна храниться приватно.
