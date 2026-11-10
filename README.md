@@ -17,6 +17,8 @@
 
 В комплекте также есть [02_Приложение/folio.exe](https://github.com/altento/folio-portfolio/blob/main/release-v144/02_Приложение/folio.exe): это старая учебная Tk-версия, у неё другой интерфейс. Веб-сайт и Windows-приложение хранят проекты отдельно; автоматической синхронизации нет, перенос делается через JSON.
 
+Если после распаковки скачанного ZIP Windows показывает `Failed to resolve Python.Runtime.Loader.Initialize`, Windows, вероятно, пометила DLL как загруженную из интернета. Перед повторной распаковкой открой свойства исходного ZIP, отметь **Разблокировать** и нажми **Применить**, затем извлеки ZIP заново в новую папку. Делай это только для ZIP из репозитория, которому доверяешь. [Документация Microsoft о метке Zone.Identifier](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-6).
+
 Публичный сайт [GitHub Pages](https://altento.github.io/folio-portfolio/) обновлён до Web/PWA v161. Публикация выполнена коммитом [`3722f94`](https://github.com/altento/folio-portfolio/commit/3722f941cf9a3a0f3e8e9bccd8abf09aa48838aa); workflow [Deploy web app to GitHub Pages](https://github.com/altento/folio-portfolio/actions/runs/42760224009) завершился успешно. Отдельный [отчёт о публикации и проверке](deployment-v161.md) содержит результаты и QA-скриншоты. APK предназначен для локальной проверки и подписан debug-ключом.
 
 Folio хранит данные локально. Персональные SQLite/JSON-базы в комплект не включены; JSON-резервная копия приложения содержит весь профиль и должна храниться приватно.
